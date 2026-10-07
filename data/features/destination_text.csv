@@ -1,0 +1,101 @@
+destination_id,name,destination_text
+D001,Sigiriya Rock Fortress,sigiriya rock fortress matale heritage nature heritage history photography hiking
+D002,Dambulla Cave Temple,dambulla cave temple matale heritage heritage history culture photography
+D003,Minneriya National Park,minneriya national park polonnaruwa wildlife nature wildlife photography nature adventure
+D004,Kaudulla National Park,kaudulla national park polonnaruwa wildlife nature wildlife photography nature adventure
+D005,Polonnaruwa Ancient City,polonnaruwa ancient city polonnaruwa heritage heritage history culture photography
+D006,Anuradhapura Sacred City,anuradhapura sacred city anuradhapura heritage religious heritage history culture religious photography
+D007,Ritigala Monastery,ritigala monastery anuradhapura heritage nature heritage history nature hiking
+D008,Mihintale,mihintale anuradhapura heritage religious heritage history religious photography
+D009,Wilpattu National Park,wilpattu national park puttalam wildlife nature wildlife nature photography adventure
+D010,Jaffna Fort,jaffna fort jaffna heritage heritage history culture photography
+D011,Nallur Kandaswamy Kovil,nallur kandaswamy kovil jaffna heritage religious religious culture heritage photography
+D012,Casuarina Beach,casuarina beach jaffna beach beach relaxation photography
+D013,Delft Island,delft island jaffna nature heritage nature heritage photography adventure
+D014,Kandy Temple of the Tooth,kandy temple of the tooth kandy heritage religious religious heritage history culture
+D015,Kandy Lake,kandy lake kandy nature city nature photography relaxation culture
+D016,Royal Botanical Gardens Peradeniya,royal botanical gardens peradeniya kandy nature nature photography relaxation family
+D017,Udawattakele Forest Reserve,udawattakele forest reserve kandy nature nature hiking photography wildlife
+D018,Knuckles Mountain Range,knuckles mountain range matale nature adventure hiking nature adventure photography
+D019,Hanthana Mountain Range,hanthana mountain range kandy nature adventure hiking nature adventure photography
+D020,Nuwara Eliya City,nuwara eliya city nuwara eliya city nature nature photography relaxation food
+D021,Gregory Lake,gregory lake nuwara eliya nature nature photography relaxation family
+D022,Horton Plains National Park,horton plains national park nuwara eliya nature wildlife hiking nature wildlife photography
+D023,World's End,world's end nuwara eliya nature adventure hiking adventure nature photography
+D024,Hakgala Botanical Garden,hakgala botanical garden nuwara eliya nature nature photography relaxation
+D025,Ambewela Farm,ambewela farm nuwara eliya nature family family nature photography
+D026,Lover's Leap Waterfall,lover's leap waterfall nuwara eliya nature nature hiking photography
+D027,Ramboda Falls,ramboda falls nuwara eliya nature nature photography relaxation
+D028,Pidurutalagala View Area,pidurutalagala view area nuwara eliya nature nature photography
+D029,Ella Rock,ella rock badulla nature adventure hiking adventure nature photography
+D030,Little Adam's Peak,little adam's peak badulla nature adventure hiking adventure nature photography
+D031,Nine Arches Bridge,nine arches bridge badulla heritage nature photography heritage nature
+D032,Ravana Falls,ravana falls badulla nature nature photography relaxation
+D033,Demodara Railway Loop,demodara railway loop badulla heritage nature heritage photography culture
+D034,Lipton's Seat,lipton's seat badulla nature nature photography hiking
+D035,Diyaluma Falls,diyaluma falls badulla nature adventure adventure nature hiking photography
+D036,Dunhinda Falls,dunhinda falls badulla nature nature hiking photography
+D037,Buduruwagala,buduruwagala monaragala heritage heritage history photography
+D038,Gal Oya National Park,gal oya national park ampara wildlife nature wildlife nature adventure photography
+D039,Kumana National Park,kumana national park ampara wildlife nature wildlife birdwatching nature photography
+D040,Arugam Bay,arugam bay ampara beach adventure beach surfing adventure relaxation
+D041,Pasikuda Beach,pasikuda beach batticaloa beach beach relaxation family photography
+D042,Batticaloa Fort,batticaloa fort batticaloa heritage heritage history culture photography
+D043,Nilaveli Beach,nilaveli beach trincomalee beach beach relaxation photography family
+D044,Pigeon Island National Park,pigeon island national park trincomalee marine nature snorkeling beach nature wildlife
+D045,Fort Frederick,fort frederick trincomalee heritage heritage history culture photography
+D046,Koneswaram Temple,koneswaram temple trincomalee heritage religious religious heritage culture photography
+D047,Marble Beach,marble beach trincomalee beach beach relaxation photography
+D048,Colombo National Museum,colombo national museum colombo heritage culture history heritage culture education
+D049,Galle Face Green,galle face green colombo city coastal relaxation food photography family
+D050,Gangaramaya Temple,gangaramaya temple colombo heritage religious religious heritage culture photography
+D051,Viharamahadevi Park,viharamahadevi park colombo nature city nature family relaxation photography
+D052,Independence Square,independence square colombo heritage city heritage photography relaxation
+D053,Dutch Hospital Colombo,dutch hospital colombo colombo heritage city food culture heritage shopping
+D054,Mount Lavinia Beach,mount lavinia beach colombo beach beach relaxation food photography
+D055,Negombo Beach,negombo beach gampaha beach beach relaxation food family
+D056,Muthurajawela Wetland,muthurajawela wetland gampaha nature wildlife nature wildlife birdwatching photography
+D057,Kalpitiya Lagoon,kalpitiya lagoon puttalam marine nature nature wildlife photography adventure
+D058,Wilpattu Wildlife Area,wilpattu wildlife area puttalam wildlife nature wildlife nature photography adventure
+D059,Pinnawala Elephant Orphanage,pinnawala elephant orphanage kegalle wildlife family wildlife family photography
+D060,Kitulgala,kitulgala kegalle adventure nature adventure nature rafting hiking
+D061,Belilena Cave,belilena cave kegalle heritage nature history heritage nature adventure
+D062,Adam's Peak,adam's peak ratnapura religious nature hiking religious nature adventure
+D063,Sinharaja Forest Reserve,sinharaja forest reserve ratnapura nature wildlife nature wildlife hiking photography
+D064,Udawalawe National Park,udawalawe national park ratnapura wildlife nature wildlife nature photography family
+D065,Udawalawe Elephant Transit Home,udawalawe elephant transit home ratnapura wildlife wildlife family photography
+D066,Bopath Ella,bopath ella ratnapura nature nature photography relaxation
+D067,Bambarakanda Falls,bambarakanda falls badulla nature nature hiking photography
+D068,Ratnapura Gem Museum Area,ratnapura gem museum area ratnapura culture heritage culture education shopping history
+D069,Kalutara Bodhiya,kalutara bodhiya kalutara religious heritage religious culture heritage photography
+D070,Brief Garden,brief garden kalutara nature nature photography relaxation
+D071,Bentota Beach,bentota beach galle beach adventure beach water_sports relaxation family
+D072,Madu River,madu river galle nature marine nature wildlife boat_trip photography
+D073,Kanneliya Forest Reserve,kanneliya forest reserve galle nature wildlife nature hiking wildlife photography
+D074,Galle Fort,galle fort galle heritage coastal heritage history culture photography
+D075,Unawatuna Beach,unawatuna beach galle beach beach snorkeling relaxation photography
+D076,Jungle Beach,jungle beach galle beach nature beach nature snorkeling photography
+D077,Hikkaduwa National Park,hikkaduwa national park galle marine nature snorkeling marine wildlife beach
+D078,Rumassala Sanctuary,rumassala sanctuary galle nature wildlife nature hiking photography wildlife
+D079,Mirissa Beach,mirissa beach matara beach beach relaxation photography food
+D080,Weligama Bay,weligama bay matara beach adventure beach surfing adventure relaxation
+D081,Polhena Beach,polhena beach matara beach marine beach snorkeling relaxation photography
+D082,Dondra Head,dondra head matara coastal heritage photography heritage relaxation
+D083,Hummanaya Blow Hole,hummanaya blow hole matara nature coastal nature photography adventure
+D084,Rekawa Turtle Beach,rekawa turtle beach hambantota beach wildlife wildlife beach nature photography
+D085,Yala National Park,yala national park hambantota wildlife nature wildlife nature photography adventure
+D086,Bundala National Park,bundala national park hambantota wildlife nature birdwatching wildlife nature photography
+D087,Kirinda Temple,kirinda temple hambantota heritage coastal heritage religious photography
+D088,Tangalle Beach,tangalle beach hambantota beach beach relaxation photography
+D089,Kalametiya Bird Sanctuary,kalametiya bird sanctuary hambantota wildlife nature birdwatching nature wildlife photography
+D090,Lunugamvehera National Park,lunugamvehera national park monaragala wildlife nature wildlife nature photography
+D091,Madulsima Mini World's End,madulsima mini world's end badulla nature adventure hiking nature photography adventure
+D092,Meemure,meemure kandy nature village adventure nature hiking adventure culture
+D093,Riverston,riverston matale nature adventure hiking nature photography adventure
+D094,Sembuwatta Lake,sembuwatta lake matale nature nature relaxation family photography
+D095,Aluvihare Rock Temple,aluvihare rock temple matale heritage religious heritage history religious culture
+D096,Wasgamuwa National Park,wasgamuwa national park matale wildlife nature wildlife nature photography adventure
+D097,Haputale,haputale badulla nature city nature photography hiking relaxation
+D098,Ohiya,ohiya badulla nature adventure nature hiking photography adventure
+D099,Baker's Falls,baker's falls nuwara eliya nature nature hiking photography
+D100,Pekoe Trail - Tea Country Section,pekoe trail - tea country section nuwara eliya nature adventure culture hiking nature culture photography

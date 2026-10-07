@@ -1,0 +1,11 @@
+destination_id,name,category,district,content_similarity
+D032,Ravana Falls,nature,badulla,0.3063047518821777
+D027,Ramboda Falls,nature,nuwara eliya,0.28840156739565453
+D034,Lipton's Seat,nature,badulla,0.2787993122761787
+D093,Riverston,nature;adventure,matale,0.27601398927129533
+D066,Bopath Ella,nature,ratnapura,0.27573442339736154
+D070,Brief Garden,nature,kalutara,0.265840590622728
+D097,Haputale,nature;city,badulla,0.26351691387434684
+D021,Gregory Lake,nature,nuwara eliya,0.26306998044156166
+D028,Pidurutalagala View Area,nature,nuwara eliya,0.25282064014351197
+D029,Ella Rock,nature;adventure,badulla,0.2527607771203943

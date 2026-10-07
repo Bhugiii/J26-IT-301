@@ -1,0 +1,10 @@
+metric,value
+total_recommendations,500.0
+unique_users,50.0
+unique_destinations,77.0
+mean_sbert_hybrid_score,0.5668418479729783
+mean_predicted_crowd_score,32.51769066529858
+mean_crowd_suitability,0.565581638382886
+mean_demand_aware_score,0.5664637850959506
+changed_rankings,435.0
+unchanged_rankings,65.0

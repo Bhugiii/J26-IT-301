@@ -1,0 +1,501 @@
+user_id,destination_id,name,category,district,sbert_similarity
+U001,D052,Independence Square,heritage;city,colombo,0.44230962
+U001,D070,Brief Garden,nature,kalutara,0.4414003
+U001,D092,Meemure,nature;village;adventure,kandy,0.433817
+U001,D088,Tangalle Beach,beach,hambantota,0.42394838
+U001,D018,Knuckles Mountain Range,nature;adventure,matale,0.41947278
+U001,D032,Ravana Falls,nature,badulla,0.41619822
+U001,D023,World's End,nature;adventure,nuwara eliya,0.40811008
+U001,D097,Haputale,nature;city,badulla,0.4063629
+U001,D049,Galle Face Green,city;coastal,colombo,0.3999593
+U001,D076,Jungle Beach,beach;nature,galle,0.3961166
+U002,D012,Casuarina Beach,beach,jaffna,0.4189789
+U002,D076,Jungle Beach,beach;nature,galle,0.40812677
+U002,D088,Tangalle Beach,beach,hambantota,0.40754378
+U002,D047,Marble Beach,beach,trincomalee,0.40510565
+U002,D092,Meemure,nature;village;adventure,kandy,0.40333378
+U002,D079,Mirissa Beach,beach,matara,0.4029458
+U002,D070,Brief Garden,nature,kalutara,0.39766663
+U002,D041,Pasikuda Beach,beach,batticaloa,0.3972684
+U002,D055,Negombo Beach,beach,gampaha,0.3929894
+U002,D080,Weligama Bay,beach;adventure,matara,0.39165562
+U003,D097,Haputale,nature;city,badulla,0.4235309
+U003,D092,Meemure,nature;village;adventure,kandy,0.42331302
+U003,D032,Ravana Falls,nature,badulla,0.4162267
+U003,D052,Independence Square,heritage;city,colombo,0.41538084
+U003,D098,Ohiya,nature;adventure,badulla,0.40520692
+U003,D070,Brief Garden,nature,kalutara,0.40395215
+U003,D082,Dondra Head,coastal;heritage,matara,0.39173812
+U003,D093,Riverston,nature;adventure,matale,0.3901646
+U003,D049,Galle Face Green,city;coastal,colombo,0.38952538
+U003,D018,Knuckles Mountain Range,nature;adventure,matale,0.3821728
+U004,D092,Meemure,nature;village;adventure,kandy,0.4628629
+U004,D070,Brief Garden,nature,kalutara,0.46158183
+U004,D052,Independence Square,heritage;city,colombo,0.4432198
+U004,D049,Galle Face Green,city;coastal,colombo,0.4400056
+U004,D032,Ravana Falls,nature,badulla,0.43456152
+U004,D093,Riverston,nature;adventure,matale,0.4283124
+U004,D097,Haputale,nature;city,badulla,0.42814818
+U004,D076,Jungle Beach,beach;nature,galle,0.42342347
+U004,D018,Knuckles Mountain Range,nature;adventure,matale,0.4145773
+U004,D053,Dutch Hospital Colombo,heritage;city,colombo,0.41124994
+U005,D092,Meemure,nature;village;adventure,kandy,0.47021908
+U005,D070,Brief Garden,nature,kalutara,0.440375
+U005,D093,Riverston,nature;adventure,matale,0.42937088
+U005,D018,Knuckles Mountain Range,nature;adventure,matale,0.42916834
+U005,D032,Ravana Falls,nature,badulla,0.4223303
+U005,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.41921577
+U005,D097,Haputale,nature;city,badulla,0.41668093
+U005,D023,World's End,nature;adventure,nuwara eliya,0.41571024
+U005,D060,Kitulgala,adventure;nature,kegalle,0.4144365
+U005,D098,Ohiya,nature;adventure,badulla,0.41385692
+U006,D092,Meemure,nature;village;adventure,kandy,0.42085528
+U006,D049,Galle Face Green,city;coastal,colombo,0.4148505
+U006,D052,Independence Square,heritage;city,colombo,0.4134769
+U006,D070,Brief Garden,nature,kalutara,0.40685815
+U006,D097,Haputale,nature;city,badulla,0.38635826
+U006,D032,Ravana Falls,nature,badulla,0.38312012
+U006,D082,Dondra Head,coastal;heritage,matara,0.3819232
+U006,D018,Knuckles Mountain Range,nature;adventure,matale,0.37693664
+U006,D053,Dutch Hospital Colombo,heritage;city,colombo,0.3756922
+U006,D088,Tangalle Beach,beach,hambantota,0.36957645
+U007,D092,Meemure,nature;village;adventure,kandy,0.43391794
+U007,D032,Ravana Falls,nature,badulla,0.40451068
+U007,D097,Haputale,nature;city,badulla,0.4023744
+U007,D070,Brief Garden,nature,kalutara,0.40042198
+U007,D018,Knuckles Mountain Range,nature;adventure,matale,0.3867895
+U007,D098,Ohiya,nature;adventure,badulla,0.38516417
+U007,D093,Riverston,nature;adventure,matale,0.38123333
+U007,D023,World's End,nature;adventure,nuwara eliya,0.37825057
+U007,D060,Kitulgala,adventure;nature,kegalle,0.37124825
+U007,D052,Independence Square,heritage;city,colombo,0.37041304
+U008,D076,Jungle Beach,beach;nature,galle,0.4769072
+U008,D092,Meemure,nature;village;adventure,kandy,0.45920092
+U008,D041,Pasikuda Beach,beach,batticaloa,0.4540125
+U008,D080,Weligama Bay,beach;adventure,matara,0.4460708
+U008,D055,Negombo Beach,beach,gampaha,0.4451561
+U008,D071,Bentota Beach,beach;adventure,galle,0.44370854
+U008,D012,Casuarina Beach,beach,jaffna,0.44200504
+U008,D088,Tangalle Beach,beach,hambantota,0.44041187
+U008,D018,Knuckles Mountain Range,nature;adventure,matale,0.43544078
+U008,D047,Marble Beach,beach,trincomalee,0.43478367
+U009,D092,Meemure,nature;village;adventure,kandy,0.44368392
+U009,D052,Independence Square,heritage;city,colombo,0.41645837
+U009,D070,Brief Garden,nature,kalutara,0.3915895
+U009,D088,Tangalle Beach,beach,hambantota,0.3809712
+U009,D082,Dondra Head,coastal;heritage,matara,0.38093203
+U009,D032,Ravana Falls,nature,badulla,0.3793342
+U009,D049,Galle Face Green,city;coastal,colombo,0.3776528
+U009,D097,Haputale,nature;city,badulla,0.3693401
+U009,D018,Knuckles Mountain Range,nature;adventure,matale,0.36821374
+U009,D060,Kitulgala,adventure;nature,kegalle,0.3632713
+U010,D070,Brief Garden,nature,kalutara,0.46943605
+U010,D092,Meemure,nature;village;adventure,kandy,0.45927978
+U010,D032,Ravana Falls,nature,badulla,0.43919325
+U010,D093,Riverston,nature;adventure,matale,0.43530786
+U010,D097,Haputale,nature;city,badulla,0.43267697
+U010,D052,Independence Square,heritage;city,colombo,0.41829723
+U010,D049,Galle Face Green,city;coastal,colombo,0.41440952
+U010,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.4125352
+U010,D066,Bopath Ella,nature,ratnapura,0.41055438
+U010,D098,Ohiya,nature;adventure,badulla,0.40854353
+U011,D032,Ravana Falls,nature,badulla,0.44520575
+U011,D070,Brief Garden,nature,kalutara,0.44435823
+U011,D052,Independence Square,heritage;city,colombo,0.4418234
+U011,D092,Meemure,nature;village;adventure,kandy,0.43612885
+U011,D097,Haputale,nature;city,badulla,0.42927957
+U011,D088,Tangalle Beach,beach,hambantota,0.42303526
+U011,D049,Galle Face Green,city;coastal,colombo,0.41880232
+U011,D018,Knuckles Mountain Range,nature;adventure,matale,0.41272837
+U011,D023,World's End,nature;adventure,nuwara eliya,0.41075
+U011,D093,Riverston,nature;adventure,matale,0.40756106
+U012,D076,Jungle Beach,beach;nature,galle,0.4308509
+U012,D012,Casuarina Beach,beach,jaffna,0.42995584
+U012,D088,Tangalle Beach,beach,hambantota,0.42820603
+U012,D041,Pasikuda Beach,beach,batticaloa,0.42208275
+U012,D092,Meemure,nature;village;adventure,kandy,0.42155328
+U012,D079,Mirissa Beach,beach,matara,0.41551703
+U012,D055,Negombo Beach,beach,gampaha,0.41425025
+U012,D047,Marble Beach,beach,trincomalee,0.40909553
+U012,D070,Brief Garden,nature,kalutara,0.4051746
+U012,D080,Weligama Bay,beach;adventure,matara,0.3913114
+U013,D092,Meemure,nature;village;adventure,kandy,0.42938
+U013,D052,Independence Square,heritage;city,colombo,0.4259602
+U013,D070,Brief Garden,nature,kalutara,0.412297
+U013,D097,Haputale,nature;city,badulla,0.40815783
+U013,D018,Knuckles Mountain Range,nature;adventure,matale,0.39792264
+U013,D032,Ravana Falls,nature,badulla,0.39610907
+U013,D088,Tangalle Beach,beach,hambantota,0.39240652
+U013,D082,Dondra Head,coastal;heritage,matara,0.39190078
+U013,D098,Ohiya,nature;adventure,badulla,0.38916773
+U013,D060,Kitulgala,adventure;nature,kegalle,0.38470498
+U014,D070,Brief Garden,nature,kalutara,0.4634555
+U014,D092,Meemure,nature;village;adventure,kandy,0.4558633
+U014,D049,Galle Face Green,city;coastal,colombo,0.43420795
+U014,D052,Independence Square,heritage;city,colombo,0.43106884
+U014,D032,Ravana Falls,nature,badulla,0.42716208
+U014,D097,Haputale,nature;city,badulla,0.4220457
+U014,D093,Riverston,nature;adventure,matale,0.42010647
+U014,D018,Knuckles Mountain Range,nature;adventure,matale,0.41978225
+U014,D076,Jungle Beach,beach;nature,galle,0.41323337
+U014,D015,Kandy Lake,nature;city,kandy,0.40935624
+U015,D092,Meemure,nature;village;adventure,kandy,0.4657266
+U015,D032,Ravana Falls,nature,badulla,0.43800473
+U015,D093,Riverston,nature;adventure,matale,0.4355794
+U015,D070,Brief Garden,nature,kalutara,0.432751
+U015,D097,Haputale,nature;city,badulla,0.42851564
+U015,D098,Ohiya,nature;adventure,badulla,0.42670688
+U015,D018,Knuckles Mountain Range,nature;adventure,matale,0.41784942
+U015,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.4090727
+U015,D052,Independence Square,heritage;city,colombo,0.4072659
+U015,D023,World's End,nature;adventure,nuwara eliya,0.40653813
+U016,D092,Meemure,nature;village;adventure,kandy,0.43851933
+U016,D052,Independence Square,heritage;city,colombo,0.4327492
+U016,D049,Galle Face Green,city;coastal,colombo,0.4227761
+U016,D070,Brief Garden,nature,kalutara,0.41276467
+U016,D053,Dutch Hospital Colombo,heritage;city,colombo,0.4046805
+U016,D032,Ravana Falls,nature,badulla,0.40228647
+U016,D097,Haputale,nature;city,badulla,0.402251
+U016,D082,Dondra Head,coastal;heritage,matara,0.39365423
+U016,D088,Tangalle Beach,beach,hambantota,0.38808692
+U016,D060,Kitulgala,adventure;nature,kegalle,0.38551503
+U017,D092,Meemure,nature;village;adventure,kandy,0.43701726
+U017,D070,Brief Garden,nature,kalutara,0.40431818
+U017,D018,Knuckles Mountain Range,nature;adventure,matale,0.39782375
+U017,D097,Haputale,nature;city,badulla,0.38372248
+U017,D060,Kitulgala,adventure;nature,kegalle,0.38268295
+U017,D032,Ravana Falls,nature,badulla,0.38182566
+U017,D052,Independence Square,heritage;city,colombo,0.38179678
+U017,D023,World's End,nature;adventure,nuwara eliya,0.3809936
+U017,D076,Jungle Beach,beach;nature,galle,0.37470615
+U017,D088,Tangalle Beach,beach,hambantota,0.37362367
+U018,D076,Jungle Beach,beach;nature,galle,0.45492747
+U018,D080,Weligama Bay,beach;adventure,matara,0.4460458
+U018,D092,Meemure,nature;village;adventure,kandy,0.4382962
+U018,D018,Knuckles Mountain Range,nature;adventure,matale,0.434097
+U018,D041,Pasikuda Beach,beach,batticaloa,0.43149847
+U018,D012,Casuarina Beach,beach,jaffna,0.4312995
+U018,D047,Marble Beach,beach,trincomalee,0.4307354
+U018,D070,Brief Garden,nature,kalutara,0.42755532
+U018,D055,Negombo Beach,beach,gampaha,0.4253969
+U018,D040,Arugam Bay,beach;adventure,ampara,0.42420036
+U019,D092,Meemure,nature;village;adventure,kandy,0.43804792
+U019,D052,Independence Square,heritage;city,colombo,0.40373057
+U019,D032,Ravana Falls,nature,badulla,0.39698246
+U019,D070,Brief Garden,nature,kalutara,0.38271743
+U019,D049,Galle Face Green,city;coastal,colombo,0.38270772
+U019,D097,Haputale,nature;city,badulla,0.38058817
+U019,D082,Dondra Head,coastal;heritage,matara,0.37788385
+U019,D053,Dutch Hospital Colombo,heritage;city,colombo,0.3712441
+U019,D088,Tangalle Beach,beach,hambantota,0.37101364
+U019,D098,Ohiya,nature;adventure,badulla,0.36714205
+U020,D070,Brief Garden,nature,kalutara,0.47495097
+U020,D092,Meemure,nature;village;adventure,kandy,0.47015116
+U020,D032,Ravana Falls,nature,badulla,0.45174888
+U020,D093,Riverston,nature;adventure,matale,0.44755927
+U020,D097,Haputale,nature;city,badulla,0.44487572
+U020,D098,Ohiya,nature;adventure,badulla,0.43194437
+U020,D052,Independence Square,heritage;city,colombo,0.429939
+U020,D066,Bopath Ella,nature,ratnapura,0.42754608
+U020,D049,Galle Face Green,city;coastal,colombo,0.4244198
+U020,D076,Jungle Beach,beach;nature,galle,0.4221302
+U021,D052,Independence Square,heritage;city,colombo,0.44230962
+U021,D070,Brief Garden,nature,kalutara,0.4414003
+U021,D092,Meemure,nature;village;adventure,kandy,0.433817
+U021,D088,Tangalle Beach,beach,hambantota,0.42394838
+U021,D018,Knuckles Mountain Range,nature;adventure,matale,0.41947278
+U021,D032,Ravana Falls,nature,badulla,0.41619822
+U021,D023,World's End,nature;adventure,nuwara eliya,0.40811008
+U021,D097,Haputale,nature;city,badulla,0.4063629
+U021,D049,Galle Face Green,city;coastal,colombo,0.3999593
+U021,D076,Jungle Beach,beach;nature,galle,0.3961166
+U022,D012,Casuarina Beach,beach,jaffna,0.4189789
+U022,D076,Jungle Beach,beach;nature,galle,0.40812677
+U022,D088,Tangalle Beach,beach,hambantota,0.40754378
+U022,D047,Marble Beach,beach,trincomalee,0.40510565
+U022,D092,Meemure,nature;village;adventure,kandy,0.40333378
+U022,D079,Mirissa Beach,beach,matara,0.4029458
+U022,D070,Brief Garden,nature,kalutara,0.39766663
+U022,D041,Pasikuda Beach,beach,batticaloa,0.3972684
+U022,D055,Negombo Beach,beach,gampaha,0.3929894
+U022,D080,Weligama Bay,beach;adventure,matara,0.39165562
+U023,D097,Haputale,nature;city,badulla,0.4235309
+U023,D092,Meemure,nature;village;adventure,kandy,0.42331302
+U023,D032,Ravana Falls,nature,badulla,0.4162267
+U023,D052,Independence Square,heritage;city,colombo,0.41538084
+U023,D098,Ohiya,nature;adventure,badulla,0.40520692
+U023,D070,Brief Garden,nature,kalutara,0.40395215
+U023,D082,Dondra Head,coastal;heritage,matara,0.39173812
+U023,D093,Riverston,nature;adventure,matale,0.3901646
+U023,D049,Galle Face Green,city;coastal,colombo,0.38952538
+U023,D018,Knuckles Mountain Range,nature;adventure,matale,0.3821728
+U024,D092,Meemure,nature;village;adventure,kandy,0.4628629
+U024,D070,Brief Garden,nature,kalutara,0.46158183
+U024,D052,Independence Square,heritage;city,colombo,0.4432198
+U024,D049,Galle Face Green,city;coastal,colombo,0.4400056
+U024,D032,Ravana Falls,nature,badulla,0.43456152
+U024,D093,Riverston,nature;adventure,matale,0.4283124
+U024,D097,Haputale,nature;city,badulla,0.42814818
+U024,D076,Jungle Beach,beach;nature,galle,0.42342347
+U024,D018,Knuckles Mountain Range,nature;adventure,matale,0.4145773
+U024,D053,Dutch Hospital Colombo,heritage;city,colombo,0.41124994
+U025,D092,Meemure,nature;village;adventure,kandy,0.47021908
+U025,D070,Brief Garden,nature,kalutara,0.440375
+U025,D093,Riverston,nature;adventure,matale,0.42937088
+U025,D018,Knuckles Mountain Range,nature;adventure,matale,0.42916834
+U025,D032,Ravana Falls,nature,badulla,0.4223303
+U025,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.41921577
+U025,D097,Haputale,nature;city,badulla,0.41668093
+U025,D023,World's End,nature;adventure,nuwara eliya,0.41571024
+U025,D060,Kitulgala,adventure;nature,kegalle,0.4144365
+U025,D098,Ohiya,nature;adventure,badulla,0.41385692
+U026,D092,Meemure,nature;village;adventure,kandy,0.42085528
+U026,D049,Galle Face Green,city;coastal,colombo,0.4148505
+U026,D052,Independence Square,heritage;city,colombo,0.4134769
+U026,D070,Brief Garden,nature,kalutara,0.40685815
+U026,D097,Haputale,nature;city,badulla,0.38635826
+U026,D032,Ravana Falls,nature,badulla,0.38312012
+U026,D082,Dondra Head,coastal;heritage,matara,0.3819232
+U026,D018,Knuckles Mountain Range,nature;adventure,matale,0.37693664
+U026,D053,Dutch Hospital Colombo,heritage;city,colombo,0.3756922
+U026,D088,Tangalle Beach,beach,hambantota,0.36957645
+U027,D092,Meemure,nature;village;adventure,kandy,0.43391794
+U027,D032,Ravana Falls,nature,badulla,0.40451068
+U027,D097,Haputale,nature;city,badulla,0.4023744
+U027,D070,Brief Garden,nature,kalutara,0.40042198
+U027,D018,Knuckles Mountain Range,nature;adventure,matale,0.3867895
+U027,D098,Ohiya,nature;adventure,badulla,0.38516417
+U027,D093,Riverston,nature;adventure,matale,0.38123333
+U027,D023,World's End,nature;adventure,nuwara eliya,0.37825057
+U027,D060,Kitulgala,adventure;nature,kegalle,0.37124825
+U027,D052,Independence Square,heritage;city,colombo,0.37041304
+U028,D076,Jungle Beach,beach;nature,galle,0.4769072
+U028,D092,Meemure,nature;village;adventure,kandy,0.45920092
+U028,D041,Pasikuda Beach,beach,batticaloa,0.4540125
+U028,D080,Weligama Bay,beach;adventure,matara,0.4460708
+U028,D055,Negombo Beach,beach,gampaha,0.4451561
+U028,D071,Bentota Beach,beach;adventure,galle,0.44370854
+U028,D012,Casuarina Beach,beach,jaffna,0.44200504
+U028,D088,Tangalle Beach,beach,hambantota,0.44041187
+U028,D018,Knuckles Mountain Range,nature;adventure,matale,0.43544078
+U028,D047,Marble Beach,beach,trincomalee,0.43478367
+U029,D092,Meemure,nature;village;adventure,kandy,0.44368392
+U029,D052,Independence Square,heritage;city,colombo,0.41645837
+U029,D070,Brief Garden,nature,kalutara,0.3915895
+U029,D088,Tangalle Beach,beach,hambantota,0.3809712
+U029,D082,Dondra Head,coastal;heritage,matara,0.38093203
+U029,D032,Ravana Falls,nature,badulla,0.3793342
+U029,D049,Galle Face Green,city;coastal,colombo,0.3776528
+U029,D097,Haputale,nature;city,badulla,0.3693401
+U029,D018,Knuckles Mountain Range,nature;adventure,matale,0.36821374
+U029,D060,Kitulgala,adventure;nature,kegalle,0.3632713
+U030,D070,Brief Garden,nature,kalutara,0.46943605
+U030,D092,Meemure,nature;village;adventure,kandy,0.45927978
+U030,D032,Ravana Falls,nature,badulla,0.43919325
+U030,D093,Riverston,nature;adventure,matale,0.43530786
+U030,D097,Haputale,nature;city,badulla,0.43267697
+U030,D052,Independence Square,heritage;city,colombo,0.41829723
+U030,D049,Galle Face Green,city;coastal,colombo,0.41440952
+U030,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.4125352
+U030,D066,Bopath Ella,nature,ratnapura,0.41055438
+U030,D098,Ohiya,nature;adventure,badulla,0.40854353
+U031,D032,Ravana Falls,nature,badulla,0.44520575
+U031,D070,Brief Garden,nature,kalutara,0.44435823
+U031,D052,Independence Square,heritage;city,colombo,0.4418234
+U031,D092,Meemure,nature;village;adventure,kandy,0.43612885
+U031,D097,Haputale,nature;city,badulla,0.42927957
+U031,D088,Tangalle Beach,beach,hambantota,0.42303526
+U031,D049,Galle Face Green,city;coastal,colombo,0.41880232
+U031,D018,Knuckles Mountain Range,nature;adventure,matale,0.41272837
+U031,D023,World's End,nature;adventure,nuwara eliya,0.41075
+U031,D093,Riverston,nature;adventure,matale,0.40756106
+U032,D076,Jungle Beach,beach;nature,galle,0.4308509
+U032,D012,Casuarina Beach,beach,jaffna,0.42995584
+U032,D088,Tangalle Beach,beach,hambantota,0.42820603
+U032,D041,Pasikuda Beach,beach,batticaloa,0.42208275
+U032,D092,Meemure,nature;village;adventure,kandy,0.42155328
+U032,D079,Mirissa Beach,beach,matara,0.41551703
+U032,D055,Negombo Beach,beach,gampaha,0.41425025
+U032,D047,Marble Beach,beach,trincomalee,0.40909553
+U032,D070,Brief Garden,nature,kalutara,0.4051746
+U032,D080,Weligama Bay,beach;adventure,matara,0.3913114
+U033,D092,Meemure,nature;village;adventure,kandy,0.42938
+U033,D052,Independence Square,heritage;city,colombo,0.4259602
+U033,D070,Brief Garden,nature,kalutara,0.412297
+U033,D097,Haputale,nature;city,badulla,0.40815783
+U033,D018,Knuckles Mountain Range,nature;adventure,matale,0.39792264
+U033,D032,Ravana Falls,nature,badulla,0.39610907
+U033,D088,Tangalle Beach,beach,hambantota,0.39240652
+U033,D082,Dondra Head,coastal;heritage,matara,0.39190078
+U033,D098,Ohiya,nature;adventure,badulla,0.38916773
+U033,D060,Kitulgala,adventure;nature,kegalle,0.38470498
+U034,D070,Brief Garden,nature,kalutara,0.4634555
+U034,D092,Meemure,nature;village;adventure,kandy,0.4558633
+U034,D049,Galle Face Green,city;coastal,colombo,0.43420795
+U034,D052,Independence Square,heritage;city,colombo,0.43106884
+U034,D032,Ravana Falls,nature,badulla,0.42716208
+U034,D097,Haputale,nature;city,badulla,0.4220457
+U034,D093,Riverston,nature;adventure,matale,0.42010647
+U034,D018,Knuckles Mountain Range,nature;adventure,matale,0.41978225
+U034,D076,Jungle Beach,beach;nature,galle,0.41323337
+U034,D015,Kandy Lake,nature;city,kandy,0.40935624
+U035,D092,Meemure,nature;village;adventure,kandy,0.4657266
+U035,D032,Ravana Falls,nature,badulla,0.43800473
+U035,D093,Riverston,nature;adventure,matale,0.4355794
+U035,D070,Brief Garden,nature,kalutara,0.432751
+U035,D097,Haputale,nature;city,badulla,0.42851564
+U035,D098,Ohiya,nature;adventure,badulla,0.42670688
+U035,D018,Knuckles Mountain Range,nature;adventure,matale,0.41784942
+U035,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.4090727
+U035,D052,Independence Square,heritage;city,colombo,0.4072659
+U035,D023,World's End,nature;adventure,nuwara eliya,0.40653813
+U036,D092,Meemure,nature;village;adventure,kandy,0.43851933
+U036,D052,Independence Square,heritage;city,colombo,0.4327492
+U036,D049,Galle Face Green,city;coastal,colombo,0.4227761
+U036,D070,Brief Garden,nature,kalutara,0.41276467
+U036,D053,Dutch Hospital Colombo,heritage;city,colombo,0.4046805
+U036,D032,Ravana Falls,nature,badulla,0.40228647
+U036,D097,Haputale,nature;city,badulla,0.402251
+U036,D082,Dondra Head,coastal;heritage,matara,0.39365423
+U036,D088,Tangalle Beach,beach,hambantota,0.38808692
+U036,D060,Kitulgala,adventure;nature,kegalle,0.38551503
+U037,D092,Meemure,nature;village;adventure,kandy,0.43701726
+U037,D070,Brief Garden,nature,kalutara,0.40431818
+U037,D018,Knuckles Mountain Range,nature;adventure,matale,0.39782375
+U037,D097,Haputale,nature;city,badulla,0.38372248
+U037,D060,Kitulgala,adventure;nature,kegalle,0.38268295
+U037,D032,Ravana Falls,nature,badulla,0.38182566
+U037,D052,Independence Square,heritage;city,colombo,0.38179678
+U037,D023,World's End,nature;adventure,nuwara eliya,0.3809936
+U037,D076,Jungle Beach,beach;nature,galle,0.37470615
+U037,D088,Tangalle Beach,beach,hambantota,0.37362367
+U038,D076,Jungle Beach,beach;nature,galle,0.45492747
+U038,D080,Weligama Bay,beach;adventure,matara,0.4460458
+U038,D092,Meemure,nature;village;adventure,kandy,0.4382962
+U038,D018,Knuckles Mountain Range,nature;adventure,matale,0.434097
+U038,D041,Pasikuda Beach,beach,batticaloa,0.43149847
+U038,D012,Casuarina Beach,beach,jaffna,0.4312995
+U038,D047,Marble Beach,beach,trincomalee,0.4307354
+U038,D070,Brief Garden,nature,kalutara,0.42755532
+U038,D055,Negombo Beach,beach,gampaha,0.4253969
+U038,D040,Arugam Bay,beach;adventure,ampara,0.42420036
+U039,D092,Meemure,nature;village;adventure,kandy,0.43804792
+U039,D052,Independence Square,heritage;city,colombo,0.40373057
+U039,D032,Ravana Falls,nature,badulla,0.39698246
+U039,D070,Brief Garden,nature,kalutara,0.38271743
+U039,D049,Galle Face Green,city;coastal,colombo,0.38270772
+U039,D097,Haputale,nature;city,badulla,0.38058817
+U039,D082,Dondra Head,coastal;heritage,matara,0.37788385
+U039,D053,Dutch Hospital Colombo,heritage;city,colombo,0.3712441
+U039,D088,Tangalle Beach,beach,hambantota,0.37101364
+U039,D098,Ohiya,nature;adventure,badulla,0.36714205
+U040,D070,Brief Garden,nature,kalutara,0.47495097
+U040,D092,Meemure,nature;village;adventure,kandy,0.47015116
+U040,D032,Ravana Falls,nature,badulla,0.45174888
+U040,D093,Riverston,nature;adventure,matale,0.44755927
+U040,D097,Haputale,nature;city,badulla,0.44487572
+U040,D098,Ohiya,nature;adventure,badulla,0.43194437
+U040,D052,Independence Square,heritage;city,colombo,0.429939
+U040,D066,Bopath Ella,nature,ratnapura,0.42754608
+U040,D049,Galle Face Green,city;coastal,colombo,0.4244198
+U040,D076,Jungle Beach,beach;nature,galle,0.4221302
+U041,D052,Independence Square,heritage;city,colombo,0.44230962
+U041,D070,Brief Garden,nature,kalutara,0.4414003
+U041,D092,Meemure,nature;village;adventure,kandy,0.433817
+U041,D088,Tangalle Beach,beach,hambantota,0.42394838
+U041,D018,Knuckles Mountain Range,nature;adventure,matale,0.41947278
+U041,D032,Ravana Falls,nature,badulla,0.41619822
+U041,D023,World's End,nature;adventure,nuwara eliya,0.40811008
+U041,D097,Haputale,nature;city,badulla,0.4063629
+U041,D049,Galle Face Green,city;coastal,colombo,0.3999593
+U041,D076,Jungle Beach,beach;nature,galle,0.3961166
+U042,D012,Casuarina Beach,beach,jaffna,0.4189789
+U042,D076,Jungle Beach,beach;nature,galle,0.40812677
+U042,D088,Tangalle Beach,beach,hambantota,0.40754378
+U042,D047,Marble Beach,beach,trincomalee,0.40510565
+U042,D092,Meemure,nature;village;adventure,kandy,0.40333378
+U042,D079,Mirissa Beach,beach,matara,0.4029458
+U042,D070,Brief Garden,nature,kalutara,0.39766663
+U042,D041,Pasikuda Beach,beach,batticaloa,0.3972684
+U042,D055,Negombo Beach,beach,gampaha,0.3929894
+U042,D080,Weligama Bay,beach;adventure,matara,0.39165562
+U043,D097,Haputale,nature;city,badulla,0.4235309
+U043,D092,Meemure,nature;village;adventure,kandy,0.42331302
+U043,D032,Ravana Falls,nature,badulla,0.4162267
+U043,D052,Independence Square,heritage;city,colombo,0.41538084
+U043,D098,Ohiya,nature;adventure,badulla,0.40520692
+U043,D070,Brief Garden,nature,kalutara,0.40395215
+U043,D082,Dondra Head,coastal;heritage,matara,0.39173812
+U043,D093,Riverston,nature;adventure,matale,0.3901646
+U043,D049,Galle Face Green,city;coastal,colombo,0.38952538
+U043,D018,Knuckles Mountain Range,nature;adventure,matale,0.3821728
+U044,D092,Meemure,nature;village;adventure,kandy,0.4628629
+U044,D070,Brief Garden,nature,kalutara,0.46158183
+U044,D052,Independence Square,heritage;city,colombo,0.4432198
+U044,D049,Galle Face Green,city;coastal,colombo,0.4400056
+U044,D032,Ravana Falls,nature,badulla,0.43456152
+U044,D093,Riverston,nature;adventure,matale,0.4283124
+U044,D097,Haputale,nature;city,badulla,0.42814818
+U044,D076,Jungle Beach,beach;nature,galle,0.42342347
+U044,D018,Knuckles Mountain Range,nature;adventure,matale,0.4145773
+U044,D053,Dutch Hospital Colombo,heritage;city,colombo,0.41124994
+U045,D092,Meemure,nature;village;adventure,kandy,0.47021908
+U045,D070,Brief Garden,nature,kalutara,0.440375
+U045,D093,Riverston,nature;adventure,matale,0.42937088
+U045,D018,Knuckles Mountain Range,nature;adventure,matale,0.42916834
+U045,D032,Ravana Falls,nature,badulla,0.4223303
+U045,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.41921577
+U045,D097,Haputale,nature;city,badulla,0.41668093
+U045,D023,World's End,nature;adventure,nuwara eliya,0.41571024
+U045,D060,Kitulgala,adventure;nature,kegalle,0.4144365
+U045,D098,Ohiya,nature;adventure,badulla,0.41385692
+U046,D092,Meemure,nature;village;adventure,kandy,0.42085528
+U046,D049,Galle Face Green,city;coastal,colombo,0.4148505
+U046,D052,Independence Square,heritage;city,colombo,0.4134769
+U046,D070,Brief Garden,nature,kalutara,0.40685815
+U046,D097,Haputale,nature;city,badulla,0.38635826
+U046,D032,Ravana Falls,nature,badulla,0.38312012
+U046,D082,Dondra Head,coastal;heritage,matara,0.3819232
+U046,D018,Knuckles Mountain Range,nature;adventure,matale,0.37693664
+U046,D053,Dutch Hospital Colombo,heritage;city,colombo,0.3756922
+U046,D088,Tangalle Beach,beach,hambantota,0.36957645
+U047,D092,Meemure,nature;village;adventure,kandy,0.43391794
+U047,D032,Ravana Falls,nature,badulla,0.40451068
+U047,D097,Haputale,nature;city,badulla,0.4023744
+U047,D070,Brief Garden,nature,kalutara,0.40042198
+U047,D018,Knuckles Mountain Range,nature;adventure,matale,0.3867895
+U047,D098,Ohiya,nature;adventure,badulla,0.38516417
+U047,D093,Riverston,nature;adventure,matale,0.38123333
+U047,D023,World's End,nature;adventure,nuwara eliya,0.37825057
+U047,D060,Kitulgala,adventure;nature,kegalle,0.37124825
+U047,D052,Independence Square,heritage;city,colombo,0.37041304
+U048,D076,Jungle Beach,beach;nature,galle,0.4769072
+U048,D092,Meemure,nature;village;adventure,kandy,0.45920092
+U048,D041,Pasikuda Beach,beach,batticaloa,0.4540125
+U048,D080,Weligama Bay,beach;adventure,matara,0.4460708
+U048,D055,Negombo Beach,beach,gampaha,0.4451561
+U048,D071,Bentota Beach,beach;adventure,galle,0.44370854
+U048,D012,Casuarina Beach,beach,jaffna,0.44200504
+U048,D088,Tangalle Beach,beach,hambantota,0.44041187
+U048,D018,Knuckles Mountain Range,nature;adventure,matale,0.43544078
+U048,D047,Marble Beach,beach,trincomalee,0.43478367
+U049,D092,Meemure,nature;village;adventure,kandy,0.44368392
+U049,D052,Independence Square,heritage;city,colombo,0.41645837
+U049,D070,Brief Garden,nature,kalutara,0.3915895
+U049,D088,Tangalle Beach,beach,hambantota,0.3809712
+U049,D082,Dondra Head,coastal;heritage,matara,0.38093203
+U049,D032,Ravana Falls,nature,badulla,0.3793342
+U049,D049,Galle Face Green,city;coastal,colombo,0.3776528
+U049,D097,Haputale,nature;city,badulla,0.3693401
+U049,D018,Knuckles Mountain Range,nature;adventure,matale,0.36821374
+U049,D060,Kitulgala,adventure;nature,kegalle,0.3632713
+U050,D070,Brief Garden,nature,kalutara,0.46943605
+U050,D092,Meemure,nature;village;adventure,kandy,0.45927978
+U050,D032,Ravana Falls,nature,badulla,0.43919325
+U050,D093,Riverston,nature;adventure,matale,0.43530786
+U050,D097,Haputale,nature;city,badulla,0.43267697
+U050,D052,Independence Square,heritage;city,colombo,0.41829723
+U050,D049,Galle Face Green,city;coastal,colombo,0.41440952
+U050,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.4125352
+U050,D066,Bopath Ella,nature,ratnapura,0.41055438
+U050,D098,Ohiya,nature;adventure,badulla,0.40854353

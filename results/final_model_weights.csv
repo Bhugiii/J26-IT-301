@@ -1,0 +1,9 @@
+component,weight
+Preference,0.25
+Budget,0.15
+Predicted Crowd Fit,0.2
+Weather,0.1
+Sustainability,0.1
+Seasonality,0.05
+Sentiment,0.1
+Demand Suitability,0.05

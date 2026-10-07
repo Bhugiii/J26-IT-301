@@ -1,0 +1,501 @@
+user_id,destination_id,name,category,district,rank,baseline_score
+U001,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U001,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U001,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U001,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U001,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U001,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U001,D097,Haputale,nature;city,badulla,7,0.7296
+U001,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U001,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U001,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U002,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U002,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U002,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U002,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U002,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U002,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U002,D097,Haputale,nature;city,badulla,7,0.7296
+U002,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U002,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U002,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U003,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U003,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U003,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U003,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U003,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U003,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U003,D097,Haputale,nature;city,badulla,7,0.7296
+U003,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U003,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U003,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U004,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U004,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U004,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U004,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U004,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U004,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U004,D097,Haputale,nature;city,badulla,7,0.7296
+U004,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U004,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U004,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U005,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U005,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U005,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U005,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U005,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U005,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U005,D097,Haputale,nature;city,badulla,7,0.7296
+U005,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U005,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U005,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U006,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U006,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U006,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U006,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U006,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U006,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U006,D097,Haputale,nature;city,badulla,7,0.7296
+U006,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U006,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U006,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U007,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U007,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U007,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U007,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U007,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U007,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U007,D097,Haputale,nature;city,badulla,7,0.7296
+U007,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U007,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U007,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U008,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U008,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U008,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U008,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U008,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U008,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U008,D097,Haputale,nature;city,badulla,7,0.7296
+U008,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U008,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U008,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U009,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U009,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U009,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U009,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U009,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U009,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U009,D097,Haputale,nature;city,badulla,7,0.7296
+U009,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U009,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U009,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U010,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U010,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U010,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U010,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U010,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U010,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U010,D097,Haputale,nature;city,badulla,7,0.7296
+U010,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U010,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U010,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U011,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U011,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U011,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U011,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U011,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U011,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U011,D097,Haputale,nature;city,badulla,7,0.7296
+U011,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U011,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U011,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U012,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U012,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U012,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U012,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U012,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U012,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U012,D097,Haputale,nature;city,badulla,7,0.7296
+U012,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U012,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U012,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U013,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U013,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U013,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U013,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U013,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U013,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U013,D097,Haputale,nature;city,badulla,7,0.7296
+U013,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U013,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U013,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U014,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U014,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U014,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U014,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U014,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U014,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U014,D097,Haputale,nature;city,badulla,7,0.7296
+U014,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U014,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U014,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U015,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U015,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U015,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U015,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U015,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U015,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U015,D097,Haputale,nature;city,badulla,7,0.7296
+U015,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U015,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U015,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U016,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U016,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U016,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U016,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U016,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U016,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U016,D097,Haputale,nature;city,badulla,7,0.7296
+U016,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U016,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U016,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U017,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U017,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U017,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U017,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U017,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U017,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U017,D097,Haputale,nature;city,badulla,7,0.7296
+U017,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U017,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U017,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U018,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U018,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U018,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U018,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U018,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U018,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U018,D097,Haputale,nature;city,badulla,7,0.7296
+U018,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U018,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U018,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U019,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U019,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U019,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U019,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U019,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U019,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U019,D097,Haputale,nature;city,badulla,7,0.7296
+U019,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U019,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U019,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U020,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U020,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U020,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U020,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U020,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U020,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U020,D097,Haputale,nature;city,badulla,7,0.7296
+U020,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U020,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U020,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U021,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U021,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U021,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U021,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U021,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U021,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U021,D097,Haputale,nature;city,badulla,7,0.7296
+U021,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U021,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U021,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U022,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U022,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U022,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U022,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U022,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U022,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U022,D097,Haputale,nature;city,badulla,7,0.7296
+U022,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U022,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U022,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U023,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U023,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U023,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U023,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U023,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U023,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U023,D097,Haputale,nature;city,badulla,7,0.7296
+U023,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U023,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U023,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U024,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U024,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U024,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U024,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U024,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U024,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U024,D097,Haputale,nature;city,badulla,7,0.7296
+U024,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U024,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U024,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U025,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U025,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U025,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U025,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U025,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U025,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U025,D097,Haputale,nature;city,badulla,7,0.7296
+U025,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U025,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U025,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U026,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U026,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U026,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U026,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U026,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U026,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U026,D097,Haputale,nature;city,badulla,7,0.7296
+U026,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U026,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U026,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U027,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U027,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U027,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U027,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U027,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U027,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U027,D097,Haputale,nature;city,badulla,7,0.7296
+U027,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U027,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U027,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U028,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U028,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U028,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U028,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U028,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U028,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U028,D097,Haputale,nature;city,badulla,7,0.7296
+U028,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U028,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U028,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U029,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U029,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U029,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U029,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U029,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U029,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U029,D097,Haputale,nature;city,badulla,7,0.7296
+U029,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U029,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U029,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U030,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U030,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U030,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U030,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U030,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U030,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U030,D097,Haputale,nature;city,badulla,7,0.7296
+U030,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U030,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U030,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U031,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U031,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U031,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U031,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U031,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U031,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U031,D097,Haputale,nature;city,badulla,7,0.7296
+U031,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U031,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U031,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U032,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U032,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U032,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U032,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U032,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U032,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U032,D097,Haputale,nature;city,badulla,7,0.7296
+U032,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U032,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U032,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U033,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U033,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U033,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U033,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U033,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U033,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U033,D097,Haputale,nature;city,badulla,7,0.7296
+U033,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U033,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U033,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U034,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U034,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U034,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U034,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U034,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U034,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U034,D097,Haputale,nature;city,badulla,7,0.7296
+U034,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U034,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U034,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U035,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U035,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U035,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U035,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U035,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U035,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U035,D097,Haputale,nature;city,badulla,7,0.7296
+U035,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U035,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U035,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U036,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U036,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U036,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U036,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U036,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U036,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U036,D097,Haputale,nature;city,badulla,7,0.7296
+U036,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U036,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U036,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U037,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U037,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U037,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U037,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U037,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U037,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U037,D097,Haputale,nature;city,badulla,7,0.7296
+U037,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U037,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U037,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U038,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U038,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U038,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U038,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U038,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U038,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U038,D097,Haputale,nature;city,badulla,7,0.7296
+U038,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U038,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U038,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U039,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U039,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U039,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U039,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U039,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U039,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U039,D097,Haputale,nature;city,badulla,7,0.7296
+U039,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U039,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U039,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U040,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U040,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U040,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U040,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U040,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U040,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U040,D097,Haputale,nature;city,badulla,7,0.7296
+U040,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U040,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U040,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U041,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U041,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U041,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U041,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U041,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U041,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U041,D097,Haputale,nature;city,badulla,7,0.7296
+U041,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U041,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U041,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U042,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U042,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U042,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U042,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U042,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U042,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U042,D097,Haputale,nature;city,badulla,7,0.7296
+U042,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U042,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U042,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U043,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U043,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U043,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U043,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U043,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U043,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U043,D097,Haputale,nature;city,badulla,7,0.7296
+U043,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U043,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U043,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U044,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U044,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U044,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U044,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U044,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U044,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U044,D097,Haputale,nature;city,badulla,7,0.7296
+U044,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U044,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U044,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U045,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U045,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U045,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U045,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U045,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U045,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U045,D097,Haputale,nature;city,badulla,7,0.7296
+U045,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U045,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U045,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U046,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U046,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U046,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U046,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U046,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U046,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U046,D097,Haputale,nature;city,badulla,7,0.7296
+U046,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U046,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U046,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U047,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U047,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U047,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U047,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U047,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U047,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U047,D097,Haputale,nature;city,badulla,7,0.7296
+U047,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U047,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U047,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U048,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U048,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U048,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U048,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U048,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U048,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U048,D097,Haputale,nature;city,badulla,7,0.7296
+U048,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U048,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U048,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U049,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U049,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U049,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U049,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U049,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U049,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U049,D097,Haputale,nature;city,badulla,7,0.7296
+U049,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U049,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U049,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333
+U050,D057,Kalpitiya Lagoon,marine;nature,puttalam,1,0.7576333333333334
+U050,D017,Udawattakele Forest Reserve,nature,kandy,2,0.7562666666666666
+U050,D010,Jaffna Fort,heritage,jaffna,3,0.74515
+U050,D031,Nine Arches Bridge,heritage;nature,badulla,4,0.7371500000000001
+U050,D076,Jungle Beach,beach;nature,galle,5,0.7333333333333334
+U050,D087,Kirinda Temple,heritage;coastal,hambantota,6,0.7315333333333334
+U050,D097,Haputale,nature;city,badulla,7,0.7296
+U050,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,8,0.7270833333333333
+U050,D083,Hummanaya Blow Hole,nature;coastal,matara,9,0.7246333333333334
+U050,D035,Diyaluma Falls,nature;adventure,badulla,10,0.7243333333333333

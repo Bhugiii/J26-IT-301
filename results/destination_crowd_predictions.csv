@@ -1,0 +1,101 @@
+destination_id,name,district,category,crowd_score,predicted_crowd_score,predicted_crowd_level
+D001,Sigiriya Rock Fortress,matale,heritage;nature,41,34.23975364264343,High
+D002,Dambulla Cave Temple,matale,heritage,41,38.30918842364532,High
+D003,Minneriya National Park,polonnaruwa,wildlife;nature,35,35.29514128001629,High
+D004,Kaudulla National Park,polonnaruwa,wildlife;nature,33,33.70826513638846,High
+D005,Polonnaruwa Ancient City,polonnaruwa,heritage,32,37.65284461152882,High
+D006,Anuradhapura Sacred City,anuradhapura,heritage;religious,29,32.11721428571429,High
+D007,Ritigala Monastery,anuradhapura,heritage;nature,29,30.538696639747805,High
+D008,Mihintale,anuradhapura,heritage;religious,37,36.36674006648893,High
+D009,Wilpattu National Park,puttalam,wildlife;nature,28,30.689920967190705,High
+D010,Jaffna Fort,jaffna,heritage,30,32.25258333429023,High
+D011,Nallur Kandaswamy Kovil,jaffna,heritage;religious,44,36.14919191868731,High
+D012,Casuarina Beach,jaffna,beach,43,40.59444444444444,High
+D013,Delft Island,jaffna,nature;heritage,36,34.727421945701366,High
+D014,Kandy Temple of the Tooth,kandy,heritage;religious,35,34.4363384189782,High
+D015,Kandy Lake,kandy,nature;city,25,28.161418582375482,High
+D016,Royal Botanical Gardens Peradeniya,kandy,nature,36,34.8748227907822,High
+D017,Udawattakele Forest Reserve,kandy,nature,24,28.01564619883041,High
+D018,Knuckles Mountain Range,matale,nature;adventure,40,34.843888888888884,High
+D019,Hanthana Mountain Range,kandy,nature;adventure,32,35.53963047138048,High
+D020,Nuwara Eliya City,nuwara eliya,city;nature,34,35.155412698412704,High
+D021,Gregory Lake,nuwara eliya,nature,39,37.101701754385964,High
+D022,Horton Plains National Park,nuwara eliya,nature;wildlife,27,29.71699206349207,High
+D023,World's End,nuwara eliya,nature;adventure,30,30.327601917776068,High
+D024,Hakgala Botanical Garden,nuwara eliya,nature,31,31.547186542145596,High
+D025,Ambewela Farm,nuwara eliya,nature;family,27,30.58348809523809,High
+D026,Lover's Leap Waterfall,nuwara eliya,nature,26,29.593357331126732,High
+D027,Ramboda Falls,nuwara eliya,nature,30,31.784455899225296,High
+D028,Pidurutalagala View Area,nuwara eliya,nature,37,34.756458384878904,High
+D029,Ella Rock,badulla,nature;adventure,29,30.601205370609783,High
+D030,Little Adam's Peak,badulla,nature;adventure,39,35.987476190476194,High
+D031,Nine Arches Bridge,badulla,heritage;nature,37,29.195499999999996,High
+D032,Ravana Falls,badulla,nature,33,30.088868874773137,High
+D033,Demodara Railway Loop,badulla,heritage;nature,37,35.379732297916505,High
+D034,Lipton's Seat,badulla,nature,37,30.75,High
+D035,Diyaluma Falls,badulla,nature;adventure,26,28.68648672161173,High
+D036,Dunhinda Falls,badulla,nature,40,36.88816258741259,High
+D037,Buduruwagala,monaragala,heritage,31,32.10872441752557,High
+D038,Gal Oya National Park,ampara,wildlife;nature,36,34.04449935367351,High
+D039,Kumana National Park,ampara,wildlife;nature,38,36.42230092592593,High
+D040,Arugam Bay,ampara,beach;adventure,30,33.70396350757516,High
+D041,Pasikuda Beach,batticaloa,beach,35,34.30670100818637,High
+D042,Batticaloa Fort,batticaloa,heritage,39,36.284209316658846,High
+D043,Nilaveli Beach,trincomalee,beach,31,32.97792875558518,High
+D044,Pigeon Island National Park,trincomalee,marine;nature,33,32.61112752525252,High
+D045,Fort Frederick,trincomalee,heritage,42,30.7975,High
+D046,Koneswaram Temple,trincomalee,heritage;religious,40,32.35530783676144,High
+D047,Marble Beach,trincomalee,beach,33,33.36589303626637,High
+D048,Colombo National Museum,colombo,heritage;culture,26,27.832894736842103,High
+D049,Galle Face Green,colombo,city;coastal,27,28.8825,High
+D050,Gangaramaya Temple,colombo,heritage;religious,33,33.332016424982065,High
+D051,Viharamahadevi Park,colombo,nature;city,29,31.31467467791334,High
+D052,Independence Square,colombo,heritage;city,38,36.69377116402117,High
+D053,Dutch Hospital Colombo,colombo,heritage;city,30,31.637948598872754,High
+D054,Mount Lavinia Beach,colombo,beach,37,37.645309523809516,High
+D055,Negombo Beach,gampaha,beach,32,32.17018501759801,High
+D056,Muthurajawela Wetland,gampaha,nature;wildlife,29,30.51500401592999,High
+D057,Kalpitiya Lagoon,puttalam,marine;nature,39,37.29,High
+D058,Wilpattu Wildlife Area,puttalam,wildlife;nature,30,31.120560660830396,High
+D059,Pinnawala Elephant Orphanage,kegalle,wildlife;family,37,35.750473901959275,High
+D060,Kitulgala,kegalle,adventure;nature,25,28.1630431501548,High
+D061,Belilena Cave,kegalle,heritage;nature,30,29.927790314401623,High
+D062,Adam's Peak,ratnapura,religious;nature,28,28.97799071688546,High
+D063,Sinharaja Forest Reserve,ratnapura,nature;wildlife,26,27.5105,High
+D064,Udawalawe National Park,ratnapura,wildlife;nature,25,27.03333333333333,High
+D065,Udawalawe Elephant Transit Home,ratnapura,wildlife,31,32.39161056695119,High
+D066,Bopath Ella,ratnapura,nature,34,32.90851714169311,High
+D067,Bambarakanda Falls,badulla,nature,28,30.771627066533483,High
+D068,Ratnapura Gem Museum Area,ratnapura,culture;heritage,23,26.34284318555008,High
+D069,Kalutara Bodhiya,kalutara,religious;heritage,43,39.9050873015873,High
+D070,Brief Garden,kalutara,nature,37,35.93825804388191,High
+D071,Bentota Beach,galle,beach;adventure,33,34.07717311940849,High
+D072,Madu River,galle,nature;marine,36,32.671047008547006,High
+D073,Kanneliya Forest Reserve,galle,nature;wildlife,38,36.09902937068378,High
+D074,Galle Fort,galle,heritage;coastal,34,29.360714285714284,High
+D075,Unawatuna Beach,galle,beach,44,39.215,High
+D076,Jungle Beach,galle,beach;nature,36,34.55100666415322,High
+D077,Hikkaduwa National Park,galle,marine;nature,27,30.672404082985977,High
+D078,Rumassala Sanctuary,galle,nature;wildlife,37,31.32123466448353,High
+D079,Mirissa Beach,matara,beach,36,35.96756049014911,High
+D080,Weligama Bay,matara,beach;adventure,25,27.735,High
+D081,Polhena Beach,matara,beach;marine,45,35.79319775132276,High
+D082,Dondra Head,matara,coastal;heritage,42,38.638189570863716,High
+D083,Hummanaya Blow Hole,matara,nature;coastal,34,33.13954424827962,High
+D084,Rekawa Turtle Beach,hambantota,beach;wildlife,35,33.802638262322475,High
+D085,Yala National Park,hambantota,wildlife;nature,34,32.15562762164736,High
+D086,Bundala National Park,hambantota,wildlife;nature,29,29.77993203251427,High
+D087,Kirinda Temple,hambantota,heritage;coastal,31,29.97518842364532,High
+D088,Tangalle Beach,hambantota,beach,37,36.071796884670746,High
+D089,Kalametiya Bird Sanctuary,hambantota,wildlife;nature,36,34.42917447929835,High
+D090,Lunugamvehera National Park,monaragala,wildlife;nature,32,32.30520423947397,High
+D091,Madulsima Mini World's End,badulla,nature;adventure,30,33.39827084985142,High
+D092,Meemure,kandy,nature;village;adventure,21,25.73575,High
+D093,Riverston,matale,nature;adventure,34,33.48006530623947,High
+D094,Sembuwatta Lake,matale,nature,37,34.198843514559144,High
+D095,Aluvihare Rock Temple,matale,heritage;religious,32,33.21546928024083,High
+D096,Wasgamuwa National Park,matale,wildlife;nature,30,31.294525145742064,High
+D097,Haputale,badulla,nature;city,28,29.950137793719694,High
+D098,Ohiya,badulla,nature;adventure,38,35.62021487308988,High
+D099,Baker's Falls,nuwara eliya,nature,34,31.73594305616984,High
+D100,Pekoe Trail - Tea Country Section,nuwara eliya,nature;adventure;culture,39,36.10883404558404,High

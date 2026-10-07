@@ -1,0 +1,101 @@
+destination_id,name,category,district,estimated_cost_lkr,sustainability_score,crowd_score,predicted_crowd_score,predicted_crowd_level,seasonality_score,weather_temp_c,weather_rain_risk,weather_suitability
+D001,Sigiriya Rock Fortress,heritage;nature,matale,12000,57,41,32.39401339835407,Low,58,25.1,0.484,0.516
+D002,Dambulla Cave Temple,heritage,matale,5000,55,41,38.12460379795643,Medium,47,28.9,0.246,0.754
+D003,Minneriya National Park,wildlife;nature,polonnaruwa,15000,70,35,35.323947767145135,Medium,59,24.1,0.618,0.382
+D004,Kaudulla National Park,wildlife;nature,polonnaruwa,15000,64,33,33.004177899072054,Medium,66,28.4,0.634,0.366
+D005,Polonnaruwa Ancient City,heritage,polonnaruwa,5000,58,32,31.190871135356527,Low,62,27.1,0.533,0.467
+D006,Anuradhapura Sacred City,heritage;religious,anuradhapura,5000,61,29,30.234715479015968,Low,52,27.2,0.355,0.645
+D007,Ritigala Monastery,heritage;nature,anuradhapura,5000,60,29,30.390418342500947,Low,53,25.4,0.564,0.436
+D008,Mihintale,heritage;religious,anuradhapura,3000,61,37,34.405824410051366,Medium,57,27.4,0.192,0.808
+D009,Wilpattu National Park,wildlife;nature,puttalam,16000,63,28,31.886877846790878,Low,68,27.6,0.173,0.827
+D010,Jaffna Fort,heritage,jaffna,3000,54,30,32.85257867494825,Low,63,27.2,0.058,0.942
+D011,Nallur Kandaswamy Kovil,heritage;religious,jaffna,3000,61,44,35.36520805498138,Medium,59,24.9,0.354,0.646
+D012,Casuarina Beach,beach,jaffna,4000,58,43,38.8621278998779,Medium,50,29.1,0.134,0.866
+D013,Delft Island,nature;heritage,jaffna,10000,60,36,34.68599264135305,Medium,55,24.6,0.552,0.448
+D014,Kandy Temple of the Tooth,heritage;religious,kandy,4000,56,35,33.81271225311647,Medium,59,28.6,0.396,0.604
+D015,Kandy Lake,nature;city,kandy,2000,63,25,29.22337604016474,Low,53,29.2,0.304,0.696
+D016,Royal Botanical Gardens Peradeniya,nature,kandy,3500,67,36,35.45717362702658,Medium,55,24.8,0.25,0.75
+D017,Udawattakele Forest Reserve,nature,kandy,3000,72,24,28.891241688116683,Low,67,26.1,0.296,0.704
+D018,Knuckles Mountain Range,nature;adventure,matale,10000,63,40,33.78162137379049,Medium,62,29.3,0.476,0.524
+D019,Hanthana Mountain Range,nature;adventure,kandy,5000,62,32,33.087760614824376,Medium,68,27.3,0.216,0.784
+D020,Nuwara Eliya City,city;nature,nuwara eliya,5000,67,34,33.08296827537101,Medium,57,26.2,0.466,0.534
+D021,Gregory Lake,nature,nuwara eliya,3000,61,39,37.00068795093794,Medium,53,24.2,0.417,0.583
+D022,Horton Plains National Park,nature;wildlife,nuwara eliya,7000,65,27,30.186992541430044,Low,64,26.4,0.371,0.629
+D023,World's End,nature;adventure,nuwara eliya,7000,63,30,31.51345397328164,Low,58,28.9,0.539,0.461
+D024,Hakgala Botanical Garden,nature,nuwara eliya,3500,62,31,32.22237631273245,Low,57,25.1,0.054,0.946
+D025,Ambewela Farm,nature;family,nuwara eliya,4000,58,27,32.07933979454758,Low,61,28.7,0.015,0.985
+D026,Lover's Leap Waterfall,nature,nuwara eliya,3000,60,26,30.406839811417317,Low,63,27.1,0.543,0.457
+D027,Ramboda Falls,nature,nuwara eliya,3000,65,30,31.563197814399242,Low,58,26.9,0.607,0.393
+D028,Pidurutalagala View Area,nature,nuwara eliya,3000,60,37,34.07038361366508,Medium,68,26.8,0.399,0.601
+D029,Ella Rock,nature;adventure,badulla,5000,61,29,30.727840681497796,Low,59,29.2,0.607,0.393
+D030,Little Adam's Peak,nature;adventure,badulla,3000,63,39,35.43239272245107,Medium,64,27.0,0.252,0.748
+D031,Nine Arches Bridge,heritage;nature,badulla,3000,66,37,30.33896428571428,Low,68,30.8,0.032,0.968
+D032,Ravana Falls,nature,badulla,3000,65,33,31.449739010989003,Low,59,30.1,0.104,0.896
+D033,Demodara Railway Loop,heritage;nature,badulla,3000,55,37,35.220742805338574,Medium,54,26.2,0.512,0.488
+D034,Lipton's Seat,nature,badulla,4000,67,37,30.580079365079367,Low,64,30.8,0.48,0.52
+D035,Diyaluma Falls,nature;adventure,badulla,5000,67,26,30.11552092352093,Low,62,25.3,0.167,0.833
+D036,Dunhinda Falls,nature,badulla,3000,57,40,37.54301421042725,Medium,52,24.9,0.476,0.524
+D037,Buduruwagala,heritage,monaragala,3000,62,31,32.42629409159014,Low,48,27.3,0.274,0.726
+D038,Gal Oya National Park,wildlife;nature,ampara,15000,65,36,33.38568607012357,Medium,65,26.3,0.374,0.626
+D039,Kumana National Park,wildlife;nature,ampara,15000,69,38,35.700320436507944,Medium,65,27.2,0.154,0.846
+D040,Arugam Bay,beach;adventure,ampara,8000,51,30,32.649231271136856,Low,57,25.0,0.255,0.745
+D041,Pasikuda Beach,beach,batticaloa,7000,58,35,34.23727862951952,Medium,51,27.2,0.249,0.751
+D042,Batticaloa Fort,heritage,batticaloa,3000,57,39,35.92052757766573,Medium,49,27.5,0.582,0.418
+D043,Nilaveli Beach,beach,trincomalee,7000,57,31,33.15998331491094,Medium,48,25.4,0.608,0.392
+D044,Pigeon Island National Park,marine;nature,trincomalee,10000,70,33,32.98638028002442,Low,65,29.0,0.635,0.365
+D045,Fort Frederick,heritage,trincomalee,3000,57,42,30.326710940813594,Low,51,29.9,0.48,0.52
+D046,Koneswaram Temple,heritage;religious,trincomalee,3000,62,40,32.64327493381555,Low,53,28.5,0.229,0.771
+D047,Marble Beach,beach,trincomalee,5000,52,33,33.817135756291385,Medium,61,28.9,0.259,0.741
+D048,Colombo National Museum,heritage;culture,colombo,3000,58,26,29.084063504916152,Low,53,30.8,0.564,0.436
+D049,Galle Face Green,city;coastal,colombo,2000,55,27,29.169311507936527,Low,55,30.9,0.548,0.452
+D050,Gangaramaya Temple,heritage;religious,colombo,3000,62,33,33.4456254379296,Medium,58,26.3,0.211,0.789
+D051,Viharamahadevi Park,nature;city,colombo,2000,58,29,32.05984705342108,Low,56,28.4,0.197,0.803
+D052,Independence Square,heritage;city,colombo,2000,60,38,36.89757229123533,Medium,49,24.4,0.257,0.743
+D053,Dutch Hospital Colombo,heritage;city,colombo,5000,60,30,33.808424859497215,Medium,63,24.3,0.327,0.673
+D054,Mount Lavinia Beach,beach,colombo,5000,59,37,31.827333453739904,Low,62,25.7,0.332,0.668
+D055,Negombo Beach,beach,gampaha,5000,57,32,32.97418191385391,Low,52,25.6,0.253,0.747
+D056,Muthurajawela Wetland,nature;wildlife,gampaha,5000,62,29,30.473456945479775,Low,60,25.0,0.642,0.358
+D057,Kalpitiya Lagoon,marine;nature,puttalam,7000,72,39,34.88804178338002,Medium,61,29.7,0.004,0.996
+D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,16000,68,30,31.51674553065613,Low,53,27.9,0.43,0.57
+D059,Pinnawala Elephant Orphanage,wildlife;family,kegalle,8000,62,37,34.29655796191314,Medium,50,27.6,0.216,0.784
+D060,Kitulgala,adventure;nature,kegalle,9000,57,25,29.21970517441428,Low,58,27.4,0.521,0.479
+D061,Belilena Cave,heritage;nature,kegalle,3000,61,30,29.283539682539686,Low,68,29.9,0.335,0.665
+D062,Adam's Peak,religious;nature,ratnapura,5000,62,28,30.012362234663996,Low,65,27.5,0.372,0.628
+D063,Sinharaja Forest Reserve,nature;wildlife,ratnapura,8000,69,26,28.978210317460302,Low,67,29.4,0.261,0.739
+D064,Udawalawe National Park,wildlife;nature,ratnapura,15000,64,25,27.644583333333333,Low,66,29.9,0.244,0.756
+D065,Udawalawe Elephant Transit Home,wildlife,ratnapura,5000,65,31,32.41671822798978,Low,57,26.5,0.236,0.764
+D066,Bopath Ella,nature,ratnapura,3000,57,34,33.713491242495095,Medium,56,28.7,0.611,0.389
+D067,Bambarakanda Falls,nature,badulla,3000,62,28,30.775052933556008,Low,53,25.0,0.643,0.357
+D068,Ratnapura Gem Museum Area,culture;heritage,ratnapura,4000,56,23,28.451238031576263,Low,62,29.8,0.086,0.914
+D069,Kalutara Bodhiya,religious;heritage,kalutara,3000,55,43,37.83095056935817,Medium,63,26.5,0.156,0.844
+D070,Brief Garden,nature,kalutara,4000,59,37,35.6033150762281,Medium,67,26.8,0.056,0.944
+D071,Bentota Beach,beach;adventure,galle,7000,58,33,33.550113817379476,Medium,49,25.4,0.36,0.64
+D072,Madu River,nature;marine,galle,7000,68,36,32.241427124183,Low,56,29.9,0.481,0.519
+D073,Kanneliya Forest Reserve,nature;wildlife,galle,7000,62,38,35.52430270628811,Medium,63,24.6,0.353,0.647
+D074,Galle Fort,heritage;coastal,galle,5000,55,34,32.74346094081358,Low,49,29.6,0.379,0.621
+D075,Unawatuna Beach,beach,galle,6000,58,44,36.30789994641581,Medium,54,29.4,0.624,0.376
+D076,Jungle Beach,beach;nature,galle,5000,65,36,34.60115895093469,Medium,52,28.7,0.109,0.891
+D077,Hikkaduwa National Park,marine;nature,galle,7000,63,27,30.240530403213924,Low,47,30.2,0.465,0.535
+D078,Rumassala Sanctuary,nature;wildlife,galle,4000,72,37,31.566973196984495,Low,58,27.1,0.504,0.496
+D079,Mirissa Beach,beach,matara,6000,56,36,34.95914087301587,Medium,63,24.2,0.301,0.699
+D080,Weligama Bay,beach;adventure,matara,6000,53,25,28.158017857142863,Low,47,29.9,0.049,0.951
+D081,Polhena Beach,beach;marine,matara,5000,57,45,34.56559698879552,Medium,55,24.6,0.007,0.993
+D082,Dondra Head,coastal;heritage,matara,3000,60,42,37.756684704184686,Medium,62,24.5,0.566,0.434
+D083,Hummanaya Blow Hole,nature;coastal,matara,3000,58,34,33.84779162745467,Medium,67,25.9,0.173,0.827
+D084,Rekawa Turtle Beach,beach;wildlife,hambantota,5000,66,35,31.652076811206534,Low,60,25.6,0.455,0.545
+D085,Yala National Park,wildlife;nature,hambantota,16000,66,34,33.36449558748785,Medium,63,26.6,0.632,0.368
+D086,Bundala National Park,wildlife;nature,hambantota,12000,66,29,30.987902512994438,Low,57,27.8,0.235,0.765
+D087,Kirinda Temple,heritage;coastal,hambantota,3000,53,31,28.972251984126977,Low,61,30.1,0.023,0.977
+D088,Tangalle Beach,beach,hambantota,5000,55,37,35.59599026577287,Medium,61,28.8,0.061,0.939
+D089,Kalametiya Bird Sanctuary,wildlife;nature,hambantota,5000,69,36,32.80298377376152,Low,53,26.4,0.543,0.457
+D090,Lunugamvehera National Park,wildlife;nature,monaragala,12000,71,32,31.940196613136628,Low,57,25.8,0.202,0.798
+D091,Madulsima Mini World's End,nature;adventure,badulla,5000,65,30,31.0521849156408,Low,58,25.3,0.596,0.404
+D092,Meemure,nature;village;adventure,kandy,8000,63,21,27.870369134090883,Low,52,29.4,0.503,0.497
+D093,Riverston,nature;adventure,matale,6000,57,34,34.43166150267749,Medium,58,24.8,0.299,0.701
+D094,Sembuwatta Lake,nature,matale,5000,64,37,33.44835720550408,Medium,56,25.1,0.172,0.828
+D095,Aluvihare Rock Temple,heritage;religious,matale,3000,53,32,33.83615581525458,Medium,50,28.5,0.205,0.795
+D096,Wasgamuwa National Park,wildlife;nature,matale,14000,65,30,31.542775209484386,Low,57,26.5,0.396,0.604
+D097,Haputale,nature;city,badulla,4000,61,28,30.47437829685945,Low,52,25.1,0.164,0.836
+D098,Ohiya,nature;adventure,badulla,5000,63,38,35.161483212421984,Medium,66,27.9,0.175,0.825
+D099,Baker's Falls,nature,nuwara eliya,3000,64,34,31.57728330309182,Low,58,30.5,0.544,0.456
+D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,7000,59,39,36.164156983367505,Medium,62,27.1,0.034,0.966

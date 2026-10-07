@@ -1,0 +1,501 @@
+user_id,destination_id,name,category,district,content_similarity,rank
+U001,D053,Dutch Hospital Colombo,heritage;city,colombo,0.284874498994234,1
+U001,D051,Viharamahadevi Park,nature;city,colombo,0.2842568759969056,2
+U001,D048,Colombo National Museum,heritage;culture,colombo,0.2834900488355375,3
+U001,D052,Independence Square,heritage;city,colombo,0.22395967410607506,4
+U001,D034,Lipton's Seat,nature,badulla,0.21590519664152072,5
+U001,D093,Riverston,nature;adventure,matale,0.21414761804311638,6
+U001,D028,Pidurutalagala View Area,nature,nuwara eliya,0.203145706336157,7
+U001,D050,Gangaramaya Temple,heritage;religious,colombo,0.20135921236113768,8
+U001,D032,Ravana Falls,nature,badulla,0.19786493670409713,9
+U001,D027,Ramboda Falls,nature,nuwara eliya,0.18208756541845975,10
+U002,D088,Tangalle Beach,beach,hambantota,0.4998953527623206,1
+U002,D041,Pasikuda Beach,beach,batticaloa,0.4449616587138766,2
+U002,D047,Marble Beach,beach,trincomalee,0.4373435518838006,3
+U002,D012,Casuarina Beach,beach,jaffna,0.4282441145418613,4
+U002,D043,Nilaveli Beach,beach,trincomalee,0.4120642009593676,5
+U002,D079,Mirissa Beach,beach,matara,0.4049577795348736,6
+U002,D055,Negombo Beach,beach,gampaha,0.40205782252475875,7
+U002,D054,Mount Lavinia Beach,beach,colombo,0.3804378714757783,8
+U002,D015,Kandy Lake,nature;city,kandy,0.336048841061645,9
+U002,D075,Unawatuna Beach,beach,galle,0.31655796827564125,10
+U003,D037,Buduruwagala,heritage,monaragala,0.32303622425026207,1
+U003,D042,Batticaloa Fort,heritage,batticaloa,0.29160783517905703,2
+U003,D045,Fort Frederick,heritage,trincomalee,0.2902743378621989,3
+U003,D001,Sigiriya Rock Fortress,heritage;nature,matale,0.2864331063089148,4
+U003,D008,Mihintale,heritage;religious,anuradhapura,0.27653237161759037,5
+U003,D010,Jaffna Fort,heritage,jaffna,0.27386447013326776,6
+U003,D002,Dambulla Cave Temple,heritage,matale,0.26909683867770434,7
+U003,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.26462255599633444,8
+U003,D014,Kandy Temple of the Tooth,heritage;religious,kandy,0.26177147983902155,9
+U003,D074,Galle Fort,heritage;coastal,galle,0.2611652258323102,10
+U004,D055,Negombo Beach,beach,gampaha,0.2860117322467621,1
+U004,D004,Kaudulla National Park,wildlife;nature,polonnaruwa,0.23583955429683962,2
+U004,D003,Minneriya National Park,wildlife;nature,polonnaruwa,0.23583955429683962,3
+U004,D073,Kanneliya Forest Reserve,nature;wildlife,galle,0.22254758111916217,4
+U004,D059,Pinnawala Elephant Orphanage,wildlife;family,kegalle,0.21630038180808575,5
+U004,D089,Kalametiya Bird Sanctuary,wildlife;nature,hambantota,0.2084227340464471,6
+U004,D022,Horton Plains National Park,nature;wildlife,nuwara eliya,0.20525985319812817,7
+U004,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.20345347141980044,8
+U004,D065,Udawalawe Elephant Transit Home,wildlife,ratnapura,0.18972820028271897,9
+U004,D057,Kalpitiya Lagoon,marine;nature,puttalam,0.1845275964627901,10
+U005,D093,Riverston,nature;adventure,matale,0.42901053736090006,1
+U005,D029,Ella Rock,nature;adventure,badulla,0.3515064331500864,2
+U005,D023,World's End,nature;adventure,nuwara eliya,0.3143803168755168,3
+U005,D030,Little Adam's Peak,nature;adventure,badulla,0.29548969790246044,4
+U005,D019,Hanthana Mountain Range,nature;adventure,kandy,0.2790342541743235,5
+U005,D018,Knuckles Mountain Range,nature;adventure,matale,0.2778641209906338,6
+U005,D091,Madulsima Mini World's End,nature;adventure,badulla,0.2720558949532456,7
+U005,D080,Weligama Bay,beach;adventure,matara,0.2713408195205654,8
+U005,D098,Ohiya,nature;adventure,badulla,0.2066587222152273,9
+U005,D035,Diyaluma Falls,nature;adventure,badulla,0.19496488614267904,10
+U006,D074,Galle Fort,heritage;coastal,galle,0.3218136585534104,1
+U006,D049,Galle Face Green,city;coastal,colombo,0.2429228821526011,2
+U006,D053,Dutch Hospital Colombo,heritage;city,colombo,0.18763343768796442,3
+U006,D079,Mirissa Beach,beach,matara,0.1538649584654967,4
+U006,D055,Negombo Beach,beach,gampaha,0.1527631108471461,5
+U006,D054,Mount Lavinia Beach,beach,colombo,0.14454854370387932,6
+U006,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,0.14061363890546164,7
+U006,D075,Unawatuna Beach,beach,galle,0.1399391676430993,8
+U006,D078,Rumassala Sanctuary,nature;wildlife,galle,0.13441589390340936,9
+U006,D020,Nuwara Eliya City,city;nature,nuwara eliya,0.1263486165417265,10
+U007,D067,Bambarakanda Falls,nature,badulla,0.4810436592632569,1
+U007,D099,Baker's Falls,nature,nuwara eliya,0.42763002708435327,2
+U007,D036,Dunhinda Falls,nature,badulla,0.38940009664110864,3
+U007,D098,Ohiya,nature;adventure,badulla,0.3707399800803636,4
+U007,D035,Diyaluma Falls,nature;adventure,badulla,0.34976156452583196,5
+U007,D017,Udawattakele Forest Reserve,nature,kandy,0.3491274546625799,6
+U007,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.34449095846089606,7
+U007,D092,Meemure,nature;village;adventure,kandy,0.32617226214164063,8
+U007,D078,Rumassala Sanctuary,nature;wildlife,galle,0.31508784901946796,9
+U007,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.2937344106169119,10
+U008,D071,Bentota Beach,beach;adventure,galle,0.46646400655534637,1
+U008,D080,Weligama Bay,beach;adventure,matara,0.39503470860672896,2
+U008,D040,Arugam Bay,beach;adventure,ampara,0.3868914484992647,3
+U008,D041,Pasikuda Beach,beach,batticaloa,0.29963595875830284,4
+U008,D043,Nilaveli Beach,beach,trincomalee,0.2774829010690749,5
+U008,D055,Negombo Beach,beach,gampaha,0.27074463331670573,6
+U008,D088,Tangalle Beach,beach,hambantota,0.24085153263595635,7
+U008,D075,Unawatuna Beach,beach,galle,0.21772273703387196,8
+U008,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.2140486666769342,9
+U008,D047,Marble Beach,beach,trincomalee,0.2107138307599923,10
+U009,D048,Colombo National Museum,heritage;culture,colombo,0.4738221272656989,1
+U009,D050,Gangaramaya Temple,heritage;religious,colombo,0.3599168963586899,2
+U009,D046,Koneswaram Temple,heritage;religious,trincomalee,0.3548994642936122,3
+U009,D068,Ratnapura Gem Museum Area,culture;heritage,ratnapura,0.293898803824725,4
+U009,D033,Demodara Railway Loop,heritage;nature,badulla,0.26133591091234065,5
+U009,D031,Nine Arches Bridge,heritage;nature,badulla,0.2359825580146977,6
+U009,D042,Batticaloa Fort,heritage,batticaloa,0.19587313871376033,7
+U009,D045,Fort Frederick,heritage,trincomalee,0.19497742785345717,8
+U009,D010,Jaffna Fort,heritage,jaffna,0.18395491093113325,9
+U009,D002,Dambulla Cave Temple,heritage,matale,0.18075249033479282,10
+U010,D085,Yala National Park,wildlife;nature,hambantota,0.42424399932148577,1
+U010,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.41601543729534507,2
+U010,D096,Wasgamuwa National Park,wildlife;nature,matale,0.41306640986578613,3
+U010,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.38316817681483695,4
+U010,D010,Jaffna Fort,heritage,jaffna,0.37674642169452627,5
+U010,D090,Lunugamvehera National Park,wildlife;nature,monaragala,0.37239760371774777,6
+U010,D009,Wilpattu National Park,wildlife;nature,puttalam,0.3678726708958322,7
+U010,D086,Bundala National Park,wildlife;nature,hambantota,0.34450660257482224,8
+U010,D038,Gal Oya National Park,wildlife;nature,ampara,0.32727581299240543,9
+U010,D078,Rumassala Sanctuary,nature;wildlife,galle,0.2809856097130027,10
+U011,D053,Dutch Hospital Colombo,heritage;city,colombo,0.284874498994234,1
+U011,D051,Viharamahadevi Park,nature;city,colombo,0.2842568759969056,2
+U011,D048,Colombo National Museum,heritage;culture,colombo,0.2834900488355375,3
+U011,D052,Independence Square,heritage;city,colombo,0.22395967410607506,4
+U011,D034,Lipton's Seat,nature,badulla,0.21590519664152072,5
+U011,D093,Riverston,nature;adventure,matale,0.21414761804311638,6
+U011,D028,Pidurutalagala View Area,nature,nuwara eliya,0.203145706336157,7
+U011,D050,Gangaramaya Temple,heritage;religious,colombo,0.20135921236113768,8
+U011,D032,Ravana Falls,nature,badulla,0.19786493670409713,9
+U011,D027,Ramboda Falls,nature,nuwara eliya,0.18208756541845975,10
+U012,D041,Pasikuda Beach,beach,batticaloa,0.4912249839698499,1
+U012,D043,Nilaveli Beach,beach,trincomalee,0.4549071286184096,2
+U012,D088,Tangalle Beach,beach,hambantota,0.4497508293148193,3
+U012,D055,Negombo Beach,beach,gampaha,0.44386037213978524,4
+U012,D047,Marble Beach,beach,trincomalee,0.39347360216158794,5
+U012,D012,Casuarina Beach,beach,jaffna,0.38528692975461076,6
+U012,D079,Mirissa Beach,beach,matara,0.3643364479723267,7
+U012,D054,Mount Lavinia Beach,beach,colombo,0.34227613290165526,8
+U012,D071,Bentota Beach,beach;adventure,galle,0.33187144115160905,9
+U012,D015,Kandy Lake,nature;city,kandy,0.3023397679586325,10
+U013,D037,Buduruwagala,heritage,monaragala,0.32303622425026207,1
+U013,D042,Batticaloa Fort,heritage,batticaloa,0.29160783517905703,2
+U013,D045,Fort Frederick,heritage,trincomalee,0.2902743378621989,3
+U013,D001,Sigiriya Rock Fortress,heritage;nature,matale,0.2864331063089148,4
+U013,D008,Mihintale,heritage;religious,anuradhapura,0.27653237161759037,5
+U013,D010,Jaffna Fort,heritage,jaffna,0.27386447013326776,6
+U013,D002,Dambulla Cave Temple,heritage,matale,0.26909683867770434,7
+U013,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.26462255599633444,8
+U013,D014,Kandy Temple of the Tooth,heritage;religious,kandy,0.26177147983902155,9
+U013,D074,Galle Fort,heritage;coastal,galle,0.2611652258323102,10
+U014,D004,Kaudulla National Park,wildlife;nature,polonnaruwa,0.2581878808084284,1
+U014,D003,Minneriya National Park,wildlife;nature,polonnaruwa,0.2581878808084284,2
+U014,D073,Kanneliya Forest Reserve,nature;wildlife,galle,0.2436363506516696,3
+U014,D055,Negombo Beach,beach,gampaha,0.2292871182668462,4
+U014,D089,Kalametiya Bird Sanctuary,wildlife;nature,hambantota,0.22817302286799634,5
+U014,D022,Horton Plains National Park,nature;wildlife,nuwara eliya,0.22471042514594847,6
+U014,D057,Kalpitiya Lagoon,marine;nature,puttalam,0.20201356478750376,7
+U014,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.17320823758436252,8
+U014,D085,Yala National Park,wildlife;nature,hambantota,0.14427020888322645,9
+U014,D096,Wasgamuwa National Park,wildlife;nature,matale,0.140469110533777,10
+U015,D093,Riverston,nature;adventure,matale,0.42901053736090006,1
+U015,D029,Ella Rock,nature;adventure,badulla,0.3515064331500864,2
+U015,D023,World's End,nature;adventure,nuwara eliya,0.3143803168755168,3
+U015,D030,Little Adam's Peak,nature;adventure,badulla,0.29548969790246044,4
+U015,D019,Hanthana Mountain Range,nature;adventure,kandy,0.2790342541743235,5
+U015,D018,Knuckles Mountain Range,nature;adventure,matale,0.2778641209906338,6
+U015,D091,Madulsima Mini World's End,nature;adventure,badulla,0.2720558949532456,7
+U015,D080,Weligama Bay,beach;adventure,matara,0.2713408195205654,8
+U015,D098,Ohiya,nature;adventure,badulla,0.2066587222152273,9
+U015,D035,Diyaluma Falls,nature;adventure,badulla,0.19496488614267904,10
+U016,D049,Galle Face Green,city;coastal,colombo,0.2919360965158286,1
+U016,D074,Galle Fort,heritage;coastal,galle,0.28385832408203354,2
+U016,D055,Negombo Beach,beach,gampaha,0.22339102827352758,3
+U016,D071,Bentota Beach,beach;adventure,galle,0.1963036958319811,4
+U016,D025,Ambewela Farm,nature;family,nuwara eliya,0.1753758481152303,5
+U016,D053,Dutch Hospital Colombo,heritage;city,colombo,0.1655035818034325,6
+U016,D059,Pinnawala Elephant Orphanage,wildlife;family,kegalle,0.14687817445846466,7
+U016,D079,Mirissa Beach,beach,matara,0.13571782329344123,8
+U016,D054,Mount Lavinia Beach,beach,colombo,0.12750020477291807,9
+U016,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,0.12402939036894889,10
+U017,D067,Bambarakanda Falls,nature,badulla,0.4810436592632569,1
+U017,D099,Baker's Falls,nature,nuwara eliya,0.42763002708435327,2
+U017,D036,Dunhinda Falls,nature,badulla,0.38940009664110864,3
+U017,D098,Ohiya,nature;adventure,badulla,0.3707399800803636,4
+U017,D035,Diyaluma Falls,nature;adventure,badulla,0.34976156452583196,5
+U017,D017,Udawattakele Forest Reserve,nature,kandy,0.3491274546625799,6
+U017,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.34449095846089606,7
+U017,D092,Meemure,nature;village;adventure,kandy,0.32617226214164063,8
+U017,D078,Rumassala Sanctuary,nature;wildlife,galle,0.31508784901946796,9
+U017,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.2937344106169119,10
+U018,D080,Weligama Bay,beach;adventure,matara,0.4329869787109365,1
+U018,D071,Bentota Beach,beach;adventure,galle,0.4277670276053292,2
+U018,D040,Arugam Bay,beach;adventure,ampara,0.42406136910254527,3
+U018,D088,Tangalle Beach,beach,hambantota,0.2639909232324222,4
+U018,D075,Unawatuna Beach,beach,galle,0.23864006896371773,5
+U018,D041,Pasikuda Beach,beach,batticaloa,0.23498085836928423,6
+U018,D047,Marble Beach,beach,trincomalee,0.2309577942534808,7
+U018,D012,Casuarina Beach,beach,jaffna,0.22615245079205387,8
+U018,D043,Nilaveli Beach,beach,trincomalee,0.21760796182879244,9
+U018,D079,Mirissa Beach,beach,matara,0.21385511487319608,10
+U019,D048,Colombo National Museum,heritage;culture,colombo,0.4738221272656989,1
+U019,D050,Gangaramaya Temple,heritage;religious,colombo,0.3599168963586899,2
+U019,D046,Koneswaram Temple,heritage;religious,trincomalee,0.3548994642936122,3
+U019,D068,Ratnapura Gem Museum Area,culture;heritage,ratnapura,0.293898803824725,4
+U019,D033,Demodara Railway Loop,heritage;nature,badulla,0.26133591091234065,5
+U019,D031,Nine Arches Bridge,heritage;nature,badulla,0.2359825580146977,6
+U019,D042,Batticaloa Fort,heritage,batticaloa,0.19587313871376033,7
+U019,D045,Fort Frederick,heritage,trincomalee,0.19497742785345717,8
+U019,D010,Jaffna Fort,heritage,jaffna,0.18395491093113325,9
+U019,D002,Dambulla Cave Temple,heritage,matale,0.18075249033479282,10
+U020,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.43571145247938586,1
+U020,D085,Yala National Park,wildlife;nature,hambantota,0.37475916919860686,2
+U020,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.3674904062377927,3
+U020,D096,Wasgamuwa National Park,wildlife;nature,matale,0.36488536038867525,4
+U020,D010,Jaffna Fort,heritage,jaffna,0.3328018221085023,5
+U020,D090,Lunugamvehera National Park,wildlife;nature,monaragala,0.32896026061422057,6
+U020,D009,Wilpattu National Park,wildlife;nature,puttalam,0.3249631267296337,7
+U020,D086,Bundala National Park,wildlife;nature,hambantota,0.30432253224762684,8
+U020,D038,Gal Oya National Park,wildlife;nature,ampara,0.2891015829852444,9
+U020,D078,Rumassala Sanctuary,nature;wildlife,galle,0.24821077922427523,10
+U021,D053,Dutch Hospital Colombo,heritage;city,colombo,0.284874498994234,1
+U021,D051,Viharamahadevi Park,nature;city,colombo,0.2842568759969056,2
+U021,D048,Colombo National Museum,heritage;culture,colombo,0.2834900488355375,3
+U021,D052,Independence Square,heritage;city,colombo,0.22395967410607506,4
+U021,D034,Lipton's Seat,nature,badulla,0.21590519664152072,5
+U021,D093,Riverston,nature;adventure,matale,0.21414761804311638,6
+U021,D028,Pidurutalagala View Area,nature,nuwara eliya,0.203145706336157,7
+U021,D050,Gangaramaya Temple,heritage;religious,colombo,0.20135921236113768,8
+U021,D032,Ravana Falls,nature,badulla,0.19786493670409713,9
+U021,D027,Ramboda Falls,nature,nuwara eliya,0.18208756541845975,10
+U022,D088,Tangalle Beach,beach,hambantota,0.4998953527623206,1
+U022,D041,Pasikuda Beach,beach,batticaloa,0.4449616587138766,2
+U022,D047,Marble Beach,beach,trincomalee,0.4373435518838006,3
+U022,D012,Casuarina Beach,beach,jaffna,0.4282441145418613,4
+U022,D043,Nilaveli Beach,beach,trincomalee,0.4120642009593676,5
+U022,D079,Mirissa Beach,beach,matara,0.4049577795348736,6
+U022,D055,Negombo Beach,beach,gampaha,0.40205782252475875,7
+U022,D054,Mount Lavinia Beach,beach,colombo,0.3804378714757783,8
+U022,D015,Kandy Lake,nature;city,kandy,0.336048841061645,9
+U022,D075,Unawatuna Beach,beach,galle,0.31655796827564125,10
+U023,D037,Buduruwagala,heritage,monaragala,0.32303622425026207,1
+U023,D042,Batticaloa Fort,heritage,batticaloa,0.29160783517905703,2
+U023,D045,Fort Frederick,heritage,trincomalee,0.2902743378621989,3
+U023,D001,Sigiriya Rock Fortress,heritage;nature,matale,0.2864331063089148,4
+U023,D008,Mihintale,heritage;religious,anuradhapura,0.27653237161759037,5
+U023,D010,Jaffna Fort,heritage,jaffna,0.27386447013326776,6
+U023,D002,Dambulla Cave Temple,heritage,matale,0.26909683867770434,7
+U023,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.26462255599633444,8
+U023,D014,Kandy Temple of the Tooth,heritage;religious,kandy,0.26177147983902155,9
+U023,D074,Galle Fort,heritage;coastal,galle,0.2611652258323102,10
+U024,D055,Negombo Beach,beach,gampaha,0.2860117322467621,1
+U024,D004,Kaudulla National Park,wildlife;nature,polonnaruwa,0.23583955429683962,2
+U024,D003,Minneriya National Park,wildlife;nature,polonnaruwa,0.23583955429683962,3
+U024,D073,Kanneliya Forest Reserve,nature;wildlife,galle,0.22254758111916217,4
+U024,D059,Pinnawala Elephant Orphanage,wildlife;family,kegalle,0.21630038180808575,5
+U024,D089,Kalametiya Bird Sanctuary,wildlife;nature,hambantota,0.2084227340464471,6
+U024,D022,Horton Plains National Park,nature;wildlife,nuwara eliya,0.20525985319812817,7
+U024,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.20345347141980044,8
+U024,D065,Udawalawe Elephant Transit Home,wildlife,ratnapura,0.18972820028271897,9
+U024,D057,Kalpitiya Lagoon,marine;nature,puttalam,0.1845275964627901,10
+U025,D093,Riverston,nature;adventure,matale,0.42901053736090006,1
+U025,D029,Ella Rock,nature;adventure,badulla,0.3515064331500864,2
+U025,D023,World's End,nature;adventure,nuwara eliya,0.3143803168755168,3
+U025,D030,Little Adam's Peak,nature;adventure,badulla,0.29548969790246044,4
+U025,D019,Hanthana Mountain Range,nature;adventure,kandy,0.2790342541743235,5
+U025,D018,Knuckles Mountain Range,nature;adventure,matale,0.2778641209906338,6
+U025,D091,Madulsima Mini World's End,nature;adventure,badulla,0.2720558949532456,7
+U025,D080,Weligama Bay,beach;adventure,matara,0.2713408195205654,8
+U025,D098,Ohiya,nature;adventure,badulla,0.2066587222152273,9
+U025,D035,Diyaluma Falls,nature;adventure,badulla,0.19496488614267904,10
+U026,D074,Galle Fort,heritage;coastal,galle,0.3218136585534104,1
+U026,D049,Galle Face Green,city;coastal,colombo,0.2429228821526011,2
+U026,D053,Dutch Hospital Colombo,heritage;city,colombo,0.18763343768796442,3
+U026,D079,Mirissa Beach,beach,matara,0.1538649584654967,4
+U026,D055,Negombo Beach,beach,gampaha,0.1527631108471461,5
+U026,D054,Mount Lavinia Beach,beach,colombo,0.14454854370387932,6
+U026,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,0.14061363890546164,7
+U026,D075,Unawatuna Beach,beach,galle,0.1399391676430993,8
+U026,D078,Rumassala Sanctuary,nature;wildlife,galle,0.13441589390340936,9
+U026,D020,Nuwara Eliya City,city;nature,nuwara eliya,0.1263486165417265,10
+U027,D067,Bambarakanda Falls,nature,badulla,0.4810436592632569,1
+U027,D099,Baker's Falls,nature,nuwara eliya,0.42763002708435327,2
+U027,D036,Dunhinda Falls,nature,badulla,0.38940009664110864,3
+U027,D098,Ohiya,nature;adventure,badulla,0.3707399800803636,4
+U027,D035,Diyaluma Falls,nature;adventure,badulla,0.34976156452583196,5
+U027,D017,Udawattakele Forest Reserve,nature,kandy,0.3491274546625799,6
+U027,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.34449095846089606,7
+U027,D092,Meemure,nature;village;adventure,kandy,0.32617226214164063,8
+U027,D078,Rumassala Sanctuary,nature;wildlife,galle,0.31508784901946796,9
+U027,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.2937344106169119,10
+U028,D071,Bentota Beach,beach;adventure,galle,0.46646400655534637,1
+U028,D080,Weligama Bay,beach;adventure,matara,0.39503470860672896,2
+U028,D040,Arugam Bay,beach;adventure,ampara,0.3868914484992647,3
+U028,D041,Pasikuda Beach,beach,batticaloa,0.29963595875830284,4
+U028,D043,Nilaveli Beach,beach,trincomalee,0.2774829010690749,5
+U028,D055,Negombo Beach,beach,gampaha,0.27074463331670573,6
+U028,D088,Tangalle Beach,beach,hambantota,0.24085153263595635,7
+U028,D075,Unawatuna Beach,beach,galle,0.21772273703387196,8
+U028,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.2140486666769342,9
+U028,D047,Marble Beach,beach,trincomalee,0.2107138307599923,10
+U029,D048,Colombo National Museum,heritage;culture,colombo,0.4738221272656989,1
+U029,D050,Gangaramaya Temple,heritage;religious,colombo,0.3599168963586899,2
+U029,D046,Koneswaram Temple,heritage;religious,trincomalee,0.3548994642936122,3
+U029,D068,Ratnapura Gem Museum Area,culture;heritage,ratnapura,0.293898803824725,4
+U029,D033,Demodara Railway Loop,heritage;nature,badulla,0.26133591091234065,5
+U029,D031,Nine Arches Bridge,heritage;nature,badulla,0.2359825580146977,6
+U029,D042,Batticaloa Fort,heritage,batticaloa,0.19587313871376033,7
+U029,D045,Fort Frederick,heritage,trincomalee,0.19497742785345717,8
+U029,D010,Jaffna Fort,heritage,jaffna,0.18395491093113325,9
+U029,D002,Dambulla Cave Temple,heritage,matale,0.18075249033479282,10
+U030,D085,Yala National Park,wildlife;nature,hambantota,0.42424399932148577,1
+U030,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.41601543729534507,2
+U030,D096,Wasgamuwa National Park,wildlife;nature,matale,0.41306640986578613,3
+U030,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.38316817681483695,4
+U030,D010,Jaffna Fort,heritage,jaffna,0.37674642169452627,5
+U030,D090,Lunugamvehera National Park,wildlife;nature,monaragala,0.37239760371774777,6
+U030,D009,Wilpattu National Park,wildlife;nature,puttalam,0.3678726708958322,7
+U030,D086,Bundala National Park,wildlife;nature,hambantota,0.34450660257482224,8
+U030,D038,Gal Oya National Park,wildlife;nature,ampara,0.32727581299240543,9
+U030,D078,Rumassala Sanctuary,nature;wildlife,galle,0.2809856097130027,10
+U031,D053,Dutch Hospital Colombo,heritage;city,colombo,0.284874498994234,1
+U031,D051,Viharamahadevi Park,nature;city,colombo,0.2842568759969056,2
+U031,D048,Colombo National Museum,heritage;culture,colombo,0.2834900488355375,3
+U031,D052,Independence Square,heritage;city,colombo,0.22395967410607506,4
+U031,D034,Lipton's Seat,nature,badulla,0.21590519664152072,5
+U031,D093,Riverston,nature;adventure,matale,0.21414761804311638,6
+U031,D028,Pidurutalagala View Area,nature,nuwara eliya,0.203145706336157,7
+U031,D050,Gangaramaya Temple,heritage;religious,colombo,0.20135921236113768,8
+U031,D032,Ravana Falls,nature,badulla,0.19786493670409713,9
+U031,D027,Ramboda Falls,nature,nuwara eliya,0.18208756541845975,10
+U032,D041,Pasikuda Beach,beach,batticaloa,0.4912249839698499,1
+U032,D043,Nilaveli Beach,beach,trincomalee,0.4549071286184096,2
+U032,D088,Tangalle Beach,beach,hambantota,0.4497508293148193,3
+U032,D055,Negombo Beach,beach,gampaha,0.44386037213978524,4
+U032,D047,Marble Beach,beach,trincomalee,0.39347360216158794,5
+U032,D012,Casuarina Beach,beach,jaffna,0.38528692975461076,6
+U032,D079,Mirissa Beach,beach,matara,0.3643364479723267,7
+U032,D054,Mount Lavinia Beach,beach,colombo,0.34227613290165526,8
+U032,D071,Bentota Beach,beach;adventure,galle,0.33187144115160905,9
+U032,D015,Kandy Lake,nature;city,kandy,0.3023397679586325,10
+U033,D037,Buduruwagala,heritage,monaragala,0.32303622425026207,1
+U033,D042,Batticaloa Fort,heritage,batticaloa,0.29160783517905703,2
+U033,D045,Fort Frederick,heritage,trincomalee,0.2902743378621989,3
+U033,D001,Sigiriya Rock Fortress,heritage;nature,matale,0.2864331063089148,4
+U033,D008,Mihintale,heritage;religious,anuradhapura,0.27653237161759037,5
+U033,D010,Jaffna Fort,heritage,jaffna,0.27386447013326776,6
+U033,D002,Dambulla Cave Temple,heritage,matale,0.26909683867770434,7
+U033,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.26462255599633444,8
+U033,D014,Kandy Temple of the Tooth,heritage;religious,kandy,0.26177147983902155,9
+U033,D074,Galle Fort,heritage;coastal,galle,0.2611652258323102,10
+U034,D004,Kaudulla National Park,wildlife;nature,polonnaruwa,0.2581878808084284,1
+U034,D003,Minneriya National Park,wildlife;nature,polonnaruwa,0.2581878808084284,2
+U034,D073,Kanneliya Forest Reserve,nature;wildlife,galle,0.2436363506516696,3
+U034,D055,Negombo Beach,beach,gampaha,0.2292871182668462,4
+U034,D089,Kalametiya Bird Sanctuary,wildlife;nature,hambantota,0.22817302286799634,5
+U034,D022,Horton Plains National Park,nature;wildlife,nuwara eliya,0.22471042514594847,6
+U034,D057,Kalpitiya Lagoon,marine;nature,puttalam,0.20201356478750376,7
+U034,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.17320823758436252,8
+U034,D085,Yala National Park,wildlife;nature,hambantota,0.14427020888322645,9
+U034,D096,Wasgamuwa National Park,wildlife;nature,matale,0.140469110533777,10
+U035,D093,Riverston,nature;adventure,matale,0.42901053736090006,1
+U035,D029,Ella Rock,nature;adventure,badulla,0.3515064331500864,2
+U035,D023,World's End,nature;adventure,nuwara eliya,0.3143803168755168,3
+U035,D030,Little Adam's Peak,nature;adventure,badulla,0.29548969790246044,4
+U035,D019,Hanthana Mountain Range,nature;adventure,kandy,0.2790342541743235,5
+U035,D018,Knuckles Mountain Range,nature;adventure,matale,0.2778641209906338,6
+U035,D091,Madulsima Mini World's End,nature;adventure,badulla,0.2720558949532456,7
+U035,D080,Weligama Bay,beach;adventure,matara,0.2713408195205654,8
+U035,D098,Ohiya,nature;adventure,badulla,0.2066587222152273,9
+U035,D035,Diyaluma Falls,nature;adventure,badulla,0.19496488614267904,10
+U036,D049,Galle Face Green,city;coastal,colombo,0.2919360965158286,1
+U036,D074,Galle Fort,heritage;coastal,galle,0.28385832408203354,2
+U036,D055,Negombo Beach,beach,gampaha,0.22339102827352758,3
+U036,D071,Bentota Beach,beach;adventure,galle,0.1963036958319811,4
+U036,D025,Ambewela Farm,nature;family,nuwara eliya,0.1753758481152303,5
+U036,D053,Dutch Hospital Colombo,heritage;city,colombo,0.1655035818034325,6
+U036,D059,Pinnawala Elephant Orphanage,wildlife;family,kegalle,0.14687817445846466,7
+U036,D079,Mirissa Beach,beach,matara,0.13571782329344123,8
+U036,D054,Mount Lavinia Beach,beach,colombo,0.12750020477291807,9
+U036,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,0.12402939036894889,10
+U037,D067,Bambarakanda Falls,nature,badulla,0.4810436592632569,1
+U037,D099,Baker's Falls,nature,nuwara eliya,0.42763002708435327,2
+U037,D036,Dunhinda Falls,nature,badulla,0.38940009664110864,3
+U037,D098,Ohiya,nature;adventure,badulla,0.3707399800803636,4
+U037,D035,Diyaluma Falls,nature;adventure,badulla,0.34976156452583196,5
+U037,D017,Udawattakele Forest Reserve,nature,kandy,0.3491274546625799,6
+U037,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.34449095846089606,7
+U037,D092,Meemure,nature;village;adventure,kandy,0.32617226214164063,8
+U037,D078,Rumassala Sanctuary,nature;wildlife,galle,0.31508784901946796,9
+U037,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.2937344106169119,10
+U038,D080,Weligama Bay,beach;adventure,matara,0.4329869787109365,1
+U038,D071,Bentota Beach,beach;adventure,galle,0.4277670276053292,2
+U038,D040,Arugam Bay,beach;adventure,ampara,0.42406136910254527,3
+U038,D088,Tangalle Beach,beach,hambantota,0.2639909232324222,4
+U038,D075,Unawatuna Beach,beach,galle,0.23864006896371773,5
+U038,D041,Pasikuda Beach,beach,batticaloa,0.23498085836928423,6
+U038,D047,Marble Beach,beach,trincomalee,0.2309577942534808,7
+U038,D012,Casuarina Beach,beach,jaffna,0.22615245079205387,8
+U038,D043,Nilaveli Beach,beach,trincomalee,0.21760796182879244,9
+U038,D079,Mirissa Beach,beach,matara,0.21385511487319608,10
+U039,D048,Colombo National Museum,heritage;culture,colombo,0.4738221272656989,1
+U039,D050,Gangaramaya Temple,heritage;religious,colombo,0.3599168963586899,2
+U039,D046,Koneswaram Temple,heritage;religious,trincomalee,0.3548994642936122,3
+U039,D068,Ratnapura Gem Museum Area,culture;heritage,ratnapura,0.293898803824725,4
+U039,D033,Demodara Railway Loop,heritage;nature,badulla,0.26133591091234065,5
+U039,D031,Nine Arches Bridge,heritage;nature,badulla,0.2359825580146977,6
+U039,D042,Batticaloa Fort,heritage,batticaloa,0.19587313871376033,7
+U039,D045,Fort Frederick,heritage,trincomalee,0.19497742785345717,8
+U039,D010,Jaffna Fort,heritage,jaffna,0.18395491093113325,9
+U039,D002,Dambulla Cave Temple,heritage,matale,0.18075249033479282,10
+U040,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.43571145247938586,1
+U040,D085,Yala National Park,wildlife;nature,hambantota,0.37475916919860686,2
+U040,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.3674904062377927,3
+U040,D096,Wasgamuwa National Park,wildlife;nature,matale,0.36488536038867525,4
+U040,D010,Jaffna Fort,heritage,jaffna,0.3328018221085023,5
+U040,D090,Lunugamvehera National Park,wildlife;nature,monaragala,0.32896026061422057,6
+U040,D009,Wilpattu National Park,wildlife;nature,puttalam,0.3249631267296337,7
+U040,D086,Bundala National Park,wildlife;nature,hambantota,0.30432253224762684,8
+U040,D038,Gal Oya National Park,wildlife;nature,ampara,0.2891015829852444,9
+U040,D078,Rumassala Sanctuary,nature;wildlife,galle,0.24821077922427523,10
+U041,D053,Dutch Hospital Colombo,heritage;city,colombo,0.284874498994234,1
+U041,D051,Viharamahadevi Park,nature;city,colombo,0.2842568759969056,2
+U041,D048,Colombo National Museum,heritage;culture,colombo,0.2834900488355375,3
+U041,D052,Independence Square,heritage;city,colombo,0.22395967410607506,4
+U041,D034,Lipton's Seat,nature,badulla,0.21590519664152072,5
+U041,D093,Riverston,nature;adventure,matale,0.21414761804311638,6
+U041,D028,Pidurutalagala View Area,nature,nuwara eliya,0.203145706336157,7
+U041,D050,Gangaramaya Temple,heritage;religious,colombo,0.20135921236113768,8
+U041,D032,Ravana Falls,nature,badulla,0.19786493670409713,9
+U041,D027,Ramboda Falls,nature,nuwara eliya,0.18208756541845975,10
+U042,D088,Tangalle Beach,beach,hambantota,0.4998953527623206,1
+U042,D041,Pasikuda Beach,beach,batticaloa,0.4449616587138766,2
+U042,D047,Marble Beach,beach,trincomalee,0.4373435518838006,3
+U042,D012,Casuarina Beach,beach,jaffna,0.4282441145418613,4
+U042,D043,Nilaveli Beach,beach,trincomalee,0.4120642009593676,5
+U042,D079,Mirissa Beach,beach,matara,0.4049577795348736,6
+U042,D055,Negombo Beach,beach,gampaha,0.40205782252475875,7
+U042,D054,Mount Lavinia Beach,beach,colombo,0.3804378714757783,8
+U042,D015,Kandy Lake,nature;city,kandy,0.336048841061645,9
+U042,D075,Unawatuna Beach,beach,galle,0.31655796827564125,10
+U043,D037,Buduruwagala,heritage,monaragala,0.32303622425026207,1
+U043,D042,Batticaloa Fort,heritage,batticaloa,0.29160783517905703,2
+U043,D045,Fort Frederick,heritage,trincomalee,0.2902743378621989,3
+U043,D001,Sigiriya Rock Fortress,heritage;nature,matale,0.2864331063089148,4
+U043,D008,Mihintale,heritage;religious,anuradhapura,0.27653237161759037,5
+U043,D010,Jaffna Fort,heritage,jaffna,0.27386447013326776,6
+U043,D002,Dambulla Cave Temple,heritage,matale,0.26909683867770434,7
+U043,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.26462255599633444,8
+U043,D014,Kandy Temple of the Tooth,heritage;religious,kandy,0.26177147983902155,9
+U043,D074,Galle Fort,heritage;coastal,galle,0.2611652258323102,10
+U044,D055,Negombo Beach,beach,gampaha,0.2860117322467621,1
+U044,D004,Kaudulla National Park,wildlife;nature,polonnaruwa,0.23583955429683962,2
+U044,D003,Minneriya National Park,wildlife;nature,polonnaruwa,0.23583955429683962,3
+U044,D073,Kanneliya Forest Reserve,nature;wildlife,galle,0.22254758111916217,4
+U044,D059,Pinnawala Elephant Orphanage,wildlife;family,kegalle,0.21630038180808575,5
+U044,D089,Kalametiya Bird Sanctuary,wildlife;nature,hambantota,0.2084227340464471,6
+U044,D022,Horton Plains National Park,nature;wildlife,nuwara eliya,0.20525985319812817,7
+U044,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.20345347141980044,8
+U044,D065,Udawalawe Elephant Transit Home,wildlife,ratnapura,0.18972820028271897,9
+U044,D057,Kalpitiya Lagoon,marine;nature,puttalam,0.1845275964627901,10
+U045,D093,Riverston,nature;adventure,matale,0.42901053736090006,1
+U045,D029,Ella Rock,nature;adventure,badulla,0.3515064331500864,2
+U045,D023,World's End,nature;adventure,nuwara eliya,0.3143803168755168,3
+U045,D030,Little Adam's Peak,nature;adventure,badulla,0.29548969790246044,4
+U045,D019,Hanthana Mountain Range,nature;adventure,kandy,0.2790342541743235,5
+U045,D018,Knuckles Mountain Range,nature;adventure,matale,0.2778641209906338,6
+U045,D091,Madulsima Mini World's End,nature;adventure,badulla,0.2720558949532456,7
+U045,D080,Weligama Bay,beach;adventure,matara,0.2713408195205654,8
+U045,D098,Ohiya,nature;adventure,badulla,0.2066587222152273,9
+U045,D035,Diyaluma Falls,nature;adventure,badulla,0.19496488614267904,10
+U046,D074,Galle Fort,heritage;coastal,galle,0.3218136585534104,1
+U046,D049,Galle Face Green,city;coastal,colombo,0.2429228821526011,2
+U046,D053,Dutch Hospital Colombo,heritage;city,colombo,0.18763343768796442,3
+U046,D079,Mirissa Beach,beach,matara,0.1538649584654967,4
+U046,D055,Negombo Beach,beach,gampaha,0.1527631108471461,5
+U046,D054,Mount Lavinia Beach,beach,colombo,0.14454854370387932,6
+U046,D100,Pekoe Trail - Tea Country Section,nature;adventure;culture,nuwara eliya,0.14061363890546164,7
+U046,D075,Unawatuna Beach,beach,galle,0.1399391676430993,8
+U046,D078,Rumassala Sanctuary,nature;wildlife,galle,0.13441589390340936,9
+U046,D020,Nuwara Eliya City,city;nature,nuwara eliya,0.1263486165417265,10
+U047,D067,Bambarakanda Falls,nature,badulla,0.4810436592632569,1
+U047,D099,Baker's Falls,nature,nuwara eliya,0.42763002708435327,2
+U047,D036,Dunhinda Falls,nature,badulla,0.38940009664110864,3
+U047,D098,Ohiya,nature;adventure,badulla,0.3707399800803636,4
+U047,D035,Diyaluma Falls,nature;adventure,badulla,0.34976156452583196,5
+U047,D017,Udawattakele Forest Reserve,nature,kandy,0.3491274546625799,6
+U047,D026,Lover's Leap Waterfall,nature,nuwara eliya,0.34449095846089606,7
+U047,D092,Meemure,nature;village;adventure,kandy,0.32617226214164063,8
+U047,D078,Rumassala Sanctuary,nature;wildlife,galle,0.31508784901946796,9
+U047,D007,Ritigala Monastery,heritage;nature,anuradhapura,0.2937344106169119,10
+U048,D071,Bentota Beach,beach;adventure,galle,0.46646400655534637,1
+U048,D080,Weligama Bay,beach;adventure,matara,0.39503470860672896,2
+U048,D040,Arugam Bay,beach;adventure,ampara,0.3868914484992647,3
+U048,D041,Pasikuda Beach,beach,batticaloa,0.29963595875830284,4
+U048,D043,Nilaveli Beach,beach,trincomalee,0.2774829010690749,5
+U048,D055,Negombo Beach,beach,gampaha,0.27074463331670573,6
+U048,D088,Tangalle Beach,beach,hambantota,0.24085153263595635,7
+U048,D075,Unawatuna Beach,beach,galle,0.21772273703387196,8
+U048,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.2140486666769342,9
+U048,D047,Marble Beach,beach,trincomalee,0.2107138307599923,10
+U049,D048,Colombo National Museum,heritage;culture,colombo,0.4738221272656989,1
+U049,D050,Gangaramaya Temple,heritage;religious,colombo,0.3599168963586899,2
+U049,D046,Koneswaram Temple,heritage;religious,trincomalee,0.3548994642936122,3
+U049,D068,Ratnapura Gem Museum Area,culture;heritage,ratnapura,0.293898803824725,4
+U049,D033,Demodara Railway Loop,heritage;nature,badulla,0.26133591091234065,5
+U049,D031,Nine Arches Bridge,heritage;nature,badulla,0.2359825580146977,6
+U049,D042,Batticaloa Fort,heritage,batticaloa,0.19587313871376033,7
+U049,D045,Fort Frederick,heritage,trincomalee,0.19497742785345717,8
+U049,D010,Jaffna Fort,heritage,jaffna,0.18395491093113325,9
+U049,D002,Dambulla Cave Temple,heritage,matale,0.18075249033479282,10
+U050,D085,Yala National Park,wildlife;nature,hambantota,0.42424399932148577,1
+U050,D058,Wilpattu Wildlife Area,wildlife;nature,puttalam,0.41601543729534507,2
+U050,D096,Wasgamuwa National Park,wildlife;nature,matale,0.41306640986578613,3
+U050,D064,Udawalawe National Park,wildlife;nature,ratnapura,0.38316817681483695,4
+U050,D010,Jaffna Fort,heritage,jaffna,0.37674642169452627,5
+U050,D090,Lunugamvehera National Park,wildlife;nature,monaragala,0.37239760371774777,6
+U050,D009,Wilpattu National Park,wildlife;nature,puttalam,0.3678726708958322,7
+U050,D086,Bundala National Park,wildlife;nature,hambantota,0.34450660257482224,8
+U050,D038,Gal Oya National Park,wildlife;nature,ampara,0.32727581299240543,9
+U050,D078,Rumassala Sanctuary,nature;wildlife,galle,0.2809856097130027,10
