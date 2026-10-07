@@ -9,9 +9,7 @@ The purpose of this component is to generate **personalized, explainable and dem
 > **Component focus:** *“I don't just say go here — I say why.”*
 
 The engine combines traditional recommendation techniques with semantic similarity and tourism-demand intelligence to produce ranked destination recommendations for individual users.
-
 ---
-
 ## Objectives
 
 The Recommendation Engine aims to:
@@ -26,9 +24,7 @@ The Recommendation Engine aims to:
 * Provide an explanation for every recommendation.
 * Evaluate recommendation quality using ranking metrics.
 * Provide recommendations through a REST API for frontend integration.
-
 ---
-
 ## System Architecture
 
 ```text
@@ -102,9 +98,7 @@ Example user preferences include:
 * Interests
 
 The system calculates a preference score for candidate destinations and ranks them accordingly.
-
 ---
-
 ### 2. Semantic Recommendation
 
 TravelMind uses **Sentence-BERT (SBERT)** embeddings to represent users and destinations in a semantic vector space.
@@ -131,9 +125,7 @@ Semantic Similarity Score
 ```
 
 This allows the system to identify destinations with similar meaning rather than relying only on exact keyword matches.
-
 ---
-
 ### 3. Demand and Crowd Prediction
 
 The recommendation system incorporates predicted tourism crowd levels.
@@ -149,9 +141,7 @@ The prediction is categorized into levels such as:
 The predicted crowd level is then incorporated into the recommendation ranking.
 
 This allows TravelMind to recommend destinations that better match a user's preferred tourism-demand conditions.
-
 ---
-
 ### 4. Demand-Aware Recommendation
 
 The final recommendation score combines multiple factors.
@@ -189,9 +179,7 @@ Demand Suitability
 ```
 
 The actual weighting is controlled by the implemented recommendation model.
-
 ---
-
 ## Explainable Recommendations
 
 A major feature of the component is **explainability**.
@@ -218,9 +206,7 @@ lower predicted crowd level.
 Each recommendation contains an explanation generated from the underlying recommendation features.
 
 This improves transparency and allows users to understand **why a destination was recommended**.
-
 ---
-
 ## Recommendation Pipeline
 
 The component follows the following workflow:
@@ -272,9 +258,7 @@ The system identifies the main factors contributing to the recommendation.
 ### Step 9 – Top-K Recommendations
 
 The highest-ranked destinations are returned to the user.
-
 ---
-
 ## Project Structure
 
 ```text
@@ -318,9 +302,7 @@ Smart-Tourism-Recommendation/
 ├── DEPLOYMENT.md
 └── README.md
 ```
-
 ---
-
 ## Notebooks
 
 The recommendation research and implementation are divided into several notebooks.
@@ -362,7 +344,6 @@ The model is stored under:
 ```text
 models/sbert_model.joblib
 ```
-
 ---
 
 ### Crowd Prediction Model
@@ -382,7 +363,6 @@ models/crowd_prediction_random_forest.joblib
 ```
 
 The prediction is subsequently used by the demand-aware recommendation component.
-
 ---
 
 ## Evaluation
@@ -460,7 +440,6 @@ Explanations
    ↓
 Frontend
 ```
-
 ---
 
 ## Example Recommendation Output
@@ -482,7 +461,6 @@ A recommendation can contain information such as:
   "explanation": "Recommended because it strongly matches your nature and hiking preferences while offering suitable crowd and weather conditions."
 }
 ```
-
 ---
 
 ## Technologies
@@ -548,9 +526,7 @@ Tourism Recommendations
 ```
 
 The system therefore moves beyond a basic destination recommender toward an **AI-powered, context-aware and explainable tourism recommendation system**.
-
 ---
-
 ## Component Owner
 
 **Component:** Recommendation Engine
