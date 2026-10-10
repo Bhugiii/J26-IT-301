@@ -1,4 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
+import LandingPage from "./LandingPage";
+import AuthPage, { type AuthMode } from "./AuthPage";
 
 const API_URL = (import.meta.env.VITE_API_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
 
@@ -880,6 +882,16 @@ function App() {
   const [page, setPage] =
     useState<Page>("dashboard");
 
+  const [showLanding, setShowLanding] = useState(() => {
+    try {
+      return window.sessionStorage.getItem("travelmind.entered") !== "1";
+    } catch {
+      return true;
+    }
+  });
+  // The standalone sign-in page, and where "Back" should return to.
+  const [authScreen, setAuthScreen] = useState<"landing" | "app" | null>(null);
+
   const [users, setUsers] = useState<string[]>([]);
   const [selectedUser, setSelectedUser] =
     useState("U001");
@@ -892,7 +904,7 @@ function App() {
       return null;
     }
   });
-  const [authMode, setAuthMode] = useState<"login" | "register">("register");
+  const [authMode, setAuthMode] = useState<AuthMode>("register");
   const [authEmail, setAuthEmail] = useState("");
   const [authPassword, setAuthPassword] = useState("");
   const [authLoading, setAuthLoading] = useState(false);
@@ -1286,8 +1298,10 @@ function App() {
       setAuthPassword("");
       setAuthMessage(authMode === "register" ? "Account and traveler profile created. Your recommendations are ready." : "Signed in successfully.");
       if (authMode === "register") setPage("dashboard");
+      return true;
     } catch (error) {
       setAuthMessage(error instanceof Error ? error.message : "Account request failed.");
+      return false;
     } finally {
       setAuthLoading(false);
     }
@@ -3433,22 +3447,15 @@ function App() {
         ) : (
           <section className="account-card account-auth-card">
             <div className="account-auth-heading">
-              <span className="eyebrow">{authMode === "register" ? "NEW TO TRAVELMIND" : "WELCOME BACK"}</span>
-              <h2>{authMode === "register" ? "Create your account" : "Sign in to your account"}</h2>
-              <p>{authMode === "register" ? "Use an email and a password with at least 10 characters." : "Sign in to access your linked traveler profiles."}</p>
+              <span className="eyebrow">BROWSING AS A GUEST</span>
+              <h2>You are not signed in</h2>
+              <p>Sign in or create an account to keep your traveler profiles and saved places between visits.</p>
             </div>
-            <form className="account-auth-form" onSubmit={(event) => { event.preventDefault(); void submitAccountAuth(); }}>
-              <label className="form-field"><span>Email</span><input type="email" autoComplete="email" required maxLength={254} value={authEmail} onChange={(event) => setAuthEmail(event.target.value)} placeholder="you@example.com" /></label>
-              <label className="form-field"><span>Password</span><input type="password" autoComplete={authMode === "register" ? "new-password" : "current-password"} required minLength={authMode === "register" ? 10 : 1} maxLength={128} value={authPassword} onChange={(event) => setAuthPassword(event.target.value)} placeholder={authMode === "register" ? "At least 10 characters" : "Your password"} /></label>
-              {authMode === "register" && <div className="signup-profile-fields"><div className="signup-profile-heading"><span className="eyebrow">TRAVELER PROFILE</span><strong>Personalize your recommendations</strong><span>Your account and profile will be created together.</span></div><label className="form-field"><span>Your name</span><input required maxLength={80} autoComplete="name" value={profile.name} onChange={(event) => setProfile({ ...profile, name: event.target.value })} placeholder="e.g. Sathsarani" /></label><label className="form-field"><span>Daily budget (LKR)</span><input type="number" min="1" required value={profile.budget} onChange={(event) => setProfile({ ...profile, budget: event.target.value })} /></label><label className="form-field"><span>Starting location</span><input required value={profile.startingLocation} onChange={(event) => setProfile({ ...profile, startingLocation: event.target.value })} placeholder="Colombo" /></label><label className="form-field"><span>Trip duration (days)</span><input type="number" min="1" max="30" required value={profile.tripDuration} onChange={(event) => setProfile({ ...profile, tripDuration: event.target.value })} /></label><label className="form-field form-field-wide"><span>Interests</span><input required value={profile.interests} onChange={(event) => setProfile({ ...profile, interests: event.target.value })} placeholder="Nature, hiking, wildlife" /></label></div>}
-              {authMode === "register" && selectedUser.startsWith("TRV-") && <p className="account-claim-note">Your current guest profile ({profile.name || selectedUser}) will be linked to this account.</p>}
-              {authMessage && <p className="account-message" role="status">{authMessage}</p>}
-              <button className="primary-button" type="submit" disabled={authLoading}>{authLoading ? "Please wait…" : authMode === "register" ? "Create account & profile" : "Sign in"}</button>
-            </form>
-            <button className="account-mode-toggle" onClick={() => { setAuthMode(authMode === "register" ? "login" : "register"); setAuthMessage(""); }}>
-              {authMode === "register" ? "Already have an account? Sign in" : "New to TravelMind? Create an account"}
-            </button>
-            <p className="account-security-note">This prototype stores account data on the project server. Password reset and email verification are not configured yet.</p>
+            {authMessage && <p className="account-message" role="status">{authMessage}</p>}
+            <div className="account-guest-actions">
+              <button className="primary-button" onClick={() => openAuthPage("login")}>Sign in</button>
+              <button className="secondary-button" onClick={() => openAuthPage("register")}>Create an account</button>
+            </div>
           </section>
         )}
       </div>
@@ -4671,19 +4678,85 @@ function App() {
   };
 
   /* =======================================================
+     WELCOME PAGE
+  ======================================================= */
+
+  function enterApp(target: Page) {
+    setPage(target);
+    setShowLanding(false);
+    window.scrollTo(0, 0);
+    try {
+      window.sessionStorage.setItem("travelmind.entered", "1");
+    } catch {
+      // Storage can be unavailable in private windows; the app still opens.
+    }
+  }
+
+  function openAuthPage(mode: AuthMode) {
+    setAuthMode(mode);
+    setAuthMessage("");
+    setAuthScreen(showLanding ? "landing" : "app");
+    window.scrollTo(0, 0);
+  }
+
+  async function submitAuthPage() {
+    const succeeded = await submitAccountAuth();
+    if (succeeded) {
+      setAuthScreen(null);
+      enterApp("dashboard");
+    }
+  }
+
+  if (authScreen && !authSession) {
+    return (
+      <AuthPage
+        mode={authMode}
+        email={authEmail}
+        password={authPassword}
+        profile={profile}
+        loading={authLoading}
+        message={authMessage}
+        guestProfileNote={
+          selectedUser.startsWith("TRV-")
+            ? `Your current guest profile (${profile.name || selectedUser}) will be linked to this account.`
+            : null
+        }
+        onEmailChange={setAuthEmail}
+        onPasswordChange={setAuthPassword}
+        onProfileChange={(field, value) => setProfile({ ...profile, [field]: value })}
+        onSubmit={() => void submitAuthPage()}
+        onModeChange={(mode) => { setAuthMode(mode); setAuthMessage(""); }}
+        onBack={() => { setAuthScreen(null); setAuthMessage(""); }}
+        onContinueAsGuest={() => { setAuthScreen(null); setAuthMessage(""); enterApp("dashboard"); }}
+      />
+    );
+  }
+
+  if (showLanding) {
+    return (
+      <LandingPage
+        signedInEmail={authSession?.account.email ?? null}
+        onEnter={enterApp}
+        onSignIn={() => openAuthPage("login")}
+        onCreateAccount={() => openAuthPage("register")}
+      />
+    );
+  }
+
+  /* =======================================================
      MAIN LAYOUT
   ======================================================= */
 
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand">
+        <button className="brand brand-home" onClick={() => { setShowLanding(true); window.scrollTo(0, 0); }} title="Back to the welcome page">
           <img className="brand-logo" src="/travelmind-logo.svg" alt="" />
           <div>
             <strong><span className="brand-travel">Travel</span><span className="brand-mind">Mind</span></strong>
             <span>Sri Lanka, your way.</span>
           </div>
-        </div>
+        </button>
 
         <div className="sidebar-section-label">
           MAIN MENU

@@ -1,0 +1,540 @@
+/* Public welcome page shown before the app shell. Uses the tokens from style.css. */
+
+.landing {
+  min-height: 100vh;
+  color: var(--ink);
+  background: var(--canvas);
+}
+
+.landing h1,
+.landing h2,
+.landing h3,
+.landing p {
+  margin: 0;
+}
+
+/* ---------- Top navigation ---------- */
+
+.landing-nav {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 12px clamp(16px, 4vw, 48px);
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, .92);
+  backdrop-filter: blur(10px);
+}
+
+.landing-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.landing-brand img {
+  width: 40px;
+  height: 40px;
+}
+
+.landing-brand strong {
+  font-family: Manrope, "DM Sans", sans-serif;
+  font-size: 20px;
+  letter-spacing: -.04em;
+}
+
+.landing-links {
+  display: flex;
+  gap: clamp(14px, 2.4vw, 32px);
+}
+
+.landing-links a {
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.landing-links a:hover {
+  color: var(--green-dark);
+}
+
+.landing-nav-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* ---------- Buttons ---------- */
+
+.landing-button {
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 750;
+  white-space: nowrap;
+  transition: background .15s ease, transform .15s ease, border-color .15s ease;
+}
+
+.landing-button.large {
+  min-height: 54px;
+  padding: 0 26px;
+  border-radius: 12px;
+  font-size: 17px;
+}
+
+.landing-button.solid {
+  color: #fff;
+  background: var(--green);
+}
+
+.landing-button.solid:hover {
+  background: var(--green-dark);
+  transform: translateY(-1px);
+}
+
+.landing-button.ghost {
+  color: var(--green-dark);
+  background: transparent;
+}
+
+.landing-button.ghost:hover {
+  background: var(--green-pale);
+}
+
+.landing-button.outline {
+  border-color: var(--green);
+  color: var(--green-dark);
+  background: #fff;
+}
+
+.landing-button.outline:hover {
+  background: var(--green-pale);
+}
+
+.landing-button.glass {
+  border-color: rgba(255, 255, 255, .7);
+  color: #fff;
+  background: rgba(255, 255, 255, .14);
+  backdrop-filter: blur(6px);
+}
+
+.landing-button.glass:hover {
+  background: rgba(255, 255, 255, .26);
+}
+
+/* ---------- Hero ---------- */
+
+.landing-hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: min(78vh, 720px);
+  padding: clamp(56px, 9vw, 110px) clamp(16px, 4vw, 48px);
+  background-color: #0b3a34;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(100deg, rgba(5, 38, 34, .93) 0%, rgba(5, 38, 34, .74) 48%, rgba(5, 38, 34, .25) 100%);
+}
+
+.landing-hero-inner {
+  position: relative;
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.landing-eyebrow {
+  display: block;
+  margin-bottom: 14px;
+  color: var(--green);
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: .14em;
+}
+
+.landing-hero .landing-eyebrow {
+  color: var(--brand-yellow);
+}
+
+.landing-hero h1 {
+  max-width: 15ch;
+  color: #fff;
+  font-size: clamp(2.3rem, 5.6vw, 4.5rem);
+  font-weight: 800;
+  line-height: 1.06;
+}
+
+.landing-hero p {
+  max-width: 56ch;
+  margin-top: 22px;
+  color: rgba(255, 255, 255, .92);
+  font-size: clamp(1.05rem, 1.5vw, 1.3rem);
+  line-height: 1.6;
+}
+
+.landing-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 34px;
+}
+
+.landing-hero-points {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 26px;
+  margin: 34px 0 0;
+  padding: 0;
+  list-style: none;
+  color: rgba(255, 255, 255, .9);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.landing-hero-points li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--brand-yellow);
+  vertical-align: middle;
+}
+
+/* ---------- Sections ---------- */
+
+.landing-section {
+  padding: clamp(56px, 8vw, 96px) clamp(16px, 4vw, 48px);
+  /* Keep headings clear of the sticky navigation when jumping to a section. */
+  scroll-margin-top: 64px;
+}
+
+.landing-section.tinted {
+  background: #fff;
+  border-block: 1px solid var(--line);
+}
+
+.landing-section > * {
+  max-width: 1180px;
+  margin-inline: auto;
+}
+
+.landing-heading {
+  margin-bottom: 40px;
+}
+
+.landing-heading h2,
+.landing-research h2,
+.landing-cta h2 {
+  max-width: 24ch;
+  font-size: clamp(1.7rem, 3.2vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.landing-heading p {
+  max-width: 62ch;
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+/* ---------- Research components ---------- */
+
+.landing-components {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.landing-component {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.landing-component-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.landing-component-number {
+  color: var(--green);
+  font-family: Manrope, "DM Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.landing-status {
+  padding: 5px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 750;
+}
+
+.landing-status.live {
+  color: var(--green-dark);
+  background: var(--green-pale);
+}
+
+.landing-status.building {
+  color: #7a5200;
+  background: #fff3d6;
+}
+
+.landing-component h3 {
+  font-size: 21px;
+  line-height: 1.25;
+}
+
+.landing-component p {
+  margin-top: 10px;
+  color: var(--muted);
+}
+
+/* ---------- Steps ---------- */
+
+.landing-steps {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+  padding: 0;
+  list-style: none;
+}
+
+.landing-step-number {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  margin-bottom: 18px;
+  border-radius: 50%;
+  color: #fff;
+  background: var(--green);
+  font-family: Manrope, "DM Sans", sans-serif;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.landing-steps h3 {
+  font-size: 20px;
+}
+
+.landing-steps p {
+  margin-top: 8px;
+  color: var(--muted);
+}
+
+/* ---------- Photo strip ---------- */
+
+.landing-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.landing-gallery figure {
+  position: relative;
+  margin: 0;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #0b3a34;
+}
+
+.landing-gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.landing-gallery figcaption {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 34px 16px 12px;
+  color: #fff;
+  background: linear-gradient(transparent, rgba(5, 38, 34, .82));
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* ---------- Feature tiles ---------- */
+
+.landing-features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.landing-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  color: var(--ink);
+  background: var(--surface);
+  text-align: left;
+  transition: border-color .15s ease, transform .15s ease, box-shadow .15s ease;
+}
+
+.landing-feature:hover {
+  border-color: var(--green);
+  box-shadow: var(--shadow);
+  transform: translateY(-2px);
+}
+
+.landing-feature strong {
+  font-family: Manrope, "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.landing-feature span {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.landing-feature em {
+  margin-top: auto;
+  padding-top: 8px;
+  color: var(--green-dark);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 750;
+}
+
+/* ---------- Research ---------- */
+
+.landing-research {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(24px, 5vw, 64px);
+}
+
+.landing-research p {
+  max-width: 62ch;
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.landing-note {
+  padding: 24px;
+  border-left: 4px solid var(--brand-yellow);
+  border-radius: 0 14px 14px 0;
+  background: #fff8e6;
+}
+
+.landing-note strong {
+  font-family: Manrope, "DM Sans", sans-serif;
+  font-size: 17px;
+}
+
+.landing-note p {
+  margin-top: 8px;
+  color: #5c4a1c;
+  font-size: 15px;
+}
+
+/* ---------- Closing call to action ---------- */
+
+.landing-cta {
+  padding: clamp(56px, 8vw, 96px) clamp(16px, 4vw, 48px);
+  text-align: center;
+}
+
+.landing-cta h2 {
+  max-width: none;
+}
+
+.landing-cta p {
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: 17px;
+}
+
+.landing-cta .landing-hero-actions {
+  justify-content: center;
+}
+
+.landing-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding: 22px clamp(16px, 4vw, 48px);
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  background: #fff;
+  font-size: 14px;
+}
+
+/* ---------- Sidebar logo doubles as the way back here ---------- */
+
+.brand-home {
+  width: 100%;
+  border: 0;
+  background: none;
+  color: inherit;
+  text-align: left;
+}
+
+/* ---------- Smaller screens ---------- */
+
+@media (max-width: 900px) {
+  .landing-links {
+    display: none;
+  }
+
+  .landing-steps,
+  .landing-features,
+  .landing-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .landing-research {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .landing-components,
+  .landing-steps,
+  .landing-features {
+    grid-template-columns: 1fr;
+  }
+
+  .landing-nav-actions .ghost {
+    display: none;
+  }
+
+  /* Text spans the full width on phones, so darken the whole photo evenly. */
+  .landing-hero::before {
+    background: rgba(5, 38, 34, .8);
+  }
+
+  .landing-hero-actions .landing-button {
+    width: 100%;
+  }
+}

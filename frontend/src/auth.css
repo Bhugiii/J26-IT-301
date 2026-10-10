@@ -1,0 +1,340 @@
+/* Standalone sign-in and sign-up page. Shares buttons and tokens with landing.css. */
+
+.auth-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr);
+  min-height: 100vh;
+  color: var(--ink);
+  background: #fff;
+}
+
+/* ---------- Photo side ---------- */
+
+.auth-visual {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background-color: #0b3a34;
+  background-position: center;
+  background-size: cover;
+}
+
+.auth-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(5, 38, 34, .72) 0%, rgba(5, 38, 34, .5) 40%, rgba(5, 38, 34, .9) 100%);
+}
+
+.auth-visual-inner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: clamp(24px, 4vw, 48px);
+}
+
+.auth-brand {
+  align-self: flex-start;
+  padding: 0;
+  border: 0;
+  color: #fff;
+  background: none;
+}
+
+.auth-visual-copy h2 {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.auth-visual-copy p {
+  max-width: 44ch;
+  margin: 14px 0 0;
+  color: rgba(255, 255, 255, .92);
+  font-size: 17px;
+}
+
+.auth-visual-copy ul {
+  display: grid;
+  gap: 10px;
+  margin: 26px 0 0;
+  padding: 0;
+  list-style: none;
+  color: rgba(255, 255, 255, .92);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.auth-visual-copy li::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--brand-yellow);
+  vertical-align: middle;
+}
+
+/* ---------- Form side ---------- */
+
+.auth-panel {
+  display: flex;
+  flex-direction: column;
+  padding: clamp(20px, 4vw, 44px);
+}
+
+.auth-back {
+  align-self: flex-start;
+  padding: 8px 0;
+  border: 0;
+  color: var(--muted);
+  background: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.auth-back:hover {
+  color: var(--green-dark);
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 460px;
+  margin: auto;
+  padding: 24px 0 40px;
+}
+
+.auth-card h1 {
+  margin: 0;
+  font-size: clamp(1.7rem, 2.6vw, 2.2rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.auth-lead {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.auth-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin: 26px 0 22px;
+  padding: 4px;
+  border-radius: 12px;
+  background: var(--canvas);
+}
+
+.auth-tabs button {
+  min-height: 42px;
+  border: 0;
+  border-radius: 9px;
+  color: var(--muted);
+  background: transparent;
+  font-size: 15px;
+  font-weight: 750;
+}
+
+.auth-tabs button.active {
+  color: var(--green-dark);
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(24, 65, 45, .12);
+}
+
+.auth-form {
+  display: grid;
+  gap: 16px;
+}
+
+.auth-field {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.auth-field > span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.auth-field input {
+  width: 100%;
+  min-height: 48px;
+  padding: 0 14px;
+  border: 1px solid #cfdcd5;
+  border-radius: 10px;
+  color: var(--ink);
+  background: #fff;
+  font-size: 16px;
+}
+
+.auth-field input:focus {
+  border-color: var(--green);
+}
+
+.auth-password {
+  position: relative;
+}
+
+.auth-password input {
+  padding-right: 72px;
+}
+
+.auth-password button {
+  position: absolute;
+  inset: 0 6px 0 auto;
+  margin: auto 0;
+  height: 36px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 8px;
+  color: var(--green-dark);
+  background: transparent;
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.auth-password button:hover {
+  background: var(--green-pale);
+}
+
+.auth-profile {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  margin: 6px 0 0;
+  padding: 20px 0 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.auth-profile legend {
+  padding: 0 12px 0 0;
+  font-family: Manrope, "DM Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.auth-profile > p {
+  margin: -8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.auth-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.auth-note,
+.auth-message {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: #3f5a4c;
+  background: var(--green-pale);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.auth-message.error {
+  color: #8a1f1f;
+  background: #fdeaea;
+}
+
+.auth-submit {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.auth-switch {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  text-align: center;
+}
+
+.auth-switch button {
+  padding: 0;
+  border: 0;
+  color: var(--green-dark);
+  background: none;
+  font-size: 15px;
+  font-weight: 750;
+  text-decoration: underline;
+}
+
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 22px 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.auth-divider::before,
+.auth-divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--line);
+}
+
+.auth-guest {
+  width: 100%;
+  min-height: 48px;
+}
+
+.auth-small {
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+/* ---------- Guest card on the in-app Account page ---------- */
+
+.account-guest-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+/* ---------- Smaller screens ---------- */
+
+@media (max-width: 860px) {
+  .auth-page {
+    grid-template-columns: 1fr;
+  }
+
+  .auth-visual {
+    position: relative;
+    height: auto;
+  }
+
+  .auth-visual-inner {
+    gap: 28px;
+    padding: 20px 20px 26px;
+  }
+
+  .auth-visual-copy ul {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .auth-row {
+    grid-template-columns: 1fr;
+  }
+}
