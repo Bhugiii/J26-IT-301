@@ -1,0 +1,353 @@
+/* Traveller segments page (component 4). Builds on the page, stat-card and section styles in style.css. */
+
+.segments-notice {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-bottom: 20px;
+  padding: 14px 16px;
+  border-left: 4px solid var(--brand-yellow);
+  border-radius: 0 12px 12px 0;
+  color: #5c4a1c;
+  background: #fff8e6;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.segments-notice strong {
+  color: #3f3210;
+}
+
+.segments-notice.error {
+  border-left-color: #d03b3b;
+  color: #6b1f1f;
+  background: #fdeaea;
+}
+
+.segments-loading,
+.segments-muted {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.segments-muted {
+  margin: 12px 0 0;
+}
+
+.segments-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  flex: 0 0 12px;
+  border-radius: 50%;
+}
+
+.segments-dot.large {
+  width: 18px;
+  height: 18px;
+  flex-basis: 18px;
+  margin-top: 5px;
+}
+
+/* ---------- Where you fit ---------- */
+
+.segments-you-body {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 14px 28px;
+}
+
+.segments-you-main {
+  display: flex;
+  gap: 12px;
+}
+
+.segments-you-main strong {
+  font: 800 21px/1.25 Manrope, sans-serif;
+}
+
+.segments-you-main p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.segments-you-body > .segments-muted {
+  grid-column: 1 / -1;
+}
+
+/* ---------- Bars ---------- */
+
+.segments-bar-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(80px, 1.3fr) 48px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.segments-bar-row.compact {
+  grid-template-columns: minmax(60px, 1fr) 76px;
+  margin-bottom: 4px;
+}
+
+.segments-bar-row > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.segments-bar-row > b {
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  text-align: right;
+}
+
+.segments-bar-track {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #eef3f0;
+}
+
+.segments-bar {
+  height: 100%;
+  min-width: 3px;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ---------- Segment cards ---------- */
+
+.segments-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.segments-card {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-top: 4px solid;
+  border-radius: 14px;
+  background: var(--surface);
+}
+
+.segments-card-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.segments-id {
+  font-weight: 800;
+}
+
+.segments-share {
+  color: var(--muted);
+}
+
+.segments-card h3 {
+  margin: 10px 0 6px;
+  font: 800 18px/1.3 Manrope, sans-serif;
+}
+
+.segments-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.segments-facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px 12px;
+  margin: 14px 0;
+}
+
+.segments-facts dt {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.segments-facts dd {
+  margin: 2px 0 0;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.segments-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.segments-chips span {
+  padding: 4px 10px;
+  border-radius: 999px;
+  color: var(--green-dark);
+  background: var(--green-pale);
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+/* ---------- Comparison ---------- */
+
+.segments-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-bottom: 14px;
+  font-size: 13px;
+}
+
+.segments-legend i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.segments-compare-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.8fr) minmax(0, 2fr);
+  gap: 16px;
+  padding: 10px 0;
+  border-top: 1px solid var(--line);
+}
+
+.segments-compare-label {
+  font-size: 14px;
+  font-weight: 650;
+}
+
+.segments-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* ---------- Charts and table ---------- */
+
+.segments-chart {
+  margin-top: 12px;
+}
+
+.segments-subheading {
+  margin: 24px 0 4px;
+  font: 750 15px/1.3 Manrope, sans-serif;
+}
+
+.segments-table-wrap {
+  margin-top: 14px;
+  overflow-x: auto;
+}
+
+.segments-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.segments-table th,
+.segments-table td {
+  padding: 9px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.segments-table th {
+  color: var(--muted);
+  font-size: 12.5px;
+  font-weight: 700;
+}
+
+.segments-table td:nth-child(n + 4) {
+  font-variant-numeric: tabular-nums;
+}
+
+.segments-table tr.chosen td {
+  background: var(--green-pale);
+}
+
+.segments-table em {
+  color: var(--green-dark);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segments-targets {
+  display: grid;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.segments-targets > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.segments-targets span {
+  display: grid;
+  width: 20px;
+  height: 20px;
+  place-items: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.segments-targets .met {
+  background: #e7f5e7;
+}
+
+.segments-targets .met span {
+  background: #0ca30c;
+}
+
+.segments-targets .unmet {
+  background: #fff3d6;
+}
+
+.segments-targets .unmet span {
+  background: #c98500;
+}
+
+@media (max-width: 760px) {
+  .segments-you-body,
+  .segments-compare-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Long names wrap instead of being cut off in the match-strength list. */
+.segments-you-strength .segments-bar-row {
+  grid-template-columns: minmax(0, 1.4fr) minmax(70px, 1fr) 44px;
+}
+
+.segments-you-strength .segments-bar-row > span {
+  white-space: normal;
+  line-height: 1.35;
+}
+
+/* Let the method name and setting wrap so the table fits without sideways scrolling. */
+.segments-table td:nth-child(1),
+.segments-table td:nth-child(3) {
+  white-space: normal;
+}

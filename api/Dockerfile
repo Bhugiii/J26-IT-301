@@ -10,6 +10,7 @@ COPY api/requirements.txt ./api/requirements.txt
 RUN pip install --no-cache-dir -r api/requirements.txt
 
 COPY api/ ./api/
+COPY segmentation/ ./segmentation/
 COPY data/features/ ./data/features/
 COPY results/ ./results/
 RUN mkdir -p /app/state

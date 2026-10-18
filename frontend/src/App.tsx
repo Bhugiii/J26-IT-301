@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import LandingPage from "./LandingPage";
 import AuthPage, { type AuthMode } from "./AuthPage";
+import SegmentsPage from "./SegmentsPage";
 
 const API_URL = (import.meta.env.VITE_API_URL || "http://127.0.0.1:8000").replace(/\/$/, "");
 
@@ -14,6 +15,7 @@ type Page =
   | "crowd"
   | "weather"
   | "analytics"
+  | "segments"
   | "evaluation"
   | "assistant";
 
@@ -4586,6 +4588,9 @@ function App() {
       case "analytics":
         return renderAnalytics();
 
+      case "segments":
+        return <SegmentsPage apiUrl={API_URL} profile={profile} />;
+
       case "evaluation":
         return renderEvaluation();
 
@@ -4647,6 +4652,11 @@ function App() {
       icon: "☀",
     },
     {
+      id: "segments",
+      label: "Traveller Segments",
+      icon: "◎",
+    },
+    {
       id: "analytics",
       label: "Analytics",
       icon: "◫",
@@ -4672,6 +4682,7 @@ function App() {
     account: "user",
     crowd: "people",
     weather: "sun",
+    segments: "people",
     analytics: "chart",
     evaluation: "award",
     assistant: "sparkle",

@@ -538,3 +538,8 @@
     width: 100%;
   }
 }
+
+.landing-status.test {
+  color: #1c5cab;
+  background: #e3effc;
+}

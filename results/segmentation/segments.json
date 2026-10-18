@@ -1,0 +1,372 @@
+{
+ "meta": {
+  "data_source": "synthetic",
+  "input_file": "SYNTHETIC_tourist_behaviour_619.csv",
+  "rows": 619,
+  "feature_count": 31,
+  "features": [
+   "log_trip_days",
+   "spend_band",
+   "districts_visited",
+   "mobility_dispersion_km",
+   "log_overnight_stops",
+   "log_group_size",
+   "activity_count",
+   "planning_lead",
+   "trip_frequency",
+   "act_beach_water",
+   "act_nature_adventure",
+   "act_culture_heritage",
+   "act_wellness",
+   "act_food_shopping_nightlife",
+   "transport_private",
+   "transport_public",
+   "transport_light",
+   "transport_organised",
+   "spend_on_accommodation",
+   "spend_on_food",
+   "spend_on_transport",
+   "spend_on_activities",
+   "spend_on_shopping",
+   "values_keeping_costs_low",
+   "values_comfort_and_luxury",
+   "values_avoiding_crowded_places",
+   "values_protecting_the_environment",
+   "values_authentic_local_experiences",
+   "values_seeing_as_many",
+   "values_safety_and_security",
+   "values_easy_and_convenient"
+  ],
+  "method": "K-Means",
+  "k": 3,
+  "selection_rule": "K-Means with the number of clusters (2 to 8) that gives the highest Silhouette score",
+  "generated_at": "2026-10-18T04:45:57+00:00"
+ },
+ "traits": [
+  {
+   "key": "trip_days",
+   "label": "Average trip length",
+   "unit": "days"
+  },
+  {
+   "key": "spend_band",
+   "label": "Daily spending level (0–5)",
+   "unit": ""
+  },
+  {
+   "key": "districts_visited",
+   "label": "Districts visited",
+   "unit": ""
+  },
+  {
+   "key": "dispersion_km",
+   "label": "Travel spread",
+   "unit": "km"
+  },
+  {
+   "key": "activity_count",
+   "label": "Activities per trip",
+   "unit": ""
+  },
+  {
+   "key": "group_size",
+   "label": "Group size",
+   "unit": "people"
+  },
+  {
+   "key": "overseas_share",
+   "label": "From overseas",
+   "unit": "%"
+  },
+  {
+   "key": "values_avoiding_crowded_places",
+   "label": "Avoiding crowds matters (1–5)",
+   "unit": ""
+  },
+  {
+   "key": "values_keeping_costs_low",
+   "label": "Keeping costs low matters (1–5)",
+   "unit": ""
+  },
+  {
+   "key": "values_comfort_and_luxury",
+   "label": "Comfort and luxury matter (1–5)",
+   "unit": ""
+  }
+ ],
+ "segments": [
+  {
+   "name": "Short, low-cost domestic trips",
+   "scope": "one-area",
+   "description": "Trips of about 3 days, spending LKR 5,000–10,000 a day and covering 1.8 districts on average (one-area). Most often: sightseeing and photography, temples and religious sites. What matters most: safety and security, then keeping costs low.",
+   "size": 339,
+   "share": 0.5477,
+   "typical_spend": "LKR 5,000–10,000",
+   "traits": {
+    "trip_days": 2.681,
+    "spend_band": 1.059,
+    "districts_visited": 1.847,
+    "dispersion_km": 44.257,
+    "activity_count": 4.124,
+    "group_size": 4.982,
+    "overseas_share": 0.032,
+    "values_avoiding_crowded_places": 3.342,
+    "values_keeping_costs_low": 4.088,
+    "values_comfort_and_luxury": 2.802
+   },
+   "top_activities": [
+    {
+     "label": "Sightseeing and photography",
+     "share": 0.723
+    },
+    {
+     "label": "Temples and religious sites",
+     "share": 0.51
+    },
+    {
+     "label": "Relaxing at the beach",
+     "share": 0.437
+    },
+    {
+     "label": "Hiking or trekking",
+     "share": 0.392
+    }
+   ],
+   "top_transport": [
+    {
+     "label": "Own or rented car (self-drive)",
+     "share": 0.504
+    },
+    {
+     "label": "Public bus",
+     "share": 0.33
+    },
+    {
+     "label": "Tuk-tuk",
+     "share": 0.301
+    }
+   ],
+   "top_districts": [
+    {
+     "label": "Kandy",
+     "share": 0.227
+    },
+    {
+     "label": "Nuwara Eliya",
+     "share": 0.195
+    },
+    {
+     "label": "Badulla",
+     "share": 0.174
+    },
+    {
+     "label": "Matara",
+     "share": 0.139
+    }
+   ],
+   "top_styles": [
+    {
+     "label": "Beach and relaxation",
+     "share": 0.218
+    },
+    {
+     "label": "A mix – no single style",
+     "share": 0.215
+    }
+   ],
+   "importance": {
+    "Keeping costs low": 4.09,
+    "Comfort and luxury": 2.8,
+    "Avoiding crowded places": 3.34,
+    "Protecting the environment": 3.26,
+    "Authentic local experiences": 3.4,
+    "Seeing as many places as possible": 3.08,
+    "Safety and security": 4.09,
+    "Easy and convenient transport": 3.84
+   },
+   "id": "S1"
+  },
+  {
+   "name": "Mid-length, higher-spend overseas trips",
+   "scope": "multi-stop",
+   "description": "Trips of about 10 days, spending LKR 20,000–40,000 a day and covering 3.6 districts on average (multi-stop). Most often: relaxing at the beach, sightseeing and photography. What matters most: comfort and luxury, then safety and security.",
+   "size": 189,
+   "share": 0.3053,
+   "typical_spend": "LKR 20,000–40,000",
+   "traits": {
+    "trip_days": 10.048,
+    "spend_band": 3.307,
+    "districts_visited": 3.582,
+    "dispersion_km": 70.007,
+    "activity_count": 6.243,
+    "group_size": 2.831,
+    "overseas_share": 0.989,
+    "values_avoiding_crowded_places": 3.582,
+    "values_keeping_costs_low": 2.455,
+    "values_comfort_and_luxury": 4.243
+   },
+   "top_activities": [
+    {
+     "label": "Relaxing at the beach",
+     "share": 0.751
+    },
+    {
+     "label": "Sightseeing and photography",
+     "share": 0.656
+    },
+    {
+     "label": "Ancient cities, forts and heritage sites",
+     "share": 0.624
+    },
+    {
+     "label": "Local food, cooking classes or food tours",
+     "share": 0.55
+    }
+   ],
+   "top_transport": [
+    {
+     "label": "Private car or van with a driver",
+     "share": 0.704
+    },
+    {
+     "label": "Tuk-tuk",
+     "share": 0.481
+    },
+    {
+     "label": "Taxi or ride-hailing app (PickMe, Uber)",
+     "share": 0.333
+    }
+   ],
+   "top_districts": [
+    {
+     "label": "Galle",
+     "share": 0.487
+    },
+    {
+     "label": "Colombo",
+     "share": 0.36
+    },
+    {
+     "label": "Hambantota",
+     "share": 0.339
+    },
+    {
+     "label": "Matale",
+     "share": 0.323
+    }
+   ],
+   "top_styles": [
+    {
+     "label": "Culture and heritage",
+     "share": 0.291
+    },
+    {
+     "label": "Beach and relaxation",
+     "share": 0.275
+    }
+   ],
+   "importance": {
+    "Keeping costs low": 2.46,
+    "Comfort and luxury": 4.24,
+    "Avoiding crowded places": 3.58,
+    "Protecting the environment": 3.34,
+    "Authentic local experiences": 3.77,
+    "Seeing as many places as possible": 2.77,
+    "Safety and security": 4.2,
+    "Easy and convenient transport": 3.98
+   },
+   "id": "S2"
+  },
+  {
+   "name": "Long, low-cost overseas trips",
+   "scope": "island-wide",
+   "description": "Trips of about 20 days, spending LKR 5,000–10,000 a day and covering 6.4 districts on average (island-wide). Most often: hiking or trekking, relaxing at the beach. What matters most: keeping costs low, then authentic local experiences.",
+   "size": 91,
+   "share": 0.147,
+   "typical_spend": "LKR 5,000–10,000",
+   "traits": {
+    "trip_days": 19.703,
+    "spend_band": 1.198,
+    "districts_visited": 6.385,
+    "dispersion_km": 87.319,
+    "activity_count": 7.22,
+    "group_size": 2.736,
+    "overseas_share": 1.0,
+    "values_avoiding_crowded_places": 3.495,
+    "values_keeping_costs_low": 4.44,
+    "values_comfort_and_luxury": 1.626
+   },
+   "top_activities": [
+    {
+     "label": "Hiking or trekking",
+     "share": 0.835
+    },
+    {
+     "label": "Relaxing at the beach",
+     "share": 0.769
+    },
+    {
+     "label": "Tea plantations or a scenic train journey",
+     "share": 0.747
+    },
+    {
+     "label": "Sightseeing and photography",
+     "share": 0.714
+    }
+   ],
+   "top_transport": [
+    {
+     "label": "Train",
+     "share": 0.934
+    },
+    {
+     "label": "Tuk-tuk",
+     "share": 0.846
+    },
+    {
+     "label": "Public bus",
+     "share": 0.747
+    }
+   ],
+   "top_districts": [
+    {
+     "label": "Matara",
+     "share": 0.703
+    },
+    {
+     "label": "Kandy",
+     "share": 0.648
+    },
+    {
+     "label": "Badulla",
+     "share": 0.637
+    },
+    {
+     "label": "Galle",
+     "share": 0.637
+    }
+   ],
+   "top_styles": [
+    {
+     "label": "Adventure and outdoor activities",
+     "share": 0.341
+    },
+    {
+     "label": "A mix – no single style",
+     "share": 0.33
+    }
+   ],
+   "importance": {
+    "Keeping costs low": 4.44,
+    "Comfort and luxury": 1.63,
+    "Avoiding crowded places": 3.49,
+    "Protecting the environment": 3.84,
+    "Authentic local experiences": 4.29,
+    "Seeing as many places as possible": 4.19,
+    "Safety and security": 3.24,
+    "Easy and convenient transport": 3.25
+   },
+   "id": "S3"
+  }
+ ]
+}

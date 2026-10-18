@@ -14,3 +14,8 @@ data/.travelmind_auth_secret
 models/sbert_model.joblib
 models/*.joblib
 results/*.pkl
+
+# Survey responses: only the labelled synthetic test file may be committed
+data/segmentation/*
+!data/segmentation/SYNTHETIC_*
+!data/segmentation/README.md

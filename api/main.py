@@ -26,6 +26,7 @@ from api.services.explainability_chat_service import (
     ExplainabilityChatService,
 )
 from api.services.auth_service import AuthService
+from api.services.segmentation_service import SegmentationService
 
 
 # =========================================================
@@ -66,6 +67,7 @@ auth_service = AuthService()
 explainability_chat_service = ExplainabilityChatService(
     recommendation_service
 )
+segmentation_service = SegmentationService()
 
 
 # =========================================================
@@ -602,6 +604,42 @@ def get_evaluation():
             demand_aware_statistics
         ),
     }
+
+
+# =========================================================
+# TRAVELLER SEGMENTS (component 4, IT23366886)
+# =========================================================
+
+def require_segments():
+    if not segmentation_service.available:
+        raise HTTPException(
+            status_code=503,
+            detail="Traveller segments have not been generated yet. Run: python -m segmentation.pipeline",
+        )
+
+
+@app.get("/segments")
+def get_segments():
+    require_segments()
+    return segmentation_service.overview()
+
+
+@app.get("/segments/evaluation")
+def get_segment_evaluation():
+    require_segments()
+    return segmentation_service.evaluation()
+
+
+@app.get("/segments/points")
+def get_segment_points():
+    require_segments()
+    return segmentation_service.points()
+
+
+@app.post("/segments/assign")
+def assign_traveler_segment(profile: TravelerProfile):
+    require_segments()
+    return segmentation_service.assign_profile(profile.model_dump())
 
 
 # =========================================================

@@ -1,0 +1,172 @@
+{
+ "meta": {
+  "data_source": "synthetic",
+  "input_file": "SYNTHETIC_tourist_behaviour_619.csv",
+  "rows": 619,
+  "feature_count": 31,
+  "features": [
+   "log_trip_days",
+   "spend_band",
+   "districts_visited",
+   "mobility_dispersion_km",
+   "log_overnight_stops",
+   "log_group_size",
+   "activity_count",
+   "planning_lead",
+   "trip_frequency",
+   "act_beach_water",
+   "act_nature_adventure",
+   "act_culture_heritage",
+   "act_wellness",
+   "act_food_shopping_nightlife",
+   "transport_private",
+   "transport_public",
+   "transport_light",
+   "transport_organised",
+   "spend_on_accommodation",
+   "spend_on_food",
+   "spend_on_transport",
+   "spend_on_activities",
+   "spend_on_shopping",
+   "values_keeping_costs_low",
+   "values_comfort_and_luxury",
+   "values_avoiding_crowded_places",
+   "values_protecting_the_environment",
+   "values_authentic_local_experiences",
+   "values_seeing_as_many",
+   "values_safety_and_security",
+   "values_easy_and_convenient"
+  ],
+  "method": "K-Means",
+  "k": 3,
+  "selection_rule": "K-Means with the number of clusters (2 to 8) that gives the highest Silhouette score",
+  "generated_at": "2026-10-18T04:45:57+00:00"
+ },
+ "methods": [
+  {
+   "id": "baseline_demographic",
+   "name": "Baseline 1: age band and country",
+   "kind": "baseline",
+   "setting": "3 age bands x country",
+   "clusters": 69,
+   "noise_share": 0.0,
+   "silhouette": -0.1278,
+   "davies_bouldin": 3.4322,
+   "calinski_harabasz": 3.1051,
+   "agreement_with_planted": 0.2809
+  },
+  {
+   "id": "baseline_spending",
+   "name": "Baseline 2: K-Means on spending only",
+   "kind": "baseline",
+   "setting": "k=5",
+   "clusters": 5,
+   "noise_share": 0.0,
+   "silhouette": -0.0057,
+   "davies_bouldin": 8.6839,
+   "calinski_harabasz": 16.505,
+   "agreement_with_planted": 0.1428
+  },
+  {
+   "id": "kmeans",
+   "name": "K-Means",
+   "kind": "proposed",
+   "setting": "k=3",
+   "clusters": 3,
+   "noise_share": 0.0,
+   "silhouette": 0.162,
+   "davies_bouldin": 2.0811,
+   "calinski_harabasz": 94.829,
+   "agreement_with_planted": 0.4675
+  },
+  {
+   "id": "agglomerative",
+   "name": "Agglomerative (Ward)",
+   "kind": "proposed",
+   "setting": "k=3",
+   "clusters": 3,
+   "noise_share": 0.0,
+   "silhouette": 0.1587,
+   "davies_bouldin": 2.1004,
+   "calinski_harabasz": 92.4834,
+   "agreement_with_planted": 0.4544
+  },
+  {
+   "id": "dbscan",
+   "name": "DBSCAN",
+   "kind": "proposed",
+   "setting": "eps=5.00, min_samples=10",
+   "clusters": 2,
+   "noise_share": 0.2229,
+   "silhouette": 0.1708,
+   "davies_bouldin": 1.7336,
+   "calinski_harabasz": 58.6413,
+   "agreement_with_planted": 0.1252
+  }
+ ],
+ "k_sweep": [
+  {
+   "k": 2,
+   "silhouette": 0.1515,
+   "davies_bouldin": 2.3568,
+   "calinski_harabasz": 108.4015,
+   "agreement_with_planted": 0.3217
+  },
+  {
+   "k": 3,
+   "silhouette": 0.162,
+   "davies_bouldin": 2.0811,
+   "calinski_harabasz": 94.829,
+   "agreement_with_planted": 0.4675
+  },
+  {
+   "k": 4,
+   "silhouette": 0.1605,
+   "davies_bouldin": 1.9586,
+   "calinski_harabasz": 83.1015,
+   "agreement_with_planted": 0.5458
+  },
+  {
+   "k": 5,
+   "silhouette": 0.1283,
+   "davies_bouldin": 2.2733,
+   "calinski_harabasz": 75.2154,
+   "agreement_with_planted": 0.7702
+  },
+  {
+   "k": 6,
+   "silhouette": 0.1051,
+   "davies_bouldin": 2.7451,
+   "calinski_harabasz": 63.9741,
+   "agreement_with_planted": 0.7454
+  },
+  {
+   "k": 7,
+   "silhouette": 0.1069,
+   "davies_bouldin": 2.6941,
+   "calinski_harabasz": 55.618,
+   "agreement_with_planted": 0.7411
+  },
+  {
+   "k": 8,
+   "silhouette": 0.0936,
+   "davies_bouldin": 2.9908,
+   "calinski_harabasz": 49.583,
+   "agreement_with_planted": 0.6773
+  }
+ ],
+ "chosen": {
+  "method": "K-Means",
+  "k": 3,
+  "silhouette": 0.162,
+  "davies_bouldin": 2.0811,
+  "calinski_harabasz": 94.829
+ },
+ "targets": {
+  "silhouette_min": 0.65,
+  "davies_bouldin_max": 0.8,
+  "silhouette_met": false,
+  "davies_bouldin_met": false
+ },
+ "assignment_agreement": 0.9725
+}

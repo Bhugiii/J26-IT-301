@@ -6,7 +6,8 @@ export type LandingTarget =
   | "itinerary"
   | "crowd"
   | "weather"
-  | "assistant";
+  | "assistant"
+  | "segments";
 
 interface LandingPageProps {
   signedInEmail: string | null;
@@ -18,30 +19,32 @@ interface LandingPageProps {
 const photo = (id: string, width: number) =>
   `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=80`;
 
-const components = [
+const STATUS_LABEL = { live: "Live in this prototype", test: "Running on test data", building: "In development" } as const;
+
+const components: { number: string; title: string; text: string; status: keyof typeof STATUS_LABEL }[] = [
   {
     number: "01",
     title: "Recommendations that explain themselves",
     text: "Ranked destinations matched to your interests, budget, pace and preferred crowd level, each with the reasons behind its score.",
-    live: true,
+    status: "live",
   },
   {
     number: "02",
     title: "Geo-spatial tourism intelligence",
     text: "Maps of where visitors concentrate and which areas remain under-visited, to help spread tourism beyond the usual hotspots.",
-    live: false,
+    status: "building",
   },
   {
     number: "03",
     title: "Promise versus reality index",
     text: "A trust signal that compares how a place is advertised with what visitors report about food, service, cleanliness and the overall experience.",
-    live: false,
+    status: "building",
   },
   {
     number: "04",
     title: "Traveller behaviour segments",
     text: "Groups of travellers discovered from how people actually travel: how long they stay, where they go, what they do and how they spend.",
-    live: false,
+    status: "test",
   },
 ];
 
@@ -65,9 +68,8 @@ const features: { target: LandingTarget; title: string; text: string }[] = [
   { target: "itinerary", title: "Itinerary planner", text: "A day-by-day plan built from your ranked places and travel pace." },
   { target: "crowd", title: "Crowd prediction", text: "Predicted crowd levels, so you can pick quieter alternatives." },
   { target: "weather", title: "Weather intelligence", text: "How well each destination suits the weather you prefer." },
-  { target: "assistant", title: "Explainable AI chat", text: "Ask why a place was recommended and see the evidence behind the answer." },
-  { target: "dashboard", title: "Your dashboard", text: "A summary of your matches, preferences and next steps in one place." },
-];
+  { target: "segments", title: "Traveller segments", text: "See the kinds of traveller found in the survey data, and which one you are closest to." },
+  { target: "assistant", title: "Explainable AI chat", text: "Ask why a place was recommended and see the evidence behind the answer." },];
 
 const gallery = [
   { id: "photo-1612862862126-865765df2ded", caption: "Sigiriya rock fortress" },
@@ -144,7 +146,7 @@ function LandingPage({ signedInEmail, onEnter, onSignIn, onCreateAccount }: Land
           <div className="landing-heading">
             <span className="landing-eyebrow">WHAT IT DOES</span>
             <h2>Four kinds of tourism intelligence, one platform</h2>
-            <p>TravelMind brings together four research components. One is live in this prototype and three are being built.</p>
+            <p>TravelMind brings together four research components. One is live, one is running on test data, and two are being built.</p>
           </div>
 
           <div className="landing-components">
@@ -152,8 +154,8 @@ function LandingPage({ signedInEmail, onEnter, onSignIn, onCreateAccount }: Land
               <article className="landing-component" key={component.number}>
                 <div className="landing-component-top">
                   <span className="landing-component-number">{component.number}</span>
-                  <span className={`landing-status ${component.live ? "live" : "building"}`}>
-                    {component.live ? "Live in this prototype" : "In development"}
+                  <span className={`landing-status ${component.status}`}>
+                    {STATUS_LABEL[component.status]}
                   </span>
                 </div>
                 <h3>{component.title}</h3>
