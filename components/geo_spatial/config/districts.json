@@ -1,0 +1,222 @@
+{
+  "Ampara": {
+    "province": "Eastern",
+    "categories": [
+      "beaches",
+      "wildlife",
+      "temples",
+      "surfing"
+    ]
+  },
+  "Anuradhapura": {
+    "province": "North Central",
+    "categories": [
+      "ancient cities",
+      "archaeological sites",
+      "temples"
+    ]
+  },
+  "Badulla": {
+    "province": "Uva",
+    "categories": [
+      "waterfalls",
+      "mountains",
+      "hiking",
+      "scenic viewpoints"
+    ]
+  },
+  "Batticaloa": {
+    "province": "Eastern",
+    "categories": [
+      "beaches",
+      "lagoons",
+      "forts",
+      "cultural sites"
+    ]
+  },
+  "Colombo": {
+    "province": "Western",
+    "categories": [
+      "museums",
+      "landmarks",
+      "shopping",
+      "parks",
+      "restaurants"
+    ]
+  },
+  "Galle": {
+    "province": "Southern",
+    "categories": [
+      "beaches",
+      "historic forts",
+      "museums",
+      "cultural sites"
+    ]
+  },
+  "Gampaha": {
+    "province": "Western",
+    "categories": [
+      "beaches",
+      "lagoons",
+      "temples",
+      "parks"
+    ]
+  },
+  "Hambantota": {
+    "province": "Southern",
+    "categories": [
+      "wildlife",
+      "national parks",
+      "beaches",
+      "nature"
+    ]
+  },
+  "Jaffna": {
+    "province": "Northern",
+    "categories": [
+      "temples",
+      "forts",
+      "islands",
+      "cultural heritage"
+    ]
+  },
+  "Kalutara": {
+    "province": "Western",
+    "categories": [
+      "beaches",
+      "religious sites",
+      "coastal attractions"
+    ]
+  },
+  "Kandy": {
+    "province": "Central",
+    "categories": [
+      "temples",
+      "museums",
+      "gardens",
+      "cultural heritage"
+    ]
+  },
+  "Kegalle": {
+    "province": "Sabaragamuwa",
+    "categories": [
+      "nature",
+      "waterfalls",
+      "wildlife",
+      "forest attractions"
+    ]
+  },
+  "Kilinochchi": {
+    "province": "Northern",
+    "categories": [
+      "lagoons",
+      "beaches",
+      "historical landmarks"
+    ]
+  },
+  "Kurunegala": {
+    "province": "North Western",
+    "categories": [
+      "rock formations",
+      "temples",
+      "historical sites"
+    ]
+  },
+  "Mannar": {
+    "province": "Northern",
+    "categories": [
+      "islands",
+      "birdwatching",
+      "beaches",
+      "historical sites"
+    ]
+  },
+  "Matale": {
+    "province": "Central",
+    "categories": [
+      "cave temples",
+      "heritage sites",
+      "nature",
+      "viewpoints"
+    ]
+  },
+  "Matara": {
+    "province": "Southern",
+    "categories": [
+      "beaches",
+      "coastal attractions",
+      "temples",
+      "surfing"
+    ]
+  },
+  "Monaragala": {
+    "province": "Uva",
+    "categories": [
+      "wildlife",
+      "ancient ruins",
+      "waterfalls",
+      "nature"
+    ]
+  },
+  "Mullaitivu": {
+    "province": "Northern",
+    "categories": [
+      "beaches",
+      "lagoons",
+      "nature",
+      "historical landmarks"
+    ]
+  },
+  "Nuwara Eliya": {
+    "province": "Central",
+    "categories": [
+      "tea plantations",
+      "waterfalls",
+      "gardens",
+      "mountains"
+    ]
+  },
+  "Polonnaruwa": {
+    "province": "North Central",
+    "categories": [
+      "ancient ruins",
+      "museums",
+      "archaeological sites"
+    ]
+  },
+  "Puttalam": {
+    "province": "North Western",
+    "categories": [
+      "lagoons",
+      "beaches",
+      "birdwatching",
+      "nature"
+    ]
+  },
+  "Ratnapura": {
+    "province": "Sabaragamuwa",
+    "categories": [
+      "waterfalls",
+      "rainforests",
+      "gem heritage",
+      "hiking"
+    ]
+  },
+  "Trincomalee": {
+    "province": "Eastern",
+    "categories": [
+      "beaches",
+      "snorkeling",
+      "temples",
+      "marine attractions"
+    ]
+  },
+  "Vavuniya": {
+    "province": "Northern",
+    "categories": [
+      "religious sites",
+      "cultural heritage",
+      "historical landmarks"
+    ]
+  }
+}

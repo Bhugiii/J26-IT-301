@@ -1,0 +1,17 @@
+district,sample_records,tourism_yes,tourism_no,evidence_urls_recorded
+Batticaloa,20,0,0,0
+Jaffna,12,0,0,0
+Kandy,6,0,0,0
+Anuradhapura,6,1,0,1
+Galle,5,1,0,1
+Badulla,5,2,0,2
+Vavuniya,5,0,0,0
+Ampara,4,0,0,0
+Colombo,4,0,0,0
+Polonnaruwa,2,1,0,1
+Kegalle,1,0,0,0
+Kurunegala,1,0,0,0
+Mullaitivu,1,0,0,0
+Monaragala,1,0,0,0
+Nuwara Eliya,1,0,0,0
+Puttalam,1,0,0,0

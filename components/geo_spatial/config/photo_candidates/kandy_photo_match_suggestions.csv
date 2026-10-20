@@ -1,0 +1,31 @@
+﻿target_name,candidate_rank,attraction_id,attraction_name,district,tourism_category,latitude,longitude,name_similarity,review_status
+Temple of the Sacred Tooth Relic,1,osm_way_191377765,Temple of the Sacred Tooth Relic,Kandy,Temples,7.293625,80.6413293,1.000,NEEDS_MANUAL_REVIEW
+Temple of the Sacred Tooth Relic,2,osm_way_1008759157,Maha Maluwa,Kandy,Parks,7.2933778,80.6396749,0.615,NEEDS_MANUAL_REVIEW
+Temple of the Sacred Tooth Relic,3,osm_node_5160629466,Doalapihilla Ambalama,Kandy,Parks,7.3905983,80.580445,0.611,NEEDS_MANUAL_REVIEW
+Royal Botanical Gardens Peradeniya,1,osm_way_495836947,Peradeniya garden,Kandy,Gardens,7.2591708,80.5933777,0.773,NEEDS_MANUAL_REVIEW
+Royal Botanical Gardens Peradeniya,2,osm_way_398528198,Medicinal Garden,Kandy,Gardens,7.2665129,80.5943559,0.667,NEEDS_MANUAL_REVIEW
+Royal Botanical Gardens Peradeniya,3,osm_way_398528195,Spice Garden,Kandy,Gardens,7.2687913,80.5970903,0.621,NEEDS_MANUAL_REVIEW
+Kandy Lake,1,osm_way_172889209,Bogambara,Kandy,Tourist attractions,7.290631,80.6352496,0.783,NEEDS_MANUAL_REVIEW
+Kandy Lake,2,osm_node_7653421688,Kabaragala,Kandy,Mountains,7.0706661,80.5031508,0.583,NEEDS_MANUAL_REVIEW
+Kandy Lake,3,osm_way_1167977337,The Kandy Clock Tower,Kandy,Tourist attractions,7.2931435,80.634809,0.581,NEEDS_MANUAL_REVIEW
+Ambuluwawa Tower,1,osm_node_5299675266,Ambuluwaawa,Kandy,Mountains,7.1610736,80.5473402,0.952,NEEDS_MANUAL_REVIEW
+Ambuluwawa Tower,2,osm_node_3750186771,Ambuluwawa Temple,Kandy,Temples,7.1611161,80.547108,0.788,NEEDS_MANUAL_REVIEW
+Ambuluwawa Tower,3,osm_way_541652960,University Temple,Kandy,Temples,7.2530861,80.5994586,0.583,NEEDS_MANUAL_REVIEW
+Bahirawakanda Buddha Statue,1,osm_node_10862211785,Bahirawakanda Buddha,Kandy,Cultural heritage,7.295581,80.6309001,0.851,NEEDS_MANUAL_REVIEW
+Bahirawakanda Buddha Statue,2,osm_way_573809459,Bahirawakanda Temple,Kandy,Temples,7.2954929,80.6309308,0.788,NEEDS_MANUAL_REVIEW
+Bahirawakanda Buddha Statue,3,osm_node_2312756052,Loard Buddha Statue,Kandy,Temples,7.292364,80.8548938,0.739,NEEDS_MANUAL_REVIEW
+Udawattakele Forest Reserve,1,osm_node_3729749696,Uyanwatta Temple,Kandy,Temples,7.3270434,80.5968925,0.759,NEEDS_MANUAL_REVIEW
+Udawattakele Forest Reserve,2,osm_node_5180062626,Udawaththa Kovila,Kandy,Religious sites,7.4480547,80.5554995,0.733,NEEDS_MANUAL_REVIEW
+Udawattakele Forest Reserve,3,osm_node_6183138166,Halgolla Forest Reserve,Kandy,Nature reserves,7.3061909,80.5216554,0.680,NEEDS_MANUAL_REVIEW
+Gadaladeniya Temple,1,osm_node_1743126596,Gadaladeniya Temple,Kandy,Temples,7.25727,80.5561355,1.000,NEEDS_MANUAL_REVIEW
+Gadaladeniya Temple,2,osm_node_4034237665,Udaperadeniya Viharaya,Kandy,Temples,7.2608265,80.6057957,0.837,NEEDS_MANUAL_REVIEW
+Gadaladeniya Temple,3,osm_way_966204856,Galkanda Viharaya,Kandy,Temples,7.2974201,80.6353672,0.789,NEEDS_MANUAL_REVIEW
+Lankatilaka Temple,1,osm_node_1743126531,Lankatilaka Raja Maha Viharaya,Kandy,Temples,7.2339083,80.5650427,0.800,NEEDS_MANUAL_REVIEW
+Lankatilaka Temple,2,osm_node_3804899638,Nilavala Viharaya,Kandy,Temples,7.1915054,80.7455748,0.757,NEEDS_MANUAL_REVIEW
+Lankatilaka Temple,3,osm_way_586104893,Sri Gangathilake Viharaya,Kandy,Temples,7.3435268,80.7345767,0.756,NEEDS_MANUAL_REVIEW
+Embekka Devalaya,1,osm_node_1743126585,Embekka Devale,Kandy,Temples,7.2180409,80.5678466,0.867,NEEDS_MANUAL_REVIEW
+Embekka Devalaya,2,osm_node_10800789005,Kataragama Devalaya,Kandy,Religious sites,7.2940625,80.6367823,0.629,NEEDS_MANUAL_REVIEW
+Embekka Devalaya,3,osm_way_966045114,Kataragama Devalaya,Kandy,Religious sites,7.2938981,80.6364476,0.629,NEEDS_MANUAL_REVIEW
+Commonwealth War Cemetery Kandy,1,osm_node_8584872571,War Memorial,Kandy,Cultural heritage,7.271568,80.6058355,0.583,NEEDS_MANUAL_REVIEW
+Commonwealth War Cemetery Kandy,2,osm_way_490622089,Malwatu Chapter Monastery,Kandy,Temples,7.2903711,80.6408392,0.541,NEEDS_MANUAL_REVIEW
+Commonwealth War Cemetery Kandy,3,osm_way_1167977337,The Kandy Clock Tower,Kandy,Tourist attractions,7.2931435,80.634809,0.513,NEEDS_MANUAL_REVIEW

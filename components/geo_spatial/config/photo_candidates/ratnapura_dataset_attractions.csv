@@ -1,0 +1,348 @@
+﻿attraction_id,attraction_name,tourism_category,latitude,longitude
+osm_node_3198655138,Ammaduwa Kuda Kathragama Dewalaya,Archaeological sites,6.5395025,80.6602861
+osm_node_12532204584,Ballanbendipelessa,Archaeological sites,6.5265865,80.8209455
+osm_way_561752812,Batadombalena,Archaeological sites,6.7766662,80.3961859
+osm_way_413231794,Galtemyaya Ruins,Archaeological sites,6.6347195,80.8626147
+osm_node_6627275335,Waulpane Ruins,Archaeological sites,6.4252405,80.7334399
+osm_node_8421084994,Buddha Shrine,Cultural heritage,6.7073996,80.3869082
+osm_way_537654639,Buddha Statue,Cultural heritage,6.7134018,80.3855853
+osm_way_385199359,Anagarika Dharmapala Memorial Statue,Historical landmarks,6.6815571,80.4006411
+osm_node_10920716110,Buddha,Historical landmarks,6.81047,80.48849
+osm_node_10920734166,Buddha,Historical landmarks,6.5009145,80.6592623
+osm_node_1829368628,Buddha Statue,Historical landmarks,6.6525049,80.7053596
+osm_node_2152800305,Clock Tower,Historical landmarks,6.5832172,80.5732404
+osm_node_7389658045,Old Kelani Valley Railway Bridge,Historical landmarks,6.6793356,80.4158054
+osm_node_2151471662,Ratnapura Clock Tower,Historical landmarks,6.6802265,80.4022261
+osm_way_560417469,Shakyasinghe Samadhi Buddha statue,Historical landmarks,6.7234045,80.3807121
+osm_node_1727709404,Tomb of Pussadeva,Historical landmarks,6.4450929,80.7532801
+osm_node_10688755176,Balumgala,Mountains,6.7110142,80.7907279
+osm_node_5091549515,Boltumbe,Mountains,6.7271083,80.6570774
+osm_node_5050155936,Gommolli Kanda,Mountains,6.7666928,80.8090256
+osm_node_5050233144,Gongala,Mountains,6.3852835,80.649706
+osm_node_5050221730,Hagala,Mountains,6.7220774,80.743798
+osm_node_5097274483,Iharakanda,Mountains,6.5281673,80.4945224
+osm_node_5023011415,Ilumbakanda,Mountains,6.4140779,80.5679797
+osm_node_5023915628,Kella,Mountains,6.3806844,80.6984853
+osm_node_4893731244,Kiribathgala,Mountains,6.6137636,80.515902
+osm_node_6649375258,Kondagala,Mountains,6.6943503,80.560158
+osm_node_5023011413,Kudagoda,Mountains,6.4142485,80.5503844
+osm_node_14144586892,Kukulagala,Mountains,6.6650654,80.2621833
+osm_node_5022990540,Kurulugala Peak,Mountains,6.4611577,80.6422877
+osm_node_4894241542,Kuttapitiya Mountain,Mountains,6.6661422,80.5903815
+osm_node_4842093580,Lankabarana Kanda,Mountains,6.6426147,80.7252304
+osm_node_2711676241,Mulawella,Mountains,6.4241104,80.4271476
+osm_node_9409737878,Nagrak Mountain,Mountains,6.7574897,80.7754026
+osm_node_5023915642,Naigala,Mountains,6.3824117,80.6735623
+osm_node_5022990539,Palamcotta Peak,Mountains,6.4547186,80.659368
+osm_node_5094521900,Pethiyagala,Mountains,6.7336664,80.7240307
+osm_node_5091553269,Punchuwaththa,Mountains,6.726794,80.6184697
+osm_node_4893728790,Singappulikanda,Mountains,6.6393499,80.473736
+osm_node_5022014696,Sooriya Kanda,Mountains,6.4397479,80.6199476
+osm_node_254036900,Sri Pada Foot Print,Mountains,6.8094211,80.4993876
+osm_node_4894242478,Thoppikanda,Mountains,6.6660142,80.546565
+osm_node_5022014677,Wadakahadeniya,Mountains,6.4338975,80.7114565
+osm_node_5091552749,Walaboda Pathana,Mountains,6.722167,80.6506696
+osm_node_9282370184,Walankanda,Mountains,6.4923264,80.4811049
+osm_way_268110420,Elephant Information Centre,Museums,6.4266609,80.8164876
+osm_way_364257554,Maduwanwela Walawwa,Museums,6.3892352,80.7037763
+osm_node_2151514497,National Museum Ratnapura,Museums,6.6842948,80.3995602
+osm_node_5113405622,Bathing Place,Nature,6.4197419,80.663276
+osm_way_310189994,Ayurwedic Osu Uyana,Parks,6.3253635,80.8471221
+osm_node_13155239671,Hospital Park,Parks,6.6579445,80.712641
+osm_node_12548811581,Hostel Area,Parks,6.5597697,80.5817775
+osm_node_12548811582,Quarters Area,Parks,6.5597762,80.5807623
+osm_way_1565369810,Rye No 2 Estate Playground.,Parks,6.6708951,80.7097525
+osm_node_12224025184,udagama wapi park,Parks,6.3334396,80.8475894
+osm_node_7828045874,Aluketiya Dewalaya,Religious sites,6.6630038,80.3876656
+osm_node_4833924622,Arul Migu Sri Muththumariyamman Devasthanam,Religious sites,6.5638322,80.387287
+osm_node_10559799888,Baduwaththa Muhiyadeen Jumma Masjid,Religious sites,6.836593,80.2766302
+osm_node_4718019822,Darul huda- Madrasa,Religious sites,6.6270209,80.7246588
+osm_node_4045190944,Jumma Masjid,Religious sites,6.5806458,80.5735652
+osm_way_1145607258,Jumma Mosque,Religious sites,6.646174,80.7061444
+osm_node_7828131165,Magurugoda Dewalaya,Religious sites,6.6292093,80.3980538
+osm_node_4718021293,Masjid Kirimetithenna,Religious sites,6.6292281,80.7232913
+osm_node_4717813594,Masjid-Dehigasthalawa,Religious sites,6.6384129,80.7164291
+osm_node_4717811089,Masjid-ul-Saleem,Religious sites,6.6405645,80.7101071
+osm_node_2146154675,Masjidul Noor,Religious sites,6.8590269,80.2556293
+osm_node_4976808423,Miriswatha Masjid,Religious sites,6.6444233,80.7107556
+osm_way_531012996,Palm Garden Kovil,Religious sites,6.7096029,80.3874024
+osm_node_1829368645,St. Joseph's Church,Religious sites,6.6573201,80.7022279
+osm_way_533728558,St. Lukes Church,Religious sites,6.682102,80.4006689
+osm_node_13155221572,St.Anthony's Church,Religious sites,6.7062428,80.6835451
+osm_node_4454599040,St.Mary Church,Religious sites,6.7188072,80.7711012
+osm_node_5729809989,Temple,Religious sites,6.6176296,80.560401
+osm_node_4717807014,Town Masjid,Religious sites,6.650573,80.6991486
+osm_node_12224019616,dakma class,Religious sites,6.321767,80.8412456
+osm_way_1192257950,idangoda(galathura) markat,Religious sites,6.7304091,80.27575
+osm_node_7905101874,sankhapala Raja Maha Viharaya,Religious sites,6.634498,80.529954
+osm_node_7684607839,Baker's Bend,Scenic viewpoints,6.7608756,80.7836272
+osm_node_3517289196,Bopath Ella,Scenic viewpoints,6.8017623,80.3692116
+osm_node_5304214010,Heramitipana,Scenic viewpoints,6.8102819,80.4870549
+osm_node_5335446121,Maratenne Estate Viewpoint,Scenic viewpoints,6.7447834,80.7074999
+osm_node_5304214009,Meellakela,Scenic viewpoints,6.8111754,80.4923804
+osm_node_891639918,Mini World's End,Scenic viewpoints,6.7853177,80.8003087
+osm_node_8506615208,Paraviyangala,Scenic viewpoints,6.7412979,80.795348
+osm_node_5304223023,Seethagangula,Scenic viewpoints,6.8222505,80.4576659
+osm_node_2152922622,Wangu 10,Scenic viewpoints,6.4655993,80.6287085
+osm_node_6627275337,Waulpane Cave,Scenic viewpoints,6.4249508,80.7328816
+osm_node_603033668,World's End (Plate 1),Scenic viewpoints,6.780405,80.7944245
+osm_node_1742667917,World's End (Plate 2),Scenic viewpoints,6.7799838,80.7940585
+osm_node_4502083400,Abhayarama Viharaya,Temples,6.5980339,80.5568326
+osm_node_10304577678,Alukatiya Sri Wivekaramaya-Sri Vidyapradeepa Primary Pirivena,Temples,6.7601775,80.2799589
+osm_node_10309006769,Ambakade Bhavana Kutiya,Temples,6.7909527,80.214328
+osm_way_782991410,Amunuthenna Temple,Temples,6.7081734,80.5204309
+osm_way_560418465,Ananda Maitreya Sangha Raja Viharaya,Temples,6.7150001,80.3796257
+osm_way_790422283,Angammana Purana Rajamaha Viharaya,Temples,6.6831361,80.4205415
+osm_node_4892365945,Asumaha Srawaka Viharaya,Temples,6.6224142,80.5521415
+osm_node_4694448604,Atakalanpanna Sri Sunandarama Maha Viharaya,Temples,6.5211963,80.5905324
+osm_node_13154789307,Atawakwela Sri Sugatharamaya,Temples,6.7100814,80.6938941
+osm_way_523261436,Atawakwela Sugatharama Purana Viharaya,Temples,6.7101411,80.6939044
+osm_node_4045295794,Balawinna Purana Raja Maha Viharaya,Temples,6.4895896,80.6794979
+osm_way_782991412,Bambarabotuwa Sri Sudharmaramaya,Temples,6.7098964,80.5393783
+osm_node_5265745759,Bambaragala Aranya Senasanaya,Temples,6.51277,80.7506361
+osm_node_4894243630,Baranduwa Rankoth Viharaya,Temples,6.6632382,80.4863602
+osm_way_783692365,Batathotalena Cave Temple,Temples,6.8304507,80.3742495
+osm_node_6649413386,Batewela Temple,Temples,6.6947884,80.5465901
+osm_way_824145229,Batugedara Temple,Temples,6.6719126,80.4191527
+osm_way_1044814187,Bhaddekavihārī Hermitage,Temples,6.6267868,80.8490709
+osm_node_6297400251,Bodhimaluwa Temple,Temples,6.8203383,80.2984821
+osm_way_522869099,Boltumbe Purana Sumana Maha Dewalaya,Temples,6.7173975,80.6709321
+osm_way_1184931268,Buddha's Statue,Temples,6.7095993,80.7873109
+osm_node_4045510679,Buddhist Temple,Temples,6.5374361,80.4047139
+osm_node_4894243604,Buddhist Temple,Temples,6.6644104,80.5001011
+osm_node_5259518392,Buddhist Temple,Temples,6.4355847,80.643885
+osm_node_5416521571,Buddhist Temple,Temples,6.775008,80.3800026
+osm_node_6433653862,Buddhist Temple,Temples,6.5168274,80.6237483
+osm_way_513969908,Buddhist Temple,Temples,6.4426099,80.6998388
+osm_way_514025261,Buddhist Temple,Temples,6.4425954,80.6883804
+osm_way_515788546,Buddhist Temple,Temples,6.5994699,80.762718
+osm_way_523261430,Buddhist Temple,Temples,6.7143265,80.6899753
+osm_way_523261433,Buddhist Temple,Temples,6.7130074,80.6860801
+osm_way_544092682,Buddhist Temple,Temples,6.4238117,80.6467397
+osm_way_548693324,Buddhist Temple,Temples,6.5577507,80.6639363
+osm_way_548693325,Buddhist Temple,Temples,6.5195109,80.6697307
+osm_way_551472658,Buddhist Temple,Temples,6.3113871,80.8180502
+osm_way_551592920,Buddhist Temple,Temples,6.3452086,80.8132564
+osm_way_561785426,Buddhist Temple,Temples,6.7807454,80.4289077
+osm_way_586062170,Buddhist Temple,Temples,6.6806235,80.7276674
+osm_way_549016348,Buddist Temple,Temples,6.7397263,80.2754879
+osm_way_549093343,Buddist Temple,Temples,6.802779,80.2493335
+osm_node_4145854772,Budugala Purana Rajamaha Viharaya,Temples,6.6332481,80.8756302
+osm_way_514164308,Buthkanda Temple,Temples,6.3820524,80.6827403
+osm_node_10554380354,Chithra Ella Sripada Meditation Centre,Temples,6.8247712,80.247657
+osm_node_5289190215,Dambuluwana Temple,Temples,6.7110921,80.3351211
+osm_way_782991413,Dehenakanda Temple,Temples,6.7235717,80.5412562
+osm_node_3749446346,Dela Gangarama Maha Viharaya,Temples,6.6211584,80.4528285
+osm_node_2146192503,Delgamuwa Raja Maha Viharaya,Temples,6.7757633,80.3564858
+osm_node_3147175377,Devale Temple,Temples,6.3206439,80.8611844
+osm_way_783692366,Divaguha Rajamaha Viharaya,Temples,6.8298809,80.3742853
+osm_node_5264919724,Dolapalla Rathnarama Aranya,Temples,6.7667272,80.2596934
+osm_node_7013410771,Doloswalakanda Temple,Temples,6.5604187,80.4629232
+osm_node_3155787889,Dutugemunu MahaSeya,Temples,6.3164605,80.8419513
+osm_way_522869144,Egoda Waleboda Temple,Temples,6.7242394,80.6049952
+osm_node_8319350971,Ellegedara Sri Purwaramaya,Temples,6.7321482,80.3946161
+osm_node_3198633972,Ematiyagoda Sri Suvisuddarama Viharaya,Temples,6.5227691,80.6399682
+osm_way_385070384,Entrance of Saman Dewalaya,Temples,6.6919516,80.3823145
+osm_node_2146224231,Erathna Temple,Temples,6.8331256,80.4091001
+osm_node_10586420099,Erepola Sri Vishudhdharamaya,Temples,6.8028738,80.2493518
+osm_way_514164310,Ereporuwa Temple,Temples,6.4198338,80.6713535
+osm_way_787147385,Galathura Temple,Temples,6.7010971,80.2899747
+osm_way_516214407,Gallinna Bodhiguttaramaya,Temples,6.6095512,80.6752912
+osm_node_2151690228,Galpoththawela Raja Maha Viharaya,Temples,6.6295844,80.5383677
+osm_node_1745540305,Ganegama Raja Maha Viharaya,Temples,6.6340866,80.5230388
+osm_way_799286247,Gangarama Purana Temple,Temples,6.638416,80.3116151
+osm_way_789651980,Gangoda Sri Sudharmaramaya,Temples,6.4746917,80.5966227
+osm_way_514459642,Gangodakanda Punya Wardhanarama Piriwen Viharaya,Temples,6.6631576,80.2859342
+osm_way_523261391,Geta-Araluwa Bodhirukkharamaya,Temples,6.6515527,80.730979
+osm_node_6698983637,Getangama Sri Wijyaramaya,Temples,6.6704177,80.3952693
+osm_way_832356661,Gileemale Rajamaha Viharaya,Temples,6.7455943,80.4387289
+osm_node_2151514478,Gnanasinghe Tapowana Temple (Kajugaswatta),Temples,6.6842163,80.4063212
+osm_way_525835513,Gnanasinghe Tapowana Temple (Kajugaswatta),Temples,6.6842252,80.406235
+osm_node_2152792715,Godagama Raja Maha Viharaya,Temples,6.6119426,80.5508225
+osm_way_287308540,Godakawela Mahinda Maha Viharaya,Temples,6.5039542,80.6508574
+osm_way_681586444,Gonakumbura Sri Dharma Niketanaramaya,Temples,6.6854354,80.4617557
+osm_node_7828066097,Haldola Bodhiya,Temples,6.6894575,80.3640515
+osm_way_515500873,Handagiriya Dhammaliyarama Viharaya,Temples,6.5752767,80.7902254
+osm_way_549016357,Handun Rajamaha Viharaya,Temples,6.7498012,80.2625108
+osm_way_522869165,Hituwala Temple,Temples,6.7268323,80.6659024
+osm_node_5403371782,Ihalagalagama Temple,Temples,6.7401432,80.7363662
+osm_way_560303934,Ihalagama Purana Gallena Viharaya,Temples,6.739929,80.7425958
+osm_way_288593584,Jayabodi viharaya,Temples,6.6483044,80.3911787
+osm_way_544092679,Kalugala Hemagiri Viharaya,Temples,6.435258,80.6568657
+osm_way_1431104619,Kanathiriyanwela Sri Maha Bohdi Viharaya,Temples,6.7073318,80.6858222
+osm_way_790966912,Karagasthalawa Temple,Temples,6.7177868,80.7825312
+osm_node_5154634780,Kathlana Sri Lenagiri viharaya,Temples,6.4399797,80.5125278
+osm_node_5283927554,Katukurunde Ganananda Sadaham Senasuna,Temples,6.7694244,80.2168165
+osm_node_3147058943,Kawantissa Raja Maha Viharaya,Temples,6.3338047,80.8515112
+osm_way_790025222,Keerthi Sri Rajasingha Purana Viharaya,Temples,6.5198983,80.597971
+osm_node_7828199990,Kekula Temple,Temples,6.6129163,80.3944556
+osm_way_838868933,Kekula Temple,Temples,6.6128927,80.3946141
+osm_way_514164306,Kellagama Sudarshana Maha Vihara Piriwena,Temples,6.3619276,80.6938179
+osm_node_4893731243,Kiribathgala Temple,Temples,6.6000526,80.5169937
+osm_node_5303514085,Kiriella Sugatharama Viharaya,Temples,6.737638,80.2637449
+osm_node_4894239984,Kirweldeniya Purana Viharaya - Sannasgama,Temples,6.6474879,80.5004337
+osm_node_4146042100,Kottimbulwala Rajamaha Viharaya,Temples,6.5508573,80.7314722
+osm_node_5403372051,Kumburutheniwela Sri Bodhisattawa Dharmayathanaya,Temples,6.7371425,80.7575878
+osm_node_4145856781,Kuragala Purana Rajamaha Viharaya,Temples,6.6238302,80.8692454
+osm_node_6545559420,Kuragala Stupa,Temples,6.623952,80.8696626
+osm_way_561785421,Kuruwita Purana Viharaya,Temples,6.7779292,80.3669229
+osm_node_4894241544,Kuttapitiya Buddhist Temple,Temples,6.6461345,80.5695838
+osm_node_4146042098,Lendora Rajamaha Viharaya,Temples,6.5789377,80.747334
+osm_way_832356660,Liyandawela Sri Mangalaramaya,Temples,6.7352255,80.4229016
+osm_way_516230298,Madola Mahindaramaya,Temples,6.6225011,80.6528649
+osm_node_4146042119,Maduwanwela Mudalinalage Aramaya,Temples,6.3992864,80.7054478
+osm_node_5416521545,Mahameuna Viharaya,Temples,6.7781642,80.4057652
+osm_way_515788544,Mahawalathenna Purana Viharaya,Temples,6.5870782,80.7474973
+osm_node_5265745758,Malwessawa Aranya Senasanaya,Temples,6.496211,80.6587728
+osm_node_10304657045,Matuwagala Sri Rathnarama Temple,Temples,6.754054,80.2843791
+osm_node_5217550982,Meegaswela Temple,Temples,6.8379759,80.2588564
+osm_way_707205335,Metihakwala Suguna Dharshana Aramaya,Temples,6.6336472,80.6021866
+osm_node_2146192403,Milavitiya Temple,Temples,6.7960798,80.3384559
+osm_node_4045395162,Milindu Thalawa Wana Senasanaya,Temples,6.4572333,80.4283815
+osm_node_5154647071,Milinduthalawa Wana Senasuna,Temples,6.4250459,80.5487873
+osm_way_515859026,Molamure Viharaya,Temples,6.6101592,80.8377811
+osm_node_5250936969,Nakandala Sri Gangarama Temple,Temples,6.8338747,80.2566599
+osm_way_514164312,Nawaneliya Sri Bodhirajarama Viharaya,Temples,6.4086367,80.6843587
+osm_way_523261414,Nelliwala Temple,Temples,6.7056865,80.7106293
+osm_way_515473689,Oluganthota Gangarama Viharaya,Temples,6.6570809,80.7117856
+osm_way_522869146,Pahala Waleboda Temple,Temples,6.7152263,80.6398571
+osm_way_691745807,Pathakada Diddeniya Purana Viharaya,Temples,6.6379575,80.5091628
+osm_way_523261415,Pinwaththa Viharaya,Temples,6.7101879,80.6848676
+osm_node_3937871242,Piyadrshanaramaya,Temples,6.6727207,80.7188137
+osm_node_4146042099,Pollamura Temple,Temples,6.5811921,80.7309253
+osm_node_5154653525,Pothupitiya sri Gangaramaya,Temples,6.4241291,80.5200461
+osm_node_11227817368,Purana wanawasa Rajamaha Viharaya,Temples,6.6204047,80.6305139
+osm_way_1453606690,Pussella Chethiyaramaya,Temples,6.8082118,80.331857
+osm_node_3669506151,Rambuka Sri Sunandaramaya,Temples,6.4649815,80.5070288
+osm_way_540373549,Rassagala Temple,Temples,6.6970719,80.6351521
+osm_way_524497780,Rathganga Gangarama Viharaya,Temples,6.7382759,80.482485
+osm_node_4891890172,Rev. Ananda Maitree Memorial Complex,Temples,6.6486514,80.7010556
+osm_node_1797915552,Sabaragamu Maha Saman Dewalaya,Temples,6.6904943,80.379852
+osm_way_385070385,Saman Dewalaya,Temples,6.6916408,80.382394
+osm_node_5265745760,Seela Samahitha Yogasramaya,Temples,6.7148816,80.7693499
+osm_way_515473686,Shailathalarama Viharaya,Temples,6.6523919,80.7055332
+osm_node_2908775243,Shilathalaramaya,Temples,6.652677,80.7047933
+osm_way_1046552952,Simā,Temples,6.6262461,80.849881
+osm_node_98714191,Sinharaja Prantha Aranya Senasanaya,Temples,6.453433,80.6104762
+osm_node_2908403148,Siri Veerasundararamaya,Temples,6.6483828,80.6990035
+osm_way_787551585,Siwankara Gallen Viharaya,Temples,6.6147934,80.4928619
+osm_way_561785431,Sri Ashokaramaya,Temples,6.7593216,80.4243497
+osm_node_3145216172,Sri Bodhiraja Bhikku Training Centre,Temples,6.3474418,80.8410167
+osm_node_2151594544,Sri Bodhirajaramaya,Temples,6.6792124,80.4063455
+osm_node_4454599092,Sri Bodhirajaramaya,Temples,6.7253407,80.7653901
+osm_node_3198603639,Sri Bodhirukkarama Viharaya,Temples,6.5371232,80.6515878
+osm_way_895012095,Sri Bodhiwardhanarama Temple,Temples,6.7104807,80.3898348
+osm_node_10316716486,Sri Chandajothi Daham Pasala,Temples,6.7598007,80.2213204
+osm_node_10588778770,"Sri Gangarama Temple,ellawala",Temples,6.8065932,80.2769038
+osm_node_4464691464,Sri Jayasekararamaya Temple,Temples,6.712686,80.3961059
+osm_way_790422278,Sri Jayasunandarama Moola Maha Viharaya,Temples,6.6735541,80.4252113
+osm_node_10267375426,Sri Jayawardanaramaya Temple,Temples,6.5794987,80.4673058
+osm_node_4045295762,Sri Jinaraja Temple,Temples,6.5008181,80.6591064
+osm_way_531273903,Sri Maha Viharaya - Vidyananda Maha Pirivena,Temples,6.7229327,80.3801147
+osm_node_5264250749,Sri Naga Rukkharamaya,Temples,6.780909,80.2497156
+osm_way_705030611,Sri Nagarukharama Wiharaya,Temples,6.3116455,80.678328
+osm_node_3673807841,Sri Nandarama Temple,Temples,6.4806159,80.7074115
+osm_way_1006069899,Sri Nikethanaramaya Nalanda Piriwena,Temples,6.5246327,80.476274
+osm_node_3658042915,Sri Pada Temple (Sri Pada Buddhist Temple),Temples,6.8095306,80.4994213
+osm_way_1431106204,Sri Pushparama Raja Maha Viharaya,Temples,6.7069447,80.6773008
+osm_node_5320323766,Sri Saddharmalankara Piriven Viharaya(Temple),Temples,6.6836248,80.410362
+osm_node_10316755834,Sri Sanghikarama Maha Viharaya,Temples,6.7601549,80.2214036
+osm_way_1122545210,Sri Sanghikarama Maha Viharaya- karandana,Temples,6.760025,80.2213815
+osm_node_5183947404,Sri Sudarsana Bimbarama Purana Viharaya,Temples,6.5396249,80.6028727
+osm_node_11215763203,Sri Sudarsanaramaya,Temples,6.5844505,80.6568848
+osm_node_4490079442,Sri Sudharmarama Pirivena,Temples,6.4642634,80.4260354
+osm_node_3671102406,Sri Sudharshanaramaya,Temples,6.9122134,80.2261405
+osm_node_6341175848,Sri Sumana Maha Piriwena,Temples,6.6742834,80.401015
+osm_node_7826487972,Sri Sumana Temple,Temples,6.6699384,80.3685093
+osm_way_838613043,Sri Sumana Temple,Temples,6.6701524,80.3683475
+osm_node_6693834287,Sri Sumanathissaramaya,Temples,6.5155101,80.5202281
+osm_node_6982802355,Sri Sunandarama Viharaya,Temples,6.7280486,80.6942368
+osm_node_4454599046,Sri Suvisuddharamaya,Temples,6.720717,80.7690441
+osm_node_10298105852,Sri Vijayarama Ata Muni se Wiharaya,Temples,6.7796851,80.2742739
+osm_way_865909993,Sri Wardhanaramaya,Temples,6.6007404,80.4291193
+osm_way_561785422,Sudaagala Sri Sumana Dewaramaya,Temples,6.8042426,80.3812349
+osm_node_1828233567,Sudharshana Maha Viharaya,Temples,6.6552474,80.6983816
+osm_way_522869098,Sumana Rajamaha Viharaya,Temples,6.7175544,80.6701623
+osm_node_3963437941,Temple,Temples,6.873723,80.2306002
+osm_node_4020168816,Temple,Temples,6.5981855,80.7253654
+osm_node_4020226242,Temple,Temples,6.6049021,80.7235315
+osm_node_4020226447,Temple,Temples,6.5747809,80.7039328
+osm_node_4020286681,Temple,Temples,6.5573716,80.7460786
+osm_node_4020330046,Temple,Temples,6.5398572,80.7441275
+osm_node_4694423012,Temple,Temples,6.5393304,80.4525385
+osm_node_4984025800,Temple,Temples,6.5383734,80.5229814
+osm_node_5039925793,Temple,Temples,6.7712768,80.3171314
+osm_node_5377342737,Temple,Temples,6.5552295,80.5788964
+osm_node_5650657076,Temple,Temples,6.6460308,80.3495885
+osm_way_530760339,Temple,Temples,6.6717465,80.419146
+osm_way_1185746745,Temple,Temples,6.6625388,80.6826266
+osm_way_1431166401,Temple,Temples,6.6709899,80.714232
+osm_way_1431166402,Temple,Temples,6.6713374,80.7142585
+osm_node_2908705779,Temple-Morahela,Temples,6.6863764,80.6908974
+osm_node_5372393093,Thalavitiya Sri Vimalasara Temple,Temples,6.8293653,80.2844516
+osm_node_4865540176,Thalawitiya Sri Kethumathi Viharaya,Temples,6.8234843,80.2829991
+osm_way_287239030,Thumbagoda Vishuddarama Viharaya,Temples,6.656782,80.6994371
+osm_node_5500108552,Thumbathenna Buddhist Center,Temples,6.7302595,80.8114191
+osm_node_10265734730,Thuththiripitiya Temple,Temples,6.5956136,80.4845658
+osm_node_4045313611,Ubhaya Thilakaramaya,Temples,6.4702561,80.6089202
+osm_node_7003985871,Uda Delwala Temple,Temples,6.5168167,80.4990444
+osm_way_523261449,Udagama Wajirarama Viharaya,Temples,6.7209251,80.684039
+osm_node_3144962321,Udawalawe Buddhist Center,Temples,6.4246129,80.8172657
+osm_way_523261396,Udawela Temple,Temples,6.6905187,80.7041462
+osm_node_5120255353,Uggal Aluthnuwara Maha Dewalaya,Temples,6.6840404,80.7467572
+osm_node_4845107256,Watapotha Sri Dewananda Piriwen Viharaya,Temples,6.5866235,80.5031886
+osm_way_555648962,Weeragoda Sri Maha Temple,Temples,6.7234718,80.3807128
+osm_node_1829361724,Welange Purana Raja Maha Viharaya,Temples,6.6328628,80.6953292
+osm_node_4045413832,Wembiyagoda Sri Bauddharamaya,Temples,6.5196528,80.3950477
+osm_way_790025252,Weralugahamula Temple,Temples,6.4887769,80.6016951
+osm_node_5151097808,Weralupa Temple,Temples,6.6949597,80.3973557
+osm_node_8319350967,Wimala Ramaya,Temples,6.7214376,80.3936783
+osm_node_10289277278,Wimaladarshanaramaya,Temples,6.5992639,80.4110143
+osm_node_10128626014,bogasyaya temple,Temples,6.280615,80.8103712
+osm_way_1106120936,dagaba under constraction,Temples,6.2933001,80.8455314
+osm_node_10126614229,peththawila temple,Temples,6.7850494,80.3552017
+osm_node_10124656080,sri rathanajothi temple,Temples,6.3023909,80.8296625
+osm_node_5655206388,temple,Temples,6.7569985,80.3649984
+osm_way_1106125539,temple house,Temples,6.2933181,80.8456993
+osm_node_10758126309,vihara,Temples,6.6207632,80.4425316
+osm_node_9621002668,සති අරණ ආරණ්‍ය,Temples,6.6276852,80.7744988
+osm_node_2640665069,Bopath Falls,Tourist attractions,6.8006004,80.3666596
+osm_node_5166930204,Brampton Falls,Tourist attractions,6.7330899,80.8180383
+osm_node_4145854773,Budugala Ruins,Tourist attractions,6.6332233,80.875522
+osm_node_4145874148,Galtemyaya Ruins,Tourist attractions,6.6347703,80.8625859
+osm_node_4512854290,Giant Nawada tree,Tourist attractions,6.4202246,80.4160946
+osm_node_4146042097,Hulan Ella (Walawe Ganga West Falls),Tourist attractions,6.6740663,80.8283787
+osm_node_10554828547,Kalu Diya Wala,Tourist attractions,6.8228084,80.2441648
+osm_node_4502013947,Kirindi Ella Waterfall Pelmadulla,Tourist attractions,6.6422499,80.5646175
+osm_node_4145874147,Kuragala Ancient Buddhist Monastry,Tourist attractions,6.6281037,80.8649816
+osm_node_4145856782,Kuragala Ruins,Tourist attractions,6.6237482,80.8692218
+osm_node_9133206279,Limestone Pools,Tourist attractions,6.6555574,80.8554492
+osm_node_8304956483,Miunu Ella Waterfall,Tourist attractions,6.6428272,80.2653931
+osm_node_10273218020,Red Bridge Lower Fall,Tourist attractions,6.5656829,80.4754141
+osm_node_10278270618,Red Bridge Upper Fall,Tourist attractions,6.5660506,80.4777128
+osm_node_10809025218,Samanalawewa Reservoir,Tourist attractions,6.6967399,80.7635782
+osm_node_4512854289,Sinharaja National Park,Tourist attractions,6.4280468,80.4159544
+osm_node_10570682463,"Sinharaja, Morningside Entrance 7km",Tourist attractions,6.4324834,80.6268698
+osm_node_7164398696,Tank,Tourist attractions,6.4650524,80.8372949
+osm_node_7164398705,Tank 2,Tourist attractions,6.3112543,80.8609927
+osm_node_7164398790,Tank 3,Tourist attractions,6.6751497,80.7914233
+osm_node_4590065990,Udawalawa Fisheries Bungalow,Tourist attractions,6.4097927,80.8264548
+osm_node_5094522745,Waterfall,Tourist attractions,6.724045,80.6984398
+osm_node_7164398894,tank,Tourist attractions,6.4525751,80.8410149
+osm_node_7164398786,udawalawe reservoir 1,Tourist attractions,6.4580984,80.8406391
+osm_node_14241064001,Alupola Ella,Waterfalls,6.7121476,80.5733312
+osm_node_3726925126,Duli ella,Waterfalls,6.4005822,80.7142063
+osm_node_3778233726,Duwili Ella,Waterfalls,6.4393538,80.4081589
+osm_node_9278526294,Eli Hatha,Waterfalls,6.5126876,80.4942708
+osm_node_1708405577,Ellepola Ella,Waterfalls,6.6307993,80.6860466
+osm_node_12566156398,Galagama Falls,Waterfalls,6.7692498,80.7713245
+osm_node_7373309394,Handapan Ella Falls,Waterfalls,6.444556,80.5835822
+osm_node_14241050401,Mapalana Ella Falls,Waterfalls,6.7743486,80.4616642
+osm_node_7601883585,Mini Ella,Waterfalls,6.664218,80.2859762
+osm_node_7684607810,Nonpareil Estate Falls,Waterfalls,6.7571792,80.7882256
+osm_node_2804314660,Pahanthudawa Waterfall,Waterfalls,6.7262161,80.7586422
+osm_node_9278526293,Pebotuwa Ella,Waterfalls,6.5345264,80.4602359
+osm_node_12566173039,Solo Falls,Waterfalls,6.7587642,80.790437
+osm_node_4462731780,Surathali Ella,Waterfalls,6.7456821,80.8289666
+osm_node_8393826265,Thepulangoda Waterfall,Waterfalls,6.7283842,80.3938741
+osm_way_710421256,Elephant Transit Home,Wildlife,6.4269659,80.817005

@@ -1,0 +1,14 @@
+{
+  "original_records_preserved": 8590,
+  "overture_review_candidates": 7701,
+  "catalog_rows": 16291,
+  "overture_status_counts": {
+    "candidate_unmatched_not_verified": 5714,
+    "manual_review_near_existing_within_75m": 1395,
+    "possible_duplicate_name_within_150m": 314,
+    "same_name_but_not_within_150m": 278
+  },
+  "category_name_conflict_flags": 52,
+  "overture_dashboard_default_visible": 0,
+  "warning": "Staging catalog only. Unmatched is not verified. Original OSM records remain provisional too. Do not treat as cleaned deduplicated destination list."
+}

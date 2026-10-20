@@ -1,0 +1,367 @@
+﻿attraction_id,attraction_name,tourism_category,latitude,longitude
+osm_node_9599105960,Gal Goa,Caves,6.9013991,80.4986165
+osm_node_9740549810,thorana,Caves,6.8257088,80.5215046
+osm_node_4927751721,Sanasa,Cultural heritage,6.9917717,80.7488933
+osm_node_5403560822,Sri pada World Peace bell STP,Cultural heritage,6.8235568,80.5036349
+osm_way_1176190318,Green hills,Gardens,6.9182268,80.5919434
+osm_way_493088634,Hakgala Botanical Garden,Gardens,6.9259638,80.8229244
+osm_way_1196874437,Victory Park,Gardens,6.9567671,80.7766625
+osm_node_12642921689,Anagarika Dharmapala Memorial,Historical landmarks,7.0804294,80.8933448
+osm_node_10915576208,Buddha,Historical landmarks,6.8251222,80.5199083
+osm_node_10920716143,Buddha,Historical landmarks,6.823862,80.509857
+osm_node_5909690085,Clocktower,Historical landmarks,6.8900316,80.5982186
+osm_node_9599357507,Martin Air Plane Crash,Historical landmarks,6.9140091,80.5212079
+osm_node_8235674949,Mr. James Taylor Statue,Historical landmarks,7.127301,80.7138547
+osm_node_12157850197,President R.Premadasa Memorial,Historical landmarks,7.0949988,80.8619984
+osm_node_10920716157,Sleeping Buddha,Historical landmarks,6.823835,80.512697
+osm_node_10915395205,World wars,Historical landmarks,6.9678669,80.7677234
+osm_node_6592863152,Zero Mile Post,Historical landmarks,6.9252435,80.5042012
+osm_node_7323220188,Самовар,Historical landmarks,6.948351,80.6330598
+osm_node_4855581087,Agra Kanda,Mountains,6.8891307,80.6879617
+osm_node_5050152975,Agrabopath,Mountains,6.812823,80.7828425
+osm_node_4885454559,Ahumulu Kanda,Mountains,6.9390795,80.8254933
+osm_node_5253572525,Benachie,Mountains,6.9269807,80.5225324
+osm_node_4825491385,Conical Hill,Mountains,6.9120779,80.7756516
+osm_node_4852030234,Dambagasthalawa,Mountains,6.9115324,80.7212443
+osm_node_6575355281,Dell Hill,Mountains,6.8872739,80.6447982
+osm_node_6575361301,Elbedda,Mountains,6.847159,80.665183
+osm_node_4852088777,Great Western Peak,Mountains,6.9668163,80.693872
+osm_node_7820842220,Green Mount,Mountains,6.8200659,80.6912329
+osm_node_4883891582,Haddon Hill,Mountains,6.9672984,80.7535302
+osm_node_4823495252,Highforest,Mountains,7.0554141,80.8365697
+osm_node_4852088781,Hunuketiyagala,Mountains,6.9684244,80.6469688
+osm_node_4883891580,Kikiliyamana,Mountains,6.9844681,80.7462138
+osm_node_6269087854,Kirigalpotta,Mountains,6.7989937,80.7664235
+osm_node_14208269001,Kodiyargala,Mountains,7.0313345,80.7952213
+osm_node_5050189234,Kotagala,Mountains,6.8945165,80.6188154
+osm_node_4887500214,Kotakithula Kanda,Mountains,6.9576958,80.8376384
+osm_node_4886158583,Kuraththa,Mountains,6.9789311,80.854547
+osm_node_5050131721,Mahakudugala,Mountains,7.0430787,80.8442927
+osm_node_5253572522,Norton,Mountains,6.9122827,80.5295062
+osm_node_2035834190,Pidurutalagala,Mountains,7.0009508,80.7736523
+osm_node_6575355282,Preston Hill,Mountains,6.8675257,80.6526518
+osm_node_6592862732,Seven Virgins 1,Mountains,6.8951985,80.4876637
+osm_node_6592862737,Seven Virgins 2,Mountains,6.8936647,80.4896378
+osm_node_6592862733,Seven Virgins 7,Mountains,6.8838548,80.498693
+osm_node_4883891581,Single Tree,Mountains,6.9569212,80.762138
+osm_node_4885454565,Textile Hill,Mountains,6.9481641,80.7868481
+osm_node_4825524195,Thotupola Kanda,Mountains,6.8331199,80.8197979
+osm_node_5253572534,Trafalgar,Mountains,6.9543304,80.5213737
+osm_node_4887500218,Welibissa,Mountains,6.9752464,80.8437753
+osm_node_7905101876,Mackwoods Museum,Museums,6.972736,80.766188
+osm_node_3393538266,Victoria Museum,Museums,6.9673282,80.768913
+osm_way_24390459,Galway's Land National Park,National parks,6.9661753,80.7776648
+osm_way_1255606535,39,Parks,6.927974,80.5427363
+osm_way_1256552461,66,Parks,6.9270651,80.5445965
+osm_way_1196872351,Lake Gregory Park,Parks,6.9623907,80.7723097
+osm_way_1320912488,Main Play ground,Parks,7.0497278,80.7026902
+osm_way_1256023893,Open Area,Parks,6.923792,80.5431758
+osm_way_1255236153,Open Space,Parks,6.9271897,80.5448275
+osm_node_11816818669,Pedro tea estate,Parks,6.9527264,80.7734989
+osm_way_1256025412,Water Extraction,Parks,6.9267159,80.5440732
+osm_way_1066014776,aboosally children's park,Parks,6.8969074,80.595741
+osm_way_1320531895,play ground,Parks,7.0491826,80.7023269
+osm_way_1222692336,AMMAN KOVIL,Religious sites,6.9126395,80.5717247
+osm_node_3385743311,Al Kabeer Grand Mosque,Religious sites,6.9761758,80.7659061
+osm_way_1176551802,Aldie Upper Kovil,Religious sites,6.7762297,80.7242813
+osm_node_4443613151,All Saints Church,Religious sites,6.8261651,80.5767091
+osm_node_4443704515,Amman Kovil,Religious sites,6.813765,80.5871295
+osm_way_1249794036,Amman Kovil,Religious sites,6.861064,80.6135409
+osm_way_315088791,Battalagalla Temple,Religious sites,6.8634567,80.6245593
+osm_way_926552621,Brookside Church,Religious sites,7.0174118,80.840425
+osm_node_11137770080,Building,Religious sites,6.8808965,80.7993463
+osm_way_1227533138,CHALMERS SUPRAMANIYAM MURUGAN KOVIL,Religious sites,6.9268854,80.5920089
+osm_way_1176141585,Christ Church - Dickoya,Religious sites,6.8766813,80.6020008
+osm_way_539855103,Christchurch Warleigh,Religious sites,6.8632099,80.5950731
+osm_way_1249794008,Dhavarna Temple,Religious sites,6.8594333,80.6143975
+osm_way_1002222679,Dickoya Amman Kovil,Religious sites,6.8748116,80.6026607
+osm_way_1227402768,EALLAISAMY TEMBAL,Religious sites,6.8591014,80.7454253
+osm_node_10991589241,Eastall divisin hindu temple,Religious sites,6.934853,80.7333478
+osm_node_9771925509,Elgin Lower Division Sri Muththumari amman Alayam,Religious sites,6.8920177,80.7513478
+osm_node_9771925506,Elgin Sri Karumariamman Alayam,Religious sites,6.8888645,80.7591618
+osm_node_9869557371,Galge Purana Dewalaya,Religious sites,7.0062297,80.6882713
+osm_way_588874657,Gorokoya Church,Religious sites,7.0658313,80.5524598
+osm_node_1830386963,Hatton Jumma Mosque,Religious sites,6.8918527,80.5990674
+osm_node_3393441943,Hindu Kovil,Religious sites,6.9727538,80.7831784
+osm_node_6303719655,Hindu Kovil,Religious sites,6.9140321,80.6890158
+osm_node_5909690086,Hinduist Temple,Religious sites,6.8938443,80.5960138
+osm_way_622579847,Holy Rosary Church,Religious sites,6.7991113,80.6715903
+osm_way_585632627,Holy Trinity Church,Religious sites,6.9723302,80.7714443
+osm_node_873842127,Jumma Masjid,Religious sites,6.9721688,80.7811686
+osm_way_1222692338,KAALI KOVIL,Religious sites,6.7938715,80.6793649
+osm_way_1222692346,KAALI KOVIL,Religious sites,6.79846,80.6861736
+osm_way_1222692340,KALIYAMMA TEMPLE,Religious sites,6.7911461,80.6807735
+osm_way_1222692343,KALIYAMMAN KOVIL,Religious sites,6.793683,80.6780927
+osm_way_1227533135,KALIYAMMAN KOVIL,Religious sites,6.8483262,80.7702068
+osm_way_1222692334,KARUPPUSAMI KOVIL,Religious sites,6.7915303,80.6805128
+osm_way_1227533136,KUNDAANKOVIL MUNUSAMY,Religious sites,6.8596243,80.7463045
+osm_way_1222692339,Kaali Kovil,Religious sites,6.8993115,80.5414793
+osm_way_1249794010,Kaaman Kovil,Religious sites,6.862493,80.6135968
+osm_node_13108713571,Kandapillaiyar Temple-Oliphant,Religious sites,6.9710371,80.7461378
+osm_node_2035867687,Kandapola Kovil,Religious sites,6.9981223,80.8239648
+osm_way_589115933,Kathiresan Kovil,Religious sites,6.9392398,80.6610171
+osm_node_5211060089,Kovil,Religious sites,7.0745617,80.8337519
+osm_way_1003012512,Kovil,Religious sites,7.0656358,80.8414915
+osm_node_13108713567,Lutheran Church,Religious sites,6.9689418,80.7447565
+osm_way_1227402769,MADASAMY KOVIL,Religious sites,6.8575718,80.7448686
+osm_way_1227402767,MADHURAVEERAN KOVIL,Religious sites,6.8589401,80.7458587
+osm_way_1227404773,MARUTHAVEERAN,Religious sites,6.8477975,80.7634549
+osm_way_1222692342,MARUTHAVEERAN KOVIL,Religious sites,6.7932574,80.6799692
+osm_way_1227533128,MUNI KOVIL,Religious sites,6.8475292,80.7624461
+osm_way_1227404771,MUNIYAPPAN KOVIL,Religious sites,6.8472021,80.7641028
+osm_way_1227404772,MURUGAN KOVIL,Religious sites,6.8467533,80.7631528
+osm_way_1227533130,MURUGAN KOVIL,Religious sites,6.8469113,80.7632275
+osm_way_1227533132,MURUGAN KOVIL,Religious sites,6.8462967,80.7649693
+osm_way_1005444368,Mada Church,Religious sites,6.8680807,80.6185418
+osm_way_1249794021,Madha Church,Religious sites,6.8618985,80.6139522
+osm_node_11687246281,Mallanda Mosque,Religious sites,7.063728,80.5460131
+osm_node_9772132740,Maria Siththi Vinayagar Aalayam,Religious sites,6.8968374,80.7218548
+osm_node_4924740553,Masjidhul Hijra,Religious sites,7.0576799,80.5673483
+osm_way_1121637366,Masjidhul Hijra,Religious sites,7.0577107,80.5673317
+osm_node_7123737374,Masjidhul Minhaj (Jumma Masjidh),Religious sites,7.0562464,80.571234
+osm_node_7123737376,Masjidhul Noor (Jumma Masjidh);Al Hamidhiyyah Arabic College,Religious sites,7.0615053,80.5684293
+osm_node_9869533409,Masjidhun Nooraniyyah Thaikkah,Religious sites,7.013624,80.6676418
+osm_node_13108713683,Muneeswaran Temple-Oliphant,Religious sites,6.9701404,80.7448078
+osm_way_1465300414,Muniswaran Shrine,Religious sites,6.9145138,80.5857678
+osm_way_1005116584,Murugan Kovil,Religious sites,7.0124739,80.8589729
+osm_way_1072532292,Murugan Kovil,Religious sites,6.8315956,80.5710354
+osm_way_1548628949,Muththu maariyannan kovil,Religious sites,6.812081,80.5937406
+osm_node_11960011572,Muthuvinayagar kovil,Religious sites,6.9256009,80.6089297
+osm_way_517388186,Nuwara Eliya Pradeshiya Sabha,Religious sites,6.9268632,80.6178072
+osm_node_9772135484,Ouvakelle Mariyamman kovil,Religious sites,6.8954341,80.7388922
+osm_node_11217829422,Portree Church,Religious sites,6.8364997,80.6179143
+osm_way_1056556624,Praise Garden Retreat Centre Norton Bridge,Religious sites,6.8997999,80.5325018
+osm_node_9869533372,Punduloya Pentecostal Assembies Church,Religious sites,7.0129588,80.669151
+osm_way_1227402765,RAMAR KOVIL,Religious sites,6.8582878,80.7459435
+osm_way_1227402766,ROTHAMANI KOVIL,Religious sites,6.8583725,80.7456731
+osm_way_1227533127,SIVAN KOVIL,Religious sites,6.8487015,80.7633165
+osm_way_1222692335,SRI AGOTHARA VEERAPUTHTHIRA KOVIL,Religious sites,6.7943143,80.6782571
+osm_way_1222692337,SRI MUTHU MARIYAMMAN TEMPLE,Religious sites,6.7936233,80.6791335
+osm_way_1227533133,SRIRAMAN KOVIL,Religious sites,6.8474623,80.7663248
+osm_node_2714473161,Seetha Amman Kovil,Religious sites,6.9332089,80.8106456
+osm_way_1222692345,Sepastiyaar Church,Religious sites,6.7918854,80.6805144
+osm_node_10928589849,Shivan Kovil,Religious sites,6.9158922,80.5983477
+osm_node_5469843821,Shri Bhakta Hanuman Kovil,Religious sites,7.0739827,80.6805935
+osm_node_11960017711,"Shri Muthumariamman temple, wooton hills",Religious sites,6.9272131,80.6126419
+osm_node_11602397470,Silverkandy Kovil,Religious sites,7.0227065,80.8385706
+osm_way_1249794004,Sindakatty Kovil,Religious sites,6.8628635,80.6141291
+osm_node_9742560953,Sivan,Religious sites,6.8239975,80.5186405
+osm_node_13108713682,Sri Kathirvelauthaswami Temple-Oliphant,Religious sites,6.9698155,80.7450456
+osm_node_13108741569,Sri Muthumariamman Temple-Oliphant,Religious sites,6.9702312,80.7454095
+osm_way_1073242798,Sri muththu mari amman kovil,Religious sites,7.0178882,80.6731412
+osm_node_9774960461,Sri muththumariyamman,Religious sites,6.7942894,80.675265
+osm_node_9845640093,Sri muthumari amman temple,Religious sites,7.0178954,80.6731356
+osm_node_11542419019,Sri sanmuganathar kovil,Religious sites,6.835974,80.5671441
+osm_node_198534324,St. Francis Xavier Church,Religious sites,6.9773138,80.7649851
+osm_node_7079883043,St. John the Baptist,Religious sites,6.9452597,80.5387892
+osm_node_9771201260,St. Joseph Church,Religious sites,6.8301909,80.573515
+osm_node_9869533400,St. Sebastian Church,Religious sites,7.0135673,80.6673045
+osm_node_8637064242,St.Paul the Hermit Church,Religious sites,6.9720557,80.7954997
+osm_way_1221697153,Temple Storeroom,Religious sites,6.8572771,80.7458633
+osm_node_7114389385,Temple with view,Religious sites,6.9508407,80.6332208
+osm_node_9771990683,Thangakelle Church,Religious sites,6.8960721,80.7389199
+osm_node_9771990681,Thangakelle Sri Muththumari Amman Alayam,Religious sites,6.8960169,80.7367412
+osm_node_4678340977,Theeswarar Temple,Religious sites,6.9739572,80.7758689
+osm_way_1005561199,Vinayagar Kovil,Religious sites,7.0184328,80.8262327
+osm_way_588870154,Vinayar Temple,Religious sites,7.0641407,80.5429708
+osm_way_1003551851,Vishnu Kovil,Religious sites,7.065729,80.840417
+osm_node_9742560951,amman,Religious sites,6.8242716,80.5208617
+osm_node_9771887409,amman kovil,Religious sites,7.0126592,80.6710435
+osm_node_9771887410,buddha statue,Religious sites,7.014361,80.6652645
+osm_way_1227400056,chalmers vinayagar kovil,Religious sites,6.9256966,80.5913517
+osm_node_10209029130,hindu temple,Religious sites,6.9433109,80.7356127
+osm_way_1227404770,murugan kovil,Religious sites,6.8460913,80.7649764
+osm_node_9771886764,punduloya vinayagar alayam,Religious sites,7.0147298,80.6671192
+osm_way_1227401378,sri murugan tambal,Religious sites,6.8671285,80.7439811
+osm_way_251128733,sri muththu maariamman kovil laxsapana,Religious sites,6.8315355,80.5419031
+osm_node_9857668970,sri muththumaariyamman kovil,Religious sites,7.0223377,80.6838762
+osm_way_1001838585,valamalai sri muththumariamman temple,Religious sites,6.8320719,80.5324858
+osm_node_9742560952,vinayaga,Religious sites,6.824311,80.5202392
+osm_node_9857668971,vinayagar kovil,Religious sites,7.0213193,80.6820195
+osm_node_4122622298,'Soda Bottle' Curve,Scenic viewpoints,6.9598313,80.6604328
+osm_node_5413804741,Aberdeen Waterfall,Scenic viewpoints,6.9493501,80.5021871
+osm_node_12629721602,Amazing view of waterfall and tea plantations,Scenic viewpoints,7.0564054,80.7059241
+osm_node_4611290891,Castlereagh Reservoir viewpoint,Scenic viewpoints,6.8462619,80.6017449
+osm_node_4611280292,Castlereigh Reservoir Viewpoint,Scenic viewpoints,6.8497798,80.597307
+osm_node_5326819822,Castlereigh Reservoir Viewpoint,Scenic viewpoints,6.8484699,80.584723
+osm_node_10635533505,Chill Ramboda,Scenic viewpoints,7.0590976,80.6941047
+osm_node_4611128989,Devon Fall Viewpoint #2,Scenic viewpoints,6.9491329,80.6331628
+osm_node_14068097798,Devon Falls Top Viewpoint,Scenic viewpoints,6.9513224,80.629628
+osm_node_4611088991,Devon Falls Viewpoint #1,Scenic viewpoints,6.9517583,80.6360182
+osm_node_14068097797,Devon water fall view point,Scenic viewpoints,6.9521318,80.6364087
+osm_node_11469179111,Eagle's Viewpoint,Scenic viewpoints,6.9762642,80.7539875
+osm_node_12629721603,Incredible view of waterfall and tea plantations,Scenic viewpoints,7.056769,80.7052686
+osm_node_4465975780,Kothmale Hanging Bridge,Scenic viewpoints,7.0639133,80.5870478
+osm_node_4459252090,Kothmale Panorama,Scenic viewpoints,7.0569144,80.6956009
+osm_node_4465993050,Kothmale Reservoir Observation Point,Scenic viewpoints,7.0638951,80.6002325
+osm_node_11143135305,Lover's Leap Waterfall bottom viewpoint,Scenic viewpoints,6.9782249,80.786747
+osm_node_5166992630,Maskeliya Ravana Gala,Scenic viewpoints,6.865249,80.5497349
+osm_node_4501771825,Moon Plains,Scenic viewpoints,6.9430772,80.820152
+osm_node_13070317901,Nice Viewpoint,Scenic viewpoints,7.0425266,80.7078815
+osm_node_1886592077,Ramboda Falls,Scenic viewpoints,7.0557492,80.6990248
+osm_node_4122652880,Rozella 'Double Curve',Scenic viewpoints,6.9356302,80.5554459
+osm_node_6235694145,Singimale Tunnel,Scenic viewpoints,6.9022828,80.607352
+osm_node_6235694146,Singimale Tunnel,Scenic viewpoints,6.8980942,80.604592
+osm_node_4584003089,Single Tree Hill,Scenic viewpoints,6.9580205,80.7626508
+osm_node_6326686085,Sri Pada Falls Viewpoint,Scenic viewpoints,6.799745,80.5518171
+osm_node_4611088990,St. Clair Viewing Gallery,Scenic viewpoints,6.9475097,80.6455562
+osm_node_6328894486,Tea Plantation View,Scenic viewpoints,6.9325455,80.6231213
+osm_node_7171132885,Tea plantations,Scenic viewpoints,7.0027264,80.7405615
+osm_node_10683411634,Tea plantations view,Scenic viewpoints,6.9563336,80.7670901
+osm_node_10799140206,Upper viewing deck,Scenic viewpoints,7.0551769,80.7048191
+osm_node_6631957185,Victoria Dam,Scenic viewpoints,7.2413421,80.78497
+osm_node_10799139805,View of the waterfall,Scenic viewpoints,7.0530502,80.6986316
+osm_node_11052738706,Viewpoint of tea plants below,Scenic viewpoints,6.9768067,80.7532536
+osm_node_10635521505,Viewpoint&Restaurant,Scenic viewpoints,7.0604849,80.6944846
+osm_node_5405608121,Waterfall Viewpoint,Scenic viewpoints,6.793766,80.7949098
+osm_node_5289283122,drink beer sunset point,Scenic viewpoints,6.9724048,80.7923831
+osm_way_548949538,Ambatahalawa Pragna Pradeepa Piriwena,Temples,7.0550963,80.674934
+osm_node_4447514121,Ambewella Buddhist Temple,Temples,6.8795137,80.8135554
+osm_way_798816679,Aratthana Raja Maha Viharaya,Temples,7.1788707,80.768471
+osm_node_3393421914,Ashokaramaya,Temples,6.9668261,80.7886249
+osm_way_487284665,Bambarakele Sri Maha Viharaya,Temples,6.9807889,80.7558247
+osm_node_7414125786,Bogahawaththa Bodhirukkharamaya,Temples,6.9685345,80.6108308
+osm_way_779270044,Bogamuwa Temple,Temples,7.1384832,80.7990439
+osm_way_704773387,Bopaththalawa Isipathanaramaya,Temples,6.8463684,80.7149226
+osm_node_4901574655,Buddha Statue,Temples,7.0143335,80.6652635
+osm_node_5212561681,Buddhist Temple,Temples,6.9793317,80.8061358
+osm_node_5619440942,Buddhist Temple,Temples,6.9745116,80.4513037
+osm_way_509675614,Buddhist Temple,Temples,7.0656907,80.6876932
+osm_way_512801180,Buddhist Temple,Temples,7.177896,80.7840539
+osm_way_512935316,Buddhist Temple,Temples,7.1547708,80.7956841
+osm_way_660546651,Buddhist Temple,Temples,7.1184832,80.9273049
+osm_way_682116724,Buddhist Temple,Temples,7.0470323,80.9211037
+osm_way_682116732,Buddhist Temple,Temples,7.0372041,80.9197324
+osm_way_686294723,Buddhist Temple,Temples,6.9894152,80.8613427
+osm_way_1201254878,Castlereigh Temple,Temples,6.8725476,80.5651455
+osm_node_3590180941,Dabare Temple,Temples,7.0777478,80.9096217
+osm_node_6041566931,Dagampitiya Temple,Temples,6.9750334,80.479145
+osm_node_4443704520,Darmarajaha Maha Viharaya,Temples,6.8374418,80.6147184
+osm_way_682915639,Delta Gemunupura Gemunuraja Viharaya,Temples,7.0989986,80.6442792
+osm_node_6900548229,Delumgahakotuwa Purana Viharaya,Temples,7.1428861,80.7356581
+osm_node_6723183283,Galakadapatana Sri Sudharsanaramaya,Temples,7.0115107,80.8928122
+osm_node_5235318875,Gannewa-Udagama Temple,Temples,7.1383989,80.7231778
+osm_way_541401388,Handawalapitiya Jinendraramaya,Temples,7.1257279,80.7366932
+osm_way_314206684,Hanguranketha Pothgul Raja Maha Viharaya,Temples,7.1769572,80.7758351
+osm_node_5220191054,Harasbedda Temple,Temples,7.0533028,80.8790946
+osm_node_3517327375,Holbrook Temple,Temples,6.8829626,80.6915719
+osm_node_4829970684,International Buddhist Center,Temples,6.9669361,80.7680428
+osm_node_3839318412,Japan Peace Pagoda,Temples,7.0894694,80.8611978
+osm_way_251128677,Japanese Peace Temple,Temples,6.8243048,80.5062329
+osm_node_6041677324,Kalaweldeniya Temple,Temples,6.9496764,80.4941386
+osm_node_4442126052,Kalpa Wruksha Maha Viharaya,Temples,6.8242225,80.5176682
+osm_node_2035855626,Kandapola Temple,Temples,6.9933462,80.8210305
+osm_way_541401378,Karamindula Temple,Temples,7.1281861,80.7498461
+osm_node_6284303994,Katumana Sri Seethawanaramaya,Temples,6.9444818,80.7950033
+osm_way_971373160,Keerthibandara Dewalaya,Temples,7.1447186,80.8552086
+osm_node_4442011586,KiriwanEliya Temple,Temples,6.9154445,80.5053843
+osm_way_517320712,Kotagala Pabbatharama Viharaya,Temples,6.9242032,80.6099519
+osm_way_531173784,Kuda Oya Pushparama Temple,Temples,7.0128168,80.7291622
+osm_way_911280712,Kurupanawela Sri Sunandaramaya,Temples,7.0228854,80.9160464
+osm_node_1834911275,Mahaweli Maha Seya,Temples,7.0696004,80.6044187
+osm_way_548949539,Malhewa Dalada Karandu Purana Viharaya,Temples,7.0514809,80.6865422
+osm_node_5678396964,Mandaramnuwara Temple,Temples,7.0386851,80.7829273
+osm_way_509675596,Mawela Temple,Temples,7.0711557,80.6428601
+osm_node_4447532688,Meepilimana Sri Mahindaramaya,Temples,6.9298398,80.7865992
+osm_node_6576256345,Merigold Sri Sumanagalaramaya,Temples,7.0669649,80.8131659
+osm_node_3390839425,Monastery,Temples,6.9540084,80.7784118
+osm_node_4775629633,Morapaya Rajamaha Viharaya,Temples,7.0811514,80.7923261
+osm_way_509675597,Morape Kataragama Maha Devalaya,Temples,7.0639727,80.6244773
+osm_node_4775771128,Nanu Oya Sri Wardhanaramaya,Temples,6.9390365,80.7408058
+osm_way_882909278,Nawathispane Sri Gnanodaya Buddhist Center,Temples,7.0360939,80.5985636
+osm_way_882909279,Nawathispane Sri Sudharshanaramaya,Temples,7.0398169,80.6036744
+osm_node_1830386908,Nigrodharamaya,Temples,6.8922522,80.6000142
+osm_node_4901574643,Niyangamdora Rajamaha Viharaya,Temples,7.0499786,80.661673
+osm_node_4466117253,Nugawela Abhinawaramaya,Temples,7.0664648,80.5845644
+osm_way_1321735449,Palagolla Temple,Temples,7.0419351,80.70068
+osm_node_5619440932,Pallebage Sri Abhinawarama Viharaya,Temples,6.9575307,80.4575613
+osm_node_5218122162,Perakumpura Temple,Temples,6.9193442,80.7510218
+osm_node_5255323420,Pusulpitiya Raja Maha Viharaya,Temples,7.0552434,80.6483431
+osm_node_13249027365,Puwakmal pidugoda viharaya,Temples,7.0680674,80.6741194
+osm_way_1443844183,Puwakmal pidugoda viharaya,Temples,7.0680977,80.6739552
+osm_way_509675598,Rajagiri Rajamaha Viharaya,Temples,7.0663092,80.6275554
+osm_node_6905338587,Rathnagiriya Temple,Temples,6.9384537,80.6896039
+osm_node_6380141252,Rathnayakapatana Temple,Temples,7.0258337,80.8535761
+osm_way_864572936,Ruwanpura Sri Wijayamangalaramaya,Temples,6.9281316,80.5795604
+osm_way_1004747691,Saman Devalaya,Temples,6.8450494,80.5484023
+osm_node_4977345321,Saman Dewalaya,Temples,6.8981746,80.5924478
+osm_node_3393421745,Sandatenna Temple,Temples,6.9561151,80.7968695
+osm_node_4885454562,Seetha Eliya Temple,Temples,6.9349792,80.8046606
+osm_node_3887941716,Shanthipura Temple,Temples,6.9810811,80.7463364
+osm_way_1216717091,Siri Jayasumanaramaya,Temples,7.0549953,80.5617751
+osm_way_793846993,Sri Abhayapura Viharaya,Temples,7.0322521,80.6116026
+osm_node_3590215203,Sri Abhinawaramaya,Temples,7.0762386,80.8919202
+osm_node_13249061574,Sri Bodhirukkarama Viharaya,Temples,7.068005,80.6820693
+osm_node_4798878220,Sri Bodhirukkharama Rajamaha Viharaya,Temples,7.0903207,80.7985121
+osm_way_666703885,Sri Buddharama Viharaya,Temples,6.9428013,80.5400883
+osm_node_5395803305,Sri Janananda Maha Viharaya,Temples,7.0341393,80.9069762
+osm_node_4465977993,Sri Kalyanawardhanaramaya,Temples,7.0596634,80.5912648
+osm_node_4775405860,Sri Rathnaloka Piriwena,Temples,6.9408332,80.7736111
+osm_node_3392125633,Sri Senanandaramaya,Temples,6.9492095,80.7900643
+osm_way_511529943,Sri Sumanarama Viharaya,Temples,6.8312718,80.5707228
+osm_node_4464475464,Sri Vidyakeerthi Maha Piriwena - Thissapela,Temples,7.1810845,80.7706516
+osm_way_793524093,Sri Wardhanaramaya,Temples,7.0357901,80.6302917
+osm_node_3872159642,Sugatha Munindaramaya,Temples,7.1447195,80.7676385
+osm_node_4615720699,Sugatharamaya Temple,Temples,7.0753267,80.6754276
+osm_way_431814350,Swarnagiri Maha Viharaya,Temples,6.9547693,80.766444
+osm_node_5081629267,Temple,Temples,7.0448561,80.6485422
+osm_node_9272148808,Temple,Temples,7.0192371,80.8439523
+osm_way_588898273,Temple,Temples,7.0550401,80.5617171
+osm_node_8212742341,Thispane Sri Isipathanaramaya,Temples,7.0342844,80.6208394
+osm_node_6592922958,Tispanekanda Sri Gunaratana Piriwena,Temples,7.0439088,80.617083
+osm_node_7276376675,Udagalauda Temple,Temples,7.1634262,80.8154726
+osm_node_5678395565,Udawela Temple,Temples,7.0350205,80.7824358
+osm_way_517438683,Ukuthule Temple,Temples,7.0898473,80.8032885
+osm_node_4322781132,Walapane Bo Tree,Temples,7.0936773,80.8635407
+osm_node_6576256854,Wellagiriya Temple,Temples,7.0684981,80.7829817
+osm_way_807985924,Wilawala Purana Viharaya,Temples,7.123986,80.7842306
+osm_way_509675600,Yathurugahu Liyadda Purana Rajamaha Viharaya,Temples,7.0621488,80.6330202
+osm_way_660546642,Yatimadura Temple,Temples,7.0877129,80.9363881
+osm_node_9775019024,norton pansala,Temples,6.9129955,80.5207012
+osm_way_1002753965,srijalandanaramaya,Temples,6.844859,80.5405885
+osm_way_1192254171,welamphagoda purana viharaya,Temples,7.1315293,80.7843348
+osm_node_12566216772,Adam's Peak View,Tourist attractions,6.8235276,80.8055421
+osm_node_7171516185,Adma Agro Strawberry Farm,Tourist attractions,7.029118,80.7165567
+osm_node_5430606722,Afternoon Cricket Spot,Tourist attractions,6.8943294,80.5999966
+osm_node_4459218097,Blue Fields Tea Factory,Tourist attractions,7.0453761,80.6964776
+osm_node_3833697249,Bomburu Ella Waterfall,Tourist attractions,6.9470599,80.8307743
+osm_node_247212347,Devon Falls,Tourist attractions,6.9515033,80.6301127
+osm_node_4675370791,Edinburgh Tea Processing Center,Tourist attractions,6.9411217,80.7463278
+osm_node_4586724590,Glenloch Tea Plantation,Tourist attractions,7.0771149,80.6759844
+osm_node_6202677542,Golumale Stream,Tourist attractions,7.0921695,80.9410933
+osm_way_1133853104,Hakgala Botanical Garden Entranc,Tourist attractions,6.9266072,80.8225593
+osm_node_12568297699,Mahaveli River Source Stream,Tourist attractions,6.817415,80.7930821
+osm_node_4675430289,Nanu Oya Waterfall,Tourist attractions,6.9449679,80.7387368
+osm_node_12615568002,Pekoe Trail Stage 6 Start Point,Tourist attractions,6.9269317,80.6175576
+osm_node_12612594303,Pekoe Trail Start Stage 8,Tourist attractions,6.8368799,80.6140831
+osm_node_12612594205,Pekoe Trail Start Stage 9,Tourist attractions,6.7970076,80.6778261
+osm_node_3254675194,Puna Ella Falls,Tourist attractions,7.0478828,80.6959654
+osm_node_4675292992,Radella Tea Factory,Tourist attractions,6.9285924,80.7207169
+osm_node_11052239805,Row of white statues up to the temple,Tourist attractions,6.9550802,80.7659307
+osm_way_1046933427,Somerset Estate Tea Factory,Tourist attractions,6.9283881,80.7221
+osm_node_5413804743,Aberdeen Waterfall,Waterfalls,6.9485832,80.5017265
+osm_node_5167045651,Aggra Waterfall,Waterfalls,6.8286656,80.7834421
+osm_node_676861111,Baker's Falls,Waterfalls,6.7925595,80.789623
+osm_node_3833099699,Bomburu Ella,Waterfalls,6.9473172,80.8306935
+osm_node_4698521292,Devon Watrefall,Waterfalls,6.9517076,80.6297262
+osm_node_4988352221,Dewathura Ella,Waterfalls,7.0590993,80.6988017
+osm_node_4507978494,Elgin Falls,Waterfalls,6.8845413,80.7810229
+osm_node_5623867621,Garandi Gini Ella,Waterfalls,7.0742148,80.6944897
+osm_node_6324862485,Gartmore Waterfall,Waterfalls,6.7809582,80.5621269
+osm_node_4848081561,Gerandi Ella Waterfall,Waterfalls,7.0469328,80.6955484
+osm_node_14241039301,Glassaugh Falls,Waterfalls,6.9465095,80.7372533
+osm_node_4823844374,Kurundu Oya Ella,Waterfalls,7.0801553,80.8504843
+osm_node_3207148721,Laxapana Falls,Waterfalls,6.899106,80.5009038
+osm_node_3254826636,Lover's Leap Waterfall,Waterfalls,6.9784844,80.7867203
+osm_node_2611001772,Moray Falls,Waterfalls,6.7983418,80.5426007
+osm_node_4725682889,Nanu Oya Ella Fall,Waterfalls,6.9453082,80.7388762
+osm_node_5549946421,Pundalu Oya (Dunsinane) Ella Falls,Waterfalls,7.0060363,80.6881134
+osm_node_3975121346,Ramboda Lower Falls,Waterfalls,7.0547791,80.6997315
+osm_node_2055187239,Ramboda Middle Falls,Waterfalls,7.0545545,80.7013734
+osm_node_4430215189,Ramboda Upper Falls,Waterfalls,7.0543939,80.7055863
+osm_node_12566072434,Slab Rock Falls,Waterfalls,6.7963095,80.7925286
+osm_node_2714398571,Sri Pada Falls (Adam Peak's Falls),Waterfalls,6.798623,80.5487307
+osm_node_5809896557,St. Clair Falls,Waterfalls,6.9513704,80.6481451
+osm_node_12536254092,Upper Gartmore Falls,Waterfalls,6.7786554,80.5592226
+osm_node_6324796385,Waterfall,Waterfalls,6.7816821,80.5574796
+osm_node_5244274525,laxapana mohine FAlls,Waterfalls,6.8273972,80.5329798

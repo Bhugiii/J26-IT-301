@@ -1,0 +1,13 @@
+﻿destination_search,catalog_id,source,place_name,basic_category,latitude,longitude,distance_from_area_km,manual_decision,verified_place_name,verified_latitude,verified_longitude,verification_source_url,review_notes
+Nine Arch Bridge,osm:osm_way_1427156317,original_osm_research,Demodora Nine Arch Bridge,Tourist attractions,6.8768251,81.06089,0.02,pending,,,,,
+Pidurangala,osm:osm_node_4366143462,original_osm_research,Pidurangala,Mountains,7.9662102,80.7616977,0.04,pending,,,,,
+Temple of the Tooth,overture:a0467d59-de48-41ef-beb0-9a21fa2022a9,overture_places,Temple of the Tooth Museum,buddhist_place_of_worship,7.29373095,80.64159598,0.05,pending,,,,,
+Sigiriya,overture:4abb0338-d7d4-444f-a9d0-1a0db0d4d7f7,overture_places,Sigiriya Frescoes,historic_site,7.9567637,80.75948167,0.06,pending,,,,,
+Galle Fort,overture:1347ed1b-90bb-48a3-b0f3-b9774d5d14c9,overture_places,Galle Fort,historic_site,6.026424072316436,80.21680350708148,0.07,pending,,,,,
+Dambulla Cave Temple,osm:osm_way_431489913,original_osm_research,Dambulla Cave Temple,Temples,7.8566046,80.6483886,0.1,pending,,,,,
+Anuradhapura,osm:osm_node_8096283075,original_osm_research,Sacred City of Anuradhapura,Archaeological sites,8.352427,80.39991,0.27,pending,,,,,
+Polonnaruwa,overture:7ad43db5-a8e6-415a-8f9e-2e8840f7faf0,overture_places,Polonnaruwa - Archeological Site,historic_site,7.9424901683287,81.00081017662,0.29,pending,,,,,
+Unawatuna Beach,overture:37f87a54-a062-45b1-a424-81e72a097709,overture_places,Unawatuna Beach Villa,beach,6.00979744,80.24841066,0.33,pending,,,,,
+Mirissa Beach,overture:cd8295ce-c8e1-4bd1-8747-e414bf11ca6f,overture_places,Mirissa Beach,beach,5.9528993,80.454474,0.47,pending,,,,,
+Horton Plains,overture:f5701ef9-fd7e-43e2-af47-2dfc5cd59aeb,overture_places,Horton Plains National Park - Sri Lanka,national_park,6.8054213377984,80.792169570923,1.47,pending,,,,,
+Yala National Park,overture:1ad5fc27-53ff-40a4-93a0-966c272feedb,overture_places,Yala National Park Sri Lanka,national_park,6.2795857,81.40190228,10.4,pending,,,,,

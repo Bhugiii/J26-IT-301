@@ -1,0 +1,23 @@
+{
+  "source": "data\\processed\\tourism_infrastructure\\tourism_infrastructure_grid_5km.csv",
+  "total_grid_cells": 2862,
+  "occupied_cells": 1847,
+  "empty_cells": 1015,
+  "occupied_coastal_slivers_excluded_from_fit": 122,
+  "training_cells": 1725,
+  "minimum_boundary_overlap_for_fit": 0.5,
+  "selected_k": 2,
+  "selection_rule": "Among k with sampled silhouette within 0.03 of max, maximize mean seed ARI, then silhouette, then smaller k",
+  "features": [
+    "attraction_group_attraction_and_recreation_count",
+    "attraction_group_heritage_count",
+    "attraction_group_nature_and_outdoors_count",
+    "attraction_group_religious_and_cultural_count",
+    "service_group_accommodation_count",
+    "service_group_food_and_drink_count",
+    "service_group_travel_support_count"
+  ],
+  "transform": "log1p on counts, then StandardScaler fitted to training cells only",
+  "silhouette_sample_size_max": 1200,
+  "limitation": "Clusters describe mapped Overture POI category counts, not verified attraction quality, tourist demand, popularity, accessibility or an AHP Tourism Potential Index. Empty cells reflect selected-source mapping coverage and excluded categories. Service and attraction candidate records may contain duplicates or errors."
+}

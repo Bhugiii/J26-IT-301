@@ -1,0 +1,13 @@
+assessment,status,count,percentage_of_sample
+Tourism relevance,no,0,0.0
+Tourism relevance,pending,0,0.0
+Tourism relevance,uncertain,70,93.33
+Tourism relevance,yes,5,6.67
+Coordinate accuracy,no,0,0.0
+Coordinate accuracy,pending,0,0.0
+Coordinate accuracy,uncertain,75,100.0
+Coordinate accuracy,yes,0,0.0
+Duplicate assessment,duplicate,0,0.0
+Duplicate assessment,pending,0,0.0
+Duplicate assessment,uncertain,75,100.0
+Duplicate assessment,unique,0,0.0

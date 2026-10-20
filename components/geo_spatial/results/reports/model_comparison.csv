@@ -1,0 +1,3 @@
+model,parameters,n_clusters,noise_points,coverage_percentage,silhouette_score,davies_bouldin_index
+K-Means,k=6,6,0,100.0,0.4855053619222449,0.6697637536961616
+DBSCAN,"eps=2km, min_samples=5",225,2398,72.08,0.3240562214726949,0.4482301230477037
