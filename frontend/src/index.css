@@ -56,3 +56,9 @@
 @media (prefers-reduced-motion: reduce) {
   .reveal, .reveal .bar-grow { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
+
+/* Custom highlight color */
+::selection {
+  background-color: #14b8a6; /* Teal color matching your UI */
+  color: #ffffff;            /* White text when highlighted */
+}
