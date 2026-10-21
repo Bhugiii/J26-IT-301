@@ -1,0 +1,14 @@
+# TravelMind Component 03 - backend API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.1
+# tests
+pytest>=8.0
+httpx>=0.27
+
+# --- Pipeline only (NOT needed to run the API) ---------------------------
+# Required to re-run pipeline/run_ai_model.py (Sentence-BERT scoring) and
+# pipeline/download_data.py:
+#   sentence-transformers>=2.7
+#   torch>=2.2
+#   datasets>=2.19

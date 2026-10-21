@@ -1,0 +1,58 @@
+/* TravelMind brand tokens */
+:root {
+  --tm-primary: #123B5D;
+  --tm-secondary: #0D9488;
+  --tm-secondary-hover: #0F766E;
+  --tm-success: #16A34A;
+  --tm-accent: #F5B942;
+
+  --tm-background: #F5F8FA;
+  --tm-card: #FFFFFF;
+  --tm-text: #172B3A;
+  --tm-muted: #64748B;
+  --tm-border: #D9E2EA;
+
+  --tm-radius: 12px;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { -webkit-font-smoothing: antialiased; }
+  body { background: var(--tm-background); color: var(--tm-text); @apply font-sans text-[15px]; }
+  p, li, dd { color: var(--tm-muted); }
+  h1, h2, h3, h4 { @apply text-navy-deep; }
+  ::selection { background: #DDF5F2; color: #0B2A4A; }
+}
+
+@layer components {
+  .card, .dashboard-card { background: var(--tm-card); border: 1px solid var(--tm-border); border-radius: var(--tm-radius); @apply shadow-card; }
+  .eyebrow { @apply text-[12px] font-semibold uppercase tracking-[0.14em] text-teal-dark; }
+  .label { @apply text-[13px] font-semibold text-navy-deep; }
+  .helper { @apply text-[12.5px] text-slate-text; }
+  .btn { @apply inline-flex items-center gap-2 rounded-lg px-4 py-2.5 text-[14px] font-semibold transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-teal-bright focus-visible:ring-offset-2; }
+  .btn-primary, .primary-button { @apply btn; background: var(--tm-secondary); color: #FFFFFF; border-radius: var(--tm-radius); }
+  .btn-primary:hover, .primary-button:hover { background: var(--tm-secondary-hover); }
+  .btn-ghost { @apply btn bg-white text-navy border border-line hover:border-teal hover:text-teal-dark; border-radius: var(--tm-radius); }
+  .chip { @apply inline-flex items-center gap-1 rounded-full bg-offwhite border border-line px-2.5 py-0.5 text-[12px] font-medium text-slate-text; }
+  .input { @apply w-full rounded-lg border border-line bg-white px-3 py-2.5 text-[14px] text-navy-deep placeholder:text-slate-text/70 focus:border-teal focus:outline-none focus:ring-2 focus:ring-sky; }
+}
+
+.fade-in { animation: fade .35s ease-out both; }
+@keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+
+/* Scroll reveal (added by useScrollReveal in Layout.tsx) */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity .65s cubic-bezier(.2,.7,.2,1), transform .65s cubic-bezier(.2,.7,.2,1), box-shadow .2s ease;
+  will-change: opacity, transform;
+}
+.reveal.is-visible { opacity: 1; transform: none; }
+.reveal .bar-grow { transform: scaleX(0); transform-origin: left; transition: transform .9s cubic-bezier(.2,.7,.2,1) .2s; }
+.reveal.is-visible .bar-grow { transform: scaleX(1); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal, .reveal .bar-grow { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
