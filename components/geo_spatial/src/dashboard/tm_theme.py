@@ -14,7 +14,7 @@ NAV_LABELS = {
     "Dashboard": "Dashboard",
     "Discover Places": "Discover Places",
     "Hotspots": "Attraction-Rich Areas",
-    "Tourism Facilities": "Stay & Eat Nearby",
+    "Tourism Facilities": "Stay, Eat & Travel Services",
     "My Trip": "My Trip",
 }
 NAV_ICONS = {
@@ -31,7 +31,7 @@ PAGE_INFO = {
                         "Pick a starting attraction and see mapped places around it. Distances are straight-line estimates."),
     "Hotspots": ("GEOGRAPHIC RESEARCH", "Attraction-rich areas",
                  "Areas where many mapped attractions sit close together. This shows map concentration, not tourist popularity."),
-    "Tourism Facilities": ("TRAVEL SUPPORT", "Stay & eat nearby",
+    "Tourism Facilities": ("TRAVEL SUPPORT", "Stay, eat & travel services",
                            "Find mapped accommodation, food and travel services around a destination."),
     "My Trip": ("TRIP PLANNER", "My Sri Lanka trip", "Save places, change visit order and open your route in Google Maps."),
     "Analytics": ("MODEL INSIGHTS", "Research & methodology",
@@ -149,7 +149,7 @@ GROUP_NAV = [
     ("GEOSPATIAL INTELLIGENCE · COMPONENT 02", [
         ("Discover Places", "◈", "Discover Places"),
         ("Hotspots", "⌖", "Attraction-Rich Areas"),
-        ("Tourism Facilities", "▤", "Stay & Eat Nearby"),
+        ("Tourism Facilities", "▤", "Stay, Eat & Travel Services"),
         ("My Trip", "♧", "My Trip"),
     ]),
 ]
@@ -376,7 +376,7 @@ def _go(target):
 def render_quick_actions():
     items = [
         ("🧭", "Find places", "Search and see what is nearby", "Discover Places"),
-        ("🏨", "Stay & eat nearby", "Hotels, food, travel services", "Tourism Facilities"),
+        ("🏨", "Stay, eat & travel services", "Hotels, food, travel services", "Tourism Facilities"),
         ("📍", "Attraction-rich areas", "Mapped concentrations", "Hotspots"),
         ("🧳", "My trip", "Review your selected destinations", "My Trip"),
     ]

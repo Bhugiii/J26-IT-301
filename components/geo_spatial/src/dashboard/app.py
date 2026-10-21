@@ -17,7 +17,7 @@ import numpy as np
 import streamlit as st
 from streamlit_folium import st_folium
 import streamlit.components.v1 as components
-from tm_trip_features import render_beyond, render_my_trip, trip_button, build_place_description, describe_record
+from tm_trip_features import render_my_trip, trip_button, build_place_description, describe_record
 from tm_home_dashboard import render_home
 from tm_theme import (inject_theme, render_sidebar_nav, render_sidebar_status,
                       render_page_header, render_quick_actions, source_badge)
@@ -681,63 +681,6 @@ elif page == "Discover Places":
         else:
             render_nearby_places(nearby, max_cards=18, key="travelmind_nearby")
 
-    st.divider()
-    with st.expander("🌿 Beyond the Famous Spots — explore other mapped areas", expanded=True):
-        render_beyond(data, approved_images=images, image_dir=IMAGE_DIR)
-
-    st.divider()
-    st.markdown("### 🔎 Additional attraction candidates — research preview")
-    st.caption("Overture records are OFF by default. These are not verified attractions and are NOT added to the original hotspot or discovery models.")
-    preview_on = st.checkbox("Enable unverified Overture attraction preview", value=False, key="overture_preview_enable")
-    if preview_on:
-        candidates = load_overture_candidates()
-        if candidates.empty:
-            st.warning(f"No usable Overture records loaded. Check: {CATALOG_FILE}")
-        else:
-            st.warning("Research preview only. Some place names, categories, and coordinates are incorrect. Verify locations independently before visiting or publishing.")
-            preview_cols = st.columns([2, 2, 1])
-            with preview_cols[0]:
-                q = st.text_input("Search Overture candidates", placeholder="e.g. museum, waterfall, Sigiriya", key="overture_preview_search")
-            with preview_cols[1]:
-                opts = sorted(candidates["tourism_group"].dropna().astype(str).unique().tolist())
-                g = st.selectbox("Attraction group", ["All groups"] + opts, key="overture_preview_group")
-            with preview_cols[2]:
-                restrict = st.checkbox("Show safer screened subset", value=True, key="overture_hide_conflicts",
-                                       help="Hides known severe location mismatches, category-name conflicts and candidate duplicates. This does not verify remaining records.")
-            if q.strip():
-                candidates = candidates[candidates.place_name.astype(str).str.contains(q.strip(), case=False, regex=False, na=False)]
-            if g != "All groups":
-                candidates = candidates[candidates.tourism_group.astype(str).eq(g)]
-            if restrict:
-                candidates = screen_extra_attractions(candidates)
-            st.caption(f"{len(candidates):,} unverified records match the preview filters. Select a place to see nearby candidates.")
-            if not candidates.empty:
-                # Limit dropdown size for browser responsiveness; search narrows the pool.
-                choices = candidates.sort_values("place_name", kind="stable").head(500)
-                ids = choices["catalog_id"].astype(str).tolist()
-                options = dict(zip(ids, choices["place_name"].astype(str)))
-                chosen_id = st.selectbox("Preview an Overture attraction", ids,
-                                         format_func=lambda x: options.get(x, x), key="overture_preview_selection")
-                selected = choices.loc[choices.catalog_id.astype(str).eq(chosen_id)].iloc[0]
-                radius_preview = st.select_slider("Nearby Overture preview radius", options=[2, 5, 10, 20], value=5, key="overture_preview_radius")
-                sample_pool = candidates.copy()
-                sample_pool["distance_km"] = distances_km(sample_pool, selected.latitude, selected.longitude)
-                close = sample_pool[(sample_pool.distance_km <= radius_preview) & (sample_pool.catalog_id.astype(str) != str(chosen_id))]
-                close = close.sort_values("distance_km").head(30)
-                mapped = as_map_records(candidates.head(1500), id_col="catalog_id")
-                origin = as_map_records(pd.DataFrame([selected]), id_col="catalog_id").iloc[0]
-                near_map = as_map_records(close, id_col="catalog_id")
-                maplibre_panel(mapped, height=450, center_record=origin, nearby=near_map,
-                               nearby_radius_km=radius_preview, areas_visible=False, show_legend=True, hide_map_panels=True)
-                st.caption(f"Selected category: {selected.basic_category} · Screening: {selected.screening_status} · Place coordinates: {selected.latitude:.6f}, {selected.longitude:.6f}")
-                if not close.empty:
-                    st.dataframe(close[["place_name", "basic_category", "distance_km", "screening_status"]].head(20), hide_index=True, width="stretch")
-                st.link_button("Open selected coordinates in Google Maps",
-                    "https://www.google.com/maps/search/?" + urlencode({"api": 1, "query": f"{selected.latitude:.7f},{selected.longitude:.7f}"}))
-                trip_button(unique_id=f"overture:{selected.catalog_id}", name=str(selected.place_name),
-                            lat=selected.latitude, lon=selected.longitude, warning=True,
-                            key="overture_selected_trip")
-
 elif page == "Hotspots":
     st.markdown("### ✨ Explore attraction-rich areas")
     st.caption("Discover places grouped by geography. These are OpenStreetMap-derived candidate attractions, not verified popular destinations.")
@@ -825,27 +768,6 @@ elif page == "Hotspots":
                             with st.container(border=True):
                                 st.markdown("**📍 Selected destination**")
                                 destination_view(selected_place)
-                        st.markdown("#### More places in this district")
-                        card_records = shown_members.head(18)
-                        for start_at in range(0, len(card_records), 3):
-                            card_columns = st.columns(3, gap="medium")
-                            for col, (_, place) in zip(card_columns, card_records.iloc[start_at:start_at+3].iterrows()):
-                                with col:
-                                    with st.container(border=True):
-                                        st.markdown(f"**{_icon_for(place.tourism_category)} {escape(str(place.attraction_name))}**")
-                                        st.caption(f"{place.district} · {place.tourism_category}")
-                                        st.caption(describe_record(place))
-                                        if str(place.attraction_id) in images:
-                                            display_image(place)
-                                        url = "https://www.google.com/maps/search/?" + urlencode(
-                                            {"api": 1, "query": f"{float(place.latitude):.7f},{float(place.longitude):.7f}"}
-                                        )
-                                        st.link_button("📍 Open location in Google Maps", url, width="stretch")
-                                        trip_button(unique_id=str(place.attraction_id), name=str(place.attraction_name),
-                                                    lat=place.latitude, lon=place.longitude, warning=True,
-                                                    key=f"fallback_trip_{district}_{place.attraction_id}")
-                        if len(shown_members) > len(card_records):
-                            st.caption(f"Showing {len(card_records)} of {len(shown_members)} matching mapped places.")
 
             else:
                 id_options = area_data.baseline_cluster_id.tolist()
@@ -905,54 +827,13 @@ elif page == "Hotspots":
                             st.markdown("**📍 Selected destination**")
                             destination_view(selected_place, show_photo=True)
                             st.caption("Mapped place, not independently verified. Check access and opening hours before travel.")
-                    st.markdown("#### More places in this area")
-                    st.caption("Browse actual members of the selected geographic cluster. Cards show a short sample; use the CSV for the full list.")
-                    card_records = shown_members.drop_duplicates(["attraction_name", "district"]).head(18)
-                    for start_at in range(0, len(card_records), 3):
-                        card_columns = st.columns(3, gap="medium")
-                        for col, (_, place) in zip(card_columns, card_records.iloc[start_at:start_at+3].iterrows()):
-                            with col:
-                                with st.container(border=True):
-                                    st.markdown(f"**{_icon_for(place.tourism_category)} {escape(str(place.attraction_name))}**")
-                                    st.caption(f"{place.district} · {place.tourism_category}")
-                                    st.caption(describe_record(place))
-                                    if str(place.attraction_id) in images:
-                                        display_image(place)
-                                    st.link_button(
-                                        "📍 Open location in Google Maps",
-                                        f"https://www.google.com/maps/search/?{urlencode({'api': 1, 'query': f'{float(place.latitude):.7f},{float(place.longitude):.7f}'})}",
-                                        width="stretch"
-                                    )
-                                    trip_button(unique_id=str(place.attraction_id), name=str(place.attraction_name),
-                                                lat=place.latitude, lon=place.longitude, warning=True,
-                                                key=f"hotspot_card_trip_{choice}_{place.attraction_id}")
-                    if len(shown_members) > len(card_records):
-                        st.caption(f"Showing up to {len(card_records)} unique-name cards from {len(shown_members)} matching records.")
                     st.download_button("Download matching area records (CSV)", shown_members.to_csv(index=False).encode("utf-8"),
                                        file_name=f"travelmind_area_{choice}_places.csv", mime="text/csv", key="hotspot_download")
                 else:
                     st.info("No places match those filters. Try All categories, remove the search term, or include review-flagged records in the sidebar.")
-                with st.expander("🔬 Research details and data limitations", expanded=False):
-                    st.markdown("**How this area was identified**")
-                    st.write("This candidate is one of 18 geographic concentrations shortlisted from baseline DBSCAN clusters using data-quality and stability criteria. It is not a ranking of tourist demand.")
-                    r1, r2, r3 = st.columns(3)
-                    r1.metric("Baseline DBSCAN reference", int(choice))
-                    retention = area.get("strict_retained_pct", float('nan'))
-                    spread = area.get("p90_radius_km", float('nan'))
-                    r2.metric("Retained under strict cleaning", f"{retention:.1f}%" if pd.notna(retention) else "—")
-                    r3.metric("P90 geographic spread", f"{spread:.1f} km" if pd.notna(spread) else "—")
-                    flag_rate = area.get("review_flag_pct", float('nan'))
-                    st.write(f"Records flagged for review in baseline area: {flag_rate:.1f}%" if pd.notna(flag_rate) else "Review-flag percentage unavailable")
-                    st.write(f"Baseline area membership: {total_area_records} records; shortlist count: {int(area.baseline_records)} records.")
-                    if total_area_records != int(area.baseline_records):
-                        st.warning("The current dataset membership differs from the saved shortlist. Re-check data versions.")
-                    st.caption("Strict retention measures robustness to data filtering—not independently verified tourism relevance. Neither the area centre nor P90 spread is an official tourism boundary.")
-                with st.expander("📋 All shortlisted areas", expanded=False):
-                    summary_columns = [c for c in ("main_district", "baseline_cluster_id", "baseline_records", "strict_retained_pct", "review_flag_pct", "p90_radius_km") if c in area_data.columns]
-                    st.dataframe(area_data[summary_columns], hide_index=True, width="stretch")
 
 elif page == "Tourism Facilities":
-    st.markdown("### 🏨 Tourism Facilities Explorer")
+    st.markdown("### 🏨 Stay, Eat & Travel Services")
     st.caption("Find Overture-mapped accommodation, food and drink, and travel-support services near a destination. Listings, opening status, and coordinates are not independently verified.")
     services = load_tourism_services()
     if services.empty:
