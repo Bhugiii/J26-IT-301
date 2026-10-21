@@ -205,29 +205,94 @@ def haversine_km(lat1, lon1, lat2, lon2):
     h = math.sin(dlat/2)**2 + math.cos(a1)*math.cos(a2)*math.sin(dlon/2)**2
     return 12742 * math.asin(min(1.0, math.sqrt(max(0.0, h))))
 
-def display_image(record):
+# Scoped photo-card styling: leaves maps, research charts, and other UI intact.
+st.markdown("""
+<style>
+[class*="st-key-tm_destination_card"] [data-testid="stImage"] img {
+  width: 100% !important;
+  height: 255px !important;
+  object-fit: cover !important;
+  object-position: center 42% !important;
+  border-radius: 12px !important;
+}
+[class*="st-key-tm_destination_card"] .tm-place-title {
+  font-size: 1.17rem; font-weight: 800; color: #123B5D;
+  line-height: 1.3; margin: 0.2rem 0 0.35rem;
+}
+[class*="st-key-tm_destination_card"] .tm-place-category {
+  display:inline-block; color:#13745B; background:#EAF7F1;
+  padding: 5px 10px; border-radius: 8px;
+  font-size: .78rem; font-weight: 700; margin-bottom:.3rem;
+}
+[class*="st-key-tm_destination_card"] .tm-place-description {
+  font-size:.88rem; line-height:1.55; color:#425569; margin:.35rem 0 .35rem;
+}
+[class*="st-key-tm_destination_card"] [data-testid="stLinkButton"] a {
+  background:#EAF7F1 !important; color:#126B55 !important;
+  border-color:#CDEBDD !important;
+  font-size:.83rem !important;
+}
+[class*="st-key-tm_destination_card"] [data-testid="stButton"] button {
+  font-size:.83rem !important;
+}
+@media(max-width: 720px) {
+ [class*="st-key-tm_destination_card"] [data-testid="stImage"] img {height:220px !important;}
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+def display_image(record, *, compact=False):
+    """Show only approved photographs and retain the required attribution links."""
     meta = images.get(str(record.attraction_id))
-    if meta:
-        st.image(str(IMAGE_DIR / meta["image_file"]), width="stretch")
-        name = str(meta.get("creator", "")).strip() or "Creator not listed"
-        lic = str(meta.get("license", "")).strip() or "Check license"
-        st.caption(f"Photo: {name} · {lic}")
-        source = str(meta.get("source_page", ""))
-        lic_url = str(meta.get("license_url", ""))
-        if source.startswith("https://"):st.markdown(f"[Photo source]({source})")
-        if lic_url.startswith("https://"):st.markdown(f"[License details]({lic_url})")
-    else:
+    if not meta:
         st.info("📷 Exact-location photograph not yet approved.")
+        return
+
+    st.image(str(IMAGE_DIR / meta["image_file"]), width="stretch")
+    creator = str(meta.get("creator", "")).strip() or "Creator not listed"
+    license_name = str(meta.get("license", "")).strip() or "License not specified"
+    source = str(meta.get("source_page", "")).strip()
+    license_url = str(meta.get("license_url", "")).strip()
+    if compact:
+        # Keep the selected attraction card focused on the place and its actions.
+        # Attribution is displayed in the page footer, outside the card.
+        pass
+    else:
+        st.caption(f"Photo: {creator} · {license_name}")
+        if source.startswith("https://"):
+            st.markdown(f"[Photo source]({source})")
+        if license_url.startswith("https://"):
+            st.markdown(f"[License details]({license_url})")
+
 
 def destination_view(r, show_photo=True):
-    if show_photo:display_image(r)
-    st.markdown(f"**{r.attraction_name}**")
-    st.caption(f"{r.district} · {r.tourism_category}")
-    st.write(describe_record(r))
-    st.markdown(f"[📍 Open location in Google Maps](https://www.google.com/maps?q={float(r.latitude):.6f},{float(r.longitude):.6f})")
-    trip_button(unique_id=str(r.attraction_id), name=str(r.attraction_name),
-                lat=r.latitude, lon=r.longitude, warning=True,
-                key=f"selected_trip_{str(r.attraction_id)}")
+    """Compact selected-destination card; the existing session-backed trip logic is reused."""
+    with st.container(key="tm_destination_card"):
+        if show_photo:
+            display_image(r, compact=True)
+        st.markdown(
+            f'<div class="tm-place-title">{escape(str(r.attraction_name))}</div>',
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            f'<span class="tm-place-category">📍 {escape(str(r.district))} · '
+            f'{escape(str(r.tourism_category))}</span>',
+            unsafe_allow_html=True,
+        )
+        st.markdown(
+            f'<div class="tm-place-description">{escape(str(describe_record(r)))}</div>',
+            unsafe_allow_html=True,
+        )
+        maps_url = "https://www.google.com/maps/search/?" + urlencode(
+            {"api": 1, "query": f"{float(r.latitude):.6f},{float(r.longitude):.6f}"}
+        )
+        st.link_button("📍 Open in Google Maps", maps_url, width="stretch")
+        trip_button(
+            unique_id=str(r.attraction_id), name=str(r.attraction_name),
+            lat=r.latitude, lon=r.longitude, warning=True,
+            key=f"selected_trip_{str(r.attraction_id)}",
+        )
 
 
 # Responsive visual nearby-place cards (embedded; no extra Python file required).
@@ -504,6 +569,9 @@ html,body{margin:0;height:100%;font-family:Inter,Arial,sans-serif;background:#e5
 #legend .dot{display:inline-block;width:12px;height:12px;border:2px solid white;border-radius:50%;box-shadow:0 0 0 1px #657786;vertical-align:middle;margin-right:6px}
 #terrainStatus{position:absolute;top:68px;left:12px;z-index:5;background:#ffffffd9;border-radius:6px;padding:6px 9px;font-size:12px;color:#48687a}
 .maplibregl-popup-content{border-radius:10px;line-height:1.6;max-width:300px}
+.tm-hover-tip{pointer-events:none}
+.tm-hover-tip .maplibregl-popup-content{padding:9px 12px;box-shadow:0 4px 15px #102b4233;border:1px solid #dce9e5;font:12px/1.5 Inter,Arial,sans-serif;color:#163d50}
+.tm-hover-tip .maplibregl-popup-content b{font-size:13px;color:#123b5d}
 @media(max-width:640px){#toolbar button{padding:8px 9px}#info{max-width:250px}}
 </style></head><body>
 <div id="map"></div><div id="toolbar">
@@ -542,8 +610,6 @@ map.addLayer({id:'nearby-pins',type:'circle',source:'nearby',paint:{'circle-colo
 map.addSource('origin',{type:'geojson',data:ORIGIN});
 map.addLayer({id:'origin-halo',type:'circle',source:'origin',paint:{'circle-color':'#7c3aed','circle-radius':21,'circle-opacity':0.20}});
 map.addLayer({id:'origin-pin',type:'circle',source:'origin',paint:{'circle-color':'#7c3aed','circle-radius':11,'circle-stroke-width':3,'circle-stroke-color':'#fff'}});
-for(const layer of ['attractions','areas','district-fill','nearby-pins','origin-pin'])map.on('mouseenter' ,layer,()=>map.getCanvas().style.cursor='pointer');
-for(const layer of ['attractions','areas','district-fill','nearby-pins','origin-pin'])map.on('mouseleave',layer,()=>map.getCanvas().style.cursor='');
 map.on('click','attractions',e=>{const p=e.features[0].properties;const ll=e.features[0].geometry.coordinates;
 const url='https://www.google.com/maps/search/?api=1&query='+encodeURIComponent(ll[1]+','+ll[0]);
 const html='<b>'+esc(p.name)+'</b><br>'+esc(p.district)+' · '+esc(p.category)+'<br>'+(p.approved_photo?'Photo-match approved for this record':'Record not independently verified')+'<br>'+esc(p.source_label||'Mapped candidate')+'<br><a href="'+url+'" target="_blank" rel="noopener noreferrer">Open Google Maps ↗</a>';
@@ -564,6 +630,29 @@ info.innerHTML='<b>'+esc(p.name)+'</b><div>'+esc(p.count)+' mapped candidate rec
 map.flyTo({center:ll,zoom:10,pitch:terrainOn?55:20,duration:900});});
 map.on('click','district-fill',e=>{const p=e.features[0].properties;info.innerHTML='<b>'+esc(districtLabel(p))+'</b><div>District selected on map. Use Explore & Map Filters to select a district.</div>';});
 }
+// Hover labels: mouse users see names immediately; click still opens full details.
+// Register listeners once (outside attach), so switching Street/Satellite doesn't duplicate them.
+const hoverTip = new maplibregl.Popup({closeButton:false,closeOnClick:false,offset:16,className:'tm-hover-tip'});
+const hoverLayers = ['attractions','nearby-pins','origin-pin','areas'];
+function hoverText(layer,p){
+ const name=esc(p.name || 'Mapped location');
+ if(layer==='origin-pin')return '<b>📍 '+name+'</b><div>'+esc(p.district||'')+'</div>';
+ if(layer==='nearby-pins')return '<b>🟢 '+name+'</b><div>'+esc(p.distance_km)+' km · straight line</div>';
+ if(layer==='areas')return '<b>🟠 '+name+'</b><div>Research-screened area · not visitor popularity</div>';
+ return '<b>📍 '+name+'</b><div>'+esc(p.district||'')+' · '+esc(p.category||'')+'</div>';
+}
+for(const layer of hoverLayers){
+ map.on('mouseenter',layer,e=>{
+   map.getCanvas().style.cursor='pointer';
+   if(!e.features || !e.features.length)return;
+   hoverTip.setLngLat(e.lngLat).setHTML(hoverText(layer,e.features[0].properties)).addTo(map);
+ });
+ map.on('mousemove',layer,e=>{if(hoverTip.isOpen())hoverTip.setLngLat(e.lngLat);});
+ map.on('mouseleave',layer,()=>{map.getCanvas().style.cursor='';hoverTip.remove();});
+}
+map.on('mouseenter','district-fill',()=>{map.getCanvas().style.cursor='pointer';});
+map.on('mouseleave','district-fill',()=>{map.getCanvas().style.cursor='';});
+
 async function enableTerrain(){try{
  if(!map.getSource('terrain-dem'))map.addSource('terrain-dem',{type:'raster-dem',url:'https://tiles.mapterhorn.com/tilejson.json',tileSize:256});
  map.setTerrain({source:'terrain-dem',exaggeration:1.25}); terrainOn=true;
@@ -680,6 +769,20 @@ elif page == "Discover Places":
         if nearby.empty:st.info("No other mapped places found in this radius.")
         else:
             render_nearby_places(nearby, max_cards=18, key="travelmind_nearby")
+
+        # Keep required Commons attribution accessible without cluttering the photo card.
+        selected_photo = images.get(str(center.attraction_id))
+        if selected_photo:
+            creator = str(selected_photo.get("creator", "")).strip() or "Creator not listed"
+            license_name = str(selected_photo.get("license", "")).strip() or "License not specified"
+            credits = f"Photo credit for {center.attraction_name}: {creator} · {license_name}"
+            source_url = str(selected_photo.get("source_page", "")).strip()
+            license_url = str(selected_photo.get("license_url", "")).strip()
+            if source_url.startswith("https://"):
+                credits += f" · [Original photo]({source_url})"
+            if license_url.startswith("https://"):
+                credits += f" · [License]({license_url})"
+            st.caption(credits)
 
 elif page == "Hotspots":
     st.markdown("### ✨ Explore attraction-rich areas")

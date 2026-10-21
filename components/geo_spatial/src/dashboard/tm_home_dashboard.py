@@ -153,34 +153,23 @@ def render_home(*, data, filtered, images, image_dir, shortlist,
         pool = pool[matches]
     pool = pool.drop_duplicates(["attraction_name", "district"])
 
-    # Keep the photo cards synchronized with the active homepage search and
-    # interest chips as well as the sidebar's district selection.
+    # Show approved, correctly matched attraction photos BEFORE text-only results.
+    # Search and interest filters apply to both groups.
     featured = _photos(pool, images)
-    if query.strip() or interest != "All places":
+    searching = bool(query.strip()) or interest != "All places"
+    if searching:
         st.caption(f"{len(pool):,} mapped places match your choices.")
-        if pool.empty:
-            st.info("No matching places. Try another name, interest or sidebar district.")
-        else:
-            for row_num, record in enumerate(pool.head(4).itertuples()):
-                c1,c2 = st.columns([5,1], vertical_alignment="center")
-                with c1:
-                    st.markdown(f"**{escape(str(record.attraction_name))}** · {escape(str(record.district))}")
-                    st.caption(describe_record(record))
-                with c2:
-                    st.button("Explore →", key=f"tm_home_match_{row_num}", width="stretch",
-                              on_click=_go, args=("Discover Places",),
-                              kwargs={"name":str(record.attraction_name), "district":str(record.district)})
-            if len(pool)>4:
-                st.caption("Showing the first four matches. Narrow the name to find a specific place.")
 
-    st.markdown("### ✨ Featured places to discover")
-    st.caption("Showing approved attraction photographs matching your district and search filters.")
-    if featured.empty:
-        st.info("No approved attraction photos match the current district or search. Try another district, clear the search, or check your photo approvals.")
+    st.markdown("### ✨ Places to discover" if searching else "### ✨ Featured places to discover")
+    st.caption("Approved attraction photographs matching your search and interest filters are shown first.")
+    if pool.empty:
+        st.info("No matching places. Try another attraction, district, or interest.")
+    elif featured.empty:
+        st.info("No approved photos for these results yet. You can still explore matching places below.")
     else:
-        for start in range(0, min(9,len(featured)), 3):
-            columns=st.columns(3, gap="medium")
-            for col, record in zip(columns, featured.iloc[start:start+3].itertuples()):
+        for start in range(0, len(featured), 3):
+            columns = st.columns(3, gap="medium")
+            for col, record in zip(columns, featured.iloc[start:start + 3].itertuples()):
                 with col:
                     with st.container(border=True):
                         item = _approved_image(record, images, image_dir)
@@ -197,7 +186,29 @@ def render_home(*, data, filtered, images, image_dir, shortlist,
                             st.caption(_photo_credit(item[1]))
                         st.button("🧭 Explore place", key=f"tm_feature_{str(record.attraction_id)}", width="stretch",
                                   on_click=_go, args=("Discover Places",),
-                                  kwargs={"name":str(record.attraction_name), "district":str(record.district)})
+                                  kwargs={"name": str(record.attraction_name), "district": str(record.district)})
+
+    # Keep non-photographed attractions findable, without making tourists scroll
+    # through a plain-text list before seeing the available photographs.
+    if searching and not pool.empty:
+        photographed_pairs = set(zip(featured.attraction_name.astype(str), featured.district.astype(str)))
+        text_only = pool.loc[[
+            (str(r.attraction_name), str(r.district)) not in photographed_pairs
+            for r in pool.itertuples()
+        ]]
+        if not text_only.empty:
+            with st.expander(f"More matching places ({len(text_only):,})", expanded=featured.empty):
+                for row_num, record in enumerate(text_only.head(8).itertuples()):
+                    c1, c2 = st.columns([5, 1], vertical_alignment="center")
+                    with c1:
+                        st.markdown(f"**{escape(str(record.attraction_name))}** · {escape(str(record.district))}")
+                        st.caption(describe_record(record))
+                    with c2:
+                        st.button("Explore →", key=f"tm_home_match_{row_num}", width="stretch",
+                                  on_click=_go, args=("Discover Places",),
+                                  kwargs={"name": str(record.attraction_name), "district": str(record.district)})
+                if len(text_only) > 8:
+                    st.caption(f"Showing 8 of {len(text_only):,} additional mapped places. Narrow your search to find others.")
 
     st.markdown("### 🇱🇰 Sri Lanka at a glance")
     n_hotspots = len(shortlist) if shortlist is not None and not shortlist.empty else 0
