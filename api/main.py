@@ -321,6 +321,8 @@ def row_to_recommendation(row):
             row["preference_score"]
         ),
 
+        semantic_fit=convert_value(row.get("semantic_fit")),
+
         budget_fit=convert_value(
             row["budget_fit"]
         ),
@@ -387,6 +389,14 @@ def get_evaluation():
         RESULTS_DIR,
         "demand_aware_metrics.csv"
     )
+    crowd_metrics_path = os.path.join(
+        RESULTS_DIR,
+        "crowd_prediction_metrics.csv"
+    )
+    final_recommendations_path = os.path.join(
+        RESULTS_DIR,
+        "final_demand_aware_recommendations.csv"
+    )
 
     # -----------------------------------------------------
     # Check files
@@ -397,6 +407,7 @@ def get_evaluation():
         comparison_path,
         ndcg_path,
         demand_metrics_path,
+        final_recommendations_path,
     ]
 
     missing_files = [
@@ -434,6 +445,12 @@ def get_evaluation():
     demand_metrics = pd.read_csv(
         demand_metrics_path
     )
+    crowd_metrics = (
+        pd.read_csv(crowd_metrics_path)
+        if os.path.exists(crowd_metrics_path)
+        else pd.DataFrame(columns=["metric", "value"])
+    )
+    final_recommendations = pd.read_csv(final_recommendations_path)
 
     # -----------------------------------------------------
     # B1 - B4 models
@@ -591,6 +608,25 @@ def get_evaluation():
         ),
     }
 
+    crowd_prediction_metrics = {
+        str(row["metric"]): float(row["value"])
+        for _, row in crowd_metrics.iterrows()
+    }
+    frontier_sizes = []
+    for _, user_rows in final_recommendations.groupby("user_id"):
+        user_options = recommendation_service.mark_pareto_frontier(
+            user_rows.to_dict("records")
+        )
+        frontier_sizes.append(sum(option["pareto_optimal"] for option in user_options))
+    pareto_frontier_statistics = {
+        "profiles": len(frontier_sizes),
+        "mean_options_per_profile": (
+            sum(frontier_sizes) / len(frontier_sizes) if frontier_sizes else 0
+        ),
+        "minimum_options_per_profile": min(frontier_sizes, default=0),
+        "maximum_options_per_profile": max(frontier_sizes, default=0),
+    }
+
     # -----------------------------------------------------
     # Final response
     # -----------------------------------------------------
@@ -600,6 +636,12 @@ def get_evaluation():
         "ndcg_by_k": ndcg_by_k,
         "demand_aware_statistics": (
             demand_aware_statistics
+        ),
+        "crowd_prediction_metrics": crowd_prediction_metrics,
+        "pareto_frontier_statistics": pareto_frontier_statistics,
+        "research_data_note": (
+            "Offline results use synthetic traveler profiles and estimated destination attributes. "
+            "Crowd labels are not time-stamped visitor counts; crowd scores are not live or date-specific forecasts."
         ),
     }
 
@@ -677,8 +719,10 @@ def get_recommendations(
     for _, row in recommendations.iterrows():
 
         results.append(
-            row_to_recommendation(row)
+            row_to_recommendation(row).model_dump()
         )
+
+    results = recommendation_service.mark_pareto_frontier(results)
 
     return {
         "user_id": user_id,
@@ -714,6 +758,7 @@ def rank_recommendation_scenario(
         scenario_weights=weights,
         preference_feedback=request.preference_feedback,
     )
+    recommendations = recommendation_service.mark_pareto_frontier(recommendations)
     return {"user_id": user_id, "recommendations": recommendations}
 
 

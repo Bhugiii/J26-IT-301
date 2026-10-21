@@ -1,5 +1,7 @@
 # Docker deployment
 
+For the research framing, implemented scope, saved benchmark interpretation, dataset limitations, and validation steps, see [RESEARCH_GUIDE.md](RESEARCH_GUIDE.md).
+
 Docker Compose runs the React/Vite frontend and FastAPI backend as separate containers. Nginx serves the frontend and proxies `/api` requests to the API. The API database and signing secret live in the persistent `tourism_state` volume. The API port is only available inside the Compose network; the browser uses the frontend port.
 
 ## Start the application

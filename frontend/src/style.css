@@ -190,6 +190,17 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 .weather-tag.moderate { color: #9a6a13; background: #fff5df; }
 .weather-tag.poor { color: #a24747; background: #fff0f0; }
 .sustainability-tag { color: #087b72 !important; background: #e8f8f3 !important; }
+.pareto-tag { color: #075985 !important; background: #e0f2fe !important; font-weight: 800; }
+.semantic-tag { color: #5b3c96 !important; background: #f0eafe !important; font-weight: 750; }
+.pareto-research-panel { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin: 18px 0; padding: 20px 22px; border: 1px solid #b9e3dc; border-radius: 16px; background: linear-gradient(115deg, #effbf7, #f2f8ff); }
+.pareto-research-panel > div:first-child { max-width: 780px; }
+.pareto-research-panel h2 { margin: 6px 0; color: #12443b; font-size: 22px; }
+.pareto-research-panel p { margin: 0; color: #48655c; font-size: 16px; line-height: 1.55; }
+.pareto-research-panel .pareto-data-note { margin-top: 8px; color: #637b73; font-size: 14px; }
+.pareto-summary { display: grid; flex: 0 0 180px; gap: 3px; text-align: center; }
+.pareto-summary strong { color: #007f75; font-size: 34px; line-height: 1.1; }
+.pareto-summary span { color: #536b5e; font-size: 14px; }
+@media (max-width: 700px) { .pareto-research-panel { align-items: stretch; flex-direction: column; gap: 14px; padding: 17px; } .pareto-summary { flex: auto; text-align: left; } .pareto-summary strong { font-size: 28px; } }
 .card-action { width: 100%; min-height: 35px; border: 1px solid #dcebe1; border-radius: 8px; color: var(--green-dark); background: #f4faf6; font-size: 15px; font-weight: 750; }
 .card-action:hover { background: var(--green-pale); }
 .loading-state { padding: 32px; color: var(--muted); text-align: center; font-size: 15px; }
@@ -224,9 +235,15 @@ button:disabled { cursor: not-allowed; opacity: .6; }
 .itinerary-empty p { max-width: 460px; color: var(--muted); font-size: 15px; line-height: 1.6; }
 .itinerary-days { display: grid; gap: 14px; }
 .itinerary-day-card { overflow: hidden; border: 1px solid var(--line); border-radius: 15px; background: white; }
+.itinerary-budget-strip { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin: 14px 0; padding: 15px 18px; border: 1px solid #d6e8dc; border-radius: 13px; background: #f3faf5; }
+.itinerary-budget-strip div { display: grid; gap: 2px; }
+.itinerary-budget-strip div span { color: #64766c; font-size: 14px; }
+.itinerary-budget-strip div strong { color: #174f38; font-size: 18px; }
+.itinerary-budget-strip small { color: #64766c; font-size: 14px; }
 .itinerary-day-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 16px 18px; background: linear-gradient(110deg, #f2f8f4, #fff); border-bottom: 1px solid var(--line); }
 .itinerary-day-heading h2 { margin: 4px 0 0; font: 750 16px Manrope, sans-serif; }
 .itinerary-duration { padding: 7px 10px; border-radius: 999px; color: #206442; background: #e8f8f3; font-size: 15px; font-weight: 700; }
+.itinerary-duration.over-budget { color: #9a3412; background: #fff1e8; }
 .itinerary-stops { display: grid; }
 .itinerary-stop { display: grid; grid-template-columns: 34px 1fr auto; align-items: start; gap: 12px; padding: 15px 18px; border-bottom: 1px solid #edf2ef; }
 .itinerary-stop:last-child { border-bottom: 0; }
@@ -851,4 +868,1128 @@ body { font-size: 16px; line-height: 1.65; }
 @media (max-width: 580px) {
   .secondary-button, .primary-button, .card-action { min-height: 46px; }
   .page-content p { font-size: 15px; }
+}
+
+/* Dashboard contrast and destination actions. */
+.dashboard-page {
+  color: #ffffff;
+  background: #fff;
+}
+.main-content:has(.dashboard-page) {
+  background: #fff;
+}
+.dashboard-page .travelmind-hero::before {
+  background: linear-gradient(125deg, rgba(252, 252, 252, 0.72), rgba(200, 234, 234, 0.43) 58%, rgba(255, 255, 255, 0.24));
+}
+.dashboard-page .dashboard-section {
+  border-color: #d9e5e4;
+  background: #fff;
+  box-shadow: 0 8px 26px rgba(255, 255, 255, 0.07);
+}
+.dashboard-page .dashboard-top-destinations .section-heading {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+.dashboard-page .dashboard-top-destinations .eyebrow {
+  color: #087b72;
+}
+.dashboard-page .dashboard-top-destinations .section-heading h2 {
+  color: #123b55;
+}
+.dashboard-page .dashboard-top-destinations .section-heading .secondary-button {
+  display: inline-flex;
+  min-width: 104px;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 19px;
+  border: 1px solid #0f4c81;
+  border-radius: 12px;
+  color: #fff;
+  background: #0f4c81;
+  font-size: 15px;
+  font-weight: 750;
+  box-shadow: 0 3px 9px rgba(15, 76, 129, .16);
+  transition: background .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.dashboard-page .dashboard-top-destinations .section-heading .secondary-button:hover {
+  transform: translateY(-1px);
+  border-color: #0a3c67;
+  background: #0a3c67;
+  box-shadow: 0 6px 14px rgba(15, 76, 129, .22);
+}
+.dashboard-page .dashboard-top-destinations .section-heading .secondary-button:focus-visible {
+  outline: 3px solid #ffc857;
+  outline-offset: 3px;
+}
+.dashboard-page .dashboard-recommendation-card {
+  border-color: #d8e5e8;
+  box-shadow: 0 5px 18px rgba(20, 56, 69, .08);
+}
+.dashboard-page .dashboard-card-content p,
+.dashboard-page .dashboard-card-bottom span {
+  color: #526975;
+}
+@media (max-width: 580px) {
+  .dashboard-page .dashboard-top-destinations .section-heading {
+    align-items: stretch;
+  }
+  .dashboard-page .dashboard-top-destinations .section-heading .secondary-button {
+    width: 100%;
+  }
+}
+
+/* =========================================================
+   TRAVELMIND — SAFE MODERN UI POLISH
+   Appended overrides only. Keeps existing class names and
+   React/TypeScript behavior unchanged.
+========================================================= */
+
+:root {
+  --tm-ink: #15324b;
+  --tm-muted: #647b8d;
+  --tm-line: #e1eaf0;
+  --tm-canvas: #f5f8fb;
+  --tm-surface: #ffffff;
+  --tm-teal: #0ca889;
+  --tm-teal-dark: #087d69;
+  --tm-blue: #175a86;
+  --tm-radius: 16px;
+  --tm-shadow: 0 8px 28px rgba(22, 50, 75, 0.07);
+  --tm-shadow-hover: 0 14px 34px rgba(22, 50, 75, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--tm-canvas);
+}
+
+body {
+  color: var(--tm-ink);
+  background: var(--tm-canvas);
+  line-height: 1.55;
+}
+
+.app-shell {
+  color: var(--tm-ink);
+  background: var(--tm-canvas);
+}
+
+.main-content {
+  min-width: 0;
+  background: var(--tm-canvas);
+}
+
+.sidebar {
+  background: rgba(255, 255, 255, 0.97);
+  border-right-color: var(--tm-line);
+  box-shadow: 4px 0 24px rgba(22, 50, 75, 0.025);
+}
+
+.brand {
+  padding-bottom: 28px;
+}
+
+.brand-logo {
+  object-fit: contain;
+}
+
+.sidebar-section-label,
+.eyebrow {
+  letter-spacing: 0.095em;
+}
+
+.sidebar-nav {
+  gap: 5px;
+}
+
+.nav-item {
+  min-height: 43px;
+  border-radius: 11px;
+  transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.nav-item:hover {
+  color: var(--tm-teal-dark);
+  background: #f0faf7;
+  transform: translateX(2px);
+}
+
+.nav-item.active {
+  color: var(--tm-teal-dark);
+  background: #e8f7f2;
+  box-shadow: inset 3px 0 0 var(--tm-teal);
+}
+
+.topbar {
+  min-height: 72px;
+  background: rgba(255, 255, 255, 0.88);
+  border-bottom: 1px solid var(--tm-line);
+  backdrop-filter: blur(12px);
+}
+
+.breadcrumb {
+  color: var(--tm-muted);
+}
+
+.breadcrumb strong {
+  color: var(--tm-ink);
+}
+
+.topbar-user {
+  border: 1px solid transparent;
+  border-radius: 13px;
+  transition: background 160ms ease, border-color 160ms ease;
+}
+
+.topbar-user:hover {
+  border-color: var(--tm-line);
+  background: #f7fafc;
+}
+
+.topbar-avatar,
+.account-avatar {
+  box-shadow: 0 4px 12px rgba(12, 168, 137, 0.15);
+}
+
+.page-content {
+  width: 100%;
+  max-width: 1600px;
+  margin-inline: auto;
+  padding: clamp(18px, 2.5vw, 32px);
+}
+
+.page-header {
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.page-header h1,
+.dashboard-hero-title {
+  color: var(--tm-ink);
+  letter-spacing: -0.035em;
+  line-height: 1.15;
+}
+
+.page-header p {
+  max-width: 760px;
+  color: var(--tm-muted);
+  line-height: 1.7;
+}
+
+.dashboard-section,
+.account-card,
+.analytics-card,
+.evaluation-card,
+.comparison-panel,
+.assistant-panel,
+.destination-map-panel,
+.destination-map-list,
+.itinerary-day-card,
+.profile-card,
+.form-card,
+.recommendation-card,
+.dashboard-recommendation-card {
+  border-color: var(--tm-line);
+  border-radius: var(--tm-radius);
+  box-shadow: var(--tm-shadow);
+}
+
+.dashboard-section,
+.account-card,
+.analytics-card,
+.evaluation-card,
+.comparison-panel,
+.assistant-panel,
+.destination-map-panel,
+.destination-map-list {
+  background: var(--tm-surface);
+}
+
+.dashboard-section,
+.account-card,
+.comparison-panel,
+.assistant-panel {
+  padding: clamp(16px, 2vw, 24px);
+}
+
+.dashboard-recommendation-card,
+.comparison-card,
+.itinerary-day-card,
+.alternative-result,
+.evaluation-metric {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.dashboard-recommendation-card:hover,
+.comparison-card:hover,
+.alternative-result:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--tm-shadow-hover);
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.primary-button,
+.secondary-button,
+.save-destination-button,
+.crowd-alt-button {
+  min-height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  transition: transform 160ms ease, box-shadow 160ms ease, background 160ms ease;
+}
+
+.primary-button {
+  border-color: var(--tm-teal);
+  color: #fff;
+  background: var(--tm-teal);
+  box-shadow: 0 5px 13px rgba(12, 168, 137, 0.16);
+}
+
+.primary-button:hover {
+  background: var(--tm-teal-dark);
+  box-shadow: 0 8px 18px rgba(12, 168, 137, 0.22);
+  transform: translateY(-1px);
+}
+
+.secondary-button {
+  border-color: var(--tm-line);
+  color: var(--tm-blue);
+  background: #fff;
+}
+
+.secondary-button:hover {
+  border-color: #b8d9d1;
+  background: #f3fbf8;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+input,
+select,
+textarea {
+  max-width: 100%;
+  border-color: #d8e4eb;
+  border-radius: 10px;
+  color: var(--tm-ink);
+  background: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #8b9dac;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #67c9b1;
+  outline: 3px solid rgba(12, 168, 137, 0.12);
+  outline-offset: 0;
+}
+
+.interest-chip,
+.recommendation-view-switch button {
+  border-radius: 999px;
+}
+
+.error-banner,
+.assistant-error,
+.account-message {
+  border-radius: 12px;
+}
+
+.empty-state,
+.saved-empty,
+.account-empty,
+.alternative-empty {
+  border-radius: var(--tm-radius);
+}
+
+.destination-photo,
+.dashboard-photo-tile img,
+.destination-visual img {
+  border-radius: 12px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+@media (min-width: 1500px) {
+  .page-content {
+    padding: 34px 40px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .sidebar {
+    width: 220px;
+    padding-inline: 13px;
+  }
+
+  .main-content {
+    margin-left: 220px;
+  }
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+    min-height: auto;
+    padding: 12px 14px;
+    border-right: 0;
+    border-bottom: 1px solid var(--tm-line);
+  }
+
+  .brand {
+    padding: 4px 4px 12px;
+  }
+
+  .sidebar-section-label,
+  .sidebar-bottom {
+    display: none;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    overflow-x: auto;
+    padding: 2px 0 5px;
+    scrollbar-width: thin;
+  }
+
+  .nav-item {
+    flex: 0 0 auto;
+    min-height: 39px;
+    white-space: nowrap;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .topbar {
+    position: sticky;
+    top: 0;
+    z-index: 15;
+    min-height: 58px;
+    padding-inline: 16px;
+  }
+
+  .page-content {
+    padding: 18px 14px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar {
+    align-items: center;
+    gap: 8px;
+  }
+
+  .breadcrumb {
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .topbar-user {
+    gap: 6px;
+    padding: 4px;
+  }
+
+  .topbar-user > div:not(.topbar-avatar) {
+    display: none;
+  }
+
+  .page-header {
+    margin-bottom: 18px;
+  }
+
+  .page-header h1 {
+    font-size: clamp(1.55rem, 7vw, 2rem);
+  }
+
+  .dashboard-section,
+  .account-card,
+  .comparison-panel,
+  .assistant-panel {
+    padding: 15px;
+  }
+
+  .primary-button,
+  .secondary-button {
+    max-width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================
+   TRAVELMIND DASHBOARD — WARM, HIGH-CONTRAST COLOR REFRESH
+   Appended overrides only; existing layout and functionality
+   remain intact. Palette: deep ocean, ivory, jade, coral.
+   ========================================================== */
+:root {
+  --brand-blue: #173f5f;
+  --brand-teal: #087f8c;
+  --brand-green: #16836b;
+  --brand-coral: #f28c6b;
+  --ink: #173047;
+  --text: #263f52;
+  --muted: #6c8090;
+  --page-bg: #f4f7f5;
+  --surface: #ffffff;
+  --surface-soft: #edf5f2;
+  --border: #d9e5e1;
+  --shadow-soft: 0 8px 24px rgba(24, 56, 72, .07);
+}
+
+html, body {
+  color: #263f52;
+  background: #f4f7f5;
+}
+body {
+  background-image: radial-gradient(ellipse at 12% 0%, rgba(8,127,140,.07), transparent 38%),
+                    radial-gradient(ellipse at 95% 18%, rgba(242,140,107,.07), transparent 30%);
+}
+#root { color: #263f52; }
+
+/* Keep small labels readable instead of pale / washed out. */
+.dashboard-page,
+.dashboard-page p,
+.dashboard-page label,
+.dashboard-page small,
+.dashboard-page span,
+.dashboard-page .dashboard-card-content,
+.dashboard-page .dashboard-section {
+  color: #365267;
+}
+.dashboard-page .eyebrow,
+.dashboard-page .section-eyebrow,
+.dashboard-page .dashboard-section .eyebrow {
+  color: #087f8c;
+  font-weight: 800;
+  letter-spacing: .13em;
+}
+.dashboard-page h1,
+.dashboard-page h2,
+.dashboard-page h3,
+.dashboard-page .section-heading h2,
+.dashboard-page .dashboard-card-content h3 {
+  color: #173f5f;
+}
+.dashboard-page .muted,
+.dashboard-page .dashboard-card-bottom,
+.dashboard-page .dashboard-card-content small,
+.dashboard-page .section-description {
+  color: #6c8090;
+}
+
+/* Main canvas and content panels */
+.main-content:has(.dashboard-page),
+.dashboard-page {
+  background: transparent;
+}
+.dashboard-page .dashboard-section,
+.dashboard-page .dashboard-top-destinations,
+.dashboard-page .dashboard-profile-section,
+.dashboard-page .travel-profile-section {
+  background: rgba(255,255,255,.92);
+  border: 1px solid #d9e5e1;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(24,56,72,.045);
+}
+.dashboard-page .dashboard-section {
+  padding: 18px;
+}
+
+/* Welcome hero: stronger contrast over the destination image */
+.dashboard-page .travelmind-hero,
+.dashboard-page .dashboard-hero,
+.dashboard-page .hero-banner {
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.28);
+  border-radius: 20px;
+  box-shadow: 0 14px 32px rgba(20,55,72,.16);
+  background-color: #315e70;
+}
+.dashboard-page .travelmind-hero::before {
+  background: linear-gradient(115deg, rgba(13,43,61,.72), rgba(16,75,91,.48) 58%, rgba(8,58,75,.32)) !important;
+  opacity: 1 !important;
+}
+.dashboard-page .travelmind-hero h1,
+.dashboard-page .travelmind-hero h2,
+.dashboard-page .travelmind-hero p,
+.dashboard-page .travelmind-hero .hero-title,
+.dashboard-page .travelmind-hero .hero-description,
+.dashboard-page .dashboard-hero h1,
+.dashboard-page .dashboard-hero h2,
+.dashboard-page .dashboard-hero p {
+  color: #fff !important;
+  text-shadow: 0 1px 8px rgba(7,29,42,.22);
+}
+.dashboard-page .travelmind-hero .hero-badge,
+.dashboard-page .travelmind-hero .badge {
+  background: rgba(255,255,255,.18);
+  border: 1px solid rgba(255,255,255,.34);
+  color: #fff;
+  backdrop-filter: blur(8px);
+}
+
+/* Destination cards */
+.dashboard-page .dashboard-recommendation-card,
+.dashboard-page .recommendation-card,
+.dashboard-page .destination-card {
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #d9e5e1;
+  border-radius: 15px;
+  box-shadow: 0 3px 12px rgba(23,63,95,.045);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.dashboard-page .dashboard-recommendation-card:hover,
+.dashboard-page .recommendation-card:hover,
+.dashboard-page .destination-card:hover {
+  transform: translateY(-3px);
+  border-color: #8fc8bd;
+  box-shadow: 0 12px 24px rgba(23,63,95,.12);
+}
+.dashboard-page .dashboard-card-content h3,
+.dashboard-page .recommendation-card h3,
+.dashboard-page .destination-card h3 {
+  color: #173f5f;
+}
+.dashboard-page .rank-badge,
+.dashboard-page .recommendation-rank,
+.dashboard-page .recommendation-tags > span {
+  color: #086b72;
+  background: #e2f4ef;
+  border: 1px solid #c8e8df;
+}
+.dashboard-page .dashboard-card-bottom,
+.dashboard-page .recommendation-mini-stats {
+  color: #637b8b;
+}
+
+/* Metric tiles */
+.dashboard-page .dashboard-stat-card,
+.dashboard-page .stat-card,
+.dashboard-page .metric-card,
+.dashboard-page .dashboard-shortcuts > button {
+  color: #263f52;
+  background: #fff;
+  border: 1px solid #d9e5e1;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(23,63,95,.045);
+}
+.dashboard-page .dashboard-stat-card strong,
+.dashboard-page .stat-card strong,
+.dashboard-page .metric-card strong,
+.dashboard-page .dashboard-shortcuts strong {
+  color: #087f8c;
+}
+.dashboard-page .shortcut-icon,
+.dashboard-page .stat-icon {
+  color: #087f8c;
+  background: #e4f4ef;
+}
+
+/* Buttons and links */
+.dashboard-page button,
+.dashboard-page .primary-button,
+.dashboard-page .button-primary {
+  transition: background-color .18s ease, transform .18s ease, box-shadow .18s ease;
+}
+.dashboard-page .primary-button,
+.dashboard-page .button-primary,
+.dashboard-page button.primary,
+.dashboard-page .section-heading .secondary-button {
+  color: #fff;
+  background: #087f8c;
+  border: 1px solid #087f8c;
+  box-shadow: 0 4px 10px rgba(8,127,140,.16);
+}
+.dashboard-page .primary-button:hover,
+.dashboard-page .button-primary:hover,
+.dashboard-page button.primary:hover,
+.dashboard-page .section-heading .secondary-button:hover {
+  color: #fff;
+  background: #066872;
+  border-color: #066872;
+  box-shadow: 0 7px 16px rgba(8,127,140,.23);
+  transform: translateY(-1px);
+}
+.dashboard-page .secondary-button,
+.dashboard-page .button-secondary {
+  color: #17516a;
+  background: #edf5f2;
+  border: 1px solid #d0e2dc;
+}
+.dashboard-page a:not(.primary-button):not(.button-primary) {
+  color: #087f8c;
+}
+.dashboard-page a:not(.primary-button):not(.button-primary):hover {
+  color: #064f5b;
+}
+
+/* Profile inputs and traveler selector */
+.dashboard-page input,
+.dashboard-page select,
+.dashboard-page textarea,
+.dashboard-page .dashboard-traveler-select {
+  color: #263f52;
+  background: #fff;
+  border: 1px solid #cbdcd7;
+  border-radius: 10px;
+}
+.dashboard-page input::placeholder,
+.dashboard-page textarea::placeholder {
+  color: #8799a4;
+  opacity: 1;
+}
+.dashboard-page input:focus,
+.dashboard-page select:focus,
+.dashboard-page textarea:focus {
+  outline: none;
+  border-color: #087f8c;
+  box-shadow: 0 0 0 3px rgba(8,127,140,.13);
+}
+.dashboard-page .dashboard-profile-grid > *,
+.dashboard-page .profile-field {
+  background: #f8fbfa;
+  border-color: #d9e5e1;
+  border-radius: 10px;
+}
+
+/* Plan trip callout */
+.dashboard-page .dashboard-trip-cta,
+.dashboard-page .trip-planner-callout,
+.dashboard-page .dashboard-next-adventure {
+  background: linear-gradient(110deg, #e3f4ef, #f5faf7 72%);
+  border: 1px solid #c4e5db;
+  border-radius: 16px;
+}
+.dashboard-page .dashboard-trip-cta h2,
+.dashboard-page .trip-planner-callout h2,
+.dashboard-page .dashboard-next-adventure h2 {
+  color: #17516a;
+}
+
+/* Keyboard focus and mobile readability */
+.dashboard-page :focus-visible {
+  outline: 3px solid rgba(8,127,140,.42);
+  outline-offset: 2px;
+}
+@media (max-width: 720px) {
+  .dashboard-page .dashboard-section { padding: 13px; border-radius: 15px; }
+  .dashboard-page .travelmind-hero,
+  .dashboard-page .dashboard-hero,
+  .dashboard-page .hero-banner { border-radius: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dashboard-page *, .dashboard-page *::before, .dashboard-page *::after {
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* FINAL CLEAN-COLOR OVERRIDES: remove the unwanted grey/teal wash */
+html,
+body,
+#root {
+  background: #f7f9fb !important;
+  background-image: none !important;
+}
+body {
+  background-image: none !important;
+}
+.main-content:has(.dashboard-page),
+.dashboard-page {
+  background: #f7f9fb !important;
+  background-image: none !important;
+}
+/* Keep the destination photo visible without a heavy colored overlay. */
+.dashboard-page .travelmind-hero::before {
+  background: linear-gradient(
+    180deg,
+    rgba(16, 35, 48, 0.28),
+    rgba(16, 35, 48, 0.18)
+  ) !important;
+  opacity: 1 !important;
+}
+/* Remove tinted panel fills; use clean white surfaces instead. */
+.dashboard-page .dashboard-section,
+.dashboard-page .dashboard-top-destinations,
+.dashboard-page .dashboard-profile-section,
+.dashboard-page .travel-profile-section,
+.dashboard-page .dashboard-trip-cta,
+.dashboard-page .trip-planner-callout,
+.dashboard-page .dashboard-next-adventure {
+  background: #ffffff !important;
+  background-image: none !important;
+}
+.dashboard-page .dashboard-profile-grid > *,
+.dashboard-page .profile-field,
+.dashboard-page .secondary-button,
+.dashboard-page .button-secondary {
+  background: #f7f9fb !important;
+  background-image: none !important;
+}
+
+/* FINAL FIX: remove the teal/grey-blue wash and preserve readable controls */
+html, body, #root {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #243746;
+}
+body::before, body::after, #root::before, #root::after,
+main::before, main::after,
+.main-content::before, .main-content::after,
+.dashboard-page::before, .dashboard-page::after {
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  pointer-events: none;
+}
+.main-content:has(.dashboard-page),
+.main-content, .dashboard-page,
+.dashboard-page .dashboard-section,
+.dashboard-page .dashboard-top-destinations,
+.dashboard-page .dashboard-profile-section,
+.dashboard-page .travel-profile-section,
+.dashboard-page .dashboard-next-step,
+.dashboard-page .dashboard-trip-cta,
+.dashboard-page .trip-planner-callout,
+.dashboard-page .dashboard-next-adventure {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  color: #243746 !important;
+}
+/* Keep only a subtle dark overlay on the hero photo so its white text stays readable. */
+.dashboard-page .travelmind-hero::before {
+  background: rgba(14, 34, 47, 0.30) !important;
+  opacity: 1 !important;
+}
+/* Restore readable headings, body copy, labels and white-on-primary buttons. */
+.dashboard-page h1,
+.dashboard-page h2,
+.dashboard-page h3,
+.dashboard-page h4,
+.dashboard-page p,
+.dashboard-page label,
+.dashboard-page .section-heading,
+.dashboard-page .dashboard-section-title {
+  color: #243746;
+}
+.dashboard-page .travelmind-hero h1,
+.dashboard-page .travelmind-hero h2,
+.dashboard-page .travelmind-hero p,
+.dashboard-page .travelmind-hero .hero-kicker,
+.dashboard-page .travelmind-hero .hero-proof {
+  color: #ffffff !important;
+}
+.dashboard-page button.primary,
+.dashboard-page .primary-button,
+.dashboard-page .button-primary,
+.dashboard-page .section-heading .secondary-button,
+.dashboard-page .dashboard-next-step button,
+.dashboard-page .dashboard-next-adventure button {
+  color: #ffffff !important;
+  background: #174f78 !important;
+  border-color: #174f78 !important;
+}
+.dashboard-page .hero-button {
+  color: #174f78 !important;
+  background: #ffffff !important;
+  border-color: #ffffff !important;
+}
+.dashboard-page .secondary-button,
+.dashboard-page .button-secondary,
+.dashboard-page button:not(.primary):not(.primary-button):not(.button-primary):not(.hero-button) {
+  color: #243746;
+}
+.dashboard-page input,
+.dashboard-page select,
+.dashboard-page textarea,
+.dashboard-page .dashboard-traveler-select {
+  color: #243746 !important;
+  background-color: #ffffff !important;
+  border-color: #cbd5dc !important;
+}
+.dashboard-page input::placeholder,
+.dashboard-page textarea::placeholder {
+  color: #71808b !important;
+  opacity: 1 !important;
+}
+.dashboard-page .dashboard-profile-grid > *,
+.dashboard-page .profile-field {
+  color: #243746 !important;
+  background: #ffffff !important;
+  border-color: #dce3e8 !important;
+}
+.dashboard-page .dashboard-stat-card,
+.dashboard-page .stat-card,
+.dashboard-page .metric-card,
+.dashboard-page .dashboard-shortcuts > button,
+.dashboard-page .dashboard-recommendation-card {
+  color: #243746 !important;
+  background: #ffffff !important;
+  border-color: #dce3e8 !important;
+}
+
+/* FINAL FIX: remove the full-page grey-blue/teal wash on TravelMind dashboard.
+   Keep the beach photo and preserve readable text/buttons. */
+html, body, #root {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+body::before, body::after, #root::before, #root::after,
+#root > .app::before, #root > .app::after,
+.app::before, .app::after,
+main::before, main::after,
+.main-content::before, .main-content::after,
+.dashboard-page::before, .dashboard-page::after,
+.dashboard-page .page-content::before, .dashboard-page .page-content::after {
+  content: none !important;
+  display: none !important;
+  background: none !important;
+  background-image: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+}
+#root, .app, main, .main-content, .page-content,
+.dashboard-page, .dashboard-page .page-content,
+.dashboard-page .dashboard-section,
+.dashboard-page .dashboard-top-destinations,
+.dashboard-page .dashboard-profile-section,
+.dashboard-page .travel-profile-section,
+.dashboard-page .dashboard-next-step,
+.dashboard-page .dashboard-trip-cta,
+.dashboard-page .trip-planner-callout,
+.dashboard-page .dashboard-next-adventure,
+.dashboard-page .dashboard-recommendations,
+.dashboard-page .dashboard-stats {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  filter: none !important;
+  opacity: 1 !important;
+  color: #243746;
+}
+/* Clean white cards with visible borders and readable copy. */
+.dashboard-page .dashboard-stat-card,
+.dashboard-page .stat-card,
+.dashboard-page .metric-card,
+.dashboard-page .dashboard-shortcuts > button,
+.dashboard-page .dashboard-recommendation-card,
+.dashboard-page .dashboard-profile-grid > *,
+.dashboard-page .profile-field {
+  background: #ffffff !important;
+  color: #243746 !important;
+  border-color: #dce3e8 !important;
+  opacity: 1 !important;
+}
+/* Keep a restrained overlay on the hero image only; it does not cover the page. */
+.dashboard-page .travelmind-hero {
+  position: relative;
+  isolation: isolate;
+  background-color: #dfe8ed;
+}
+.dashboard-page .travelmind-hero::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  background: rgba(14, 34, 47, .28) !important;
+  opacity: 1 !important;
+  pointer-events: none !important;
+  border-radius: inherit;
+}
+.dashboard-page .travelmind-hero > * {
+  position: relative;
+  z-index: 1;
+}
+.dashboard-page .travelmind-hero h1,
+.dashboard-page .travelmind-hero h2,
+.dashboard-page .travelmind-hero p,
+.dashboard-page .travelmind-hero .hero-kicker,
+.dashboard-page .travelmind-hero .hero-proof {
+  color: #ffffff !important;
+}
+.dashboard-page button.primary,
+.dashboard-page .primary-button,
+.dashboard-page .button-primary,
+.dashboard-page .dashboard-next-step button,
+.dashboard-page .dashboard-next-adventure button {
+  background: #174f78 !important;
+  color: #ffffff !important;
+  border-color: #174f78 !important;
+}
+.dashboard-page .hero-button {
+  background: #ffffff !important;
+  color: #174f78 !important;
+  border-color: #ffffff !important;
+}
+
+/* ==========================================================
+   TRAVELMIND DASHBOARD HOTFIX — remove page-wide color wash
+   and keep recommendation cards fully visible in their grid.
+   Keep the dark tint only inside the hero photo itself.
+   ========================================================== */
+html, body, #root, .app-shell {
+  min-height: 100%;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+}
+.main-content:has(.dashboard-page),
+.main-content:has(.dashboard-page)::before,
+.main-content:has(.dashboard-page)::after,
+.dashboard-page,
+.dashboard-page::before,
+.dashboard-page::after,
+.dashboard-page > .page-content::before,
+.dashboard-page > .page-content::after {
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+.main-content:has(.dashboard-page)::before,
+.main-content:has(.dashboard-page)::after,
+.dashboard-page::before,
+.dashboard-page::after {
+  content: none !important;
+  display: none !important;
+}
+.dashboard-page {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  color: #243746 !important;
+  overflow-x: clip;
+}
+.dashboard-page .dashboard-top-destinations {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  background: #ffffff !important;
+  border: 1px solid #e0e6eb !important;
+}
+.dashboard-page .dashboard-recommendation-grid {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  align-items: stretch;
+  width: 100%;
+  min-width: 0;
+  gap: 16px !important;
+}
+.dashboard-page .dashboard-recommendation-card {
+  display: block;
+  width: 100%;
+  min-width: 0 !important;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #ffffff !important;
+  color: #243746 !important;
+}
+.dashboard-page .dashboard-recommendation-card > *,
+.dashboard-page .dashboard-card-content {
+  min-width: 0;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.dashboard-page .dashboard-card-content h3,
+.dashboard-page .dashboard-card-content p {
+  overflow-wrap: anywhere;
+  color: #173f5f !important;
+}
+/* Only the hero image gets a dark tint for white text contrast. */
+.dashboard-page .travelmind-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background-color: #dfe8ed;
+}
+.dashboard-page .travelmind-hero::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 0 !important;
+  background: rgba(8, 32, 48, 0.34) !important;
+  pointer-events: none !important;
+  border-radius: inherit;
+}
+.dashboard-page .travelmind-hero > * {
+  position: relative;
+  z-index: 1;
+}
+.dashboard-page .hero-button {
+  background: #ffffff !important;
+  color: #174f78 !important;
+  border: 1px solid #ffffff !important;
+}
+.dashboard-page .section-heading .secondary-button,
+.dashboard-page .primary-button,
+.dashboard-page .button-primary {
+  background: #174f78 !important;
+  color: #ffffff !important;
+  border-color: #174f78 !important;
+}
+@media (max-width: 900px) {
+  .dashboard-page .dashboard-recommendation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+@media (max-width: 600px) {
+  .dashboard-page .dashboard-recommendation-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+  .dashboard-page .dashboard-top-destinations {
+    padding: 14px !important;
+  }
 }

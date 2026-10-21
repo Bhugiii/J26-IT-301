@@ -32,6 +32,7 @@ interface Recommendation {
   predicted_crowd_score: number | null;
   predicted_crowd_level: string | null;
   preference_score: number | null;
+  semantic_fit?: number | null;
   budget_fit: number | null;
   predicted_crowd_fit: number | null;
   weather_fit: number | null;
@@ -42,6 +43,7 @@ interface Recommendation {
   demand_suitability: number | null;
   demand_aware_score: number | null;
   scenario_score?: number | null;
+  pareto_optimal?: boolean;
   explanation: string | null;
 }
 
@@ -59,6 +61,12 @@ interface AuthSession {
   token_type: "bearer";
   expires_in: number;
   account: { id: number; email: string };
+}
+
+interface AssistantProviderStatus {
+  provider: string;
+  configured: boolean;
+  model: string;
 }
 
 interface AccountProfileSummary {
@@ -111,10 +119,20 @@ interface DemandAwareStatistics {
   unchanged_rankings: number;
 }
 
+interface ParetoFrontierStatistics {
+  profiles: number;
+  mean_options_per_profile: number;
+  minimum_options_per_profile: number;
+  maximum_options_per_profile: number;
+}
+
 interface EvaluationResponse {
   models: EvaluationModel[];
   ndcg_by_k: NdcgPoint[];
   demand_aware_statistics: DemandAwareStatistics;
+  crowd_prediction_metrics: Record<string, number>;
+  pareto_frontier_statistics: ParetoFrontierStatistics;
+  research_data_note: string;
 }
 
 /* =========================================================
@@ -207,7 +225,10 @@ interface ItineraryStop {
 interface ItineraryDay {
   day: number;
   area: string;
+  theme: string;
   estimated_visit_hours: number;
+  estimated_cost_lkr: number;
+  over_daily_budget: boolean;
   stops: ItineraryStop[];
 }
 
@@ -215,6 +236,8 @@ interface ItineraryResponse {
   user_id: string;
   traveler_name: string;
   days: ItineraryDay[];
+  daily_budget_lkr: number;
+  estimated_total_cost_lkr: number;
   planning_note: string;
 }
 
@@ -940,6 +963,7 @@ function App() {
     showOnlyStrongMatches,
     setShowOnlyStrongMatches,
   ] = useState(false);
+  const [showParetoOptionsOnly, setShowParetoOptionsOnly] = useState(false);
   const [recommendationLens, setRecommendationLens] = useState<"balanced" | "crowd" | "weather" | "sustainability" | "scenario">("balanced");
   const [recommendationView, setRecommendationView] = useState<"grid" | "map">("grid");
   const [savedDestinationIds, setSavedDestinationIds] = useState<string[]>([]);
@@ -983,6 +1007,7 @@ function App() {
   const [assistantInput, setAssistantInput] = useState("");
   const [assistantLoading, setAssistantLoading] = useState(false);
   const [assistantError, setAssistantError] = useState("");
+  const [assistantProviderStatus, setAssistantProviderStatus] = useState<AssistantProviderStatus | null>(null);
   const [itinerary, setItinerary] = useState<ItineraryResponse | null>(null);
   const [itineraryLoading, setItineraryLoading] = useState(false);
   const [itineraryError, setItineraryError] = useState("");
@@ -999,6 +1024,18 @@ function App() {
     if (authSession) void loadAccountProfiles();
     else setAccountProfiles([]);
   }, [authSession]);
+
+  useEffect(() => {
+    let active = true;
+    fetch(`${API_URL}/assistant/status`)
+      .then(async (response) => {
+        if (!response.ok) throw new Error("Assistant status unavailable");
+        return response.json() as Promise<AssistantProviderStatus>;
+      })
+      .then((status) => { if (active) setAssistantProviderStatus(status); })
+      .catch(() => { if (active) setAssistantProviderStatus(null); });
+    return () => { active = false; };
+  }, []);
 
   useEffect(() => {
     let active = true;
@@ -1332,8 +1369,8 @@ function App() {
 
   function itineraryReportHtml() {
     if (!itinerary) return "";
-    const days = itinerary.days.map((day) => `<section><h2>Day ${day.day}: ${escapeHtml(day.area)}</h2><p class="meta">About ${day.estimated_visit_hours} visit hours · grouped around ${escapeHtml(day.area)} to reduce unnecessary backtracking.</p>${day.stops.length ? `<ol>${day.stops.map((stop) => `<li><strong>${escapeHtml(stop.name)}</strong> <span class="meta">${escapeHtml(stop.district)} · about ${stop.visit_duration_hours} hours · ${escapeHtml(formatCurrency(stop.estimated_cost_lkr))}${stop.straight_line_distance_km == null ? "" : ` · approximately ${Math.round(stop.straight_line_distance_km)} km from your start`}</span><p>${escapeHtml(stop.recommendation_reason)}</p></li>`).join("")}</ol>` : `<p>No destinations fit this day’s pace and distance settings.</p>`}</section>`).join("");
-    return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>${escapeHtml(profile.name || itinerary.traveler_name)} · Sri Lanka itinerary</title><style>body{font:15px/1.65 system-ui,sans-serif;color:#17372a;max-width:850px;margin:36px auto;padding:0 22px}h1,h2{font-family:system-ui,sans-serif}h1{font-size:32px}h2{font-size:20px}section{margin:24px 0;padding:18px;border:1px solid #dce9e0;border-radius:14px}li{padding:9px 0}.meta{color:#60766a}aside{padding:14px;background:#f2f8f4;border-left:3px solid #00b894}@media print{body{margin:0;max-width:none}}</style></head><body><p class="meta">TRAVELMIND · PERSONALIZED TRIP DRAFT</p><h1>${escapeHtml(profile.name || itinerary.traveler_name)}’s Sri Lanka itinerary</h1><p>${escapeHtml(profile.tripDuration)} days · ${escapeHtml(profile.travelPace)} pace · starting in ${escapeHtml(profile.startingLocation)}</p>${days}<aside><strong>How to use this plan</strong><p>${escapeHtml(itinerary.planning_note)}</p><p>Distances are approximate straight-line distances from your starting point. Visit durations and costs are estimates; this draft does not include verified opening hours, transport routes, or booking details.</p></aside></body></html>`;
+    const days = itinerary.days.map((day) => `<section><h2>Day ${day.day}: ${escapeHtml(day.area)}</h2><p class="meta">${escapeHtml(day.theme)} day · ${day.estimated_visit_hours} visit hours · estimated destination costs ${escapeHtml(formatCurrency(day.estimated_cost_lkr))}${day.over_daily_budget ? " · above daily budget estimate" : ""}</p>${day.stops.length ? `<ol>${day.stops.map((stop) => `<li><strong>${escapeHtml(stop.name)}</strong> <span class="meta">${escapeHtml(stop.district)} · about ${stop.visit_duration_hours} hours · ${escapeHtml(formatCurrency(stop.estimated_cost_lkr))}${stop.straight_line_distance_km == null ? "" : ` · approximately ${Math.round(stop.straight_line_distance_km)} km from your start`}</span><p>${escapeHtml(stop.recommendation_reason)}</p></li>`).join("")}</ol>` : `<p>No destinations fit this day’s pace and distance settings.</p>`}</section>`).join("");
+    return `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>${escapeHtml(profile.name || itinerary.traveler_name)} · Sri Lanka itinerary</title><style>body{font:15px/1.65 system-ui,sans-serif;color:#17372a;max-width:850px;margin:36px auto;padding:0 22px}h1,h2{font-family:system-ui,sans-serif}h1{font-size:32px}h2{font-size:20px}section{margin:24px 0;padding:18px;border:1px solid #dce9e0;border-radius:14px}li{padding:9px 0}.meta{color:#60766a}aside{padding:14px;background:#f2f8f4;border-left:3px solid #00b894}@media print{body{margin:0;max-width:none}}</style></head><body><p class="meta">TRAVELMIND · PERSONALIZED TRIP DRAFT</p><h1>${escapeHtml(profile.name || itinerary.traveler_name)}’s Sri Lanka itinerary</h1><p>${escapeHtml(profile.tripDuration)} days · ${escapeHtml(profile.travelPace)} pace · starting in ${escapeHtml(profile.startingLocation)}</p><p>Daily budget ${escapeHtml(formatCurrency(itinerary.daily_budget_lkr))} · estimated destination cost total ${escapeHtml(formatCurrency(itinerary.estimated_total_cost_lkr))}</p>${days}<aside><strong>How to use this plan</strong><p>${escapeHtml(itinerary.planning_note)}</p><p>Distances are approximate straight-line distances from your starting point. Visit durations and costs are estimates; this draft does not include verified opening hours, transport routes, or booking details.</p></aside></body></html>`;
   }
 
   function downloadItinerary() {
@@ -1346,9 +1383,10 @@ function App() {
     const lines = [
       "TRAVELMIND | PERSONALIZED SRI LANKA TRIP DRAFT",
       `${profile.name || itinerary.traveler_name} | ${profile.tripDuration} days | ${profile.travelPace} pace | Start: ${profile.startingLocation}`,
+      `Daily budget: ${formatCurrency(itinerary.daily_budget_lkr)} | Estimated destination costs: ${formatCurrency(itinerary.estimated_total_cost_lkr)}`,
       "",
       ...itinerary.days.flatMap((day) => [
-        `DAY ${day.day}: ${day.area} | Estimated visit time: ${day.estimated_visit_hours} hours`,
+        `DAY ${day.day}: ${day.area} | Theme: ${day.theme} | ${day.estimated_visit_hours} hours | Estimated destination costs: ${formatCurrency(day.estimated_cost_lkr)}${day.over_daily_budget ? " | ABOVE DAILY BUDGET ESTIMATE" : ""}`,
         ...(day.stops.length ? day.stops.flatMap((stop) => [
           `- ${stop.name} (${stop.district}) | ${stop.visit_duration_hours} hours | ${formatCurrency(stop.estimated_cost_lkr)}${stop.straight_line_distance_km == null ? "" : ` | about ${Math.round(stop.straight_line_distance_km)} km from start`}`,
           `  Why it is included: ${stop.recommendation_reason}`,
@@ -1378,20 +1416,24 @@ function App() {
       straight_line_distance_km: recommendation.distance_km,
       recommendation_reason: `Added by you from the alternative search. ${recommendation.explanation || "It appears in your personalized destination ranking."}`,
     };
-    const areas = day.area && !day.area.startsWith("No destination") ? day.area.split(" · ") : [];
+    const areas = day.area && !day.area.startsWith("No destination") ? day.area.split(/\s*[·/]\s*/) : [];
+    const addedCost = recommendation.estimated_cost_lkr ?? 0;
     const updatedDays = itinerary.days.map((item, index) => index !== dayIndex ? item : {
       ...item,
-      area: areas.includes(stop.district) ? areas.join(" · ") : [...areas, stop.district].join(" · "),
+      area: areas.includes(stop.district) ? areas.join(" / ") : [...areas, stop.district].join(" / "),
+      theme: item.theme === recommendation.category ? item.theme : `${item.theme} + ${recommendation.category}`,
       estimated_visit_hours: Math.round((item.estimated_visit_hours + duration) * 10) / 10,
+      estimated_cost_lkr: item.estimated_cost_lkr + addedCost,
+      over_daily_budget: Boolean(itinerary.daily_budget_lkr && item.estimated_cost_lkr + addedCost > itinerary.daily_budget_lkr),
       stops: [...item.stops, stop],
     });
-    setItinerary({ ...itinerary, days: updatedDays });
+    setItinerary({ ...itinerary, days: updatedDays, estimated_total_cost_lkr: itinerary.estimated_total_cost_lkr + addedCost });
     setAlternativeSearch("");
   }
 
   async function shareItinerary() {
     if (!itinerary) return;
-    const text = `${profile.name || itinerary.traveler_name}’s ${profile.tripDuration}-day Sri Lanka itinerary\nStarting in ${profile.startingLocation} · ${profile.travelPace} pace\n\n${itinerary.days.map((day) => `Day ${day.day}: ${day.area}\n${day.stops.map((stop) => `• ${stop.name} — ${stop.recommendation_reason}`).join("\n")}`).join("\n\n")}\n\n${itinerary.planning_note}\n\nDraft estimates only; check routes, opening hours, and costs before travel.`;
+    const text = `${profile.name || itinerary.traveler_name}’s ${profile.tripDuration}-day Sri Lanka itinerary\nStarting in ${profile.startingLocation} · ${profile.travelPace} pace\nDaily budget: ${formatCurrency(itinerary.daily_budget_lkr)} · Estimated destination costs: ${formatCurrency(itinerary.estimated_total_cost_lkr)}\n\n${itinerary.days.map((day) => `Day ${day.day}: ${day.area} (${day.theme}) · ${formatCurrency(day.estimated_cost_lkr)}${day.over_daily_budget ? " · above budget estimate" : ""}\n${day.stops.map((stop) => `• ${stop.name} — ${stop.recommendation_reason}`).join("\n")}`).join("\n\n")}\n\n${itinerary.planning_note}\n\nDraft estimates only; check routes, opening hours, and costs before travel.`;
     try {
       if (navigator.share) await navigator.share({ title: "My TravelMind itinerary", text });
       else { await navigator.clipboard.writeText(text); setItineraryShareMessage("Itinerary copied to clipboard."); }
@@ -1420,10 +1462,13 @@ function App() {
       <style>body{font:15px/1.6 system-ui,sans-serif;color:#19352b;max-width:1000px;margin:40px auto;padding:0 24px}h1,h2{font-family:Manrope,system-ui,sans-serif}h1{font-size:32px}h2{margin-top:32px;font-size:20px}p,.meta{color:#60746a}.meta{font-size:13px}table{width:100%;border-collapse:collapse;margin:14px 0 24px}th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #e1eae5}th{background:#edf6f0;color:#315344}.notice{padding:14px;border-left:3px solid #00b894;background:#f2f8f4}@media print{body{margin:0;max-width:none}}</style></head><body>
       <p class="meta">TRAVELMIND · RESEARCH EVALUATION REPORT</p><h1>Recommendation model evaluation</h1>
       <p class="meta">Generated ${escapeHtml(generatedAt)} · Source: current evaluation results returned by the project API.</p>
-      <p>This report summarizes the saved offline benchmark metrics. It does not claim statistical significance because confidence intervals, p-values and participant study results are not included in the current API response.</p>
+      <p>This report summarizes saved offline benchmark metrics over 50 synthetic traveler profiles, 100 destination records with estimated attributes, and 500 evaluation cases derived from the seed data. It is not a real traveler study. No confidence intervals or significance tests are reported.</p>
       <h2>Ranking model comparison (K = 5)</h2><table><thead><tr><th>ID</th><th>Model</th><th>Precision@5</th><th>Recall@5</th><th>NDCG@5</th></tr></thead><tbody>${modelRows}</tbody></table>
       <h2>NDCG by recommendation depth</h2><table><thead><tr><th>K</th><th>B5 semantic</th><th>Demand-aware</th><th>Change</th></tr></thead><tbody>${ndcgRows}</tbody></table>
       <h2>Demand-aware system statistics</h2><table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>${statsRows}</tbody></table>
+      <h2>Crowd score model diagnostics</h2><p>Test MAE: ${(evaluation.crowd_prediction_metrics.test_mae ?? 0).toFixed(3)}; test RMSE: ${(evaluation.crowd_prediction_metrics.test_rmse ?? 0).toFixed(3)}; test R²: ${(evaluation.crowd_prediction_metrics.test_r2 ?? 0).toFixed(3)}. The target is an estimated static destination score, not time-stamped visitor counts. A negative R² means the model performed worse than a test-set mean predictor on this split.</p>
+      <h2>Pareto shortlist descriptive analysis</h2><p>Across ${evaluation.pareto_frontier_statistics.profiles} synthetic profiles, the mean top-10 Pareto frontier size is ${evaluation.pareto_frontier_statistics.mean_options_per_profile.toFixed(2)} (range ${evaluation.pareto_frontier_statistics.minimum_options_per_profile}–${evaluation.pareto_frontier_statistics.maximum_options_per_profile}). This describes shortlist structure only; it does not measure user benefit.</p>
+      <p class="notice">Crowd scores are not live or date-specific forecasts. Destination attributes and traveler profiles are synthetic or estimated prototype data. The results do not establish generalization to real travelers.</p>
       <h2>Research interpretation limits</h2><p class="notice">These metrics describe the stored evaluation dataset and ranking outputs. They do not establish user trust, explanation fidelity, causal effects, or generalization to new travelers. The next validation step is an evidence-fidelity audit followed by a controlled user study, reporting effect sizes and confidence intervals as specified in the proposal.</p>
       </body></html>`;
     downloadHtmlReport(
@@ -1604,6 +1649,10 @@ function App() {
       );
     }
 
+    if (showParetoOptionsOnly) {
+      results = results.filter((item) => item.pareto_optimal);
+    }
+
     results.sort((a, b) => {
       if (sortBy === "score") {
         return (
@@ -1637,6 +1686,7 @@ function App() {
     crowdFilter,
     sortBy,
     showOnlyStrongMatches,
+    showParetoOptionsOnly,
   ]);
 
   const averageScore = useMemo(() => {
@@ -1772,19 +1822,19 @@ function App() {
           <div className="stat-card">
             <div className="stat-card-icon">📍</div>
 
-            <span>Recommendations</span>
+            <span>Balanced options</span>
 
             <strong>
-              {recommendations.length}
+              {recommendations.filter((item) => item.pareto_optimal).length}
             </strong>
 
             <small>
-              AI-ranked destinations available
+              Pareto options across your shortlist
             </small>
           </div>
         </div>
 
-        <section className="dashboard-section">
+        <section className="dashboard-section dashboard-top-destinations">
           <div className="section-heading">
             <div>
               <span className="eyebrow">
@@ -2040,6 +2090,22 @@ function App() {
 
         <section className="research-lens-panel"><div><span className="eyebrow">RESEARCH LENS</span><strong>Explore ranking trade-offs</strong><p>Reorder your current matches by one signal. Category feedback is saved in this browser; the scenario score and ranking are calculated by the API.</p></div><div className="research-lens-options" role="group" aria-label="Recommendation sorting lens">{([{ id: "balanced", label: "Balanced ranking" }, { id: "crowd", label: "Prefer lower crowd" }, { id: "weather", label: "Weather fit" }, { id: "sustainability", label: "Sustainability" }, { id: "scenario", label: "My weighted scenario" }] as const).map((lens) => <button key={lens.id} className={recommendationLens === lens.id ? "selected" : ""} onClick={() => setRecommendationLens(lens.id)}>{lens.label}</button>)}</div><div className="scenario-weight-controls"><label><span>Personalization <strong>{scenarioWeights.preference}%</strong></span><input type="range" min="0" max="100" value={scenarioWeights.preference} onChange={(event) => updateScenarioWeight("preference", Number(event.target.value))} /></label><label><span>Lower crowd <strong>{scenarioWeights.crowd}%</strong></span><input type="range" min="0" max="100" value={scenarioWeights.crowd} onChange={(event) => updateScenarioWeight("crowd", Number(event.target.value))} /></label><label><span>Sustainability <strong>{scenarioWeights.sustainability}%</strong></span><input type="range" min="0" max="100" value={scenarioWeights.sustainability} onChange={(event) => updateScenarioWeight("sustainability", Number(event.target.value))} /></label><small>Weights are normalized by the API and applied to the full destination catalog before returning the top 10. Original model scores are retained separately.</small></div>{feedbackNotice && <p className="feedback-notice" role="status">{feedbackNotice}</p>}</section>
 
+        <section className="pareto-research-panel">
+          <div>
+            <span className="eyebrow">MULTI-OBJECTIVE RESEARCH</span>
+            <h2>Explore balanced trade-offs</h2>
+            <p>
+              Pareto options keep destinations that are not outperformed on all three signals at once:
+              preference fit, crowd fit, and sustainability. This avoids hiding trade-offs inside one weighted score.
+            </p>
+            <p className="pareto-data-note">Calculated within the current top-10 shortlist using stored dataset estimates; it is not a claim of globally optimal or live travel advice.</p>
+          </div>
+          <div className="pareto-summary">
+            <strong>{currentRecommendationSet.filter((item) => item.pareto_optimal).length}</strong>
+            <span>non-dominated options in this top-{currentRecommendationSet.length} shortlist</span>
+          </div>
+        </section>
+
         <div className="filter-bar">
           <div className="search-box">
             <span>⌕</span>
@@ -2115,6 +2181,15 @@ function App() {
             />
 
             <span>Strong matches only</span>
+          </label>
+
+          <label className="filter-checkbox">
+            <input
+              type="checkbox"
+              checked={showParetoOptionsOnly}
+              onChange={(event) => setShowParetoOptionsOnly(event.target.checked)}
+            />
+            <span>Pareto options only</span>
           </label>
         </div>
 
@@ -2234,6 +2309,8 @@ function App() {
                     </div>
 
                     <div className="recommendation-tags">
+                      {recommendation.pareto_optimal && <span className="pareto-tag" title="Non-dominated across preference fit, crowd fit, and sustainability in this shortlist">Pareto trade-off</span>}
+                      {recommendation.semantic_fit != null && <span className="semantic-tag" title="Relative semantic alignment from the offline SBERT model">Semantic fit {Math.round(scorePercent(recommendation.semantic_fit))}%</span>}
                       <span
                         className={`crowd-tag ${getCrowdClass(
                           recommendation.predicted_crowd_level,
@@ -3250,7 +3327,7 @@ function App() {
           <section className="assistant-panel">
             <div className="assistant-panel-heading">
               <div className="assistant-bot-icon"><AppIcon name="sparkle" /></div>
-              <div><strong>TravelMind research assistant</strong><span>OpenAI · answers limited to supplied evidence</span></div>
+              <div><strong>TravelMind research assistant</strong><span>{assistantProviderStatus ? `${assistantProviderStatus.provider === "ollama" ? "Local AI" : assistantProviderStatus.provider} · ${assistantProviderStatus.model}${assistantProviderStatus.configured ? " · answers use supplied evidence" : " · provider needs configuration"}` : "Provider status unavailable · answers use supplied evidence"}</span></div>
               <button className="secondary-button" onClick={() => {
                 setAssistantMessages([{ role: "assistant", content: `I’m ready to explain recommendations for ${selectedUser}. Answers use the current profile and recommendation evidence.` }]);
                 setAssistantError("");
@@ -3350,7 +3427,7 @@ function App() {
 
 
         {itinerary && <section className="itinerary-explainer"><span className="eyebrow">HOW THIS DRAFT WAS BUILT</span><h2>A plan shaped around your travel style</h2><p>The planner distributes your highest-ranked destinations across {profile.tripDuration} days, groups stops by area, and considers your {profile.travelPace.toLowerCase()} pace, preferred distance, and travel interests. Each stop includes the recommendation reason and an estimated visit time so you can see why it made the plan.</p><div className="itinerary-caveat"><strong>Planning note</strong><span>Costs and visit times are estimates. Distances are straight-line approximations from your start, not road routes or travel times. Confirm transport, opening hours, weather, and current prices before you set out.</span></div><div className="itinerary-share-actions"><button className="secondary-button" onClick={downloadItinerary}>Download HTML</button><button className="secondary-button" onClick={downloadItineraryPdf}>Download PDF</button><button className="primary-button" onClick={() => void shareItinerary()}>Share plan</button></div>{itineraryShareMessage && <p className="itinerary-share-message" role="status">{itineraryShareMessage}</p>}</section>}
-        {itinerary && <section className="itinerary-alternatives"><div className="section-heading"><div><span className="eyebrow">PERSONALIZE YOUR DRAFT</span><h2>Find an alternative destination</h2><p>Search your ranked matches, compare estimated time and fit, then add a stop to a day.</p></div></div><div className="alternative-controls"><label className="form-field"><span>Search ranked places</span><input type="search" value={alternativeSearch} onChange={(event) => setAlternativeSearch(event.target.value)} placeholder="Try Ella, beach, or wildlife" /></label><label className="form-field"><span>Add to day</span><select value={alternativeDay} onChange={(event) => setAlternativeDay(Number(event.target.value))}>{itinerary.days.map((day, index) => <option key={day.day} value={index}>Day {day.day} · {day.area}</option>)}</select></label></div><p className="alternative-day-load">Selected day currently has about {itinerary.days[alternativeDay]?.estimated_visit_hours ?? 0} visit hours. Adding a destination updates this estimate; check the day’s pace before you travel.</p>{alternativeSearch.trim() && <div className="alternative-results">{recommendations.filter((item) => !itinerary.days.some((day) => day.stops.some((stop) => stop.destination_id === item.destination_id))).filter((item) => `${item.name} ${item.category} ${item.district}`.toLowerCase().includes(alternativeSearch.trim().toLowerCase())).slice(0, 6).map((item) => <article className="alternative-result" key={item.destination_id}><div><strong>{item.name}</strong><span>{item.category} · {item.district}</span><small>{item.duration_hours ?? 2} estimated visit hours · {formatCurrency(item.estimated_cost_lkr)} · {Math.round(scorePercent(item.demand_aware_score))}% profile match</small><p>{item.explanation || "Included in your personalized ranking."}</p></div><button className="secondary-button" onClick={() => addAlternativeToDay(item)}>Add to day {alternativeDay + 1}</button></article>)}{recommendations.filter((item) => !itinerary.days.some((day) => day.stops.some((stop) => stop.destination_id === item.destination_id))).filter((item) => `${item.name} ${item.category} ${item.district}`.toLowerCase().includes(alternativeSearch.trim().toLowerCase())).length === 0 && <p className="alternative-empty">No unplanned ranked destinations match that search. Try another name, category, or district.</p>}</div>}</section>}
+        {itinerary && <section className="itinerary-alternatives"><div className="section-heading"><div><span className="eyebrow">PERSONALIZE YOUR DRAFT</span><h2>Find an alternative destination</h2><p>Search your ranked matches, compare estimated time and fit, then add a stop to a day.</p></div></div><div className="alternative-controls"><label className="form-field"><span>Search ranked places</span><input type="search" value={alternativeSearch} onChange={(event) => setAlternativeSearch(event.target.value)} placeholder="Try Ella, beach, or wildlife" /></label><label className="form-field"><span>Add to day</span><select value={alternativeDay} onChange={(event) => setAlternativeDay(Number(event.target.value))}>{itinerary.days.map((day, index) => <option key={day.day} value={index}>Day {day.day} · {day.area}</option>)}</select></label></div><p className="alternative-day-load">Selected day: {itinerary.days[alternativeDay]?.estimated_visit_hours ?? 0} visit hours · {formatCurrency(itinerary.days[alternativeDay]?.estimated_cost_lkr)} estimated destination costs. Adding a stop recalculates cost and hours; it may exceed your preferred pace or daily budget.</p>{alternativeSearch.trim() && <div className="alternative-results">{recommendations.filter((item) => !itinerary.days.some((day) => day.stops.some((stop) => stop.destination_id === item.destination_id))).filter((item) => `${item.name} ${item.category} ${item.district}`.toLowerCase().includes(alternativeSearch.trim().toLowerCase())).slice(0, 6).map((item) => <article className="alternative-result" key={item.destination_id}><div><strong>{item.name}</strong><span>{item.category} · {item.district}</span><small>{item.duration_hours ?? 2} estimated visit hours · {formatCurrency(item.estimated_cost_lkr)} · {Math.round(scorePercent(item.demand_aware_score))}% profile match</small><p>{item.explanation || "Included in your personalized ranking."}</p></div><button className="secondary-button" onClick={() => addAlternativeToDay(item)}>Add to day {alternativeDay + 1}</button></article>)}{recommendations.filter((item) => !itinerary.days.some((day) => day.stops.some((stop) => stop.destination_id === item.destination_id))).filter((item) => `${item.name} ${item.category} ${item.district}`.toLowerCase().includes(alternativeSearch.trim().toLowerCase())).length === 0 && <p className="alternative-empty">No unplanned ranked destinations match that search. Try another name, category, or district.</p>}</div>}</section>}
         {itineraryError && <div className="assistant-error" role="alert">{itineraryError}</div>}
         {itineraryLoading && <div className="loading-state">Arranging your top-ranked destinations…</div>}
         {!itineraryLoading && !itinerary && (
@@ -3363,12 +3440,17 @@ function App() {
         )}
         {itinerary && !itineraryLoading && (
           <>
+            <section className="itinerary-budget-strip">
+              <div><span>Daily budget</span><strong>{formatCurrency(itinerary.daily_budget_lkr)}</strong></div>
+              <div><span>Estimated destination costs</span><strong>{formatCurrency(itinerary.estimated_total_cost_lkr)}</strong></div>
+              <small>Estimates exclude transport, meals, admission changes, and bookings.</small>
+            </section>
             <div className="itinerary-days">
               {itinerary.days.map((day) => (
                 <section className="itinerary-day-card" key={day.day}>
                   <div className="itinerary-day-heading">
-                    <div><span className="eyebrow">DAY {day.day}</span><h2>{day.area}</h2></div>
-                    <span className="itinerary-duration">~{day.estimated_visit_hours} visit hours</span>
+                    <div><span className="eyebrow">DAY {day.day} · {day.theme}</span><h2>{day.area}</h2></div>
+                    <span className={`itinerary-duration ${day.over_daily_budget ? "over-budget" : ""}`}>~{day.estimated_visit_hours} hours · {formatCurrency(day.estimated_cost_lkr)}{day.over_daily_budget ? " · over budget estimate" : ""}</span>
                   </div>
                   {day.stops.length === 0 ? <p className="itinerary-no-stops">No destination fit this day’s pace and distance settings.</p> : (
                     <div className="itinerary-stops">
@@ -3470,7 +3552,7 @@ function App() {
               </h1>
 
               <p>
-                Loading validated research results...
+                Loading saved offline benchmark results...
               </p>
             </div>
           </div>
@@ -3497,7 +3579,7 @@ function App() {
 
               <p>
                 Compare the baseline models with the
-                proposed Demand-Aware AI model.
+                proposed demand-aware ranking approach.
               </p>
             </div>
 
@@ -3539,7 +3621,7 @@ function App() {
             <h3>No evaluation data</h3>
 
             <p>
-              Click below to load the validated model
+              Click below to load the saved benchmark
               evaluation results.
             </p>
 
@@ -3580,9 +3662,9 @@ function App() {
             </h1>
 
             <p>
-              Validated comparison of the baseline
-              recommendation models and the proposed
-              Demand-Aware AI approach.
+              Offline benchmark comparison of the baseline
+              recommendation models and the demand-aware
+              ranking approach.
             </p>
           </div>
 
@@ -3629,7 +3711,7 @@ function App() {
           </div>
 
           <div className="evaluation-hero-stat">
-            <span>Validated recommendations</span>
+            <span>Offline recommendation rows</span>
 
             <strong>
               {Math.round(
@@ -4258,7 +4340,7 @@ function App() {
                 DEMAND-AWARE SYSTEM
               </span>
 
-              <h2>Validated system statistics</h2>
+              <h2>Benchmark output statistics</h2>
 
               <p>
                 Summary statistics generated from the
@@ -4285,7 +4367,7 @@ function App() {
               </strong>
 
               <small>
-                Final validated recommendation rows
+                Rows in the saved offline benchmark
               </small>
             </div>
 
@@ -4303,7 +4385,7 @@ function App() {
               </strong>
 
               <small>
-                Travelers included in evaluation
+                Synthetic demo profiles in the benchmark
               </small>
             </div>
 
@@ -4528,19 +4610,64 @@ function App() {
 
             <h3>
               Evaluation results are connected to the
-              validated ML pipeline
+              offline recommendation pipeline
             </h3>
 
             <p>
-              These metrics are based on the completed
-              recommendation evaluation, including
-              baseline comparisons, NDCG evaluation and
-              demand-aware ranking analysis.
+              Results vary by metric: the demand-aware
+              ranking has higher NDCG@5 than B4 in the
+              saved comparison, but lower Precision@5
+              and Recall@5. This is an offline benchmark
+              on synthetic profiles and estimated
+              destination attributes, not evidence of
+              better real-world recommendations.
             </p>
           </div>
         </section>
 
         <section className="evaluation-coverage-note"><span className="eyebrow">METRIC COVERAGE & LIMITS</span><div className="evaluation-coverage-grid"><div><strong>Reported by this benchmark</strong><p>Precision@5, Recall@5, NDCG@5, and NDCG changes across the provided ranking depths.</p></div><div><strong>Not supported by current evaluation data</strong><p>No time-aligned actual crowd observations for forecast MAE/RMSE; no crowd forecast horizon; and no reported catalog coverage, intra-list diversity, or user trust study. Collect labeled temporal data and define a held-out evaluation protocol before making those claims.</p></div></div></section>
+
+        <section className="evaluation-coverage-note">
+          <span className="eyebrow">CROWD MODEL VALIDATION</span>
+          <div className="evaluation-coverage-grid">
+            <div>
+              <strong>Held-out destination split</strong>
+              <p>
+                Test MAE {evaluation.crowd_prediction_metrics.test_mae?.toFixed(2) ?? "N/A"},
+                RMSE {evaluation.crowd_prediction_metrics.test_rmse?.toFixed(2) ?? "N/A"},
+                and R² {evaluation.crowd_prediction_metrics.test_r2?.toFixed(3) ?? "N/A"}.
+                The target values are estimated destination crowd scores, not measured visitor counts.
+              </p>
+            </div>
+            <div>
+              <strong>Interpretation</strong>
+              <p>
+                A negative R² means this model did not outperform predicting the test-set mean on this split.
+                These diagnostics are not evidence of reliable date-specific crowd forecasting.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="evaluation-coverage-note">
+          <span className="eyebrow">DATA PROVENANCE</span>
+          <p>{evaluation.research_data_note}</p>
+          <p>
+            The benchmark contains 50 synthetic traveler profiles, 100 destination records with estimated attributes,
+            and 500 evaluation cases derived from that seed data. Results are an offline prototype benchmark and
+            should not be presented as a real traveler study or operational travel forecast.
+          </p>
+        </section>
+
+        <section className="evaluation-coverage-note">
+          <span className="eyebrow">PARETO SHORTLIST ANALYSIS</span>
+          <p>
+            Across {evaluation.pareto_frontier_statistics.profiles} benchmark profiles,
+            the mean non-dominated set contains {evaluation.pareto_frontier_statistics.mean_options_per_profile.toFixed(1)} destinations
+            (range {evaluation.pareto_frontier_statistics.minimum_options_per_profile}–{evaluation.pareto_frontier_statistics.maximum_options_per_profile})
+            within each top-10 list. This describes ranking trade-offs only; it does not show that travelers make better decisions.
+          </p>
+        </section>
 
       </div>
     );

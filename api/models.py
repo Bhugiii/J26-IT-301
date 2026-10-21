@@ -27,6 +27,7 @@ class Recommendation(BaseModel):
     predicted_crowd_level: Optional[str] = None
 
     preference_score: Optional[float] = None
+    semantic_fit: Optional[float] = None
     budget_fit: Optional[float] = None
     predicted_crowd_fit: Optional[float] = None
 
@@ -39,6 +40,7 @@ class Recommendation(BaseModel):
     demand_suitability: Optional[float] = None
     demand_aware_score: Optional[float] = None
     scenario_score: Optional[float] = None
+    pareto_optimal: bool = False
 
     explanation: Optional[str] = None
 
@@ -64,7 +66,10 @@ class ItineraryStop(BaseModel):
 class ItineraryDay(BaseModel):
     day: int
     area: str
+    theme: str
     estimated_visit_hours: float
+    estimated_cost_lkr: float
+    over_daily_budget: bool
     stops: list[ItineraryStop]
 
 
@@ -72,6 +77,8 @@ class ItineraryResponse(BaseModel):
     user_id: str
     traveler_name: str
     days: list[ItineraryDay]
+    daily_budget_lkr: float
+    estimated_total_cost_lkr: float
     planning_note: str
 
 
