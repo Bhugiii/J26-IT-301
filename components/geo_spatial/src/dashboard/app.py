@@ -19,6 +19,8 @@ from streamlit_folium import st_folium
 import streamlit.components.v1 as components
 from tm_trip_features import render_my_trip, trip_button, build_place_description, describe_record
 from tm_home_dashboard import render_home
+from tm_ahp import render_ahp
+from tm_destination_potential import render_destination_potential
 from tm_theme import (inject_theme, render_sidebar_nav, render_sidebar_status,
                       render_page_header, render_quick_actions, source_badge)
 
@@ -785,155 +787,160 @@ elif page == "Discover Places":
             st.caption(credits)
 
 elif page == "Hotspots":
-    st.markdown("### ✨ Explore attraction-rich areas")
-    st.caption("Discover places grouped by geography. These are OpenStreetMap-derived candidate attractions, not verified popular destinations.")
-    area_data = load_shortlist()
-    if area_data.empty:
-        st.warning("Your research shortlist is missing. Check hotspot_quality_shortlist.csv.")
-        st.code(str(SHORTLIST_FILE))
-    else:
-        required = {"baseline_cluster_id", "main_district", "center_latitude", "center_longitude", "baseline_records"}
-        if not required.issubset(area_data.columns):
-            st.error(f"The shortlist is missing: {sorted(required-set(area_data.columns))}")
+    st.markdown("### 🌿 Explore Tourism Areas")
+    tourism_tab, attraction_tab = st.tabs(["🌴 Top Destinations", "📍 Attraction-Rich Areas"])
+    with tourism_tab:
+        render_destination_potential(ROOT, images, IMAGE_DIR, maplibre_panel, trip_button)
+    with attraction_tab:
+        st.markdown("### ✨ Explore attraction-rich areas")
+        st.caption("Discover places grouped by geography. These are OpenStreetMap-derived candidate attractions, not verified popular destinations.")
+        area_data = load_shortlist()
+        if area_data.empty:
+            st.warning("Your research shortlist is missing. Check hotspot_quality_shortlist.csv.")
+            st.code(str(SHORTLIST_FILE))
         else:
-            area_data = area_data.copy()
-            for field in ("baseline_cluster_id", "baseline_records", "center_latitude", "center_longitude",
-                          "strict_retained_pct", "p90_radius_km", "review_flag_pct"):
-                if field in area_data.columns:
-                    area_data[field] = pd.to_numeric(area_data[field], errors="coerce")
-            area_data = area_data.dropna(subset=["baseline_cluster_id", "center_latitude", "center_longitude", "baseline_records"])
-            area_data["baseline_cluster_id"] = area_data["baseline_cluster_id"].astype(int)
-            if district != "All Districts":
-                area_data = area_data[area_data.main_district.astype(str).eq(district)]
-            area_data = area_data.sort_values(["main_district", "baseline_cluster_id"]).copy()
-            if not area_data.empty:
-                st.caption(f"{len(area_data)} screened candidate areas match your district selection.")
-            if area_data.empty:
-                st.info("No research-shortlisted attraction-rich area is available for this district. You can still explore mapped places here.")
-                # Fallback is ordinary OSM-derived places, NOT a new or inferred hotspot.
-                if district == "All Districts":
-                    st.caption("No shortlisted research areas are available. Check the saved shortlist file.")
+            required = {"baseline_cluster_id", "main_district", "center_latitude", "center_longitude", "baseline_records"}
+            if not required.issubset(area_data.columns):
+                st.error(f"The shortlist is missing: {sorted(required-set(area_data.columns))}")
+            else:
+                area_data = area_data.copy()
+                for field in ("baseline_cluster_id", "baseline_records", "center_latitude", "center_longitude",
+                              "strict_retained_pct", "p90_radius_km", "review_flag_pct"):
+                    if field in area_data.columns:
+                        area_data[field] = pd.to_numeric(area_data[field], errors="coerce")
+                area_data = area_data.dropna(subset=["baseline_cluster_id", "center_latitude", "center_longitude", "baseline_records"])
+                area_data["baseline_cluster_id"] = area_data["baseline_cluster_id"].astype(int)
+                if district != "All Districts":
+                    area_data = area_data[area_data.main_district.astype(str).eq(district)]
+                area_data = area_data.sort_values(["main_district", "baseline_cluster_id"]).copy()
+                if not area_data.empty:
+                    st.caption(f"{len(area_data)} screened candidate areas match your district selection.")
+                if area_data.empty:
+                    st.info("No research-shortlisted attraction-rich area is available for this district. You can still explore mapped places here.")
+                    # Fallback is ordinary OSM-derived places, NOT a new or inferred hotspot.
+                    if district == "All Districts":
+                        st.caption("No shortlisted research areas are available. Check the saved shortlist file.")
+                    else:
+                        # Reuse the same experience as shortlisted areas, but do not call
+                        # these ordinary district records a hotspot or an ML cluster.
+                        ordinary = data.loc[data.district.eq(district)].copy()
+                        if not show_flagged:
+                            ordinary = ordinary.loc[~ordinary.flagged]
+                        ordinary = ordinary.sort_values(["attraction_name", "attraction_id"]).drop_duplicates(
+                            ["attraction_name", "district"]
+                        )
+                        st.markdown(f"#### Explore mapped places in {escape(str(district))}")
+                        st.caption("These are ordinary mapped candidates in this district, not shortlisted hotspot areas.")
+                        k1, k2, k3 = st.columns(3)
+                        k1.metric("Mapped places in district", len(ordinary))
+                        k2.metric("Currently viewable", len(ordinary))
+                        k3.metric("Place categories", ordinary.tourism_category.nunique())
+                        cats = sorted(ordinary.tourism_category.dropna().astype(str).unique().tolist())
+                        fc1, fc2 = st.columns([2, 1])
+                        with fc1:
+                            type_choice = st.selectbox("Explore by type", ["All categories"] + cats,
+                                                       key="district_fallback_category")
+                        with fc2:
+                            name_query = st.text_input("Find a place in this area", placeholder="Type attraction name...",
+                                                       key="district_fallback_search")
+                        shown_members = ordinary
+                        if type_choice != "All categories":
+                            shown_members = shown_members[shown_members.tourism_category.eq(type_choice)]
+                        if name_query.strip():
+                            shown_members = shown_members[
+                                shown_members.attraction_name.str.contains(name_query.strip(), case=False, regex=False, na=False)
+                            ]
+                        if search.strip():
+                            shown_members = shown_members[
+                                shown_members.attraction_name.str.contains(search.strip(), case=False, regex=False, na=False)
+                            ]
+                        if category != "All tourism types":
+                            shown_members = shown_members[shown_members.tourism_category.eq(category)]
+                        shown_members = shown_members.sort_values(["attraction_name", "attraction_id"])
+                        st.caption(f"{len(shown_members)} matching mapped records in the selected district.")
+                        if shown_members.empty:
+                            st.info("No matching mapped places. Clear the place searches, change tourism type, or include review-flagged records.")
+                        else:
+                            place_lookup = shown_members.set_index("attraction_id", drop=False)
+                            selected_id = st.selectbox(
+                                "Highlight a place on the map", shown_members.attraction_id.tolist(),
+                                format_func=lambda aid: f"{place_lookup.loc[aid, 'attraction_name']} · {place_lookup.loc[aid, 'tourism_category']}",
+                                key=f"district_fallback_place_{district}"
+                            )
+                            selected_place = place_lookup.loc[selected_id]
+                            map_col, details_col = st.columns([7, 3], gap="medium")
+                            with map_col:
+                                st.markdown("**🗺️ Explore on the 3D map**")
+                                maplibre_panel(shown_members, height=520, center_record=selected_place,
+                                               areas_visible=False, show_legend=False)
+                                st.caption("Purple marker = selected place; blue = other candidate places. Locations require confirmation.")
+                            with details_col:
+                                with st.container(border=True):
+                                    st.markdown("**📍 Selected destination**")
+                                    destination_view(selected_place)
+
                 else:
-                    # Reuse the same experience as shortlisted areas, but do not call
-                    # these ordinary district records a hotspot or an ML cluster.
-                    ordinary = data.loc[data.district.eq(district)].copy()
-                    if not show_flagged:
-                        ordinary = ordinary.loc[~ordinary.flagged]
-                    ordinary = ordinary.sort_values(["attraction_name", "attraction_id"]).drop_duplicates(
-                        ["attraction_name", "district"]
+                    id_options = area_data.baseline_cluster_id.tolist()
+                    area_lookup = area_data.set_index("baseline_cluster_id", drop=False)
+                    choice = st.selectbox(
+                        "Choose an area to explore", id_options,
+                        format_func=lambda cid: f"{area_lookup.loc[cid, 'main_district']} · attraction-rich area {cid}",
+                        key="tourist_hotspot_area"
                     )
-                    st.markdown(f"#### Explore mapped places in {escape(str(district))}")
-                    st.caption("These are ordinary mapped candidates in this district, not shortlisted hotspot areas.")
+                    area = area_lookup.loc[choice]
+                    cluster_members = data[data.dbscan_cluster.eq(choice)].copy()
+                    display_members = cluster_members if show_flagged else cluster_members[~cluster_members.flagged].copy()
+                    display_members = display_members.copy()
+                    total_area_records = len(cluster_members)
+                    st.markdown(f"#### Explore mapped places in {escape(str(area.main_district))}")
+                    st.write("Select a mapped place below to highlight it on the 3D map. Open Google Maps to plan how to reach its coordinates.")
                     k1, k2, k3 = st.columns(3)
-                    k1.metric("Mapped places in district", len(ordinary))
-                    k2.metric("Currently viewable", len(ordinary))
-                    k3.metric("Place categories", ordinary.tourism_category.nunique())
-                    cats = sorted(ordinary.tourism_category.dropna().astype(str).unique().tolist())
+                    k1.metric("Mapped records in area", total_area_records)
+                    k2.metric("Currently viewable", len(display_members))
+                    k3.metric("Place categories", int(display_members.tourism_category.nunique()))
+                    st.caption("The first number represents original DBSCAN membership; 'Currently viewable' may exclude records flagged for review.")
+                    cats = sorted(display_members.tourism_category.dropna().astype(str).unique().tolist())
                     fc1, fc2 = st.columns([2, 1])
                     with fc1:
-                        type_choice = st.selectbox("Explore by type", ["All categories"] + cats,
-                                                   key="district_fallback_category")
+                        type_choice = st.selectbox("Explore by type", ["All categories"] + cats, key="hotspot_tourist_category")
                     with fc2:
-                        name_query = st.text_input("Find a place in this area", placeholder="Type attraction name...",
-                                                   key="district_fallback_search")
-                    shown_members = ordinary
+                        name_query = st.text_input("Find a place in this area", placeholder="Type attraction name...", key="hotspot_tourist_search")
+                    shown_members = display_members
                     if type_choice != "All categories":
                         shown_members = shown_members[shown_members.tourism_category.eq(type_choice)]
                     if name_query.strip():
-                        shown_members = shown_members[
-                            shown_members.attraction_name.str.contains(name_query.strip(), case=False, regex=False, na=False)
-                        ]
-                    if search.strip():
-                        shown_members = shown_members[
-                            shown_members.attraction_name.str.contains(search.strip(), case=False, regex=False, na=False)
-                        ]
-                    if category != "All tourism types":
-                        shown_members = shown_members[shown_members.tourism_category.eq(category)]
-                    shown_members = shown_members.sort_values(["attraction_name", "attraction_id"])
-                    st.caption(f"{len(shown_members)} matching mapped records in the selected district.")
-                    if shown_members.empty:
-                        st.info("No matching mapped places. Clear the place searches, change tourism type, or include review-flagged records.")
-                    else:
+                        shown_members = shown_members[shown_members.attraction_name.str.contains(name_query.strip(), case=False, regex=False, na=False)]
+                    shown_members = shown_members.sort_values(["attraction_name", "attraction_id"]).copy()
+                    st.caption(f"{len(shown_members)} matching mapped records in the selected cluster.")
+                    # Keep the map selection and cards tied to the actual baseline DBSCAN cluster IDs.
+                    if not shown_members.empty:
                         place_lookup = shown_members.set_index("attraction_id", drop=False)
                         selected_id = st.selectbox(
-                            "Highlight a place on the map", shown_members.attraction_id.tolist(),
+                            "Highlight a place on the map",
+                            shown_members.attraction_id.astype(str).tolist(),
                             format_func=lambda aid: f"{place_lookup.loc[aid, 'attraction_name']} · {place_lookup.loc[aid, 'tourism_category']}",
-                            key=f"district_fallback_place_{district}"
+                            key=f"hotspot_place_{choice}"
                         )
                         selected_place = place_lookup.loc[selected_id]
-                        map_col, details_col = st.columns([7, 3], gap="medium")
-                        with map_col:
+                        left, right = st.columns([7, 3], gap="medium")
+                        with left:
                             st.markdown("**🗺️ Explore on the 3D map**")
-                            maplibre_panel(shown_members, height=520, center_record=selected_place,
-                                           areas_visible=False, show_legend=False)
-                            st.caption("Purple marker = selected place; blue = other candidate places. Locations require confirmation.")
-                        with details_col:
+                            # The selected record has an attraction_id, so the MapLibre panel
+                            # draws it as a distinct purple pin, without changing Discover Places.
+                            maplibre_panel(
+                                shown_members, height=520, center_record=selected_place,
+                                areas_visible=False, show_legend=False
+                            )
+                            st.caption("Purple marker = your selected place; blue markers = other places matching the area filters. Click a marker for details.")
+                        with right:
                             with st.container(border=True):
                                 st.markdown("**📍 Selected destination**")
-                                destination_view(selected_place)
-
-            else:
-                id_options = area_data.baseline_cluster_id.tolist()
-                area_lookup = area_data.set_index("baseline_cluster_id", drop=False)
-                choice = st.selectbox(
-                    "Choose an area to explore", id_options,
-                    format_func=lambda cid: f"{area_lookup.loc[cid, 'main_district']} · attraction-rich area {cid}",
-                    key="tourist_hotspot_area"
-                )
-                area = area_lookup.loc[choice]
-                cluster_members = data[data.dbscan_cluster.eq(choice)].copy()
-                display_members = cluster_members if show_flagged else cluster_members[~cluster_members.flagged].copy()
-                display_members = display_members.copy()
-                total_area_records = len(cluster_members)
-                st.markdown(f"#### Explore mapped places in {escape(str(area.main_district))}")
-                st.write("Select a mapped place below to highlight it on the 3D map. Open Google Maps to plan how to reach its coordinates.")
-                k1, k2, k3 = st.columns(3)
-                k1.metric("Mapped records in area", total_area_records)
-                k2.metric("Currently viewable", len(display_members))
-                k3.metric("Place categories", int(display_members.tourism_category.nunique()))
-                st.caption("The first number represents original DBSCAN membership; 'Currently viewable' may exclude records flagged for review.")
-                cats = sorted(display_members.tourism_category.dropna().astype(str).unique().tolist())
-                fc1, fc2 = st.columns([2, 1])
-                with fc1:
-                    type_choice = st.selectbox("Explore by type", ["All categories"] + cats, key="hotspot_tourist_category")
-                with fc2:
-                    name_query = st.text_input("Find a place in this area", placeholder="Type attraction name...", key="hotspot_tourist_search")
-                shown_members = display_members
-                if type_choice != "All categories":
-                    shown_members = shown_members[shown_members.tourism_category.eq(type_choice)]
-                if name_query.strip():
-                    shown_members = shown_members[shown_members.attraction_name.str.contains(name_query.strip(), case=False, regex=False, na=False)]
-                shown_members = shown_members.sort_values(["attraction_name", "attraction_id"]).copy()
-                st.caption(f"{len(shown_members)} matching mapped records in the selected cluster.")
-                # Keep the map selection and cards tied to the actual baseline DBSCAN cluster IDs.
-                if not shown_members.empty:
-                    place_lookup = shown_members.set_index("attraction_id", drop=False)
-                    selected_id = st.selectbox(
-                        "Highlight a place on the map",
-                        shown_members.attraction_id.astype(str).tolist(),
-                        format_func=lambda aid: f"{place_lookup.loc[aid, 'attraction_name']} · {place_lookup.loc[aid, 'tourism_category']}",
-                        key=f"hotspot_place_{choice}"
-                    )
-                    selected_place = place_lookup.loc[selected_id]
-                    left, right = st.columns([7, 3], gap="medium")
-                    with left:
-                        st.markdown("**🗺️ Explore on the 3D map**")
-                        # The selected record has an attraction_id, so the MapLibre panel
-                        # draws it as a distinct purple pin, without changing Discover Places.
-                        maplibre_panel(
-                            shown_members, height=520, center_record=selected_place,
-                            areas_visible=False, show_legend=False
-                        )
-                        st.caption("Purple marker = your selected place; blue markers = other places matching the area filters. Click a marker for details.")
-                    with right:
-                        with st.container(border=True):
-                            st.markdown("**📍 Selected destination**")
-                            destination_view(selected_place, show_photo=True)
-                            st.caption("Mapped place, not independently verified. Check access and opening hours before travel.")
-                    st.download_button("Download matching area records (CSV)", shown_members.to_csv(index=False).encode("utf-8"),
-                                       file_name=f"travelmind_area_{choice}_places.csv", mime="text/csv", key="hotspot_download")
-                else:
-                    st.info("No places match those filters. Try All categories, remove the search term, or include review-flagged records in the sidebar.")
+                                destination_view(selected_place, show_photo=True)
+                                st.caption("Mapped place, not independently verified. Check access and opening hours before travel.")
+                        st.download_button("Download matching area records (CSV)", shown_members.to_csv(index=False).encode("utf-8"),
+                                           file_name=f"travelmind_area_{choice}_places.csv", mime="text/csv", key="hotspot_download")
+                    else:
+                        st.info("No places match those filters. Try All categories, remove the search term, or include review-flagged records in the sidebar.")
 
 elif page == "Tourism Facilities":
     st.markdown("### 🏨 Stay, Eat & Travel Services")
@@ -992,6 +999,9 @@ elif page == "Tourism Facilities":
 
 elif page == "My Trip":
     render_my_trip()
+
+elif page == "Tourism Potential":
+    render_ahp(ROOT)
 
 elif page == "Analytics":
     st.markdown("### 📈 Machine-learning research results")
@@ -1061,4 +1071,4 @@ elif page in {
                 st.rerun()
 
 st.divider()
-st.caption("TravelMind · Sri Lanka geospatial tourism research prototype · OSM and optional Overture candidate records · No fabricated tourist demand, AHP scores, or destination ratings.")
+st.caption("TravelMind · Sri Lanka geospatial tourism research prototype · OSM and optional Overture candidate records · AHP scores are explicitly experimental and not validated tourism demand or destination ratings.")

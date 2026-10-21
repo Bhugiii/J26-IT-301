@@ -13,9 +13,10 @@ NAV_PAGES = ["Dashboard", "Discover Places", "Hotspots", "Tourism Facilities", "
 NAV_LABELS = {
     "Dashboard": "Dashboard",
     "Discover Places": "Discover Places",
-    "Hotspots": "Attraction-Rich Areas",
+    "Hotspots": "Explore Tourism Areas",
     "Tourism Facilities": "Stay, Eat & Travel Services",
     "My Trip": "My Trip",
+    "Tourism Potential": "Tourism Potential",
 }
 NAV_ICONS = {
     "Dashboard": "🏠",
@@ -23,17 +24,20 @@ NAV_ICONS = {
     "Hotspots": "📍",
     "Tourism Facilities": "🏨",
     "My Trip": "🧳",
+    "Tourism Potential": "📊",
 }
 PAGE_INFO = {
     "Dashboard": ("EXPLORE SRI LANKA", "Your Sri Lanka adventure starts here",
                   "Discover attractions, explore scenic places and build your trip."),
     "Discover Places": ("EXPLORE SRI LANKA", "Find places to visit",
                         "Pick a starting attraction and see mapped places around it. Distances are straight-line estimates."),
-    "Hotspots": ("GEOGRAPHIC RESEARCH", "Attraction-rich areas",
+    "Hotspots": ("DISCOVER SRI LANKA", "Explore tourism areas",
                  "Areas where many mapped attractions sit close together. This shows map concentration, not tourist popularity."),
     "Tourism Facilities": ("TRAVEL SUPPORT", "Stay, eat & travel services",
                            "Find mapped accommodation, food and travel services around a destination."),
     "My Trip": ("TRIP PLANNER", "My Sri Lanka trip", "Save places, change visit order and open your route in Google Maps."),
+    "Tourism Potential": ("RESEARCH PREVIEW", "Tourism potential explorer",
+                          "Experimental 5 km AHP infrastructure potential, not visitor popularity."),
     "Analytics": ("MODEL INSIGHTS", "Research & methodology",
                   "Clustering results, data-quality findings and the limitations behind TravelMind."),
 }
@@ -148,7 +152,7 @@ GROUP_NAV = [
     ]),
     ("GEOSPATIAL INTELLIGENCE · COMPONENT 02", [
         ("Discover Places", "◈", "Discover Places"),
-        ("Hotspots", "⌖", "Attraction-Rich Areas"),
+        ("Hotspots", "⌖", "Explore Tourism Areas"),
         ("Tourism Facilities", "▤", "Stay, Eat & Travel Services"),
         ("My Trip", "♧", "My Trip"),
     ]),
@@ -275,6 +279,7 @@ MENU_MATERIAL_ICONS = {
     "Discover Places": ":material/travel_explore:",
     "Hotspots": ":material/location_on:",
     "Tourism Facilities": ":material/hotel:",
+    "Tourism Potential": ":material/analytics:",
     "My Trip": ":material/luggage:",
 }
 
