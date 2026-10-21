@@ -9,14 +9,13 @@ import base64
 
 import streamlit as st
 
-NAV_PAGES = ["Dashboard", "Discover Places", "Hotspots", "Tourism Facilities", "My Trip", "Analytics"]
+NAV_PAGES = ["Dashboard", "Discover Places", "Hotspots", "Tourism Facilities", "My Trip"]
 NAV_LABELS = {
     "Dashboard": "Dashboard",
     "Discover Places": "Discover Places",
     "Hotspots": "Attraction-Rich Areas",
     "Tourism Facilities": "Stay & Eat Nearby",
     "My Trip": "My Trip",
-    "Analytics": "Research & Methodology",
 }
 NAV_ICONS = {
     "Dashboard": "🏠",
@@ -24,7 +23,6 @@ NAV_ICONS = {
     "Hotspots": "📍",
     "Tourism Facilities": "🏨",
     "My Trip": "🧳",
-    "Analytics": "📈",
 }
 PAGE_INFO = {
     "Dashboard": ("EXPLORE SRI LANKA", "Your Sri Lanka adventure starts here",
@@ -153,10 +151,9 @@ GROUP_NAV = [
         ("Hotspots", "⌖", "Attraction-Rich Areas"),
         ("Tourism Facilities", "▤", "Stay & Eat Nearby"),
         ("My Trip", "♧", "My Trip"),
-        ("Analytics", "▤", "Research & Methodology"),
     ]),
 ]
-GIS_PAGES = {"Dashboard", "Discover Places", "Hotspots", "Tourism Facilities", "Analytics"}
+GIS_PAGES = {"Dashboard", "Discover Places", "Hotspots", "Tourism Facilities"}
 INTEGRATION_PAGES = {
     "Recommendations": ("COMPONENT 01 · INTEGRATION", "Recommendations", "This group component has not been connected to the GIS prototype yet."),
     "Saved Places": ("SHARED PLATFORM · INTEGRATION", "Saved places", "Shared saved-place functionality is planned for group integration. Use My Trip to save places in the current prototype."),
@@ -279,7 +276,6 @@ MENU_MATERIAL_ICONS = {
     "Hotspots": ":material/location_on:",
     "Tourism Facilities": ":material/hotel:",
     "My Trip": ":material/luggage:",
-    "Analytics": ":material/monitoring:",
 }
 
 
@@ -382,7 +378,7 @@ def render_quick_actions():
         ("🧭", "Find places", "Search and see what is nearby", "Discover Places"),
         ("🏨", "Stay & eat nearby", "Hotels, food, travel services", "Tourism Facilities"),
         ("📍", "Attraction-rich areas", "Mapped concentrations", "Hotspots"),
-        ("📈", "Research results", "Models and data quality", "Analytics"),
+        ("🧳", "My trip", "Review your selected destinations", "My Trip"),
     ]
     cols = st.columns(4, gap="medium")
     for col, (icon, title, sub, target) in zip(cols, items):
