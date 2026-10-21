@@ -8,6 +8,7 @@ import type { DestinationDetail } from '../api/types'
 import { ErrorState, Loading } from '../components/ui'
 import { AspectBars, Gauge } from '../components/charts'
 import Scene from '../components/Scene'
+import DestinationSearch from '../components/DestinationSearch'
 import { ASPECT_META, BAND, destPath, fmt, int } from '../lib/format'
 
 const COLORS = ['#0D9488', '#123B5D']
@@ -53,13 +54,10 @@ export default function Compare() {
       {!err && ov && (
         <div className="mb-6 grid gap-3 md:grid-cols-2">
           {(['a', 'b'] as const).map((k, i) => (
-            <label key={k} className="card flex items-center gap-3 p-3">
-              <span className="h-3 w-3 shrink-0 rounded-full" style={{ background: COLORS[i] }} />
-              <select className="input border-0 px-1 py-1 font-semibold focus:ring-0" value={(k === 'a' ? a : b) ?? ''}
-                onChange={(e) => set(k, e.target.value)} aria-label={`Destination ${i + 1}`}>
-                {names.filter((n) => n !== (k === 'a' ? b : a)).map((n) => <option key={n}>{n}</option>)}
-              </select>
-            </label>
+            <DestinationSearch key={k} label={`Search destination ${i + 1}`} color={COLORS[i]}
+              value={k === 'a' ? a : b}
+              options={names.filter((n) => n !== (k === 'a' ? b : a))}
+              onPick={(n) => set(k, n)} />
           ))}
         </div>
       )}

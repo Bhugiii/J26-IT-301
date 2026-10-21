@@ -2,12 +2,36 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom'
 import {
   LayoutDashboard, MapPin, GitCompareArrows, Search, Menu, X, ChevronRight,
+  LayoutGrid, Compass, Heart, User, Route, CircleUser, Users, Sun, UsersRound, ShieldCheck, ScanSearch,
 } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
 import { api, useApi } from '../api/client'
 import { destPath } from '../lib/format'
 import { useScrollReveal } from '../lib/useScrollReveal'
 
-const NAV = [
+/**
+ * Main menu shared with the other TravelMind components (same items, order and style).
+ * Only "Expectation-Reality" (this component) is active here; the other items belong to
+ * teammates' components and are shown disabled so the menu matches the integrated app.
+ */
+type MenuItem = { label: string; icon: LucideIcon; mine?: boolean }
+const MAIN_MENU: MenuItem[] = [
+  { label: 'Dashboard', icon: LayoutGrid },
+  { label: 'Recommendations', icon: Compass },
+  { label: 'Saved Places', icon: Heart },
+  { label: 'Traveller Profile', icon: User },
+  { label: 'Itinerary Planner', icon: Route },
+  { label: 'Account', icon: CircleUser },
+  { label: 'Crowd Prediction', icon: Users },
+  { label: 'Weather Intelligence', icon: Sun },
+  { label: 'Traveller Segments', icon: UsersRound },
+  { label: 'Expectation-Reality', icon: ShieldCheck, mine: true },
+  { label: 'Discover Places', icon: ScanSearch },
+  { label: 'Attraction-Rich Areas', icon: MapPin },
+]
+
+/** This component's own pages, shown under "Expectation-Reality". */
+const MY_PAGES = [
   { to: '/', label: 'Overview', icon: LayoutDashboard, end: true },
   { to: '/destinations', label: 'Destinations', icon: MapPin },
   { to: '/compare', label: 'Compare', icon: GitCompareArrows },
@@ -23,22 +47,38 @@ export default function Layout({ children, crumbs }: { children: React.ReactNode
     <div className="min-h-screen lg:pl-[248px]">
       {/* Sidebar */}
       <aside className={`fixed inset-y-0 left-0 z-40 flex w-[248px] flex-col border-r border-line bg-white transition-transform lg:translate-x-0 ${open ? 'translate-x-0' : '-translate-x-full'}`}>
-        <Link to="/" className="flex flex-col items-center gap-2 border-b border-line px-5 pb-5 pt-6" aria-label="TravelMind home">
-          <img src="/brand/mark.png" alt="" className="h-[72px] w-auto" />
-          <img src="/brand/wordmark.png" alt="TravelMind" className="h-[30px] w-auto" />
-          <img src="/brand/tagline.png" alt="Smarter Trips · Better Experiences" className="mt-0.5 h-[11px] w-auto" />
+        <Link to="/" className="flex items-center gap-3 px-5 pb-5 pt-6" aria-label="TravelMind home">
+          <img src="/brand/mark.png" alt="" className="h-12 w-auto shrink-0" />
+          <span className="min-w-0">
+            <span className="block text-[14px] font-bold leading-[1.15] text-navy">Travel<br />Mind</span>
+            <span className="mt-1 block text-[11.5px] text-slate-text">Sri Lanka, your way.</span>
+          </span>
         </Link>
-        <div className="px-5 pb-2 pt-5 text-[11px] font-semibold uppercase tracking-[0.16em] text-slate-text">Main menu</div>
-        <nav className="flex flex-col gap-1 px-3">
-          {NAV.map(({ to, label, icon: Icon, end }) => (
-            <NavLink key={to} to={to} end={end}
-              className={({ isActive }) =>
-                `flex items-center gap-3 rounded-tm border px-3 py-2.5 text-[14px] font-medium transition-colors ${
-                  isActive || (to === '/destinations' && loc.pathname.startsWith('/destination/'))
-                    ? 'border-[#B4E9E2] bg-[#E6F6F4] font-semibold text-teal-dark'
-                    : 'border-transparent text-navy hover:bg-offwhite hover:text-teal-dark'}`}>
-              <Icon className="h-[18px] w-[18px]" />{label}
-            </NavLink>
+        <div className="px-5 pb-2 pt-1 text-[10.5px] font-semibold uppercase tracking-[0.16em] text-slate-text">Main menu</div>
+        <nav className="flex flex-1 flex-col gap-0.5 overflow-y-auto px-3 pb-6" aria-label="Main menu">
+          {MAIN_MENU.map(({ label, icon: Icon, mine }) => mine ? (
+            <div key={label}>
+              <Link to="/" aria-current="page"
+                className="flex items-center gap-3 rounded-lg border border-[#B4E9E2] border-l-[3px] border-l-teal bg-[#E6F6F4] px-3 py-2.5 text-[13.5px] font-semibold text-teal-dark">
+                <Icon className="h-[17px] w-[17px]" />{label}
+              </Link>
+              <div className="ml-[22px] mt-1 flex flex-col gap-0.5 border-l border-line pl-3">
+                {MY_PAGES.map(({ to, label: sub, icon: SubIcon, end }) => (
+                  <NavLink key={to} to={to} end={end}
+                    className={({ isActive }) =>
+                      `flex items-center gap-2.5 rounded-lg px-2.5 py-2 text-[13px] transition-colors ${
+                        isActive || (to === '/destinations' && loc.pathname.startsWith('/destination/'))
+                          ? 'bg-offwhite font-semibold text-teal-dark' : 'font-medium text-navy hover:bg-offwhite hover:text-teal-dark'}`}>
+                    <SubIcon className="h-4 w-4" />{sub}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <span key={label} aria-disabled="true" title="Part of another TravelMind component"
+              className="flex cursor-not-allowed select-none items-center gap-3 rounded-lg border-l-[3px] border-transparent px-3 py-2.5 text-[13.5px] font-medium text-slate-text/70">
+              <Icon className="h-[17px] w-[17px]" />{label}
+            </span>
           ))}
         </nav>
       </aside>
@@ -53,7 +93,9 @@ export default function Layout({ children, crumbs }: { children: React.ReactNode
           <img src="/brand/mark.png" alt="" className="h-9 w-auto" />
         </Link>
         <nav className="hidden min-w-0 items-center gap-1.5 text-[13px] sm:flex">
-          <Link to="/" className="text-slate-text hover:text-teal-dark">TravelMind</Link>
+          <span className="text-slate-text">TravelMind</span>
+          <ChevronRight className="h-3.5 w-3.5 text-slate-text/60" />
+          <Link to="/" className="text-slate-text hover:text-teal-dark">Expectation-Reality</Link>
           {crumbs.map((c, i) => (
             <span key={i} className="flex min-w-0 items-center gap-1.5">
               <ChevronRight className="h-3.5 w-3.5 text-slate-text/60" />
