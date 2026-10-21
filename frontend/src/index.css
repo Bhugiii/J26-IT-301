@@ -56,3 +56,17 @@
 @media (prefers-reduced-motion: reduce) {
   .reveal, .reveal .bar-grow { opacity: 1 !important; transform: none !important; transition: none !important; }
 }
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #14b8a6; /* TravelMind Teal */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0f766e; 
+}
