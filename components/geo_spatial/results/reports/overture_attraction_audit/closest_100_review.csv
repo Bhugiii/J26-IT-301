@@ -1,0 +1,101 @@
+﻿overture_id,place_name,basic_category,latitude,longitude,nearest_osm_name,nearest_osm_distance_m,same_name_nearest_distance_m,screening_status
+3ac9803c-58de-4f7e-96cd-3e7729a7aeb9,Kasagala Museum,museum,6.13535833333,80.8129111111,Kasagala Raja Maha Viharaya,0.2,,manual_review_near_existing_within_75m
+359fc037-dd4e-439b-8416-ee6d173c21d1,Kottikawatta Vimalarama Viharaya,buddhist_place_of_worship,6.9342705419691,79.918378643697,Sri Vimalaramaya,0.3,,manual_review_near_existing_within_75m
+0b4140b5-39d0-4215-b820-9917ce4dc93c,Lipton's Seat,historic_site,6.78074345,81.01554532,Thomas Lipton statue,0.8,9.7,possible_duplicate_name_within_150m
+27a36d15-4588-430f-ba44-902c809de9d5,Ruwanweliseya Prime media,buddhist_place_of_worship,8.3450030473754,80.389087413711,Mirisavatiya Dagoba,0.9,,manual_review_near_existing_within_75m
+f99566d3-4b60-47bd-8621-7d3f6e7de81c,Purana Aranya Senasanaya අලවල මහකන්ද,buddhist_place_of_worship,7.1170176153844,80.202117466075,Mahakanda Aranya Senasanaya,0.9,,manual_review_near_existing_within_75m
+c36245a6-e86e-4473-8e49-fb3bd06e10a5,Sri Parakramabahu Rajamaha Viharaya,buddhist_place_of_worship,7.0499833,79.98515285,Pagoda,1.0,,manual_review_near_existing_within_75m
+8e664d51-d1f1-4576-bea3-0cf5c3ab2ac0,Sri Jayasundararamaya Buddhist Temple,buddhist_place_of_worship,7.30592658,80.66986907,Sri Jayasundararamaya,1.1,,manual_review_near_existing_within_75m
+60093bd8-0a4f-4f69-bb06-be2c382303e4,Devon Falls,waterfall,6.951768,80.63602,Devon Falls Viewpoint #1,1.1,652.7,manual_review_near_existing_within_75m
+6484a89b-f1d9-4f61-b2bc-34fdd167be7b,Mahamevnawa Bodhignana Buddhist Monastery,buddhist_place_of_worship,6.93682155,79.97637282,Mahamevnawa Bodhignana Monastery,1.2,,manual_review_near_existing_within_75m
+2069f39c-9d4c-4b97-9c0a-01dc3b55cba1,කඳුරුගොඩ බෞද්ධ විහාර නටඹුන්~Kadurugoda Buddhist Temple Ruins,buddhist_place_of_worship,9.74682641,80.00657593,Kadurugoda Buddhist Dagobas,1.2,,manual_review_near_existing_within_75m
+789eb321-5183-421b-bec7-7e6fbd8f9310,සුමන සමන් දේවාලය දැරණියගල Sri Sumana Saman Devalaya Deraniyagala,buddhist_place_of_worship,6.923619194440106,80.34182200869512,Deraniyagala Saman Dewalaya,1.2,,manual_review_near_existing_within_75m
+d7b6f74b-4f00-4eeb-890d-76bb10be555d,Abhinawaramaya,buddhist_place_of_worship,6.89702798,79.94080057,Abhinawaramaya,1.2,1.2,possible_duplicate_name_within_150m
+8a04bb54-476f-4b59-809a-73639a08cd6a,Prabhawa Mountain Day Viewpoint,mountain,6.77433772,80.96845947,Prabhawa Mountain day View Point Haputale,1.2,,manual_review_near_existing_within_75m
+3388b19c-6f4b-4a08-81bc-0cdb0c8c3f58,Parama Dhamma Nivesa Pirivena Temple - Boralesgamuwa,hindu_place_of_worship,6.827945992365086,79.87468100996007,Parama Dhamma Chethiya Pirivena,1.3,,manual_review_near_existing_within_75m
+1ae24dda-5265-4b47-a4ce-779f26e29bfa,Millavitiya Temple,buddhist_place_of_worship,6.796089391173737,80.33846190240095,Milavitiya Temple,1.3,,manual_review_near_existing_within_75m
+bc2c7482-703e-45c0-98d1-bafd7adbe6e9,Gangarama Purana Viharaya,buddhist_place_of_worship,6.771021,79.89246135,Gangarama Purana Viharaya,1.5,1.5,possible_duplicate_name_within_150m
+0eb8c2ea-d88e-444a-be62-fc06f8b60454,Kiri Vehera,historic_site,7.96330158,81.00362355,Kiri Vehera,1.5,1.5,possible_duplicate_name_within_150m
+299d89c6-5d47-4a97-aed0-37bc1bf533cd,Wickramasingharama Buddhist Temple,buddhist_place_of_worship,6.88325422,79.88704384,Wickremasingharamaya,1.5,,manual_review_near_existing_within_75m
+390a376d-c2c9-424b-877e-866a86e94c56,Dodamwala Sri Natha Dewalaya Entrance,buddhist_place_of_worship,7.28486182,80.548898,Dodanwala Sri Natha Dewalaya,1.6,,manual_review_near_existing_within_75m
+d7f44586-5a20-489f-bbe8-adf73c39da15,Ibbankatuwa Ancient Cemetery,museum,7.83723872,80.62987337,Ibbankatuwa Megalithic Burial Site,1.7,,manual_review_near_existing_within_75m
+8399a430-d4c7-4f48-bd32-779d0d373f95,Ruins of Paduwasnuwara Kingdom,buddhist_place_of_worship,7.6032143376395,80.102619489415,Panduwasnuwara Palace Ruins,1.7,,manual_review_near_existing_within_75m
+369941b4-0b29-4e2d-9c8a-d0c9eb85565d,Bomaluwa ancient temple,buddhist_place_of_worship,7.47360917,80.61924467,Bomaluwa ancient temple,1.7,1.7,possible_duplicate_name_within_150m
+6561e23b-e4e6-45da-8236-7146d568185c,Kaduwela Sri Rankadu Paththini Devalaya,buddhist_place_of_worship,6.93422569,79.98512749,Sri Rankadu Maha Paththini Devalaya,1.7,,manual_review_near_existing_within_75m
+6af63b35-a85d-41ed-b905-d3ff7b03f825,Sai Nathanin Saranalayam,christian_place_of_worship,6.95005596,79.86279101,Iyngaran Pillayar Kovil,1.8,,manual_review_near_existing_within_75m
+9a089845-f913-454f-a2d8-61921a0bca14,Siri Tisarana Dharmayatana Temple,buddhist_place_of_worship,6.81121593,79.93873431,Sri Thisarana Sarana Dharmayathanaya,1.9,,manual_review_near_existing_within_75m
+2a0dfe0a-793b-4335-b575-d8635b727513,புதுக்குடியிருப்பு கந்தசுவாமி கோவில் Puthukkudiyiruppu Kanthasuwami kovill,hindu_place_of_worship,9.311737859101,80.693496465683,Puthukudrippu Sri Kanthaswamy Kovil,1.9,,manual_review_near_existing_within_75m
+d10971d1-676b-46bf-b1cc-a819f5a6e910,Kantharodai Archaeological Monument,historic_site,9.74682551,80.00655561,Kadurugoda Buddhist Dagobas,2.0,,manual_review_near_existing_within_75m
+95235e9d-fd7d-434a-a655-631fad46f1cc,කිරිවෙහෙර රාජමහා විහාරය කතරගම,buddhist_place_of_worship,6.4239900024502,81.332376392996,Kataragama Kiri Vehera,2.1,,manual_review_near_existing_within_75m
+7835657f-8fab-422c-9dd1-c13e7b47a527,Puppet Museum (Puppeteers of Lanka),museum,6.25792548,80.03793365,Puppet Museum,2.1,,manual_review_near_existing_within_75m
+48192c85-d041-459f-b285-3f711039868c,යඨාල මහා සෑය ( යටාල දළදා වෙහෙර )- තිස්සමහාරාම පූජා භූමිය | Yatala Stupa,buddhist_place_of_worship,6.28569433,81.2759133,Yatala Vehera,2.2,,manual_review_near_existing_within_75m
+47ae3625-8c88-49b5-a8fc-075fdc66a2da,Iyanaar Kovil,hindu_place_of_worship,9.683032,80.011481,Ayyanar Kovil,2.3,,manual_review_near_existing_within_75m
+51914406-c5f8-4d66-9024-093a8543c266,Weluwanaramaya Temple,buddhist_place_of_worship,7.02871877,79.94491087,Buddha Statue,2.3,,manual_review_near_existing_within_75m
+84657fea-f993-4382-a905-dc16abe4f120,Mini Worlds End,historic_site,7.11019458,81.15918439,Mini World's End,2.3,,manual_review_near_existing_within_75m
+ea967211-e405-477c-a37c-f16c20c13cfd,Diyatha Uyana Aquarium,aquarium,6.90370617,79.9111238,Diyatha Uyana Aquarium,2.4,2.4,possible_duplicate_name_within_150m
+231b1aaa-7f43-4cfd-bede-ba256b58d124,Medirigiriya Vatadage,historic_site,8.15613698,80.99615357,Medirigiriya Vatadage,2.4,2.4,possible_duplicate_name_within_150m
+24fe8906-a14e-428c-953a-668bc62e61f3,St. Joseph's Church,christian_place_of_worship,7.46977657,80.03946746,Saint Joseph's Church,2.4,26145.2,manual_review_near_existing_within_75m
+207494c6-b22b-4571-a339-eedf92f50016,Dutugemunu MahaSeya,buddhist_place_of_worship,6.31647986,80.84196236,Dutugemunu MahaSeya,2.5,2.5,possible_duplicate_name_within_150m
+bedff3ab-df1c-4fd3-b358-5d9f7f60e9ae,Masjidul Thaqwa Jumma Masjid,muslim_place_of_worship,6.92174654,79.85848568,Dawson Street Mosque,2.5,,manual_review_near_existing_within_75m
+fe0e3681-4e10-4933-bd1d-94c7ffbf855b,Kotikagoda Raja Maha Viharaya,buddhist_place_of_worship,5.953819,80.51900241,Kotikagoda Rajamaha Viharaya,2.5,,manual_review_near_existing_within_75m
+943d08a6-bc9c-44bf-ac47-a090f3f6e5ee,International Buddhist Centre,buddhist_place_of_worship,6.86939011,79.85901057,Int. Buddhist Centre,2.5,,manual_review_near_existing_within_75m
+bfe21969-e859-4b2e-a7ed-fa32e4c038e8,Shailathalarama Temple,buddhist_place_of_worship,6.65240294,80.70551195,Shailathalarama Viharaya,2.6,,manual_review_near_existing_within_75m
+78687723-792d-496f-a808-08e1d10cfc6d,Kali Kovil Trincomalee,hindu_place_of_worship,8.574802137776437,81.23449764265813,Kali Kovil,2.6,,manual_review_near_existing_within_75m
+15766470-6b4f-4231-a073-ad2ceef5e725,Malay Jumma Mosque,muslim_place_of_worship,7.49042528,80.36495432,Malay Jumma Mosque,2.6,2.6,possible_duplicate_name_within_150m
+572b008f-ba17-455e-89e6-e687e250f27d,Sri Pemananda Daham Pasala,buddhist_place_of_worship,6.70680145,79.92236879,Sri Pemananda Daham Pssala,2.7,,manual_review_near_existing_within_75m
+a472e0a9-aa5a-4325-94ab-c0c45b73511d,Makumbura Purana Viharaya,buddhist_place_of_worship,6.837566303023857,79.98077806109194,Makumbura Purana Viharaya,2.7,2.7,possible_duplicate_name_within_150m
+53f95b9e-e307-4bad-835c-3b84f3a0b661,Manik Raja Maha Viharaya,buddhist_place_of_worship,6.28522909,81.2710319,Menik Raja Maha Viharaya,2.7,,manual_review_near_existing_within_75m
+d4026057-dbe9-4836-83c9-7dad8fd666b0,Rathnapura Clock Tower,historic_site,6.68020656,80.40221156,Ratnapura Clock Tower,2.7,,manual_review_near_existing_within_75m
+1f389a4c-3e04-4e2a-a768-a0e831eb8d09,St. Thomas Church,christian_place_of_worship,6.88177764,79.90146173,St Thomas,2.7,112178.7,manual_review_near_existing_within_75m
+f5d64aff-d50e-469c-bf43-a4da2e22ab8d,Sri Saddharmaramaya,buddhist_place_of_worship,7.00212585,79.91062976,Gongithota Sathdharmaramaya Temple,2.8,,manual_review_near_existing_within_75m
+d6a46417-26ad-4f9c-8305-194e47d825d2,Thummodara,waterfall,6.9173,79.8648,Charles Henry de Soysa Statue,2.8,,manual_review_near_existing_within_75m
+8abb7937-0fba-42f7-b825-91b13e39958b,Kondhagala Rajamaha Viharaya,buddhist_place_of_worship,6.14016546,80.76026146,Kondhagala Purana Rajamaha Viharaya,2.8,,manual_review_near_existing_within_75m
+779b71e5-405c-4a41-8825-2f2279b71180,Sri Nandanaramaya,buddhist_place_of_worship,6.78182542,79.98632755,Sri Nandanaramaya,2.9,2.9,possible_duplicate_name_within_150m
+f64f7432-977d-4a7c-b5c1-12e449e4cd06,St. Joseph's Church,christian_place_of_worship,7.29545274,79.86865899,St.Joseph's Church,2.9,2.9,possible_duplicate_name_within_150m
+d1b4aa3b-ae6b-464b-921f-3f36aeb6dc5c,வில்லூன்றி கந்தசுவாமி கோவில்  திருகோணமலை,hindu_place_of_worship,8.5667336548142,81.233906179237,Kandaswamy Kovil,2.9,,manual_review_near_existing_within_75m
+11a6928e-e123-4729-89a7-49d993d09166,Makulana Rajamaha Viharaya,buddhist_place_of_worship,7.45339162,80.45402508,Makulana Temple,2.9,,manual_review_near_existing_within_75m
+3a55db51-2b57-4c8b-aa02-42e722f7864d,Udamuduna Sri Purvaramaya,buddhist_place_of_worship,7.37598991,80.5872085,Udamuduna PoorwaramaTemple,2.9,,manual_review_near_existing_within_75m
+0b727b49-dab7-461d-957a-9af27d41ebcb,Sri Varatharaja Vinayagar Temple,hindu_place_of_worship,6.95004336,79.86278959,Iyngaran Pillayar Kovil,2.9,,manual_review_near_existing_within_75m
+7c73c156-a921-4aac-b9a6-462402dcbef6,Kanniya Hot Water Springs,nature_reserve,8.60450634,81.17133282,Kanniya Hot Water Wells,2.9,,manual_review_near_existing_within_75m
+c7529039-637d-4374-be34-91bc61bc2620,Sri Vishnu Devala | ශ්රී විෂ්ණු දේවාලය,hindu_place_of_worship,7.29514652,80.64030342,Sri Vishnu Devala,3.0,,manual_review_near_existing_within_75m
+7fa4c686-b06b-459a-a215-ccdf49e82862,St. Paul the Hermit Church,christian_place_of_worship,6.97205487,80.79552723,St.Paul the Hermit Church,3.0,3.0,possible_duplicate_name_within_150m
+9b2fefe0-6436-46af-b586-35f13d5aaf13,Sinharaja Prantha Aranya Senasanaya,buddhist_place_of_worship,6.45341215,80.6104588,Sinharaja Prantha Aranya Senasanaya,3.0,3.0,possible_duplicate_name_within_150m
+c4cc073f-662a-4a7c-a6ee-c597575fec5e,සමාධි බුද්ධ ප්රතිමාව,buddhist_place_of_worship,8.36986379,80.3981816,Samadhi Buddha Statue,3.1,,manual_review_near_existing_within_75m
+a893e0ac-8e67-4e09-9459-201749d622da,Archaeological Museum,museum,7.95701627,80.75189765,Sigiriya Museum,3.1,27250.2,manual_review_near_existing_within_75m
+157ebb4d-3626-4f7d-b3a3-b470d46d4501,Vatadage,historic_site,7.94734176,81.00145057,Vatadage,3.1,3.1,possible_duplicate_name_within_150m
+804e923f-a5ce-446a-b64a-6523f37cea45,Batticaloa Ghandi Park,park,7.71380514,81.69890975,Mahatma Gandhi Statue,3.2,,manual_review_near_existing_within_75m
+b90067d6-eb8a-4e98-91bb-af74c08e719f,Suwarapola Bodhiya,buddhist_place_of_worship,6.79703287,79.90999265,Suwarapola Bodhiya,3.3,3.3,possible_duplicate_name_within_150m
+394f8309-d91d-407a-83fe-946a0a451b0b,St. Joseph's Church,christian_place_of_worship,8.76003086,80.47281386,Soosaiyappar Church,3.3,122928.8,manual_review_near_existing_within_75m
+85650f36-cd7c-46e2-b73b-274aee9b40a8,Kuswala Temple,buddhist_place_of_worship,7.15199759,79.8950555,Kuswala Sri Pushparamaya,3.3,,manual_review_near_existing_within_75m
+b1486c18-8898-497b-b0af-a99bf3cdde91,"Kapithawatha Temple, Maradana",hindu_place_of_worship,6.9282256451687,79.859912441361,Train Viewpoint,3.3,,manual_review_near_existing_within_75m
+b7b17379-267c-48e5-b411-4c818ade18ae,Salli Muthumariyamman Temple,hindu_place_of_worship,8.62257117,81.22051561,Salli Amman kovil,3.4,,manual_review_near_existing_within_75m
+0c0c0a77-0cca-47cf-908e-6e4ff83cd6ff,Panduwasnuwara Rajamaha Viharaya,buddhist_place_of_worship,7.59738018,80.10838651,Temple with colorful Buddha,3.5,29.0,possible_duplicate_name_within_150m
+38a85c9b-ba15-4a8e-bfd4-4d931e074866,Meththai Grand Jumma Mosque,muslim_place_of_worship,7.68118221,81.72613699,Meera Meththai Grand Mosque,3.6,,manual_review_near_existing_within_75m
+8b9e14f8-15a1-4a4f-92ad-abc391bdcbad,Uggal Aluth Nuwara Katharagama Devalaya,christian_place_of_worship,6.68406536,80.74677896,Uggal Aluthnuwara Maha Dewalaya,3.7,,manual_review_near_existing_within_75m
+43a02280-8c8a-45cc-95d8-1587453d4d00,Diyaluma Falls,park,6.73308095,81.03141599,Diyaluma Falls,3.7,3.7,possible_duplicate_name_within_150m
+cd87ccb2-c21a-4be5-8158-64a710029d7a,Polonnaruwa Siva Devale No. 2,historic_site,7.95103237,81.00671575,Siva Devalaya,3.7,,manual_review_near_existing_within_75m
+471cfdda-4bf6-4406-8c65-4b53a9a69507,Christian Reformed Church of Sri Lanka,christian_place_of_worship,6.94201042,79.8590319,Wolvendaal Church,3.7,,manual_review_near_existing_within_75m
+3476ac4b-8ec4-4081-ab2e-32a2787d4e18,Majmaul Khairath Masjid,muslim_place_of_worship,6.88678838,79.85486308,Jumma Masjid,3.8,,manual_review_near_existing_within_75m
+a5d6ee49-b3d8-4d81-8470-801a5ad9ce35,Church of Our Lady of Fatima,christian_place_of_worship,6.92259453,79.86516937,Fathima Church,3.8,,manual_review_near_existing_within_75m
+b0b1a2be-ad96-4afa-be30-83448276c6fd,Our Lady of Snows Church,christian_place_of_worship,7.22443497,79.84586424,Our Lady of Snows,3.9,,manual_review_near_existing_within_75m
+bf40d5ed-14a1-4ca8-b802-ece00f5030dd,St. Mary's Church,christian_place_of_worship,7.27981264,80.65637017,Saint Mary's Church,3.9,34071.8,manual_review_near_existing_within_75m
+145335fe-3c49-417a-a75a-f8623a98897f,St. Mary's Church,christian_place_of_worship,7.25234654,80.33903358,st Mary's church,3.9,3.9,possible_duplicate_name_within_150m
+ec46be95-2a4a-4dbf-bb86-ad261ad81af3,Cathedral of Christ the Living Saviour,christian_place_of_worship,7.29452777778,80.6396944444,St. Paul's Church,4.0,95086.6,manual_review_near_existing_within_75m
+3152e8a3-6b25-41f1-a942-03804fb9bef0,Ulavikkulam sri siththivinayagar,hindu_place_of_worship,9.772830576238968,80.12307037661033,Ulavikkulam Pillaiyar Temple,4.0,,manual_review_near_existing_within_75m
+462cbf0e-ffc8-4be2-ab17-7ae42345505d,Mackwoods Museum,museum,6.972741,80.766151,Mackwoods Museum,4.1,4.1,possible_duplicate_name_within_150m
+5e8950a8-3bb8-454c-9225-f149e7b54db3,Gangarama Viharaya,buddhist_place_of_worship,7.11415933,79.88189285,Gangaramaya Temple,4.1,,manual_review_near_existing_within_75m
+9c525e50-0be3-43e2-b80e-148f93ede85b,Potgul Viharaya (Potgul Temple),historic_site,7.92450186,80.99457884,Potgul Viharaya,4.1,,manual_review_near_existing_within_75m
+992681a9-6de2-4c67-8287-fc4a6946c713,Bambaragala Rajamaha Viharaya,buddhist_place_of_worship,7.28914729,80.76075058,Bambaragala Raja Maha Viharaya,4.1,,manual_review_near_existing_within_75m
+48971ecf-9605-4601-aa33-d9167073f7d6,"Groote Kerk, Galle",christian_place_of_worship,6.0281377248965,80.217133525293,Dutch Reformed Church (1755),4.1,,manual_review_near_existing_within_75m
+e5a1e89a-e134-435e-a35e-e3fbed1f70c1,Kuppiyawaththa Mahā Dewālaya,buddhist_place_of_worship,6.92630426,79.87252782,Jayashekararamaya Kuppiyawatte,4.2,,manual_review_near_existing_within_75m
+01739d27-9938-40c4-84f9-78e5f834def0,Kandalkuliya Grand Jumma Masjid,muslim_place_of_worship,8.21303311,79.71695677,Kandakuliya Grand Jummah Masjidh,4.2,,manual_review_near_existing_within_75m
+1378b1f1-47fd-43d2-91f0-29ba664cccb4,Dutch Reformed Church,christian_place_of_worship,8.237294906615661,79.76484377464716,Dutch Reformed Church,4.2,4.2,possible_duplicate_name_within_150m
+54106e1f-871e-49d4-b9ba-cff254a2cb47,Zainab Jumma Masjid,muslim_place_of_worship,6.84493757,79.86962221,Zeyneb Jumma Mosque,4.2,,manual_review_near_existing_within_75m
+95866ed8-118d-4c32-a57d-0a7b7da4e9c1,National Museum Galle,museum,6.02893282,80.21696929,National Museum Fort,4.2,,manual_review_near_existing_within_75m
+d495a248-75b7-415e-923a-0c82149ac0a8,St. Rita's Church,christian_place_of_worship,7.32126717,79.83865843,Thaldeka Church,4.3,,manual_review_near_existing_within_75m
+e5c21214-1032-40e1-aea1-c830551778c7,Siri Sonutthara Viharaya,buddhist_place_of_worship,6.83640989,79.89403552,Siri Sonutthara Viharaya,4.3,4.3,possible_duplicate_name_within_150m
+a3c72928-149d-4cd7-a19e-993ef5681e8f,Dalada Maluva,historic_site,7.94759317,81.00114657,Latha Mandapaya,4.4,,manual_review_near_existing_within_75m
+1f4e7e79-f966-49f6-9605-ad2f07ab2dac,ශ්රී නන්දාරාම විහාරස්ථානය යටියන්තොට,buddhist_place_of_worship,7.0287460339699,80.298643112183,Sri Nandharamaya,4.4,,manual_review_near_existing_within_75m
+d535e626-50f5-4c5b-bafd-5ff8d2a44d4e,Our Lady of Sorrows Church - Kaluaggala | වික්ශෝප දේවමාතා දේවස්ථානය - කළුඅග්ගල,christian_place_of_worship,6.91854003,80.09945112,Our Lady Sorrow Church,4.5,,manual_review_near_existing_within_75m
+2b85cc50-1fcf-4002-b06e-d6439085d891,St. Anthony's Church,christian_place_of_worship,6.83100913,80.99112774,St. Anthony's Church,4.5,4.5,possible_duplicate_name_within_150m
+c5a0021f-9d16-41b7-9122-51e505f997d2,Anuradapura Sacred City,historic_site,8.3553304755304,80.39649059996,Thuparamaya Dagoba,4.5,,manual_review_near_existing_within_75m

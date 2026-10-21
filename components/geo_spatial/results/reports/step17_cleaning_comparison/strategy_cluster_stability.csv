@@ -1,0 +1,3 @@
+﻿strategy,shared_records,kmeans_ari_vs_baseline_on_shared_records,dbscan_ari_vs_baseline_on_shared_records
+conservative,8588,0.99152,1.0
+strict,4067,0.70253,0.66211

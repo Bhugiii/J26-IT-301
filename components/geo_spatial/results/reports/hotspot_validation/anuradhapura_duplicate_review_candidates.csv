@@ -1,0 +1,5 @@
+﻿"attraction_id","attraction_name","tourism_category","latitude","longitude","review_duplicate_status","review_priority","review_reason"
+"osm_node_4096541049","Ancient Stone Bridge","Archaeological sites","8.3985378","80.4058277","uncertain","high","Same-name nearby OSM records; inspect geometry and feature identity"
+"osm_way_531627419","Ranmasu Uyana","Nature reserves","8.3382198","80.3897293","uncertain","high","Same-name nearby OSM records; inspect geometry and feature identity"
+"osm_way_1236602451","Ranmasu Uyana","Parks","8.3384093","80.3897907","uncertain","high","Same-name nearby OSM records; inspect geometry and feature identity"
+"osm_node_4096541050","Ancient Stone Bridge","Tourist attractions","8.3985706","80.4058616","uncertain","high","Same-name nearby OSM records; inspect geometry and feature identity"

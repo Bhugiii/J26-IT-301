@@ -1,0 +1,791 @@
+﻿baseline_cluster_id,main_district,baseline_records,attraction_id,attraction_name,district,tourism_category,latitude,longitude,review_required,suspected_duplicate,is_name_repeated_in_area,coordinates_present,verification_status,ml_inclusion_status
+4,Nuwara Eliya,25,osm_node_6592862736,Seven Virgins 3,Kegalle,Mountains,6.892051,80.4922074,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592862735,Seven Virgins 4,Kegalle,Mountains,6.8913533,80.4929691,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592862734,Seven Virgins 5,Kegalle,Mountains,6.8885094,80.4956782,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592862731,Seven Virgins 6,Kegalle,Mountains,6.8866561,80.4976201,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1255606535,39,Nuwara Eliya,Parks,6.927974,80.5427363,yes,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1256552461,66,Nuwara Eliya,Parks,6.9270651,80.5445965,yes,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_5253572525,Benachie,Nuwara Eliya,Mountains,6.9269807,80.5225324,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_9599105960,Gal Goa,Nuwara Eliya,Caves,6.9013991,80.4986165,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1222692339,Kaali Kovil,Nuwara Eliya,Religious sites,6.8993115,80.5414793,yes,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_4442011586,KiriwanEliya Temple,Nuwara Eliya,Temples,6.9154445,80.5053843,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_3207148721,Laxapana Falls,Nuwara Eliya,Waterfalls,6.899106,80.5009038,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_9599357507,Martin Air Plane Crash,Nuwara Eliya,Historical landmarks,6.9140091,80.5212079,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_5253572522,Norton,Nuwara Eliya,Mountains,6.9122827,80.5295062,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1256023893,Open Area,Nuwara Eliya,Parks,6.923792,80.5431758,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1255236153,Open Space,Nuwara Eliya,Parks,6.9271897,80.5448275,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1056556624,Praise Garden Retreat Centre Norton Bridge,Nuwara Eliya,Religious sites,6.8997999,80.5325018,yes,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_4122652880,Rozella 'Double Curve',Nuwara Eliya,Scenic viewpoints,6.9356302,80.5554459,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592862732,Seven Virgins 1,Nuwara Eliya,Mountains,6.8951985,80.4876637,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592862737,Seven Virgins 2,Nuwara Eliya,Mountains,6.8936647,80.4896378,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592862733,Seven Virgins 7,Nuwara Eliya,Mountains,6.8838548,80.498693,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_666703885,Sri Buddharama Viharaya,Nuwara Eliya,Temples,6.9428013,80.5400883,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_7079883043,St. John the Baptist,Nuwara Eliya,Religious sites,6.9452597,80.5387892,yes,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_way_1256025412,Water Extraction,Nuwara Eliya,Parks,6.9267159,80.5440732,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_6592863152,Zero Mile Post,Nuwara Eliya,Historical landmarks,6.9252435,80.5042012,no,no,False,True,not_verified,provisional_unverified
+4,Nuwara Eliya,25,osm_node_9775019024,norton pansala,Nuwara Eliya,Temples,6.9129955,80.5207012,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5167165072,Abayagiriya Raja Maha Viharaya,Anuradhapura,Temples,8.3697468,80.3945095,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_278865152,Abhayagiriya Dagoba,Anuradhapura,Temples,8.370997,80.3952635,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5167165092,Abhayagiriya Museum,Anuradhapura,Scenic viewpoints,8.3664324,80.394995,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_553679359,Ananda Viharaya,Anuradhapura,Temples,8.317471,80.3702698,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4096541049,Ancient Stone Bridge,Anuradhapura,Archaeological sites,8.3985378,80.4058277,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4096541050,Ancient Stone Bridge,Anuradhapura,Tourist attractions,8.3985706,80.4058616,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5167165094,Anularamaya,Anuradhapura,Temples,8.3663368,80.3875886,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_10734725405,Anuradhapura,Anuradhapura,Historical landmarks,8.3015913,80.4297335,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_398905090,Archaelogical Museum,Anuradhapura,Museums,8.3474009,80.3936342,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_13570488105,Archaeological museum,Anuradhapura,Museums,8.333969,80.3895529,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944921272,Assembly Hall,Anuradhapura,Archaeological sites,8.3687822,80.3955479,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_544945951,Bauddayana Viharaya,Anuradhapura,Temples,8.3418429,80.4095783,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3105221929,Bodhigharaya,Anuradhapura,Ancient ruins,8.328983,80.3897024,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_581209151,Bodhigharaya,Anuradhapura,Ancient ruins,8.32901,80.3896546,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5346771238,Buddhist Temple,Anuradhapura,Temples,8.3566657,80.3886044,yes,no,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5364430207,Buddhist Temple,Anuradhapura,Temples,8.3158186,80.3943305,yes,no,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4094724991,Burma Temple,Anuradhapura,Temples,8.3409919,80.3941862,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_531403306,Burma Temple,Anuradhapura,Temples,8.3409755,80.3942302,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_1181986189,Cactus Nursery,Anuradhapura,Gardens,8.3310521,80.4144824,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944966668,Cave shelter,Anuradhapura,Archaeological sites,8.3671472,80.3897089,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4409259289,Citadel,Anuradhapura,Historical landmarks,8.3594387,80.4013921,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5412519221,Dalada Maligawa,Anuradhapura,Historical landmarks,8.3558548,80.3994321,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_555360376,Dhammachethiya Mahamevna Monastery,Anuradhapura,Temples,8.3628312,80.3748577,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944966696,Dighapashana cave,Anuradhapura,Archaeological sites,8.3722867,80.3893024,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_398905067,Folk Museum,Anuradhapura,Museums,8.3493567,80.3943734,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4407902422,Gal Palama,Anuradhapura,Tourist attractions,8.3985821,80.4058578,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_531607468,Harischandra Park,Anuradhapura,Parks,8.3380907,80.4054839,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_102371583,Help Green Park,Anuradhapura,Parks,8.3288146,80.4127693,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944966680,Image house,Anuradhapura,Archaeological sites,8.3698325,80.3916385,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_567004213,Isurumuni Viharaya,Anuradhapura,Temples,8.3344744,80.3903278,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_10811136105,Isurumuniya Museum,Anuradhapura,Museums,8.3343329,80.3903972,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_910706415,Isurusiri Viharaya,Anuradhapura,Temples,8.3066138,80.3948313,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3657323592,Jaya Sri Maha Bodhi,Anuradhapura,Tourist attractions,8.3447103,80.3972255,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_115767725,Jethavana Dagoba,Anuradhapura,Temples,8.351632,80.4036444,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5167165070,Kapara Mulaya,Anuradhapura,Scenic viewpoints,8.3723656,80.4010745,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_13971890074,King Bhathikabaya Statue,Anuradhapura,Cultural heritage,8.3494225,80.396473,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5711360821,Kiribath Wahera,Anuradhapura,Tourist attractions,8.3995613,80.4004633,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_278865150,Lankaramaya Dagoba,Anuradhapura,Temples,8.3654323,80.3915149,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5178155065,Maha Vihara Padhanagharaya,Anuradhapura,Archaeological sites,8.3537147,80.395962,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4094724993,Maha Viharaya,Anuradhapura,Temples,8.3448327,80.3965201,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5820418632,Mahapali Alms-Hall,Anuradhapura,Ancient ruins,8.3590544,80.4019178,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_543899232,Mahasena Temple (Moonstone),Anuradhapura,Historical landmarks,8.3715932,80.391978,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_615528137,Mahaviharaya Alms Hall,Anuradhapura,Ancient ruins,8.3488524,80.3983536,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944966632,Mahayana Stupa,Anuradhapura,Archaeological sites,8.3679488,80.3891156,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944921268,Main Refectory,Anuradhapura,Archaeological sites,8.3688827,80.3916769,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_550562521,Mallikarama Bhikuni Aramaya,Anuradhapura,Temples,8.3692686,80.4011168,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_6859758947,Mayura Parivena,Anuradhapura,Ancient ruins,8.3440102,80.3962376,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_632760014,Meditation Hall,Anuradhapura,Temples,8.3486167,80.3734329,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_286059278,Mihidupura,Anuradhapura,Temples,8.3339652,80.4006508,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_247452367,Mirisavatiya Dagoba,Anuradhapura,Temples,8.3450022,80.389096,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_1181986209,Mohideen Grand Mosque,Anuradhapura,Religious sites,8.3329379,80.411125,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4621888689,Moonstone II,Anuradhapura,Historical landmarks,8.3703008,80.3899695,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_127264515,Muzeum Jetavana,Anuradhapura,Museums,8.3485578,80.4033919,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_14135621502,Nuwara Weva walking tracks,Anuradhapura,Scenic viewpoints,8.3230458,80.4187744,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_10811136107,Octagonal ruin,Anuradhapura,Tourist attractions,8.3401821,80.3895262,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_278865307,Palace of Vijayaba,Anuradhapura,Ancient ruins,8.3577615,80.3988739,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5314443422,Pankuliya Ashokaramaya,Anuradhapura,Tourist attractions,8.3859549,80.4100311,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4690500674,Patimaghara,Anuradhapura,Archaeological sites,8.3520364,80.4016843,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4094724992,Pirith Mandapaya,Anuradhapura,Temples,8.345962,80.3967467,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_538918428,Pirith Mandapaya,Anuradhapura,Temples,8.3459534,80.3966427,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_553495338,Pothanegama Catholic Church,Anuradhapura,Religious sites,8.3212573,80.3798903,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944921271,Prasada Stupa,Anuradhapura,Archaeological sites,8.3693973,80.3898215,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_554184216,RATHANAGARA BAUDDA MADYASTANAYA,Anuradhapura,Temples,8.2972392,80.4312928,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_550828266,Ramakele Ruins,Anuradhapura,Ancient ruins,8.3696657,80.4232066,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_1236602451,Ranmasu Uyana,Anuradhapura,Parks,8.3384093,80.3897907,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_531627419,Ranmasu Uyana,Anuradhapura,Nature reserves,8.3382198,80.3897293,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_11482826691,Ranmasu Uyana - Star Gate,Anuradhapura,Historical landmarks,8.3372563,80.3899496,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_543899216,Rathna Prasada,Anuradhapura,Historical landmarks,8.3704969,80.391149,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4463292294,Refectory,Anuradhapura,Historical landmarks,8.3685886,80.3938703,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944921267,Relic Shrine,Anuradhapura,Archaeological sites,8.3671844,80.3923582,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_10811136108,Rock cave with stone doorway,Anuradhapura,Tourist attractions,8.3265829,80.3895948,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_6432436685,Royal park (baths),Anuradhapura,Historical landmarks,8.3376481,80.3900578,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_6690059986,Ruins,Anuradhapura,Tourist attractions,8.3479334,80.4131871,yes,no,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_6690060085,Ruins,Anuradhapura,Tourist attractions,8.3552109,80.4293287,yes,no,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_6683049985,Ruins Main Residential Complex,Anuradhapura,Tourist attractions,8.3677261,80.3930744,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_7091125986,Ruwanweli Maha Seya,Anuradhapura,Tourist attractions,8.350051,80.3963636,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_247453300,Ruwanwelisaya Dagoba,Anuradhapura,Temples,8.3499902,80.3963878,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_8096283075,Sacred City of Anuradhapura,Anuradhapura,Archaeological sites,8.352427,80.39991,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_567004191,Samadhi Buddha Statue,Anuradhapura,Temples,8.3698838,80.398162,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_8456100881,Samaviharaya,Anuradhapura,Temples,8.3277641,80.4062131,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_247452366,Sandahiru Dagoba,Anuradhapura,Temples,8.3384978,80.3940218,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_1236504821,Sandakada pahana (Moonstone),Anuradhapura,Historical landmarks,8.3714701,80.3919756,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_10877048230,Sarananda Pirivena Buddha statue,Anuradhapura,Historical landmarks,8.3360224,80.3950396,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_1410576898,Second Samadhi Buddha Statue,Anuradhapura,Temples,8.369115,80.3929702,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3783356043,Seelawansa Temple,Anuradhapura,Temples,8.3092545,80.405643,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_13530002039,Shri Gnnanathilakaramaya,Anuradhapura,Temples,8.3556611,80.3724582,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_632773562,Shri Gnnanathilakaramaya,Anuradhapura,Temples,8.3557842,80.3724102,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_1005753409,Spice Garden,Anuradhapura,Gardens,8.3701985,80.4148172,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_551859152,Sri Dharmaraja Temple,Anuradhapura,Temples,8.3069647,80.4223997,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_398907394,Sri Maha Bodhi,Anuradhapura,Temples,8.3447545,80.3974655,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_558670995,Sri Naga Rajamaha Viharaya ශ්‍රී නාග රජමහා විහාරය,Anuradhapura,Temples,8.302635,80.389602,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_552088690,Sri Sambuddhi Viharaya,Anuradhapura,Temples,8.3297987,80.3640007,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_538923682,Sri Sangamittaramaya,Anuradhapura,Temples,8.3474164,80.3909455,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_4099707543,Sri Sarannada Maha Pirivena,Anuradhapura,Temples,8.336476,80.3946814,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3415425251,Sri Wiwekarama Viharaya,Anuradhapura,Temples,8.3363105,80.4155268,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3944921269,Third Samadhi Buddha Statue,Anuradhapura,Temples,8.3696364,80.390824,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5267471308,Tholuvila Monastery,Anuradhapura,Ancient ruins,8.3449492,80.4133531,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_247453305,Thuparamaya Dagoba,Anuradhapura,Temples,8.3553565,80.396459,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_550562510,Twin Pond,Anuradhapura,Archaeological sites,8.3711863,80.4018464,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_544945925,Urban Park,Anuradhapura,Parks,8.3406475,80.412177,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5820418634,Vaulted Vihara (Gedige) Image House of Anuradhapura,Anuradhapura,Ancient ruins,8.3603167,80.4021299,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_3105222059,Vessagiriya,Anuradhapura,Archaeological sites,8.3285247,80.3899662,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_407424136,Vessagiriya,Anuradhapura,Archaeological sites,8.3283311,80.3898959,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_581209150,Vessagiriya,Anuradhapura,Ancient ruins,8.3284756,80.3899863,yes,yes,True,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_10880157505,Walisingha Harishchandra,Anuradhapura,Historical landmarks,8.3369814,80.4061778,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_7121797782,Weherabendagala Rajamaha Viharaya,Anuradhapura,Temples,8.3065909,80.3641687,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_5711360822,Western Monastery,Anuradhapura,Tourist attractions,8.3635575,80.3757808,yes,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_node_2831589055,Wijayarama Archaeological Site,Anuradhapura,Ancient ruins,8.3936466,80.3947055,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_553428765,Wijeyaramaya,Anuradhapura,Temples,8.3242636,80.3736363,no,no,False,True,not_verified,provisional_unverified
+17,Anuradhapura,110,osm_way_1217677966,srawasthipura jayanthimaha viharaya temple,Anuradhapura,Temples,8.2965029,80.3780235,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_1564820321,Ahangama Beach,Galle,Beaches,5.9668799,80.3746453,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_2643487664,Ahangama Kande Viharaya,Galle,Temples,5.9691867,80.3700002,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_13828686769,Ahangama Secret Beach,Galle,Tourist attractions,5.9676066,80.3713103,yes,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_10779286306,Beach views,Galle,Scenic viewpoints,5.9741842,80.3582339,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_937310368,Jayasumnarama Viharaya Dagoba,Galle,Temples,5.9706241,80.381629,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_3053064341,Maha Viharaya Ahangama,Galle,Temples,5.974228,80.3710199,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_946186197,Nawarathnapita Temple,Galle,Temples,5.9772228,80.3711134,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_4717718745,Sri Thilakawardhanaramaya,Galle,Temples,5.9755635,80.3653859,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_3053064429,Vidyachandra Pirivena,Galle,Temples,5.9815505,80.3714389,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_408253108,Abimanagama Beach,Matara,Beaches,5.9582369,80.408349,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_1061582493,Agrabodhi Raja Maha Viharaya,Matara,Temples,5.9712053,80.4196436,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_2418523016,BodhiMalu Viaharaya,Matara,Temples,5.974736,80.424607,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_1134338128,Coconut Beach,Matara,Beaches,5.9588619,80.4058815,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_6931105798,David Martin Sailraweera,Matara,Historical landmarks,5.9686905,80.4246135,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_392336872,Fishamans reef,Matara,Beaches,5.9595632,80.4208502,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_3621867333,Gangarama Temple,Matara,Temples,5.9757548,80.4398539,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_9722124151,General Montagu Jayawickrama,Matara,Historical landmarks,5.9738297,80.429318,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_9722122604,Hemachandra Gunasekara,Matara,Historical landmarks,5.9738344,80.4295665,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_1134338129,Jungle Beach,Matara,Beaches,5.9585614,80.4130643,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_1745489040,Kushtarajagala Statue,Matara,Tourist attractions,5.9694792,80.4199094,yes,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_4102115197,Ladies Prayer Hall,Matara,Religious sites,5.9738147,80.4275865,yes,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_446443251,Lazy left,Matara,Beaches,5.963539,80.3922503,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_4437193978,Midigama Right,Matara,Scenic viewpoints,5.9647634,80.3836015,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_3053113859,Midigama Temple,Matara,Temples,5.9685661,80.387637,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_way_914713630,Naomi Beach,Matara,Beaches,5.9593779,80.4044351,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_13475232948,SOME PARTS OF THIS MOSQUE HAS BEEN REPAIRED BY TURKISH RED CRESCENT SOCIETY,Matara,Historical landmarks,5.9658152,80.4219995,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_2643547346,Siri Kettaramaya,Matara,Temples,5.9621048,80.419816,no,no,False,True,not_verified,provisional_unverified
+19,Matara,28,osm_node_4437273646,Sri Sudarshanarama,Matara,Temples,5.9821498,80.3915254,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_10199094417,Ahungalla Sea Turtles Conservation Project,Galle,Tourist attractions,6.3000371,80.0378652,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_288582815,Ambalangoda Beach,Galle,Beaches,6.2486199,80.0435004,yes,no,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_626692712,Ambalangoda Beach,Galle,Beaches,6.2352889,80.0520836,yes,no,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3749027799,Ariyapala Masks Museum,Galle,Museums,6.2414013,80.0506862,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_287079524,Balapitiya Mosque,Galle,Religious sites,6.2825508,80.0407085,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3748967481,Chethiyagiriya Purana Raja Maha Viharaya,Galle,Temples,6.2219075,80.0574676,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_1205162333,Delduwa Vivekarama Aranya Senasanaya,Galle,Temples,6.2306477,80.0683103,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2678443894,Ganegodella Raja Maha Viharaya,Galle,Religious sites,6.3365926,80.0323097,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_4525853534,Gnanawimala Buddhist Center,Galle,Temples,6.3084514,80.0343425,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3749053726,Kande Temple,Galle,Temples,6.243053,80.0511841,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2678406314,Kekiriwatte Temple,Galle,Religious sites,6.3158474,80.0353559,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683033717,Koddhuwa Temple,Galle,Religious sites,6.3073845,80.052024,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2788326672,Kosgoda Sea Turtle Conservation Project,Galle,Tourist attractions,6.3274734,80.0318424,yes,no,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_4918571122,Kosgoda Sea Turtle Conservation Project,Galle,Tourist attractions,6.354312,80.0182795,yes,yes,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_5386154922,Kosgoda Sea Turtle Conservation Project,Galle,Tourist attractions,6.354556,80.0182057,yes,yes,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2678439828,Kosgoda Temple,Galle,Religious sites,6.3415163,80.0297256,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3748921998,Kuleegoda Temple,Galle,Temples,6.212505,80.070124,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683033696,Madhuwa Temple,Galle,Temples,6.3010039,80.0579429,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_13166897637,Madu River Safari No 07,Galle,Tourist attractions,6.2736394,80.0382751,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_1205160433,Maha Viharaya(Sunandarama Maha Viharaya)- Ambalangoda,Galle,Temples,6.233842,80.0569855,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3748967492,Modara Devalaya,Galle,Religious sites,6.2304731,80.0529365,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_248049292,Nigrodarama Maha Viharaya,Galle,Temples,6.2160001,80.0613044,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3749093585,Pathiraja Manthindharamaya,Galle,Temples,6.2605274,80.04056,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3925585411,Poramba Paththini Devalaya,Galle,Religious sites,6.2404618,80.0600473,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_819753744,Puppet Museum,Galle,Museums,6.257937,80.0379485,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_11197227005,Rankoth Viharaya Temple,Galle,Temples,6.21207,80.0742094,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_5211487021,Sadhaham Madhura,Galle,Religious sites,6.3269082,80.033142,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2678406368,Samudraramaya Ahungalla,Galle,Temples,6.320258,80.030706,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683331258,Sanga Raja Maha Viharaya,Galle,Temples,6.2467404,80.0463146,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683331290,Seluththarama Viharaya,Galle,Temples,6.2496703,80.0550339,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_1674460565,Shayilathalarama Viharaya,Galle,Temples,6.2629892,80.0732312,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3656033452,Sri Buddhadatta Temple,Galle,Temples,6.2436689,80.0625852,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_440047498,Sri Drashanarama Temple,Galle,Temples,6.2852043,80.0472229,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683331291,Sri Naga Pushparama Viharaya,Galle,Temples,6.2493547,80.0568295,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_1674373410,Sri Pawarindaramaya,Galle,Temples,6.2758081,80.045843,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683033799,Sri Pulinathalaramaya,Galle,Religious sites,6.3113047,80.0439177,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_287000647,Sri Pushparama Maha Viharaya,Galle,Temples,6.2916606,80.0417746,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3656015373,Sri Subhadraramaya Temple,Galle,Temples,6.2397672,80.0566084,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3749093587,Sri Sudharshanaramaya,Galle,Temples,6.2647749,80.0398315,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3748918879,Sri Sumanaramaya,Galle,Temples,6.2105005,80.0634051,yes,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_9139616493,Sri Sunandaramaya Temple,Galle,Temples,6.2549522,80.0559016,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3749109163,Sri Thapodanaramaya,Galle,Temples,6.2689992,80.0484383,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3925585385,Sri Vijayarama Viharaya,Galle,Temples,6.2445966,80.0577461,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2678422974,Sri Wijayaramaya,Galle,Temples,6.3221325,80.0332154,yes,no,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_3748992839,Sri Wijayaramaya,Galle,Temples,6.2311561,80.0556319,yes,no,True,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2683176484,Subadrarama Viharaya,Galle,Temples,6.2676536,80.0384822,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_1674310560,Sugatha Bimbaramaya,Galle,Temples,6.2384035,80.0605094,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_1674298128,Sunandarama Maha Viharaya,Galle,Temples,6.2338201,80.0567328,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_1078288698,Three Wheeler Park,Galle,Parks,6.2365779,80.0542885,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_11169198252,Tukkawadu Mask Museum,Galle,Museums,6.2295349,80.0607882,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_5164700323,Turtle Farm,Galle,Wildlife,6.2278405,80.0539815,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_way_710797650,Victor Hasselblad Sea Turtle Research & Conservation Center,Galle,Wildlife,6.3336016,80.0279374,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_1674307315,Vilegoda DhammaYoukthikarmaya,Galle,Temples,6.237457,80.0563761,no,no,False,True,not_verified,provisional_unverified
+26,Galle,54,osm_node_2755666271,Wijaya Sri Mudalindaramaya,Galle,Temples,6.2605209,80.058986,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3385743311,Al Kabeer Grand Mosque,Nuwara Eliya,Religious sites,6.9761758,80.7659061,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3393421914,Ashokaramaya,Nuwara Eliya,Temples,6.9668261,80.7886249,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_way_487284665,Bambarakele Sri Maha Viharaya,Nuwara Eliya,Temples,6.9807889,80.7558247,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_5212561681,Buddhist Temple,Nuwara Eliya,Temples,6.9793317,80.8061358,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_11469179111,Eagle's Viewpoint,Nuwara Eliya,Scenic viewpoints,6.9762642,80.7539875,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_way_24390459,Galway's Land National Park,Nuwara Eliya,National parks,6.9661753,80.7776648,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4883891582,Haddon Hill,Nuwara Eliya,Mountains,6.9672984,80.7535302,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3393441943,Hindu Kovil,Nuwara Eliya,Religious sites,6.9727538,80.7831784,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_way_585632627,Holy Trinity Church,Nuwara Eliya,Religious sites,6.9723302,80.7714443,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4829970684,International Buddhist Center,Nuwara Eliya,Temples,6.9669361,80.7680428,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_873842127,Jumma Masjid,Nuwara Eliya,Religious sites,6.9721688,80.7811686,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_13108713571,Kandapillaiyar Temple-Oliphant,Nuwara Eliya,Religious sites,6.9710371,80.7461378,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_6284303994,Katumana Sri Seethawanaramaya,Nuwara Eliya,Temples,6.9444818,80.7950033,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4883891580,Kikiliyamana,Nuwara Eliya,Mountains,6.9844681,80.7462138,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_way_1196872351,Lake Gregory Park,Nuwara Eliya,Parks,6.9623907,80.7723097,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3254826636,Lover's Leap Waterfall,Nuwara Eliya,Waterfalls,6.9784844,80.7867203,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_11143135305,Lover's Leap Waterfall bottom viewpoint,Nuwara Eliya,Scenic viewpoints,6.9782249,80.786747,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_13108713567,Lutheran Church,Nuwara Eliya,Religious sites,6.9689418,80.7447565,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_7905101876,Mackwoods Museum,Nuwara Eliya,Museums,6.972736,80.766188,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4447532688,Meepilimana Sri Mahindaramaya,Nuwara Eliya,Temples,6.9298398,80.7865992,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3390839425,Monastery,Nuwara Eliya,Temples,6.9540084,80.7784118,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_13108713683,Muneeswaran Temple-Oliphant,Nuwara Eliya,Religious sites,6.9701404,80.7448078,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_11816818669,Pedro tea estate,Nuwara Eliya,Parks,6.9527264,80.7734989,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_11052239805,Row of white statues up to the temple,Nuwara Eliya,Tourist attractions,6.9550802,80.7659307,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4927751721,Sanasa,Nuwara Eliya,Cultural heritage,6.9917717,80.7488933,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3393421745,Sandatenna Temple,Nuwara Eliya,Temples,6.9561151,80.7968695,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3887941716,Shanthipura Temple,Nuwara Eliya,Temples,6.9810811,80.7463364,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4883891581,Single Tree,Nuwara Eliya,Mountains,6.9569212,80.762138,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4584003089,Single Tree Hill,Nuwara Eliya,Scenic viewpoints,6.9580205,80.7626508,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_13108713682,Sri Kathirvelauthaswami Temple-Oliphant,Nuwara Eliya,Religious sites,6.9698155,80.7450456,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_13108741569,Sri Muthumariamman Temple-Oliphant,Nuwara Eliya,Religious sites,6.9702312,80.7454095,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4775405860,Sri Rathnaloka Piriwena,Nuwara Eliya,Temples,6.9408332,80.7736111,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3392125633,Sri Senanandaramaya,Nuwara Eliya,Temples,6.9492095,80.7900643,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_198534324,St. Francis Xavier Church,Nuwara Eliya,Religious sites,6.9773138,80.7649851,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_8637064242,St.Paul the Hermit Church,Nuwara Eliya,Religious sites,6.9720557,80.7954997,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_way_431814350,Swarnagiri Maha Viharaya,Nuwara Eliya,Temples,6.9547693,80.766444,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_7171132885,Tea plantations,Nuwara Eliya,Scenic viewpoints,7.0027264,80.7405615,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_10683411634,Tea plantations view,Nuwara Eliya,Scenic viewpoints,6.9563336,80.7670901,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4885454565,Textile Hill,Nuwara Eliya,Mountains,6.9481641,80.7868481,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_4678340977,Theeswarar Temple,Nuwara Eliya,Religious sites,6.9739572,80.7758689,yes,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_3393538266,Victoria Museum,Nuwara Eliya,Museums,6.9673282,80.768913,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_way_1196874437,Victory Park,Nuwara Eliya,Gardens,6.9567671,80.7766625,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_11052738706,Viewpoint of tea plants below,Nuwara Eliya,Scenic viewpoints,6.9768067,80.7532536,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_10915395205,World wars,Nuwara Eliya,Historical landmarks,6.9678669,80.7677234,no,no,False,True,not_verified,provisional_unverified
+32,Nuwara Eliya,45,osm_node_5289283122,drink beer sunset point,Nuwara Eliya,Scenic viewpoints,6.9724048,80.7923831,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_589117270,Al-Noor Jum'aah Masjidh,Kegalle,Religious sites,7.2482703,80.4464482,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_590768628,Alpitiya Viharaya,Kegalle,Temples,7.2031029,80.4945156,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_2411173073,Aluthnuwara Raja Maha Viharaya,Kegalle,Temples,7.227344,80.4855921,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_6512880155,Angodagama Sri Senewiratnaramaya,Kegalle,Temples,7.247802,80.4875886,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_1287765865,Beligammana Raja Maha Viharaya,Kegalle,Temples,7.2502222,80.4544426,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3235859348,Bodhimaluwa Viharaya,Kegalle,Temples,7.2466627,80.4687515,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_590825566,Buddhist Temple,Kegalle,Temples,7.2361975,80.4568091,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_11068291518,Danakirigala raja maha viharaya.,Kegalle,Temples,7.2261424,80.4278437,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_2339010101,Devanagala Temple,Kegalle,Scenic viewpoints,7.2202077,80.4688983,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_809455785,Dewanagala Rajamaha Viharaya,Kegalle,Temples,7.220113,80.4683826,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_4811919126,Ganethenna Sri Sudharmarama Viharaya,Kegalle,Temples,7.2512797,80.4802556,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_4583093767,Gondhiwela Sri Shakya Senewiratnaramaya,Kegalle,Temples,7.2588794,80.43086,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3235859316,Hingula Raja Maha Viharaya,Kegalle,Temples,7.2483929,80.4637273,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5623934581,Keraminiya mosque,Kegalle,Religious sites,7.2447433,80.4491027,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_590768631,Kumbalgama Sri Bodhirajarama Purana Viharaya,Kegalle,Temples,7.2087517,80.4928302,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_10578236564,Masjidul Hudha jumma Mosque,Kegalle,Religious sites,7.2537994,80.4548603,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5935616890,New Regent Spice & Herbal Garden,Kegalle,Tourist attractions,7.2527184,80.4276718,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_648407512,NewParadise Spice Garden,Kegalle,Tourist attractions,7.2529039,80.4372345,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_590768644,Rukulgama Sri Bodhirajaramaya,Kegalle,Temples,7.2130702,80.4895443,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5570353606,Sri Dedimunda Dewalaya,Kegalle,Temples,7.2277579,80.4852873,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_6616527150,"Sri Samarasekararamaya,Siyambalapitiya.",Kegalle,Temples,7.2364723,80.4349087,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3235859447,Sri Sawathagiri Viharaya,Kegalle,Temples,7.2331167,80.4757643,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3765353782,Temple,Kegalle,Temples,7.2138769,80.4599717,yes,no,True,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3765360391,Temple,Kegalle,Temples,7.2217447,80.4820918,yes,no,True,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5159802984,Temple,Kegalle,Temples,7.2421858,80.4473495,yes,no,True,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5315647587,Temple,Kegalle,Temples,7.2766951,80.4208633,yes,no,True,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5916638811,Temple,Kegalle,Temples,7.2420481,80.4367299,yes,no,True,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5640135447,Uthuwankanda,Kegalle,Mountains,7.2619944,80.4191601,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_572857188,Uthuwankanda Dharmadhutha Viharaya,Kegalle,Temples,7.2504258,80.4198799,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3592159709,Uthuwankanda Sri Bodhirajarama Viharaya,Kegalle,Temples,7.2551856,80.4224729,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_1078738475,Vidyawardena Piriven Pothgul Viharaya,Kegalle,Temples,7.2500114,80.4543369,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_4195063946,Vipassana Bhavana Center,Kegalle,Temples,7.2541029,80.4429407,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_3235859402,Weththewa Ambalama,Kegalle,Archaeological sites,7.2385249,80.4727834,no,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_way_1194293688,kasimiya thakkiya,Kegalle,Religious sites,7.2507638,80.4524321,yes,no,False,True,not_verified,provisional_unverified
+35,Kegalle,35,osm_node_5797616053,spice garden,Kegalle,Tourist attractions,7.2467344,80.4648578,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482571,Alahana Pirivena,Polonnaruwa,Archaeological sites,7.9619536,81.0038794,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2820275287,Amma Pansala,Polonnaruwa,Temples,7.9401841,80.9991636,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482572,Ancient Auditorium,Polonnaruwa,Ancient ruins,7.9671343,81.0034399,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_14280716454,Ancient City of Polonnaruwa,Polonnaruwa,Archaeological sites,7.9487597,81.0024947,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_3445666661,Ancient Northern Entrance,Polonnaruwa,Ancient ruins,7.9521505,81.0033128,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275336776,Archaeological Museum,Polonnaruwa,Museums,7.9417964,80.998864,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333386,Atadage,Polonnaruwa,Ancient ruins,7.947779,81.0012832,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482573,Audience Hallof Nissankamalla,Polonnaruwa,Ancient ruins,7.9437941,80.9980333,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745845,Baddha Sima Malakaya,Polonnaruwa,Ancient ruins,7.9620029,81.0039591,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_279163106,Bandiwewa Church,Polonnaruwa,Religious sites,7.9523956,80.9885308,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_11029634305,Bathing Pool,Polonnaruwa,Tourist attractions,7.9429845,80.9976722,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2288797337,Bisokotuwa,Polonnaruwa,Ancient ruins,7.942894,80.9980165,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333471,Bodhi Tree Shrine,Polonnaruwa,Ancient ruins,7.9473365,81.0011023,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_5578140321,Bodhi-tree shrine,Polonnaruwa,Religious sites,7.9528235,81.0022,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_278856504,Bodhirukkaramaya,Polonnaruwa,Temples,7.9229292,81.0177778,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_630392076,Chapter House,Polonnaruwa,Ancient ruins,7.9479166,81.0016737,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275336460,Council Chamber,Polonnaruwa,Tourist attractions,7.9427198,81.0018659,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482574,Council Chamber of Nissankamalla,Polonnaruwa,Ancient ruins,7.9441763,80.998006,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_11029625807,Damila Thupa,Polonnaruwa,Tourist attractions,7.969217,81.0048957,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_5822839655,Demala Maha Says stupa ruins,Polonnaruwa,Historical landmarks,7.9762662,81.0061051,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482575,Demala Maha Seya,Polonnaruwa,Tourist attractions,7.9698338,81.0054478,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2839021535,Deval,Polonnaruwa,Religious sites,7.929608,80.9949181,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_630392077,Gal Pota,Polonnaruwa,Cultural heritage,7.9477759,81.001648,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_567018152,Gal Viharaya,Polonnaruwa,Temples,7.9660749,81.0049395,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_404678069,Hall,Polonnaruwa,Ancient ruins,7.9618823,81.0036232,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333347,Hetadage,Polonnaruwa,Temples,7.9477516,81.0014686,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_10873525152,Inscriptions of Nissankamalla,Polonnaruwa,Ancient ruins,7.9439657,80.9979349,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1517148712,Isipathana Children Park,Polonnaruwa,Parks,7.9413048,81.0099409,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_7905101882,Isipathanaraamaya Temple,Polonnaruwa,Religious sites,7.939338,81.009722,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275336119,Kiri Vehera,Polonnaruwa,Temples,7.9632881,81.0036222,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_12558913801,Kumara Pokuna,Polonnaruwa,Tourist attractions,7.9421856,81.0024224,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2296749115,Kurunduwatte Sr Sumanaramaya,Polonnaruwa,Temples,7.9699626,81.0173767,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275336249,Lankatilaka Temple,Polonnaruwa,Historical landmarks,7.962824,81.003613,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333470,Latha Mandapaya,Polonnaruwa,Ancient ruins,7.9475589,81.0011266,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_567018162,Lotus Pond,Polonnaruwa,Tourist attractions,7.9748478,81.0039995,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_277520944,Mary Immaculate Church,Polonnaruwa,Religious sites,7.9326444,81.0029823,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745842,Menik Vehera,Polonnaruwa,Ancient ruins,7.9529947,81.0023734,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745844,Monastic Hospital,Polonnaruwa,Ancient ruins,7.9598447,81.003025,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333260,Monk's Cell,Polonnaruwa,Ancient ruins,7.9614759,81.0031674,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333265,Monk's Cell,Polonnaruwa,Ancient ruins,7.9612954,81.0031474,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333266,Monk's Cell,Polonnaruwa,Ancient ruins,7.9600383,81.0034577,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333267,Monk's Cell,Polonnaruwa,Ancient ruins,7.960512,81.0032942,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333280,Monk's Cell,Polonnaruwa,Ancient ruins,7.9600277,81.00365,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333285,Monk's Cell,Polonnaruwa,Ancient ruins,7.9600324,81.0035688,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1169333288,Monk's Cell,Polonnaruwa,Ancient ruins,7.9600191,81.0037865,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_404677559,Monk's Cell,Polonnaruwa,Ancient ruins,7.9600366,81.0033929,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_404677906,Monk's Cell,Polonnaruwa,Ancient ruins,7.9614161,81.0031593,yes,yes,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482576,Naipena Viharaya,Polonnaruwa,Ancient ruins,7.9615329,80.998025,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333455,Nissanka Latha Mandapaya,Polonnaruwa,Ancient ruins,7.9477432,81.0010884,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745841,Nissankalata Mandapa,Polonnaruwa,Ancient ruins,7.9475104,81.0012829,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1011845920,Pabalu Vehera,Polonnaruwa,Archaeological sites,7.9495286,81.0042955,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2296767884,Palugasdamana Temple,Polonnaruwa,Temples,7.9530947,81.0232561,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_567018199,Parakramabahu I,Polonnaruwa,Historical landmarks,7.9263122,80.994828,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1011920999,Polonnaruwa Quadrangle,Polonnaruwa,Tourist attractions,7.9475794,81.001232,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_321271874,Potgul Viharaya,Polonnaruwa,Temples,7.9244654,80.9945803,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745834,Rankoth Viharaya,Polonnaruwa,Temples,7.958186,81.0033911,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745837,Royal Bath,Polonnaruwa,Tourist attractions,7.9421752,81.0024442,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2288797277,Royal Palace,Polonnaruwa,Ancient ruins,7.9434781,80.9979259,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_337482577,Royal Palace of King Parakramabahu,Polonnaruwa,Tourist attractions,7.9423789,81.0005856,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_6652869683,Ruins,Polonnaruwa,Tourist attractions,7.9513899,80.9942695,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275336327,Sat Mahal Prasadaya,Polonnaruwa,Ancient ruins,7.94792,81.0018,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_11029625806,Shiva Devale No 2,Polonnaruwa,Tourist attractions,7.9499928,81.007509,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745835,Siva Devalaya,Polonnaruwa,Ancient ruins,7.9510142,81.0066881,yes,no,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275745840,Siva Devalaya,Polonnaruwa,Ancient ruins,7.9462471,81.0013475,yes,no,True,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_11027213905,Starting Point,Polonnaruwa,Tourist attractions,7.9426987,80.9978651,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_277755068,Thopawewa Church,Polonnaruwa,Religious sites,7.9209562,80.9927116,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_332874377,Tivanka Image House,Polonnaruwa,Tourist attractions,7.9787212,81.0059934,yes,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2288797300,Tomb of King Nissankamalla,Polonnaruwa,Ancient ruins,7.9433615,80.9980058,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333535,Tuparamaya Gedige,Polonnaruwa,Temples,7.9471033,81.0010818,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_275333336,Vatadage,Polonnaruwa,Historical landmarks,7.9473379,81.0014789,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_node_2822304509,Vishakha Aramaya,Polonnaruwa,Temples,7.913426,81.0083478,no,no,False,True,not_verified,provisional_unverified
+36,Polonnaruwa,72,osm_way_1222949251,ground,Polonnaruwa,Parks,7.9373317,81.0035245,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_7194686985,Aligala Cave,Matale,Scenic viewpoints,7.9573289,80.7617799,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2732074707,Apsara Paintings,Matale,Cultural heritage,7.956437,80.7595043,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2019733740,Audience Hall,Matale,Tourist attractions,7.9560209,80.7585222,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2019733746,Bodikaraya,Matale,Archaeological sites,7.9694402,80.760698,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_5909626147,Buddah,Matale,Religious sites,7.969483,80.7627026,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_1534962618,Buddha,Matale,Cultural heritage,7.9591189,80.7434395,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_7194678488,Carved Rock,Matale,Scenic viewpoints,7.9585864,80.7586475,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2019733748,Cave Inscriptions,Matale,Tourist attractions,7.9680888,80.7610523,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_6649955485,Chapter House,Matale,Ancient ruins,7.9699701,80.7599013,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2019733762,Cobra Hood Cave,Matale,Tourist attractions,7.9562783,80.7582684,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_3205709398,Cruel elephant rides,Matale,Tourist attractions,7.9518339,80.7575474,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_5138765254,Duwannagala,Matale,Tourist attractions,7.9433198,80.7420526,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_12543613879,Duwannagala Rock,Matale,Scenic viewpoints,7.942375,80.7419599,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_13022382601,Elephant cruelty,Matale,Tourist attractions,7.9513664,80.7537721,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_11431846298,Giant buddha,Matale,Archaeological sites,7.9661961,80.7625519,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_6649955585,Image House,Matale,Ancient ruins,7.9696702,80.759832,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4366143463,Lion Rock,Matale,Mountains,7.9566634,80.7599301,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_23810659,Lion Temple,Matale,Tourist attractions,7.9571903,80.7599771,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4016303689,Lion's Paws,Matale,Historical landmarks,7.9576062,80.7601078,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_11802067669,Mapagala Archaeological Site,Matale,Ancient ruins,7.9511153,80.7576595,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_11802067469,Mapagala Rock,Matale,Scenic viewpoints,7.9500924,80.7574137,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_10796165510,Melu’s rock,Matale,Tourist attractions,7.9612807,80.7447426,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_398737881,New Temple,Matale,Temples,7.9692699,80.7623499,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_6853931487,Pethikada Paintings & Crafts,Matale,Museums,7.9512853,80.7536647,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4366143462,Pidurangala,Matale,Mountains,7.9662102,80.7616977,yes,no,True,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_258787124,Pidurangala,Matale,Archaeological sites,7.9698471,80.7601338,yes,no,True,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2732074684,Pidurangala Rock Viewpoint,Matale,Scenic viewpoints,7.957308,80.7600766,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2019733819,Pidurangala Vihara,Matale,Tourist attractions,7.9658517,80.7623997,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_7194678489,Preaching Rock,Matale,Tourist attractions,7.9584831,80.7586264,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_1310825605,Ramakale Stupa,Matale,Temples,7.9489225,80.7473238,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_7194686986,Rock with Holes,Matale,Scenic viewpoints,7.958358,80.7602134,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_5138765250,Shri Vivekaramaya Temple,Matale,Temples,7.9329913,80.7409475,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_217591865,Sigiriya,Matale,Ancient ruins,7.9573539,80.7569981,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_191390663,Sigiriya Museum,Matale,Museums,7.9569927,80.7518824,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4016318087,Sigiriya Reservoir Viewpoint,Matale,Scenic viewpoints,7.9560027,80.7597243,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4879857889,Sigiriya Temple,Matale,Temples,7.9592349,80.743417,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4683162589,Sigiriya and Pidurangala rocks view point,Matale,Scenic viewpoints,7.9680532,80.7580508,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_3937275720,Sigiriya viewpoint,Matale,Scenic viewpoints,7.9656168,80.7618517,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_5138765253,Siyabalagala,Matale,Mountains,7.9286984,80.7439194,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2801368717,Sri Magallena Rajamaha Viharaya,Matale,Temples,7.9733413,80.7215431,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_4879715303,St. Sebastian Church,Matale,Religious sites,7.9630634,80.7273687,yes,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_1310832276,Stupa,Matale,Temples,7.9702018,80.7607798,yes,no,True,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_398737882,Stupa,Matale,Temples,7.9695232,80.7624131,yes,no,True,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_2019734191,Sunrise viewpoint,Matale,Scenic viewpoints,7.9666513,80.7623515,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_12543620282,Sunset Point,Matale,Scenic viewpoints,7.9431196,80.7420397,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_way_398895493,Upper Terrace,Matale,Scenic viewpoints,7.9571441,80.7598033,no,no,False,True,not_verified,provisional_unverified
+39,Matale,47,osm_node_11022083105,Viewpoint of Sigirya Rock,Matale,Scenic viewpoints,7.9367251,80.7528245,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_10567157067,Alugolla Hill,Badulla,Scenic viewpoints,7.004117,81.0485281,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_358777735,BMC Park and Childrens Playground,Badulla,Parks,6.9900968,81.0554179,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_1489755543,Badulla Alugolla Samadhi Buddha Statue,Badulla,Temples,7.0041502,81.0484652,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_258998970,Badulla Botanical Garden,Badulla,Parks,6.9908892,81.0631236,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_254605448,Badulla Jumma Masjid,Badulla,Religious sites,6.9893875,81.0598851,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_323380110,Badulla MC Haritha Uyana,Badulla,Parks,6.9914048,81.0562389,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3819344497,Badulla Museum,Badulla,Museums,6.9841404,81.0622983,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_323014177,Badulla Ranaviru Memento,Badulla,Parks,6.9878212,81.0614589,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301855617,Badulupitiya Budu Medura,Badulla,Temples,6.9931108,81.0639837,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301855619,Badulupitiya Mosque,Badulla,Religious sites,6.9930661,81.0635935,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_6342981686,Buddha Statue,Badulla,Religious sites,6.9836788,81.0456185,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_5547700554,Buddhist Temple,Badulla,Temples,6.9590684,81.0538576,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_1133392469,Dhammachethiya Sadhaham Senasuna Alugolla,Badulla,Temples,7.0059003,81.0483651,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301935943,Dunhinda Falls,Badulla,Waterfalls,7.0169435,81.063492,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_567266593,Dunuvangiya Viharaya,Badulla,Temples,6.9608398,81.0714954,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_540077223,Duracell Park,Badulla,Parks,6.9729143,81.0640294,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_6702869775,Dutch Fort,Badulla,Tourist attractions,6.9912024,81.0540106,yes,yes,True,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_286200514,Dutch Fort,Badulla,Archaeological sites,6.9912337,81.0540101,yes,yes,True,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_7699947520,Eladaluwa,Badulla,Mountains,6.9735744,81.053009,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_287238849,Hindagoda Temple,Badulla,Temples,6.9847016,81.0686827,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_331202463,Kailagoda Temple Road,Badulla,Temples,6.997828,81.0596569,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_484459411,Kammanankada Pansala,Badulla,Temples,6.987023,81.0478749,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_1110229534,Kataragama Devalaya,Badulla,Temples,6.9872363,81.0579844,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_5398371668,Kohowila Kandura Sri Bodhirukkharamaya,Badulla,Temples,7.001792,81.0384339,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301905934,Kshthrarama Temple,Badulla,Temples,7.0017269,81.0579579,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_2902103716,Lieberman Community Church,Badulla,Religious sites,6.9943884,81.0573742,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_2078542915,Muthiyangana Raja Maha Viharaya,Badulla,Temples,6.9840698,81.0611542,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301953720,Polwatte Temple,Badulla,Temples,6.9930268,81.0501177,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301935961,Puwakgodamulla Mosque,Badulla,Religious sites,7.002031,81.0571849,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_543647700,Rambukpotha Rajamaha Viharaya,Badulla,Temples,6.9813193,81.0836278,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_567184670,Rockhill Kaliamman Thewasthanam,Badulla,Religious sites,6.9703331,81.0733241,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_567184674,Rockhill Mosque,Badulla,Religious sites,6.9691406,81.0713728,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_1179885465,Saint Mary's Church,Badulla,Religious sites,6.9906486,81.0586928,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_540810803,Shrine,Badulla,Religious sites,6.9914009,81.0589622,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_2589868902,Simawa Temple,Badulla,Temples,6.9756538,81.061677,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_5185614830,Sri Bodhirukkarama Wiharasthanaya,Badulla,Temples,6.9762246,81.0606287,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_566974377,Sri Dumindaramaya,Badulla,Temples,6.9653362,81.0737679,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301935946,Sri Paetchi Amman Kovil,Badulla,Religious sites,7.0142029,81.0560532,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_5185594027,Sri Sudharmarama Purana Wiharaya,Badulla,Temples,6.9743655,81.0608383,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_254605454,St. Mark's Church,Badulla,Religious sites,6.9903046,81.057219,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_5547700551,Tea Rosette,Badulla,Mountains,6.9427645,81.0538512,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_5226707894,The Christian Fiction,Badulla,Religious sites,6.9870458,81.0543769,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_6702869776,The Methodist Church,Badulla,Religious sites,6.9911302,81.0535528,yes,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_way_1110194417,Welihinda Viharasthanaya,Badulla,Temples,7.0269075,81.0437701,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_3301905915,Wijerama Temple,Badulla,Temples,6.998452,81.0565691,no,no,False,True,not_verified,provisional_unverified
+41,Badulla,46,osm_node_1179885691,Zaviya Mosque,Badulla,Religious sites,6.9840664,81.0600251,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_7171516185,Adma Agro Strawberry Farm,Nuwara Eliya,Tourist attractions,7.029118,80.7165567,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_12629721602,Amazing view of waterfall and tea plantations,Nuwara Eliya,Scenic viewpoints,7.0564054,80.7059241,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_548949538,Ambatahalawa Pragna Pradeepa Piriwena,Nuwara Eliya,Temples,7.0550963,80.674934,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4459218097,Blue Fields Tea Factory,Nuwara Eliya,Tourist attractions,7.0453761,80.6964776,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_509675614,Buddhist Temple,Nuwara Eliya,Temples,7.0656907,80.6876932,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_10635533505,Chill Ramboda,Nuwara Eliya,Scenic viewpoints,7.0590976,80.6941047,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4988352221,Dewathura Ella,Nuwara Eliya,Waterfalls,7.0590993,80.6988017,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_5623867621,Garandi Gini Ella,Nuwara Eliya,Waterfalls,7.0742148,80.6944897,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4848081561,Gerandi Ella Waterfall,Nuwara Eliya,Waterfalls,7.0469328,80.6955484,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4586724590,Glenloch Tea Plantation,Nuwara Eliya,Tourist attractions,7.0771149,80.6759844,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_12629721603,Incredible view of waterfall and tea plantations,Nuwara Eliya,Scenic viewpoints,7.056769,80.7052686,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4459252090,Kothmale Panorama,Nuwara Eliya,Scenic viewpoints,7.0569144,80.6956009,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_1320912488,Main Play ground,Nuwara Eliya,Parks,7.0497278,80.7026902,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_548949539,Malhewa Dalada Karandu Purana Viharaya,Nuwara Eliya,Temples,7.0514809,80.6865422,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_13070317901,Nice Viewpoint,Nuwara Eliya,Scenic viewpoints,7.0425266,80.7078815,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4901574643,Niyangamdora Rajamaha Viharaya,Nuwara Eliya,Temples,7.0499786,80.661673,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_1321735449,Palagolla Temple,Nuwara Eliya,Temples,7.0419351,80.70068,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_3254675194,Puna Ella Falls,Nuwara Eliya,Tourist attractions,7.0478828,80.6959654,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_13249027365,Puwakmal pidugoda viharaya,Nuwara Eliya,Temples,7.0680674,80.6741194,yes,yes,True,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_1443844183,Puwakmal pidugoda viharaya,Nuwara Eliya,Temples,7.0680977,80.6739552,yes,yes,True,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_1886592077,Ramboda Falls,Nuwara Eliya,Scenic viewpoints,7.0557492,80.6990248,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_3975121346,Ramboda Lower Falls,Nuwara Eliya,Waterfalls,7.0547791,80.6997315,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_2055187239,Ramboda Middle Falls,Nuwara Eliya,Waterfalls,7.0545545,80.7013734,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4430215189,Ramboda Upper Falls,Nuwara Eliya,Waterfalls,7.0543939,80.7055863,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_5469843821,Shri Bhakta Hanuman Kovil,Nuwara Eliya,Religious sites,7.0739827,80.6805935,yes,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_13249061574,Sri Bodhirukkarama Viharaya,Nuwara Eliya,Temples,7.068005,80.6820693,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_4615720699,Sugatharamaya Temple,Nuwara Eliya,Temples,7.0753267,80.6754276,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_10799140206,Upper viewing deck,Nuwara Eliya,Scenic viewpoints,7.0551769,80.7048191,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_10799139805,View of the waterfall,Nuwara Eliya,Scenic viewpoints,7.0530502,80.6986316,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_node_10635521505,Viewpoint&Restaurant,Nuwara Eliya,Scenic viewpoints,7.0604849,80.6944846,no,no,False,True,not_verified,provisional_unverified
+45,Nuwara Eliya,31,osm_way_1320531895,play ground,Nuwara Eliya,Parks,7.0491826,80.7023269,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581207227,Ambasthala Dagaba,Anuradhapura,Temples,8.3513362,80.5170799,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_1402637230,Aradhana Gala,Anuradhapura,Mountains,8.3510324,80.5182896,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581144471,Assembly Hall,Anuradhapura,Ancient ruins,8.3512964,80.5152132,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_5561327394,Ataseta Cave,Anuradhapura,Caves,8.3517035,80.5130813,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_9349793101,Buddha Statue,Anuradhapura,Cultural heritage,8.3519428,80.5176702,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_6953341663,Eth Vehara,Anuradhapura,Mountains,8.347538,80.5126963,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581147401,Eth Vehera,Anuradhapura,Temples,8.3475397,80.512582,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_10127391044,Giribhanda Stupa,Anuradhapura,Temples,8.3538478,80.5158312,yes,yes,True,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_1217678013,Giribhanda Stupa,Anuradhapura,Temples,8.3538319,80.5158438,yes,yes,True,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581147399,Image house,Anuradhapura,Ancient ruins,8.3490569,80.5152627,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581132512,Indikatu Seya Monastery,Anuradhapura,Ancient ruins,8.3531724,80.5091823,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_3937246495,Kaludiya Pokuna,Anuradhapura,Archaeological sites,8.3461941,80.5081449,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_126442943,Kantaka Chetiya,Anuradhapura,Temples,8.3522312,80.513701,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581132513,Katu seya,Anuradhapura,Ancient ruins,8.3520637,80.5092447,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_13865632201,Katupota Kandha Vajirarama Forest Monastery,Anuradhapura,Temples,8.3251924,80.5130977,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_13613017701,Katupotha Kanda,Anuradhapura,Mountains,8.3284962,80.5185503,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_6687613887,Mahinda cave,Anuradhapura,Tourist attractions,8.3522427,80.5197119,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_2837985958,Mahindodayaramaya,Anuradhapura,Temples,8.3576519,80.5036832,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_5561252044,Maninaga Mandiraya,Anuradhapura,Ancient ruins,8.3539928,80.5140799,yes,yes,True,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581141841,Maninaga Mandiraya,Anuradhapura,Ancient ruins,8.3540761,80.5142395,yes,yes,True,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_398907406,Mihindu Seya,Anuradhapura,Temples,8.3503771,80.516312,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_13003565063,Mihintale Jumma Masjidh,Anuradhapura,Religious sites,8.3586867,80.5108615,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_1415080810,Mihintale Jummah Masjidh,Anuradhapura,Religious sites,8.358658,80.5108536,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_1356595422,Mihintale Sacred City,Anuradhapura,Archaeological sites,8.3544581,80.5160353,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_1217679737,Mihinthalaya Acheaological site,Anuradhapura,Archaeological sites,8.350706,80.5178502,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_398907402,Mihinthale Ancient Hospital Complex,Anuradhapura,Ancient ruins,8.3554931,80.5119227,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581153415,Pagoda,Anuradhapura,Temples,8.3467539,80.5089035,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_5445130021,Rajagiri Lena Kanda (Rajagiri Cave Mountain),Anuradhapura,Scenic viewpoints,8.3497458,80.5069023,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_1217679442,Rajagiri Lena site,Anuradhapura,Archaeological sites,8.350927,80.505641,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_10814089805,Ruin with pillars and stupa mounds,Anuradhapura,Tourist attractions,8.3496058,80.5055526,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_398907408,Sela Cetiya,Anuradhapura,Temples,8.3512962,80.5177518,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_1402637232,Sinha Pokuna,Anuradhapura,Ancient ruins,8.3512032,80.514095,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_2837955333,St. Anthony's Church,Anuradhapura,Religious sites,8.3589422,80.5119689,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581153416,Stupa,Anuradhapura,Temples,8.3472007,80.5082946,yes,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581144469,The Alms hall,Anuradhapura,Ancient ruins,8.3519127,80.5154324,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_581144470,The Relic House,Anuradhapura,Ancient ruins,8.3515925,80.5152826,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_10814015205,View of Anuradhapura,Anuradhapura,Scenic viewpoints,8.3476,80.5125458,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_node_6183566652,Wasammale Hill/Cave painting,Anuradhapura,Ancient ruins,8.3743929,80.5070159,no,no,False,True,not_verified,provisional_unverified
+48,Anuradhapura,39,osm_way_1226659776,park 1,Anuradhapura,Parks,8.3356649,80.5028215,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_10915576208,Buddha,Nuwara Eliya,Historical landmarks,6.8251222,80.5199083,yes,no,True,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_10920716143,Buddha,Nuwara Eliya,Historical landmarks,6.823862,80.509857,yes,no,True,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_way_251128677,Japanese Peace Temple,Nuwara Eliya,Temples,6.8243048,80.5062329,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_4442126052,Kalpa Wruksha Maha Viharaya,Nuwara Eliya,Temples,6.8242225,80.5176682,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_way_1004747691,Saman Devalaya,Nuwara Eliya,Temples,6.8450494,80.5484023,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_9742560953,Sivan,Nuwara Eliya,Religious sites,6.8239975,80.5186405,yes,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_10920716157,Sleeping Buddha,Nuwara Eliya,Historical landmarks,6.823835,80.512697,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_5403560822,Sri pada World Peace bell STP,Nuwara Eliya,Cultural heritage,6.8235568,80.5036349,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_9742560951,amman,Nuwara Eliya,Religious sites,6.8242716,80.5208617,yes,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_5244274525,laxapana mohine FAlls,Nuwara Eliya,Waterfalls,6.8273972,80.5329798,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_way_251128733,sri muththu maariamman kovil laxsapana,Nuwara Eliya,Religious sites,6.8315355,80.5419031,yes,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_way_1002753965,srijalandanaramaya,Nuwara Eliya,Temples,6.844859,80.5405885,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_9740549810,thorana,Nuwara Eliya,Caves,6.8257088,80.5215046,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_way_1001838585,valamalai sri muththumariamman temple,Nuwara Eliya,Religious sites,6.8320719,80.5324858,yes,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_9742560952,vinayaga,Nuwara Eliya,Religious sites,6.824311,80.5202392,yes,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_10920716110,Buddha,Ratnapura,Historical landmarks,6.81047,80.48849,yes,no,True,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_5304214010,Heramitipana,Ratnapura,Scenic viewpoints,6.8102819,80.4870549,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_5304214009,Meellakela,Ratnapura,Scenic viewpoints,6.8111754,80.4923804,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_254036900,Sri Pada Foot Print,Ratnapura,Mountains,6.8094211,80.4993876,no,no,False,True,not_verified,provisional_unverified
+52,Nuwara Eliya,20,osm_node_3658042915,Sri Pada Temple (Sri Pada Buddhist Temple),Ratnapura,Temples,6.8095306,80.4994213,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_7828045874,Aluketiya Dewalaya,Ratnapura,Religious sites,6.6630038,80.3876656,yes,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_385199359,Anagarika Dharmapala Memorial Statue,Ratnapura,Historical landmarks,6.6815571,80.4006411,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_560418465,Ananda Maitreya Sangha Raja Viharaya,Ratnapura,Temples,6.7150001,80.3796257,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_790422283,Angammana Purana Rajamaha Viharaya,Ratnapura,Temples,6.6831361,80.4205415,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_824145229,Batugedara Temple,Ratnapura,Temples,6.6719126,80.4191527,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_8421084994,Buddha Shrine,Ratnapura,Cultural heritage,6.7073996,80.3869082,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_537654639,Buddha Statue,Ratnapura,Cultural heritage,6.7134018,80.3855853,yes,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_8319350971,Ellegedara Sri Purwaramaya,Ratnapura,Temples,6.7321482,80.3946161,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_385070384,Entrance of Saman Dewalaya,Ratnapura,Temples,6.6919516,80.3823145,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_6698983637,Getangama Sri Wijyaramaya,Ratnapura,Temples,6.6704177,80.3952693,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_2151514478,Gnanasinghe Tapowana Temple (Kajugaswatta),Ratnapura,Temples,6.6842163,80.4063212,yes,yes,True,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_525835513,Gnanasinghe Tapowana Temple (Kajugaswatta),Ratnapura,Temples,6.6842252,80.406235,yes,yes,True,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_7828066097,Haldola Bodhiya,Ratnapura,Temples,6.6894575,80.3640515,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_2151514497,National Museum Ratnapura,Ratnapura,Museums,6.6842948,80.3995602,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_7389658045,Old Kelani Valley Railway Bridge,Ratnapura,Historical landmarks,6.6793356,80.4158054,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_531012996,Palm Garden Kovil,Ratnapura,Religious sites,6.7096029,80.3874024,yes,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_2151471662,Ratnapura Clock Tower,Ratnapura,Historical landmarks,6.6802265,80.4022261,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_1797915552,Sabaragamu Maha Saman Dewalaya,Ratnapura,Temples,6.6904943,80.379852,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_385070385,Saman Dewalaya,Ratnapura,Temples,6.6916408,80.382394,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_560417469,Shakyasinghe Samadhi Buddha statue,Ratnapura,Historical landmarks,6.7234045,80.3807121,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_2151594544,Sri Bodhirajaramaya,Ratnapura,Temples,6.6792124,80.4063455,yes,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_895012095,Sri Bodhiwardhanarama Temple,Ratnapura,Temples,6.7104807,80.3898348,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_4464691464,Sri Jayasekararamaya Temple,Ratnapura,Temples,6.712686,80.3961059,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_790422278,Sri Jayasunandarama Moola Maha Viharaya,Ratnapura,Temples,6.6735541,80.4252113,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_531273903,Sri Maha Viharaya - Vidyananda Maha Pirivena,Ratnapura,Temples,6.7229327,80.3801147,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_5320323766,Sri Saddharmalankara Piriven Viharaya(Temple),Ratnapura,Temples,6.6836248,80.410362,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_6341175848,Sri Sumana Maha Piriwena,Ratnapura,Temples,6.6742834,80.401015,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_533728558,St. Lukes Church,Ratnapura,Religious sites,6.682102,80.4006689,yes,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_530760339,Temple,Ratnapura,Temples,6.6717465,80.419146,yes,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_8393826265,Thepulangoda Waterfall,Ratnapura,Waterfalls,6.7283842,80.3938741,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_way_555648962,Weeragoda Sri Maha Temple,Ratnapura,Temples,6.7234718,80.3807128,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_5151097808,Weralupa Temple,Ratnapura,Temples,6.6949597,80.3973557,no,no,False,True,not_verified,provisional_unverified
+58,Ratnapura,33,osm_node_8319350967,Wimala Ramaya,Ratnapura,Temples,6.7214376,80.3936783,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_12184554013,Ancient Structure,Ampara,Ancient ruins,6.8820554,81.7238496,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_10243221107,Bogahalanda Natabun Viharaya,Ampara,Ancient ruins,6.8695377,81.7381128,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_12184556710,Buruthagaha Viewpoint,Ampara,Scenic viewpoints,6.9010229,81.7052987,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_10243221098,Kiriwehera Rajamaha Viharaya,Ampara,Temples,6.8697165,81.7195917,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_10289187718,Kitulana Tank View,Ampara,Scenic viewpoints,6.8886092,81.7197349,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_12184554005,Kokagala,Ampara,Scenic viewpoints,6.8823404,81.7211032,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_way_404630718,Kota Vihara Stupa,Ampara,Ancient ruins,6.8784631,81.7528111,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568707,Lahugala Elakatuwa Welyaya Archaeological Site,Ampara,Ancient ruins,6.8720894,81.706259,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568704,Lahugala Ethgala Archaeological Site,Ampara,Ancient ruins,6.8615362,81.7359806,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568706,Lahugala Thiththawel Mandiya Welyaya Archaeological Site,Ampara,Ancient ruins,6.8672845,81.7093246,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568705,Lahugala Waralanda Archaeological Site,Ampara,Ancient ruins,6.8721242,81.7211703,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_way_404630720,Magul Maha Viharaya,Ampara,Ancient ruins,6.8677516,81.7364483,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_way_404630719,Magul Maha Viharaya Stupa,Ampara,Ancient ruins,6.8674513,81.7368383,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568703,Paranagovipola Archaeological Site,Ampara,Ancient ruins,6.8632064,81.7366234,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568702,Paranagovipola Aththani Pillar,Ampara,Ancient ruins,6.8662975,81.7331567,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_way_404630721,Plima geya,Ampara,Ancient ruins,6.8678414,81.7363655,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568699,Sengamuwa Archaeological Site,Ampara,Ancient ruins,6.8930634,81.7655667,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568700,Sengamuwa Pansalgoda Archaeological Site,Ampara,Ancient ruins,6.8839571,81.7635112,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_12184556330,Sengamuwa Tank Viewpoint 1,Ampara,Scenic viewpoints,6.890873,81.7568206,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_12184556331,Sengamuwa Tank Viewpoint 2,Ampara,Scenic viewpoints,6.8964927,81.7552084,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_12184556895,Sulupatumulla,Ampara,Scenic viewpoints,6.8902639,81.7170659,no,no,False,True,not_verified,provisional_unverified
+63,Ampara,22,osm_node_11212568701,Yalpotha Reservoir Ancient Sluice,Ampara,Ancient ruins,6.8692776,81.7432285,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1356610174,Ancient Temple,Matara,Temples,5.9374171,80.5237635,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10203633820,Art point,Matara,Cultural heritage,5.9527733,80.4675326,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_286371892,Awasaya,Matara,Temples,5.9536748,80.5187693,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_170062618,Beach Park,Matara,Parks,5.9424767,80.5523994,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1348389714,Big Buddha,Matara,Temples,5.9402062,80.4781611,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10933003915,Big Standing Buddha,Matara,Historical landmarks,5.9411131,80.5718592,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_12956359381,Bo Tree,Matara,Religious sites,5.9449501,80.5459227,yes,no,True,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_2900304208,Bo Tree,Matara,Temples,5.9544281,80.5191348,yes,no,True,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10778145947,Buddha Statue,Matara,Cultural heritage,5.9271463,80.5883953,yes,no,True,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10848305010,Buddha Statue,Matara,Cultural heritage,5.9529376,80.5754088,yes,no,True,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_286371740,Budu Medura,Matara,Temples,5.954149,80.51899,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1226674463,Chaithya,Matara,Temples,5.9606259,80.6044078,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10760867325,Christ's Faith,Matara,Religious sites,5.9446927,80.5430269,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_5764539554,Coconut Tree Hill,Matara,Scenic viewpoints,5.9392522,80.4682756,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10586762306,Crocodile River,Matara,Tourist attractions,5.9449137,80.5399231,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_286371861,Darmashalawa,Matara,Temples,5.9537755,80.5192504,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_388413308,Devinuwara Sri Vishnu Maha Devalaya,Matara,Religious sites,5.9272756,80.5884658,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_3370231931,Divigalahena Purana Viharaya,Matara,Temples,5.9500967,80.4966152,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_6620896189,Dondra Point,Matara,Scenic viewpoints,5.9192089,80.5916227,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_496970157,Dutch Church,Matara,Religious sites,5.9448187,80.5469334,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1339176587,Galgane Devalaya,Matara,Ancient ruins,5.9329552,80.5894038,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1745481395,Galgane Viharaya,Matara,Temples,5.9322707,80.589975,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1650280188,Hiththatiya Raja Maha Viharaya,Matara,Temples,5.9577139,80.5303911,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_588057723,Hummana Beach Dondra,Matara,Beaches,5.9217901,80.5929414,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_637944857,Jayasumanaramaya,Matara,Temples,5.9438967,80.5537336,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_2800340118,Kemaramaya,Matara,Temples,5.9647258,80.5025116,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1813426234,Kitulwana Temple,Matara,Temples,5.9557327,80.5483036,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_13477879946,Koica,Matara,Historical landmarks,5.945387,80.5486697,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1650277118,Kotikagoda Rajamaha Viharaya,Matara,Temples,5.953803,80.5189863,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_9924091245,Lankaramaya Kekanadura,Matara,Temples,5.9683435,80.6098281,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_12347126831,Late Prime Minister Hon. Dudley Senanayaka,Matara,Historical landmarks,5.9392386,80.526287,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_497744372,Madiha Beach,Matara,Beaches,5.9359303,80.5177588,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1158995331,Madiha Surf Beach,Matara,Beaches,5.9370007,80.5103611,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_286373879,Matara Bodiya,Matara,Temples,5.9482768,80.5470185,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_286372639,Matara Mosque,Matara,Religious sites,5.9455833,80.5492813,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_497169972,Meerah Jumma Masjid,Matara,Religious sites,5.9477271,80.541118,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_496961952,Migadhaya Pirivena,Matara,Temples,5.9437846,80.5442171,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_2380090322,Nadeetherarama Temple,Matara,Temples,5.949639,80.4787842,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_384150115,Nunna wella,Matara,Beaches,5.9328105,80.6131679,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1430189010,Nyanawella beach,Matara,Beaches,5.945604,80.4475046,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_286366417,Old Dutch Market,Matara,Archaeological sites,5.9478618,80.5352752,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_2380090329,Pagoda,Matara,Temples,5.9405803,80.4784923,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_637939144,Pantharama Purana Viharaya,Matara,Temples,5.9461336,80.5588172,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1226675816,Pantharamaya,Matara,Temples,5.9647927,80.6082098,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_170181121,Polhena Beach,Matara,Beaches,5.9362314,80.5258272,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_12473123847,Purana Ethkanda Raja Maha Viharaya - Kamburugamuwa,Matara,Temples,5.9507644,80.5042721,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10948764905,Rev. Anagarika Dharmapala,Matara,Historical landmarks,5.9489852,80.5469835,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10845043805,Ruhunē Hadawatha — Matara,Matara,Historical landmarks,5.9446214,80.5493569,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_6260672362,Samudragiri Viharaya,Matara,Temples,5.955876,80.4535092,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_3621483816,Samudratheera Maha Viharaya,Matara,Temples,5.9391388,80.5043162,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_573467082,Secret Beach,Matara,Beaches,5.9436112,80.4501874,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1650284128,Sirimangala Piriwena,Matara,Temples,5.955813,80.5530057,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_596239241,Soldier Statue,Matara,Historical landmarks,5.9429895,80.5495248,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1650266439,Sri Bodhirukkharamaya,Matara,Temples,5.9424116,80.5145768,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_287015058,Sri Subhadrarama Viharaya,Matara,Temples,5.9404561,80.4909879,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_3471431834,Sri Sudarshi Vidyayathanaya,Matara,Temples,5.9490504,80.5408474,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_3621532472,Sri Sudharshanaramaya,Matara,Temples,5.93946,80.4694552,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_6248070780,Sri Sunandarama Piriven Viharaya,Matara,Temples,5.9463358,80.4552066,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_1812140638,Sri Wajiraghnana Dhrmawijaya Dharmayathanaya,Matara,Temples,5.9458089,80.5633095,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_5675599573,Sudharmarama Purana Viharaya,Matara,Temples,5.954102,80.5925621,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_9483334917,Sunset Viewpoint,Matara,Scenic viewpoints,5.9447427,80.4484671,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1489648841,Thalaramba Gambara Bodhiya,Matara,Temples,5.9419605,80.4795869,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1463652424,Thalaramba Sri Mahendrarama Temple,Matara,Temples,5.9404381,80.4784107,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_637940698,The Shrine of Our Lady of Matara,Matara,Religious sites,5.9432952,80.5519774,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_4887110537,Uda Peekwella Temple,Matara,Temples,5.9468309,80.5577634,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_497227160,Udamuna Purana Viharaya,Matara,Religious sites,5.9493698,80.5731856,yes,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_10760867322,Victims Of Tsunami,Matara,Historical landmarks,5.9410478,80.5371821,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_5675621441,Vidyarathne Pirivena,Matara,Temples,5.9535492,80.5922719,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_5675866252,Wandurudeniya Purana Rajamaha Viharaya,Matara,Temples,5.9388937,80.5924974,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_599643486,Wawulpalma,Matara,Caves,5.9272113,80.6047566,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_599643483,Wawwa Beach,Matara,Beaches,5.9275154,80.6016336,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_way_1166309032,Weherahena Viharaya,Matara,Temples,5.9528924,80.5753886,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_5253581491,Weligambay Villas Parking Space,Matara,Scenic viewpoints,5.946629,80.4470643,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_2902179225,Wiratungaramaya,Matara,Temples,5.9408753,80.5096022,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_13477879947,https://photos.app.goo.gl/QUHJcipSEb514BVF9,Matara,Historical landmarks,5.9454727,80.5489071,no,no,False,True,not_verified,provisional_unverified
+66,Matara,76,osm_node_4322773847,waigama,Matara,Parks,5.9530974,80.5219358,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3066351789,Angangala Raja Maha Viharaya,Kurunegala,Temples,7.4942082,80.3540972,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_547580412,Ariyarathna Buddhist Temple,Kurunegala,Temples,7.4985868,80.3643276,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_13298875092,"Ascend, Sri Lanka",Kurunegala,Cultural heritage,7.5046407,80.3737737,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3185981955,Aswedduma Jumma Masjid,Kurunegala,Religious sites,7.4996486,80.3398233,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_726512622,Aswedduma Playground,Kurunegala,Parks,7.4936604,80.3377596,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3137967387,Bamunugedara temple,Kurunegala,Temples,7.5095252,80.363833,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3064600105,Bauddhaloka Pirivena,Kurunegala,Temples,7.48257,80.3589685,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_12562709192,Cave Temple,Kurunegala,Temples,7.4881391,80.3710867,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_11155255518,"Children park, Lake round, Kurunegla",Kurunegala,Parks,7.4966075,80.3567655,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_369167188,Ethkanda Rajamaha Viharaya,Kurunegala,Temples,7.4825119,80.3684535,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_10933477639,Faddy field,Kurunegala,Parks,7.4973026,80.3618613,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3729813137,Galebandara devalaya,Kurunegala,Temples,7.4822798,80.3692305,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_513149785,Helgama Ashokarama Viharaya,Kurunegala,Temples,7.4822001,80.3085882,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3575253005,Ibbagala Viharaya,Kurunegala,Temples,7.4874506,80.3710581,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3180227593,Kathiresan Kovil,Kurunegala,Religious sites,7.4904216,80.3611188,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_10933477635,Kurunagala lake,Kurunegala,Parks,7.49364,80.3630486,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3064572065,Lord Buddha Statue (Ethugala),Kurunegala,Temples,7.4852347,80.3703115,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3205682115,Mahamewnawa Temple Uyandana,Kurunegala,Temples,7.4727582,80.4062006,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3180227592,Malay Jumma Mosque,Kurunegala,Religious sites,7.4904371,80.3649744,yes,yes,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_500062303,Malay Jumma Mosque,Kurunegala,Religious sites,7.4904821,80.3648738,yes,yes,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_512253125,Malgala Purana Viharaya,Kurunegala,Temples,7.4919482,80.3248247,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3168269406,Mohideen Jumma Masjid,Kurunegala,Religious sites,7.4762545,80.3346309,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_11139094409,Mosque,Kurunegala,Religious sites,7.4725419,80.3798245,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_540220449,Mowao,Kurunegala,Parks,7.4829357,80.3488391,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3785517124,Nagolla Rajamaha Viharaya,Kurunegala,Temples,7.4625575,80.340041,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_13295392751,"Pride, Sri Lanka",Kurunegala,Cultural heritage,7.4919573,80.3597622,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_774494392,Purana Hewapola Wisuddaramaya Temple,Kurunegala,Religious sites,7.4637776,80.3946448,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_302206235,Rajapihilla Park,Kurunegala,Parks,7.4851506,80.3657081,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_1293063643,Renil waththa Ground,Kurunegala,Gardens,7.4753684,80.4082026,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_547575960,Reservation,Kurunegala,Nature reserves,7.4965082,80.3623327,yes,no,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_547575962,Reservation,Kurunegala,Nature reserves,7.4937098,80.3662404,yes,no,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_547575963,Reservation,Kurunegala,Nature reserves,7.4907719,80.3628792,yes,no,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_513149784,Rthmale Purana Gallen Viharaya,Kurunegala,Temples,7.4795288,80.3088225,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_588873657,Samadhi Sadaham Nikethanaya,Kurunegala,Temples,7.4728021,80.320444,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3185981901,Sri Abhinawarama Viharaya,Kurunegala,Temples,7.4994407,80.3324997,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_11133673753,Sri Bodhirukkharama Temple,Kurunegala,Temples,7.4748696,80.4091854,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_511881688,Sri Selva Vinayagar Temple,Kurunegala,Religious sites,7.4969757,80.3512805,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3066455184,Sri Sudharshana Maha Viharaya,Kurunegala,Temples,7.5201979,80.3294526,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3205677374,Sri Sudharshanaramaya,Kurunegala,Temples,7.4701269,80.3970886,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_548083057,Sri Vajiraramaya,Kurunegala,Temples,7.4894898,80.3576674,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3166327043,St. Anne's Church,Kurunegala,Religious sites,7.4877057,80.3633704,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_7134834085,Sucharitha's House,Kurunegala,Historical landmarks,7.4977466,80.3372188,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_597411027,THELIYAGONNA JUMMA MOSQUE,Kurunegala,Religious sites,7.4764126,80.381609,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_10933477637,Tample,Kurunegala,Temples,7.4984465,80.3644043,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_4548537169,Temple,Kurunegala,Temples,7.4580344,80.3698559,yes,no,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_5329395136,Temple,Kurunegala,Temples,7.4663872,80.3058958,yes,no,True,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_5226708299,Temple of The Hindu's,Kurunegala,Religious sites,7.4834448,80.3501524,yes,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3066351713,Thiththawella Viharaya,Kurunegala,Temples,7.5114898,80.3365395,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3168348777,Wanduragala Viharaya,Kurunegala,Temples,7.4638944,80.3457304,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3171709877,Wehera Jayasumanaramaya,Kurunegala,Temples,7.4715913,80.3565134,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_513149777,Weheragala Purana Viharaya,Kurunegala,Temples,7.4995096,80.3060648,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_node_3180227622,Wew Gala Viharaya,Kurunegala,Temples,7.4923397,80.3588429,no,no,False,True,not_verified,provisional_unverified
+67,Kurunegala,53,osm_way_1207928722,update building,Kurunegala,Parks,7.4851816,80.3657558,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5197817457,Ankumbura Bomaluwa,Kandy,Temples,7.4392985,80.5712902,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5179767278,Ankumbura Rajamaha Viharaya,Kandy,Temples,7.4312281,80.5706493,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5160606439,Bodhigodella Temple,Kandy,Temples,7.4314516,80.5746057,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_3848642667,Bogahagedara Bodhiya,Kandy,Temples,7.44784,80.5663055,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5180057782,Dhammikaramaya,Kandy,Temples,7.4496169,80.5601106,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5176138500,Hakkunuella Waterfall,Kandy,Waterfalls,7.4215893,80.5808652,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5176057808,Ihalamulla Weeramunda Dewalaya,Kandy,Temples,7.4474218,80.568073,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5160510740,Kuda gala,Kandy,Mountains,7.4434059,80.5531941,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5179749163,Marawia Temple,Kandy,Temples,7.4349539,80.5551119,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5181336219,Ramakotuwa Bodhiya,Kandy,Temples,7.4214162,80.5668216,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5160513846,Sri Jayawardhanaramaya,Kandy,Temples,7.4390066,80.5688292,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_3628463689,Sri Somananda Piriwena,Kandy,Temples,7.4480951,80.5681405,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5181332932,Thennahena Bodhiya,Kandy,Temples,7.4281908,80.5630651,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5179761681,Udakithulgolla Kalashilaramaya,Kandy,Temples,7.429719,80.5681661,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5180062626,Udawaththa Kovila,Kandy,Religious sites,7.4480547,80.5554995,yes,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5179712666,Uggala Kovila,Kandy,Religious sites,7.4313861,80.5833072,yes,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5160607549,Welgala Temple,Kandy,Temples,7.4247657,80.5761667,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_3628467862,mirissala temple,Kurunegala,Temples,7.4512948,80.5539783,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5219301113,Buddha Statue,Matale,Temples,7.4576375,80.5866641,yes,yes,True,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5219301110,Buddhist Temple,Matale,Temples,7.4554992,80.5767855,yes,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5219301090,Dambagasdeniya Temple,Matale,Temples,7.4367092,80.5985141,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_9954142345,Enasalmada Waththa Land,Matale,Parks,7.445643,80.5752544,yes,yes,True,True,not_verified,provisional_unverified
+69,Kandy,27,osm_way_1086363590,Enasalmada Waththa Land,Matale,Parks,7.4456746,80.57516,yes,yes,True,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_9954125196,Mithsewana,Matale,Temples,7.4419229,80.5784307,no,no,False,True,not_verified,provisional_unverified
+69,Kandy,27,osm_node_5219301111,Owilikanda Temple,Matale,Temples,7.4539487,80.5788535,yes,yes,True,True,not_verified,provisional_unverified
+69,Kandy,27,osm_way_1391569778,buddha statue,Matale,Temples,7.4576385,80.5866395,yes,yes,True,True,not_verified,provisional_unverified
+69,Kandy,27,osm_way_1391569296,owilikanda temple,Matale,Temples,7.4539436,80.5788797,yes,yes,True,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_1829368628,Buddha Statue,Ratnapura,Historical landmarks,6.6525049,80.7053596,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_586062170,Buddhist Temple,Ratnapura,Temples,6.6806235,80.7276674,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4718019822,Darul huda- Madrasa,Ratnapura,Religious sites,6.6270209,80.7246588,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_1708405577,Ellepola Ella,Ratnapura,Waterfalls,6.6307993,80.6860466,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_523261391,Geta-Araluwa Bodhirukkharamaya,Ratnapura,Temples,6.6515527,80.730979,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_13155239671,Hospital Park,Ratnapura,Parks,6.6579445,80.712641,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_1145607258,Jumma Mosque,Ratnapura,Religious sites,6.646174,80.7061444,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4842093580,Lankabarana Kanda,Ratnapura,Mountains,6.6426147,80.7252304,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4718021293,Masjid Kirimetithenna,Ratnapura,Religious sites,6.6292281,80.7232913,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4717813594,Masjid-Dehigasthalawa,Ratnapura,Religious sites,6.6384129,80.7164291,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4717811089,Masjid-ul-Saleem,Ratnapura,Religious sites,6.6405645,80.7101071,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4976808423,Miriswatha Masjid,Ratnapura,Religious sites,6.6444233,80.7107556,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_515473689,Oluganthota Gangarama Viharaya,Ratnapura,Temples,6.6570809,80.7117856,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_3937871242,Piyadrshanaramaya,Ratnapura,Temples,6.6727207,80.7188137,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4891890172,Rev. Ananda Maitree Memorial Complex,Ratnapura,Temples,6.6486514,80.7010556,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_1565369810,Rye No 2 Estate Playground.,Ratnapura,Parks,6.6708951,80.7097525,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_515473686,Shailathalarama Viharaya,Ratnapura,Temples,6.6523919,80.7055332,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_2908775243,Shilathalaramaya,Ratnapura,Temples,6.652677,80.7047933,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_2908403148,Siri Veerasundararamaya,Ratnapura,Temples,6.6483828,80.6990035,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_1829368645,St. Joseph's Church,Ratnapura,Religious sites,6.6573201,80.7022279,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_1828233567,Sudharshana Maha Viharaya,Ratnapura,Temples,6.6552474,80.6983816,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_1185746745,Temple,Ratnapura,Temples,6.6625388,80.6826266,yes,no,True,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_1431166401,Temple,Ratnapura,Temples,6.6709899,80.714232,yes,yes,True,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_1431166402,Temple,Ratnapura,Temples,6.6713374,80.7142585,yes,yes,True,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_way_287239030,Thumbagoda Vishuddarama Viharaya,Ratnapura,Temples,6.656782,80.6994371,no,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_4717807014,Town Masjid,Ratnapura,Religious sites,6.650573,80.6991486,yes,no,False,True,not_verified,provisional_unverified
+108,Ratnapura,27,osm_node_1829361724,Welange Purana Raja Maha Viharaya,Ratnapura,Temples,6.6328628,80.6953292,no,no,False,True,not_verified,provisional_unverified

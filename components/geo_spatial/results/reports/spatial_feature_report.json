@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-16T07:30:34.105647+00:00",
+  "input_file": "C:\\Users\\methm\\Downloads\\TravelMind_Structured_Project\\TravelMind_Structured_Project\\data\\processed\\travelmind_ml_ready.csv",
+  "output_file": "C:\\Users\\methm\\Downloads\\TravelMind_Structured_Project\\TravelMind_Structured_Project\\data\\processed\\travelmind_spatial_features.csv",
+  "original_records": 8590,
+  "valid_spatial_records": 8590,
+  "invalid_or_unassigned_records": 0,
+  "districts_present": 25,
+  "radius_km": 2.0,
+  "average_neighbors_within_radius": 14.819,
+  "median_neighbors_within_radius": 7.0,
+  "method": "Haversine distance via BallTree; all valid provisional records retained",
+  "caution": "Counts represent mapped OSM features, not tourists or verified distinct attractions; possible duplicates may inflate local density."
+}

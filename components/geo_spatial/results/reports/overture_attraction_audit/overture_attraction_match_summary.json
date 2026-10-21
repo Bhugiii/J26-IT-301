@@ -1,0 +1,20 @@
+{
+  "original_osm_rows_valid_coordinates": 8590,
+  "overture_attraction_rows_valid_coordinates": 7701,
+  "invalid_coordinate_rows_in_original": 0,
+  "invalid_coordinate_rows_in_overture": 0,
+  "name_matches_anywhere": 727,
+  "screening_status_counts": {
+    "candidate_unmatched_not_verified": 5714,
+    "manual_review_near_existing_within_75m": 1395,
+    "possible_duplicate_name_within_150m": 314,
+    "same_name_but_not_within_150m": 278
+  },
+  "screening_rules": {
+    "same_name_close_meters": 150,
+    "nearby_different_name_meters": 75,
+    "earth_radius_meters": 6371008.8,
+    "notes": "Distance is point-to-point great-circle distance, not road distance. Matching is not verification."
+  },
+  "data_quality_note": "Overture candidate names and category labels may be inaccurate or point to incorrect coordinates; all unreviewed records are held from public destination display."
+}

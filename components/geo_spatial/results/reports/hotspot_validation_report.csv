@@ -1,0 +1,16 @@
+cluster_id,attraction_count,district_count,district_distribution,top_categories,suspected_duplicate_count,review_required_count,review_required_percentage
+0,1265,3,Colombo: 750; Gampaha: 448; Kalutara: 67,Temples: 687; Religious sites: 363; Parks: 82; Historical landmarks: 38; Cultural heritage: 27,93,600,47.43
+1,468,1,Batticaloa: 468,Religious sites: 438; Parks: 9; Gardens: 5; Temples: 5; Beaches: 3,66,444,94.87
+22,462,3,Kandy: 457; Nuwara Eliya: 4; Kegalle: 1,Temples: 292; Religious sites: 81; Tourist attractions: 20; Parks: 15; Museums: 11,13,155,33.55
+9,332,1,Jaffna: 332,Religious sites: 295; Historical landmarks: 10; Parks: 9; Ancient ruins: 5; Tourist attractions: 4,26,303,91.27
+2,198,1,Galle: 198,Temples: 91; Religious sites: 27; Historical landmarks: 14; Archaeological sites: 13; Museums: 13,6,52,26.26
+13,125,1,Vavuniya: 125,Religious sites: 103; Historical landmarks: 8; Temples: 7; Parks: 3; Scenic viewpoints: 2,5,109,87.2
+29,112,1,Ampara: 112,Religious sites: 105; Parks: 6; Beaches: 1,5,106,94.64
+17,110,1,Anuradhapura: 110,Temples: 42; Archaeological sites: 15; Tourist attractions: 12; Historical landmarks: 12; Ancient ruins: 11,15,32,29.09
+10,103,1,Jaffna: 103,Religious sites: 96; Scenic viewpoints: 3; Beaches: 2; Parks: 1; Archaeological sites: 1,0,96,93.2
+3,101,1,Badulla: 101,Temples: 36; Scenic viewpoints: 22; Tourist attractions: 11; Religious sites: 8; Waterfalls: 6,10,42,41.58
+66,76,1,Matara: 76,Temples: 39; Historical landmarks: 8; Religious sites: 8; Beaches: 8; Scenic viewpoints: 4,0,13,17.11
+18,73,2,Gampaha: 45; Puttalam: 28,Religious sites: 50; Temples: 10; Historical landmarks: 4; Parks: 3; Tourist attractions: 2,0,56,76.71
+36,72,1,Polonnaruwa: 72,Ancient ruins: 31; Tourist attractions: 13; Temples: 11; Religious sites: 6; Historical landmarks: 4,9,31,43.06
+11,68,1,Batticaloa: 68,Religious sites: 66; Parks: 1; Museums: 1,5,67,98.53
+16,57,1,Trincomalee: 57,Religious sites: 37; Temples: 10; Parks: 3; Tourist attractions: 2; Scenic viewpoints: 2,6,41,71.93

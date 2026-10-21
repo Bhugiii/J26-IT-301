@@ -1,0 +1,4 @@
+﻿strategy,records,excluded_from_baseline,kmeans_clusters,dbscan_clusters,dbscan_noise,dbscan_coverage_pct,largest_dbscan_cluster_size,largest_cluster_pct_all_records,review_required_remaining,suspected_duplicates_remaining,kmeans_inertia_projected_m2,kmeans_silhouette_sample
+baseline,8590,0,6,225,2398,72.08,1265,14.73,4523,450,13942993146816.54,0.48255
+conservative,8588,2,6,225,2396,72.1,1265,14.73,4522,450,13941466904488.82,0.48589
+strict,4067,4523,6,117,1853,54.44,460,11.31,0,4,5761495409512.71,0.45555
